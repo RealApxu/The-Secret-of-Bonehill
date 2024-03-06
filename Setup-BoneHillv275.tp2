@@ -2028,14 +2028,14 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~  BEGIN // Tutu
         APPEND_FILE ~bonehillv275/Worldmap/areas.tbl~
         COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
         APPEND_FILE ~bonehillv275/Worldmap/Tutu/links.tbl~
-        COPY - ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
+        COPY - ~bonehillv275/Language/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
         COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
         APPEND_FILE ~tmp_worldmap.tra~
     END ELSE BEGIN
         MKDIR ~Worldmap~
         COPY ~bonehillv275/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
         COPY ~bonehillv275/Worldmap/Tutu/links.tbl~ ~Worldmap/map_mods_links.tbl~
-        COPY ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+        COPY ~bonehillv275/Language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
     END
 END ELSE BEGIN // BGT
     ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
@@ -2043,14 +2043,14 @@ END ELSE BEGIN // BGT
         APPEND_FILE ~bonehillv275/Worldmap/areas.tbl~
         COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
         APPEND_FILE ~bonehillv275/Worldmap/BGT/links.tbl~
-        COPY - ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
+        COPY - ~bonehillv275/Language/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
         COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
         APPEND_FILE ~tmp_worldmap.tra~
     END ELSE BEGIN
         MKDIR ~Worldmap~
         COPY ~bonehillv275/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
         COPY ~bonehillv275/Worldmap/BGT/links.tbl~ ~Worldmap/map_mods_links.tbl~
-        COPY ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+        COPY ~bonehillv275/Language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
     END
 END
 
