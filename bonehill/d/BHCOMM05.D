@@ -25,6 +25,6 @@ END
 
 IF ~AreaCheck("BH2201")~ THEN BEGIN 4
   SAY @4
-  IF ~~ THEN DO ~AddexperienceParty(500)
+  IF ~~ THEN DO ~AddExperienceParty(500)
 EscapeArea()~ EXIT
 END

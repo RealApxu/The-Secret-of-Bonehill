@@ -70,7 +70,7 @@ IF ~~ THEN BEGIN 12
   SAY @27
   IF ~~ THEN DO ~SetGlobal("BHMetFalpir","GLOBAL",4)
 ReputationInc(1)
-AddexperienceParty(2000)~ JOURNAL @28 EXIT
+AddExperienceParty(2000)~ JOURNAL @28 EXIT
 END
 
 IF ~!GlobalGT("BHMetFalpir","GLOBAL",2)

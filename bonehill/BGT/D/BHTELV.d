@@ -1,7 +1,6 @@
 BEGIN ~BHTELV~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 2
@@ -24,8 +23,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @10
-  IF ~PartyHasItem("BHBHorn")
-~ THEN REPLY @11 GOTO 8
+  IF ~PartyHasItem("BHBHorn")~ THEN REPLY @11 GOTO 8
   IF ~~ THEN REPLY @12 GOTO 5
 END
 
@@ -39,8 +37,7 @@ IF ~~ THEN BEGIN 6
   IF ~~ THEN EXIT
 END
 
-IF ~PartyHasItem("BHBHORN")
-~ THEN BEGIN 7
+IF ~PartyHasItem("BHBHORN")~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 GOTO 8
   IF ~~ THEN REPLY @18 GOTO 5
@@ -70,8 +67,7 @@ CreateCreature("HOBELITE",[1276.1546],9)
 CreateCreature("HOBELITE",[1790.1051],3)
 CreateCreature("HOBELITE",[1879.1097],4)
 Shout(ALERT)
-Enemy()
-~ EXIT
+Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN 11
@@ -88,10 +84,8 @@ CreateCreature("HOBELITE",[1276.1546],9)
 CreateCreature("HOBELITE",[1790.1051],3)
 CreateCreature("HOBELITE",[1879.1097],4)
 Shout(ALERT)
-Enemy()
-~ EXIT
-  IF ~IfValidForPartyDialogue("Jaheira")
-~ THEN DO ~TakePartyItem("BHBHORN")
+Enemy()~ EXIT
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN DO ~TakePartyItem("BHBHORN")
 UseItem("BHBHORN",Player1)
 CreateCreature("HOBCAP01",[-1.-1],0)
 CreateCreature("HOBELITE",[999.1101],13)
@@ -103,14 +97,13 @@ CreateCreature("HOBELITE",[1276.1546],9)
 CreateCreature("HOBELITE",[1790.1051],3)
 CreateCreature("HOBELITE",[1879.1097],4)
 Shout(ALERT)
-Enemy()
-~ EXTERN ~JAHEIRAJ~ TELVJAHE
+Enemy()~ EXTERN ~JAHEIRAJ~ TELVJAHE
 END
 
 APPEND ~JAHEIRAJ~
 
 IF ~~ THEN BEGIN TELVJAHE
-  SAY @27 
+  SAY @27
   IF ~~ THEN EXIT
 END
 

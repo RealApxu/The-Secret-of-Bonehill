@@ -133,6 +133,6 @@ IF ~~ THEN BEGIN 21
   IF ~~ THEN DO ~SetGlobal("BHWaterMonsters","GLOBAL",1)
 SetGlobal("BHQuenexGivesQuest","GLOBAL",2)
 EraseJournalEntry(@26)
-AddexperienceParty(1000)
+AddExperienceParty(1000)
 ~ SOLVED_JOURNAL @49 EXIT
 END

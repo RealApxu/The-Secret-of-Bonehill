@@ -53,7 +53,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @21
-  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1) AddexperienceParty(2000) EscapeArea()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1) AddExperienceParty(2000) EscapeArea()~ EXIT
 END
 
 IF ~Global("BHWizTraining","GLOBAL",2) AreaCheck("BH0109")~ THEN BEGIN 10
@@ -64,8 +64,8 @@ END
 
 APPEND ~XANJ~
 
-IF ~~ THEN BEGIN XANTOLV 
-  SAY @23 
+IF ~~ THEN BEGIN XANTOLV
+  SAY @23
   IF ~~ THEN EXIT
 END
 

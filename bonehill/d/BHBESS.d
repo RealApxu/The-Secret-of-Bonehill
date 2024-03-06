@@ -58,6 +58,6 @@ END
 IF ~~ THEN BEGIN 9
   SAY @22
   IF ~~ THEN DO ~SetGlobal("BHTalkedToBess","GLOBAL",2)
-AddexperienceParty(1000)
+AddExperienceParty(1000)
 ~ EXIT
 END

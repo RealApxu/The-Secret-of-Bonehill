@@ -14,7 +14,7 @@ END
 IF ~Global("Restored","LOCALS",1)~ THEN BEGIN 2
   SAY @2
   IF ~~ THEN DO ~SetGlobal("BHCurse","GLOBAL",1)
-AddexperienceParty(6000)
+AddExperienceParty(6000)
 GiveItemCreate("scrla4",LastTalkedToBy,0,0,0)
 CreateVisualEffectObject("SPCLOUD2",Myself)
 DestroySelf()~ EXIT

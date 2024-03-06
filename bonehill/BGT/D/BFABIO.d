@@ -96,24 +96,18 @@ IF ~~ THEN BEGIN 17
 END
 
 CHAIN
-IF ~Global("BHGuardRatTrigger","GLOBAL",1) InParty("Minsc") See("Minsc") !StateCheck("Minsc",STATE_SLEEPING) Global("BFabio1","LOCALS",0)~ THEN ~BFABIO~ FMBANT @25 DO ~SetGlobal("BFabio1","LOCALS",1)SetGlobal("BHGuardRatTrigger","GLOBAL",2)~ 
-== BMINSC
- @26
-== BFABIO
- @27
-== BMINSC
- @28
-== BFABIO
- @29
-== BMINSC
- @30
-== BFABIO
- @31
+IF ~Global("BHGuardRatTrigger","GLOBAL",1) InParty("Minsc") See("Minsc") !StateCheck("Minsc",STATE_SLEEPING) Global("BFabio1","LOCALS",0)~ THEN ~BFABIO~ FMBANT @25 DO ~SetGlobal("BFabio1","LOCALS",1)SetGlobal("BHGuardRatTrigger","GLOBAL",2)~
+== BMINSC @26
+== BFABIO @27
+== BMINSC @28
+== BFABIO @29
+== BMINSC @30
+== BFABIO @31
 EXIT
 
 APPEND ~BGARRI~
 
-IF ~~ THEN BEGIN FABIOGARRI 
+IF ~~ THEN BEGIN FABIOGARRI
   SAY @32
   IF ~~ THEN EXTERN ~BFABIO~ 6
 END
@@ -122,8 +116,8 @@ END
 
 APPEND ~IMOEN2J~
 
-IF ~~ THEN BEGIN FABHAND3 
-  SAY @33 
+IF ~~ THEN BEGIN FABHAND3
+  SAY @33
   IF ~~ THEN DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)~ EXIT
 END
 
@@ -131,8 +125,8 @@ END
 
 APPEND ~MONTAJ~
 
-IF ~~ THEN BEGIN FABHAND2 
-  SAY @34 
+IF ~~ THEN BEGIN FABHAND2
+  SAY @34
   IF ~~ THEN DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)~ EXIT
 END
 
@@ -140,10 +134,9 @@ END
 
 APPEND ~SAFANJ~
 
-IF ~~ THEN BEGIN FABHAND1 
-  SAY @33 
+IF ~~ THEN BEGIN FABHAND1
+  SAY @33
   IF ~~ THEN DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)~ EXIT
 END
 
 END
-

@@ -199,7 +199,7 @@ END
 IF ~~ THEN BEGIN 25 // from: 24.0
   SAY @49 /* ~What!  So the stories were true about a spy in town.  Brilliant detective work.  The baron needs to know about this immediately.  I assume you have taken care of this "bait-dealer"?~ #89312 */
   IF ~Dead("BHZAHR")
-~ THEN REPLY @50 /* ~Oh yes.  He was a mage of some sort.  He had a really nice dagger but he won't need it anymore.~ #89313 */ DO ~AddexperienceParty(4000)
+~ THEN REPLY @50 /* ~Oh yes.  He was a mage of some sort.  He had a really nice dagger but he won't need it anymore.~ #89313 */ DO ~AddExperienceParty(4000)
 TakePartyItem("BHZAHRJ")
 ~ GOTO 27
   IF ~!Dead("BHZAHR")
@@ -228,7 +228,7 @@ END
 
 IF ~~ THEN BEGIN 29 // from: 28.0
   SAY @59 /* ~Hobgoblins and a wizard?  Well they would be easy to manipulate.  Thank you for taking care of this problem.  I'll be sure to let the baron know of this.~ #89321 */
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 TakePartyItem("BHTELVBK")
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
@@ -236,14 +236,14 @@ END
 
 IF ~~ THEN BEGIN 30 // from: 28.1
   SAY @60 /* ~A wraith and other undead?  I would expect some undead there but this sounds serious.  Thank you for investigating this for us.~ #89322 */
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 31 // from: 28.2
   SAY @61 /* ~Good Heavens!  We were going to be attacked?  This is terrible.  I am so glad I found you in time to help us.  I really need to let the baron know about this.~ #89323 */
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 TakePartyItem("BHTELVBK")
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
@@ -293,7 +293,7 @@ GlobalGT("BHHandQuest","GLOBAL",2)
 Global("BHHandSearch","GLOBAL",0)
 Global("BHShowPellHandNote","GLOBAL",0)
 ~ THEN REPLY @70 /* ~We killed the bandits.  On one of them we found a note.  It talks about a "Hand of Glory", whatever that is.  I think that is what they were looking for.~ #89331 */ DO ~SetGlobal("BHShowPellHandNote","GLOBAL",1)
-AddexperienceParty(2000)
+AddExperienceParty(2000)
 ~ GOTO 36
   IF ~GlobalLT("BHHandNoteDecipher","GLOBAL",4)
 PartyHasItem("BHGHNOTE")
@@ -779,7 +779,7 @@ Global("BHToldOfDeath","GLOBAL",0)
 PartyHasItem("BHZAHRJ")
 Global("BHKillZahrdahlQuest","GLOBAL",1)
 ~ THEN REPLY @21 /* ~Zahrdahl is dead.~ #89285 */ DO ~TakePartyItem("BHZAHRJ")
-AddexperienceParty(4000)
+AddExperienceParty(4000)
 ~ GOTO 27
 END
 

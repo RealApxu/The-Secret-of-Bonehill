@@ -413,7 +413,7 @@ END
 
 IF ~~ THEN BEGIN 67
   SAY @120
-  IF ~~ THEN DO ~AddexperienceParty(7500)
+  IF ~~ THEN DO ~AddExperienceParty(7500)
 SetGlobal("BHBardFree","GLOBAL",2)
 ~ EXIT
 END

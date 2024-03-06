@@ -3,8 +3,7 @@ BEGIN ~BHYALTA~ 1
 IF WEIGHT #0 ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
-  IF ~GlobalGT("BHGnollQuest","GLOBAL",1) Global("BHToldYaltaGnoll","BH0306",0) Global("BHYaltaGivesGnollQuest","BH0306",1)
-~ THEN REPLY @5 DO ~EraseJournalEntry(@4)~ SOLVED_JOURNAL @3 GOTO 16
+  IF ~GlobalGT("BHGnollQuest","GLOBAL",1) Global("BHToldYaltaGnoll","BH0306",0) Global("BHYaltaGivesGnollQuest","BH0306",1)~ THEN REPLY @5 DO ~EraseJournalEntry(@4)~ SOLVED_JOURNAL @3 GOTO 16
   IF ~GlobalGT("BHGuardQuest","GLOBAL",1) Global("BHToldYaltaRat","BH0306",0) Global("BHYaltaGivesGuardQuest","BH0306",1)~ THEN REPLY @6 GOTO 17
 END
 
@@ -62,7 +61,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @31
-  IF ~IfValidForPartyDialogue("Mincs")~ THEN EXTERN ~MINSCJ~ YALTAMINSC
+  IF ~IfValidForPartyDialogue("Minsc")~ THEN EXTERN ~MINSCJ~ YALTAMINSC
   IF ~~ THEN DO ~SetGlobal("BHYaltaPissed","GLOBAL",1) ReputationInc(-1)~ EXIT
 END
 
@@ -101,12 +100,12 @@ END
 
 IF ~~ THEN BEGIN 16
   SAY @42
-  IF ~~ THEN REPLY @43 DO ~AddexperienceParty(1000) SetGlobal("BHToldYaltaGnoll","BH0306",1)~ EXIT
+  IF ~~ THEN REPLY @43 DO ~AddExperienceParty(1000) SetGlobal("BHToldYaltaGnoll","BH0306",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 17
   SAY @44
-  IF ~~ THEN REPLY @45 DO ~AddexperienceParty(1000) SetGlobal("BHToldYaltaRat","BH0306",1)~ EXIT
+  IF ~~ THEN REPLY @45 DO ~AddExperienceParty(1000) SetGlobal("BHToldYaltaRat","BH0306",1)~ EXIT
 END
 
 IF WEIGHT #2 ~Global("BHToldYaltaQuest","GLOBAL",1) True()~ THEN BEGIN 18
@@ -117,8 +116,7 @@ END
 IF WEIGHT #3 ~AreaCheck("BH0306") NumTimesTalkedToGT(0)~ THEN BEGIN 19
   SAY @47
   IF ~GlobalLT("BHGnollQuest","GLOBAL",2) GlobalLT("BHGuardQuest","GLOBAL",2)~ THEN REPLY @48 GOTO 1
-  IF ~GlobalGT("BHGnollQuest","GLOBAL",1) Global("BHToldYaltaGnoll","BH0306",0) Global("BHYaltaGivesGnollQuest","BH0306",1)
-~ THEN REPLY @51 DO ~IncrementGlobal("BHToldYaltaQuest","GLOBAL",1) EraseJournalEntry(@50)~ SOLVED_JOURNAL @49 GOTO 16
+  IF ~GlobalGT("BHGnollQuest","GLOBAL",1) Global("BHToldYaltaGnoll","BH0306",0) Global("BHYaltaGivesGnollQuest","BH0306",1)~ THEN REPLY @51 DO ~IncrementGlobal("BHToldYaltaQuest","GLOBAL",1) EraseJournalEntry(@50)~ SOLVED_JOURNAL @49 GOTO 16
   IF ~GlobalGT("BHGuardQuest","GLOBAL",1) Global("BHToldYaltaRat","BH0306",0) Global("BHYaltaGivesGuardQuest","BH0306",1)~ THEN REPLY @6 GOTO 17
   IF ~Global("BHToldYaltaRat","BH0306",1) GlobalLT("BHToldYaltaQuest","GLOBAL",1) Global("BHGuardQuest","GLOBAL",2)~ THEN REPLY @52 GOTO 10
   IF ~GlobalLT("BHGnollQuest","GLOBAL",2)~ THEN REPLY @48 GOTO 1
@@ -137,7 +135,7 @@ END
 APPEND ~KAGAIJ~
 
 IF ~~ THEN BEGIN YALTAKAGAIN
-  SAY @55 
+  SAY @55
   IF ~~ THEN EXTERN ~BHYALTA~ 12
 END
 
@@ -145,8 +143,8 @@ END
 
 APPEND ~MINSCJ~
 
-IF ~~ THEN BEGIN YALTAMINSC 
-  SAY @56 
+IF ~~ THEN BEGIN YALTAMINSC
+  SAY @56
   IF ~GlobalLT("BHGuardQuest","GLOBAL",2)~ THEN DO ~SetGlobal("BHGuardQuest","GLOBAL",1)~ EXIT
 END
 
@@ -154,8 +152,8 @@ END
 
 APPEND ~KHALIJ~
 
-IF ~~ THEN BEGIN YALTAKHALID 
-  SAY @57 
+IF ~~ THEN BEGIN YALTAKHALID
+  SAY @57
   IF ~~ THEN EXTERN ~BHYALTA~ 6
 END
 
@@ -163,8 +161,8 @@ END
 
 APPEND ~MONTAJ~
 
-IF ~~ THEN BEGIN YALTAMONTY 
-  SAY @58 
+IF ~~ THEN BEGIN YALTAMONTY
+  SAY @58
   IF ~~ THEN REPLY @59 EXTERN ~BHYALTA~ 6
 END
 

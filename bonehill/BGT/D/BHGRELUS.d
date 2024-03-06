@@ -1,7 +1,6 @@
 BEGIN ~BHGRELUS~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 2
@@ -20,10 +19,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~IfValidForPartyDialogue("Xzar")
-~ THEN GOTO 7
-  IF ~IfValidForPartyDialogue("Edwin")
-~ THEN GOTO 8
+  IF ~IfValidForPartyDialogue("Xzar")~ THEN GOTO 7
+  IF ~IfValidForPartyDialogue("Edwin")~ THEN GOTO 8
   IF ~~ THEN REPLY @8 GOTO 15
 END
 
@@ -34,8 +31,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @10
-  IF ~IfValidForPartyDialogue("Fabio")
-~ THEN GOTO 16
+  IF ~IfValidForPartyDialogue("Fabio")~ THEN GOTO 16
   IF ~~ THEN EXIT
 END
 
@@ -64,8 +60,7 @@ IF ~~ THEN BEGIN 10
   IF ~~ THEN GOTO 4
 END
 
-IF ~True()
-~ THEN BEGIN 11
+IF ~True()~ THEN BEGIN 11
   SAY @16
   IF ~~ THEN GOTO 12
 END
@@ -97,7 +92,7 @@ END
 
 APPEND ~XZARJ~
 
-IF ~~ THEN BEGIN BARONXZAR 
+IF ~~ THEN BEGIN BARONXZAR
   SAY @22
   IF ~~ THEN EXTERN ~BHGRELUS~ 9
 END

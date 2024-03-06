@@ -1,7 +1,6 @@
 BEGIN ~BHSHARGR~
 
-IF ~AreaCheck("AR9300")
-~ THEN BEGIN 0
+IF ~AreaCheck("AR9300")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -23,39 +22,31 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~!IfValidForPartyDialogue("Xzar")
-~ THEN REPLY @10 GOTO 5
-  IF ~IfValidForPartyDialogue("Xzar")
-~ THEN EXTERN ~XZARJ~ XZARSHARGR
+  IF ~!IfValidForPartyDialogue("Xzar")~ THEN REPLY @10 GOTO 5
+  IF ~IfValidForPartyDialogue("Xzar")~ THEN EXTERN ~XZARJ~ XZARSHARGR
 END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN DO ~EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN DO ~EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
 END
 
-IF ~AreaCheck("AR7800")
-~ THEN BEGIN 7
+IF ~AreaCheck("AR7800")~ THEN BEGIN 7
   SAY @13
   IF ~~ THEN REPLY @14 GOTO 8
 END
 
 IF ~~ THEN BEGIN 8
   SAY @15
-  IF ~~ THEN DO ~CreateCreature("BHSHARG2",[1086.2556],2)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~CreateCreature("BHSHARG2",[1086.2556],2) EscapeArea()~ EXIT
 END
 
-IF ~AreaCheck("AR7223")
-~ THEN BEGIN 9
+IF ~AreaCheck("AR7223")~ THEN BEGIN 9
   SAY @16
   IF ~~ THEN REPLY @17 GOTO 10
 END
@@ -71,8 +62,7 @@ CreateCreature("BHSHARG1",[2446.1345],0)
 CreateCreature("BHSHARG1",[2346.1660],7)
 CreateCreature("BHSHARG1",[2553.1591],7)
 Shout(ALERT)
-Enemy()
-~ EXIT
+Enemy()~ EXIT
 END
 
 APPEND ~XZARJ~

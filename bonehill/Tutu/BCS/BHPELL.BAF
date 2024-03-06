@@ -119,7 +119,7 @@ THEN
      ActionOverride(Player1,MultiPlayerSync())
      ActionOverride(Player1,FadeFromColor([30.0],0))
      SetGlobal("BHQuestAccept","GLOBAL",8)
-     AddexperienceParty(12000)
+     AddExperienceParty(12000)
      EndCutSceneMode()
 END
 
@@ -190,6 +190,6 @@ THEN
      ActionOverride(Player1,MultiPlayerSync())
      ActionOverride(Player1,FadeFromColor([30.0],0))
      SetGlobal("BHAllDone","GLOBAL",3)
-     AddexperienceParty(15000)
+     AddExperienceParty(15000)
      EndCutSceneMode()
 END  

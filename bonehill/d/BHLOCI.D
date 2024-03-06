@@ -41,7 +41,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000)~ GOTO 7
+  IF ~~ THEN REPLY @15 DO ~AddExperienceParty(1000)~ GOTO 7
 END
 
 IF ~~ THEN BEGIN 7

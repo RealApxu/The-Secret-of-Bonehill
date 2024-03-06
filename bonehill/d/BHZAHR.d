@@ -47,7 +47,7 @@ IF ~~ THEN BEGIN 7
   IF ~GlobalGT("BHGuardQuest","GLOBAL",0)
 ~ THEN REPLY @19 GOTO 8
   IF ~GlobalGT("BHGuardQuest","GLOBAL",2)
-~ THEN REPLY @20 DO ~AddexperienceParty(600)
+~ THEN REPLY @20 DO ~AddExperienceParty(600)
 SetGlobal("BHRatProblemDone","GLOBAL",1)
 ~ EXIT
   IF ~GlobalLT("BHGuardQuest","GLOBAL",1)
@@ -82,7 +82,7 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @30
-  IF ~~ THEN DO ~AddexperienceParty(600)
+  IF ~~ THEN DO ~AddExperienceParty(600)
 EraseJournalEntry(@17)
 EraseJournalEntry(@32)
 SetGlobal("BHRatProblemDone","GLOBAL",1)

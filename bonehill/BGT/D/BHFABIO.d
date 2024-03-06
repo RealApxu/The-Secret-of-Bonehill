@@ -71,14 +71,12 @@ IF ~~ THEN BEGIN 12
   IF ~OR(2) !IfValidForPartyDialogue("MINSC") Global("BHWillard1","BH0107",1)~ THEN REPLY @25 EXIT
 END
 
-IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") OR(6) IfValidForPartyDialogue("Imoen2") IfValidForPartyDialogue("Jaheira")
-IfValidForPartyDialogue("Sharteel") IfValidForPartyDialogue("Dynaheir") IfValidForPartyDialogue("Safana") IfValidForPartyDialogue("Branwen")~ THEN BEGIN 13
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") OR(6) IfValidForPartyDialogue("Imoen2") IfValidForPartyDialogue("Jaheira") IfValidForPartyDialogue("Sharteel") IfValidForPartyDialogue("Dynaheir") IfValidForPartyDialogue("Safana") IfValidForPartyDialogue("Branwen")~ THEN BEGIN 13
   SAY @26
   IF ~~ THEN GOTO 16
 END
 
-IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") !IfValidForPartyDialogue("Imoen2") !IfValidForPartyDialogue("Jaheira")
-!IfValidForPartyDialogue("Dynaheir") !IfValidForPartyDialogue("Sharteel") !IfValidForPartyDialogue("Safana") !IfValidForPartyDialogue("Branwen")~ THEN BEGIN 14
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") !IfValidForPartyDialogue("Imoen2") !IfValidForPartyDialogue("Jaheira") !IfValidForPartyDialogue("Dynaheir") !IfValidForPartyDialogue("Sharteel") !IfValidForPartyDialogue("Safana") !IfValidForPartyDialogue("Branwen")~ THEN BEGIN 14
   SAY @27
   IF ~~ THEN REPLY @28 GOTO 3
   IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~GARRIJ~ FABGAR2
@@ -303,13 +301,13 @@ END
 
 APPEND ~IMOEN2J~
 
-IF ~~ THEN BEGIN FLIRTIMOEN 
-  SAY @121 
+IF ~~ THEN BEGIN FLIRTIMOEN
+  SAY @121
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
-IF ~~ THEN BEGIN FABIOCANDLE 
-  SAY @122 
+IF ~~ THEN BEGIN FABIOCANDLE
+  SAY @122
   IF ~~ THEN EXTERN ~BHFABIO~ 6
 END
 
@@ -317,18 +315,18 @@ END
 
 APPEND ~GARRIJ~
 
-IF ~~ THEN BEGIN FABGAR1 
-  SAY @123 
+IF ~~ THEN BEGIN FABGAR1
+  SAY @123
   IF ~~ THEN EXTERN ~BHFABIO~ 20
 END
 
-IF ~~ THEN BEGIN FABGAR2 
-  SAY @124 
+IF ~~ THEN BEGIN FABGAR2
+  SAY @124
   IF ~~ THEN EXTERN ~BHFABIO~ 21
 END
 
-IF ~~ THEN BEGIN FABMINGAR2 
-  SAY @125 
+IF ~~ THEN BEGIN FABMINGAR2
+  SAY @125
   IF ~~ THEN DO ~ActionOverride("GARRICK",RandomWalk())~ EXIT
 END
 
@@ -336,13 +334,13 @@ END
 
 APPEND ~DYNAJ~
 
-IF ~~ THEN BEGIN FLIRTDYNA 
-  SAY @126 
+IF ~~ THEN BEGIN FLIRTDYNA
+  SAY @126
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
-IF ~~ THEN BEGIN FABDYNA1 
-  SAY @127 
+IF ~~ THEN BEGIN FABDYNA1
+  SAY @127
   IF ~~ THEN EXIT
 END
 
@@ -350,8 +348,8 @@ END
 
 APPEND ~SAFANJ~
 
-IF ~~ THEN BEGIN FLIRTSAFAN 
-  SAY @128 
+IF ~~ THEN BEGIN FLIRTSAFAN
+  SAY @128
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
@@ -359,8 +357,8 @@ END
 
 APPEND ~JAHEIRAJ~
 
-IF ~~ THEN BEGIN FLIRTJAHE 
-  SAY @129 
+IF ~~ THEN BEGIN FLIRTJAHE
+  SAY @129
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
@@ -368,8 +366,8 @@ END
 
 APPEND ~SHARTJ~
 
-IF ~~ THEN BEGIN FLIRTSHART 
-  SAY @130 
+IF ~~ THEN BEGIN FLIRTSHART
+  SAY @130
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
@@ -377,8 +375,8 @@ END
 
 APPEND ~BRANWJ~
 
-IF ~~ THEN BEGIN FLIRTBRANW 
-  SAY @131 
+IF ~~ THEN BEGIN FLIRTBRANW
+  SAY @131
   IF ~~ THEN EXTERN ~BHFABIO~ 3
 END
 
@@ -386,15 +384,14 @@ END
 
 APPEND ~MINSCJ~
 
-IF ~~ THEN BEGIN FABIOMIN 
-  SAY @132 
+IF ~~ THEN BEGIN FABIOMIN
+  SAY @132
   IF ~~ THEN EXTERN ~BHFABIO~ 24
 END
 
-IF ~~ THEN BEGIN FABMINGAR 
-  SAY @133 
+IF ~~ THEN BEGIN FABMINGAR
+  SAY @133
   IF ~~ THEN EXTERN ~GARRIJ~ FABMINGAR2
 END
 
 END
-
