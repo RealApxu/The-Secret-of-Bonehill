@@ -35,6 +35,24 @@ THEN
 END
 
 IF
+    GlobalGT("BHHiredAssassin","Global",0)
+    Global("BHQuenBasmarBoat","GLOBAL",2)
+THEN
+    RESPONSE #100
+        SetGlobal("BHAssassinSpawn","BH2000",2)
+        SetGlobal("BHOscarScared","GLOBAL",2)
+        SetGlobal("BHQuenBasmarBoat","GLOBAL",3)
+        CreateCreature("BHBANDT2",[4292.2246],0)
+        CreateCreature("BHBANDT1",[4150.2280],0)
+        CreateCreature("BHTHIEF",[4537.2511],5)
+        CreateCreature("BHTHIEF",[4217.2492],13)
+        CreateCreature("BHOscar",[4280.2240],0)
+        CreateCreature("BHPhilma",[4535.2531],5)
+        CreateCreature("BHBasmar",[4210.2490],13)
+        ActionOverride("BHBasmar",StartDialog("BHBasmar",[PC]))
+END
+
+IF
     GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
     Global("BHEscortSpawn","GLOBAL",0)
 THEN

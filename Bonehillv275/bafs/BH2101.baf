@@ -15,10 +15,12 @@ IF
     Global("BHGuardWarning","BH2101",3)
 THEN
     RESPONSE #100
-        ActionOverride("BHOLIEUT",MoveToObject(Player1))
-        ActionOverride("BHOLIEUT",Shout(125))
         ActionOverride("BHOLIEUT",Enemy())
+        ActionOverride("BHOLIEUT",MoveToObject(Player1))
+        ActionOverride("BHOLIEUT",Shout(ALERT))
+        ActionOverride("BHTELLIS",Enemy())
         ActionOverride("BHTELLIS",MoveToObject(Player1))
+        ActionOverride("BHARRNES",Enemy())
         ActionOverride("BHARRNES",Polymorph(MAGE_FEMALE_HUMAN))
         ActionOverride("BHARRNES",MoveToObject(Player1))
         SetGlobal("BHGuardWarning","BH2101",4)

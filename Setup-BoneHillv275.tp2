@@ -1792,6 +1792,7 @@ END ELSE BEGIN
     COMPILE ~Bonehillv275/Tutu/spawns~
 END
 
+/*
 COPY_EXISTING ~BH1301.ARE~ ~override~
     READ_LONG 0x54 "actor_off"
     READ_SHORT 0x58 "actor_num"
@@ -1823,6 +1824,7 @@ BUT_ONLY
 
 COPY ~bonehillv275/bcs/BH0200.BCS~ ~override~
 
+COMPILE ~bonehillv275/bcs/BH0200.BCS~
 EXTEND_TOP ~BH0100.BCS~ ~bonehillv275/bcs/BH0200.BCS~
 
 COPY_EXISTING ~BH2100.BCS~ ~override~
@@ -1836,15 +1838,18 @@ COPY_EXISTING ~BHASCUE.BCS~ ~override~
     REPLACE_BCS_BLOCK ~bonehillv275/bcs/oBHASCUE.BCS~ ~bonehillv275/bcs/nBHASCUE.BCS~
 BUT_ONLY
 
+
 COPY_EXISTING ~BHOGUARD.CRE~ ~override~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x248 ~GCSHOUT~ #8 // Override
     END
 BUT_ONLY
+*/
 
-COPY ~bonehillv275/bcs/gcshout.bcs~ ~override~
+//COPY ~bonehillv275/bcs/gcshout.bcs~ ~override~
+//COMPILE ~bonehillv275/bcs/gcshout.bcs~
 
-EXTEND_TOP ~BH1300.BCS~ ~bonehillv275/bcs/BH1300.baf~
+//EXTEND_TOP ~BH1300.BCS~ ~bonehillv275/bcs/BH1300.baf~
 
 //INCLUDE ~bonehillv275/lib/Bonehill_Spawns.tph~
 

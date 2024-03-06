@@ -25,6 +25,7 @@ THEN
         CreateCreature("BHOLIEUT",[908.908],6)
         CreateCreature("BHOLIEUT",[1661.590],4)
         SetGlobal("BHAssassinGuild","GLOBAL",1)
+        SetGlobal("BHEscortSpawn","GLOBAL",1)
 END
 
 IF
@@ -36,6 +37,7 @@ THEN
         CreateCreature("BHOLIEUT",[908.908],6)
         CreateCreature("BHOLIEUT",[1661.590],4)
         SetGlobal("BHAssassinGuild","GLOBAL",1)
+        SetGlobal("BHEscortSpawn","GLOBAL",1)
 END
 
 IF
@@ -47,4 +49,5 @@ THEN
         CreateCreature("BHOLIEUT",[908.908],6)
         CreateCreature("BHOLIEUT",[1661.590],4)
         SetGlobal("BHAssassinGuild","GLOBAL",2)
+        SetGlobal("BHEscortSpawn","GLOBAL",1)
 END

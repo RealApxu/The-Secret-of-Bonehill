@@ -1,7 +1,0 @@
-IF
-    Dead("BHOGREMA")
-    GlobalLT("BHGnollQuest","GLOBAL",2)
-THEN
-    RESPONSE #100
-        SetGlobal("BHGnollQuest","GLOBAL",2)
-END

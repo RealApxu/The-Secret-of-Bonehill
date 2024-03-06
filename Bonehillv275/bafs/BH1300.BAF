@@ -1,4 +1,13 @@
 IF
+    Dead("BHOGREMA")
+    GlobalLT("BHGnollQuest","GLOBAL",2)
+THEN
+    RESPONSE #100
+        SetGlobal("BHGnollQuest","GLOBAL",2)
+        Continue()
+END
+
+IF
     Global("BP_MoreStooges","BH1300",0)
     Global("BP_VillagePeople","GLOBAL",0)
 THEN

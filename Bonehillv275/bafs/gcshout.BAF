@@ -1,0 +1,478 @@
+IF
+    Global("BHGuardWarning","BH2101",4)
+    Allegiance(Myself,NEUTRAL)
+THEN
+    RESPONSE #100
+        Enemy()
+        MoveToObject("Player1")  // Peasant
+END
+
+IF
+    OR(2)
+        Global("BHAssassinGuild","GLOBAL",1)
+        Global("BHAssassinGuild","GLOBAL",2)
+THEN
+    RESPONSE #100
+        Enemy()
+        MoveToObject("Player1")  // Peasant
+END
+
+IF
+    AttackedBy([GOODCUTOFF],DEFAULT)
+    Allegiance(Myself,NEUTRAL)
+THEN
+    RESPONSE #100
+        Enemy()
+END
+
+IF
+    GlobalGT("helptarget","LOCALS",0)
+    GlobalTimerExpired("helpduration","LOCALS")
+    !See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        SetGlobal("helptarget","LOCALS",0)
+END
+
+IF
+    GlobalGT("helptarget","LOCALS",0)
+    !See(NearestEnemyOf(Myself))
+    !GlobalTimerNotExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player1)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(991)
+        SetGlobal("helptarget","LOCALS",1)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],991)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(981)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",1)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],991)
+THEN
+    RESPONSE #100
+        Shout(981)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",1)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],981)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(981)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",1)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],981)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(981)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",1)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",1)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player1)
+THEN
+    RESPONSE #100
+        MoveToObject(Player1)
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player2)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(992)
+        SetGlobal("helptarget","LOCALS",2)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],992)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(982)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",2)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],992)
+THEN
+    RESPONSE #100
+        Shout(982)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",2)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],982)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(982)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",2)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],982)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(982)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",2)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",2)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player2)
+THEN
+    RESPONSE #100
+        MoveToObject(Player2)
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player3)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(993)
+        SetGlobal("helptarget","LOCALS",3)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],993)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(983)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",3)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],993)
+THEN
+    RESPONSE #100
+        Shout(983)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",3)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],983)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(983)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",3)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],983)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(983)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",3)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",3)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player3)
+THEN
+    RESPONSE #100
+        MoveToObject(Player3)
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player4)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(994)
+        SetGlobal("helptarget","LOCALS",4)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],994)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(984)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",4)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],994)
+THEN
+    RESPONSE #100
+        Shout(984)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",4)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],984)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(984)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",4)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],984)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(984)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",4)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",4)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player4)
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player5)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(995)
+        SetGlobal("helptarget","LOCALS",5)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],995)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(985)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",5)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],995)
+THEN
+    RESPONSE #100
+        Shout(985)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",5)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],985)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(985)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",5)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],985)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(985)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",5)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",5)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player5)
+THEN
+    RESPONSE #100
+        MoveToObject(Player5)
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    See(Player6)
+    Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        Shout(996)
+        SetGlobal("helptarget","LOCALS",6)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],996)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(986)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",6)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],996)
+THEN
+    RESPONSE #100
+        Shout(986)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",6)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],986)
+    Range(LastHeardBy(Myself),12)
+    GlobalTimerExpired("helpduration","LOCALS")
+THEN
+    RESPONSE #100
+        Shout(986)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",6)
+        SetGlobalTimer("helpduration","LOCALS",TWO_ROUNDS)
+        Continue()
+END
+
+IF
+    !GlobalGT("helptarget","LOCALS",0)
+    Heard([ANYONE],986)
+    Range(LastHeardBy(Myself),12)
+THEN
+    RESPONSE #100
+        Shout(986)
+        Enemy()
+        SetGlobal("helptarget","LOCALS",6)
+        Continue()
+END
+
+IF
+    Global("helptarget","LOCALS",6)
+    !See(NearestEnemyOf(Myself))
+    !Class(Myself,INNOCENT)
+    !Detect(Player6)
+THEN
+    RESPONSE #100
+        MoveToObject(Player6)
+END
+

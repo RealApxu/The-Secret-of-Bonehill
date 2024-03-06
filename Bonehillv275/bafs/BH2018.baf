@@ -14,11 +14,11 @@ IF
     Global("BHBardAsksWilbur","BH2018",1)
 THEN
     RESPONSE #100
-        CreateCreature("BHWILBUR",[374.1126],11)
-        ActionOverride("BHWilbur",MoveToPoint([560.940]))
+        CreateCreature("BHWILBUR",[1117.639],11)
+        ActionOverride("BHWilbur",MoveToPoint([934.640]))
         SetGlobal("BHBardAsksWilbur","BH2018",2)
         Wait(2)
-        ActionOverride("BHWilbur",Dialog([PC]))
+        ActionOverride("BHWilbur",Dialogue([PC]))
 END
 
 IF
@@ -28,7 +28,8 @@ THEN
         ActionOverride("BHWilbur",MoveToPoint([374.1126]))
         SetGlobal("BHBardAsksWilbur","BH2018",4)
         ActionOverride("BHWilbur",EscapeArea())
-        ActionOverride("BHBalmor",Dialog([PC]))
+        Wait(5)
+        ActionOverride("BHBalmor",Dialogue([PC]))
 END
 
 IF

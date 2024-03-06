@@ -1,11 +1,21 @@
 IF
-    GlobalLT("BHGuardWarning","BH2101",3)
+    GlobalLT("BHGuardWarning","BH2101",1)
     See([GOODCUTOFF])
     !StateCheck(LastTrigger,STATE_INVISIBLE)
     !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
 THEN
     RESPONSE #100
-        SetGlobal("BHGuardWarning","BH2101",2)
+        SetGlobal("BHGuardWarning","BH2101",1)
+        StartDialogue("bhascue",[PC])
+END
+
+IF
+    Global("BHGuardWarning","BH2101",2)
+    See([GOODCUTOFF])
+    !StateCheck(LastTrigger,STATE_INVISIBLE)
+    !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+THEN
+    RESPONSE #100
         StartDialogue("bhascue",[PC])
 END
 
