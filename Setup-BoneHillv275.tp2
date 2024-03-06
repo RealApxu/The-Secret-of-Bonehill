@@ -1346,6 +1346,7 @@ COMPILE ~bonehillv275/d~
 PRINT @363
 
 COPY ~bonehillv275/areas~ ~override~
+COPY ~bonehillv275/mos~ ~override~
 
 // Check to see if Tutu or BGT
 
