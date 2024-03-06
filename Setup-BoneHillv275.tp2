@@ -9,33 +9,27 @@ README ~bonehillv275/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~bonehillv275/lan
 
 AUTO_TRA ~bonehillv275/Language/%s/D~
 
-LANGUAGE
-         ~English~
+LANGUAGE ~English~
          ~english~
          ~bonehillv275/Language/english/setup.tra~
 
-LANGUAGE
-         ~German - Translated by Leonardo~
+LANGUAGE ~German - Translated by Leonardo~
          ~deutsch~
          ~bonehillv275/Language/deutsch/setup.tra~
 
-LANGUAGE
-         ~Italian - Translated by Ilot~
+LANGUAGE ~Italian - Translated by Ilot~
          ~italian~
          ~bonehillv275/Language/italian/setup.tra~
 
-LANGUAGE
-         ~Russian - Translated by Badgert, Aldark, Prowler, Orlangur~
+LANGUAGE ~Russian - Translated by Badgert, Aldark, Prowler, Orlangur~
          ~russian~
          ~bonehillv275/Language/russian/setup.tra~
 
-LANGUAGE
-         ~Spanish - Translated by Ancalagon el Negro~
+LANGUAGE ~Spanish - Translated by Ancalagon el Negro~
          ~spanish~
          ~bonehillv275/Language/spanish/setup.tra~
 
-LANGUAGE
-         ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
+LANGUAGE ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
          ~french~
          ~bonehillv275/Language/french/setup.tra~
 
