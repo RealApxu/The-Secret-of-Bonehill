@@ -19,6 +19,9 @@ ALWAYS
         INCLUDE ~%MOD_FOLDER%/lib/cpmvars/g3_tutu_cpmvars.tpa~
     END
 
+    OUTER_SPRINT workspace "weidu_external/workspace/%MOD_FOLDER%"
+    MKDIR "%workspace%"
+
 END
 
 AUTO_TRA ~%MOD_FOLDER%/Language/%LANGUAGE%/D~
@@ -1853,6 +1856,16 @@ BUT_ONLY
 //EXTEND_TOP ~BH1300.BCS~ ~%MOD_FOLDER%/bcs/BH1300.baf~
 
 //INCLUDE ~%MOD_FOLDER%/lib/Bonehill_Spawns.tph~
+
+//////////////////////////
+// Adding Random Spawns
+//////////////////////////
+/*
+INCLUDE ~%MOD_FOLDER%/lib/sobh_spawns.tph~
+*/
+
+COPY ~%MOD_FOLDER%/creatures/spawns~ override
+COMPILE EVAL ~%MOD_FOLDER%/bafs/spawns~
 
 PRINT @436
 

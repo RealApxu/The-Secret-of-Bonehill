@@ -1,0 +1,381 @@
+////////////////////////////////////////////////////
+// Building areas for every version of the game
+////////////////////////////////////////////////////
+
+ACTION_IF GAME_IS ~bgee~ BEGIN
+    OUTER_SPRINT "bg2_area0319" "bh0103"
+    OUTER_SPRINT "bg2_area0334" "bh0122"
+    OUTER_SPRINT "bg2_area2006" "bh0301"
+    OUTER_SPRINT "bg2_area0528" "bh0310"
+    OUTER_SPRINT "bg2_area0806" "bh0601"
+    OUTER_SPRINT "bg2_area1301" "bh1001"
+    OUTER_SPRINT "bg2_area1302" "bh1002"
+    OUTER_SPRINT "bg2_area1303" "bh1003"
+    OUTER_SPRINT "bg2_area2002" "bh2003"
+    OUTER_SPRINT "bg2_area1204" "bh2014"
+    OUTER_SPRINT "bg2_area1103" "bh2016"
+END ELSE BEGIN
+    OUTER_SPRINT "bg2_area0319" "AR0319"
+    OUTER_SPRINT "bg2_area0334" "AR0334"
+    OUTER_SPRINT "bg2_area2006" "AR2006"
+    OUTER_SPRINT "bg2_area0528" "AR0528"
+    OUTER_SPRINT "bg2_area0806" "AR0806"
+    OUTER_SPRINT "bg2_area1301" "AR1301"
+    OUTER_SPRINT "bg2_area1302" "AR1302"
+    OUTER_SPRINT "bg2_area1303" "AR1303"
+    OUTER_SPRINT "bg2_area2002" "AR2002"
+    OUTER_SPRINT "bg2_area1204" "AR1204"
+    OUTER_SPRINT "bg2_area1103" "AR1103"
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2areas/ee~ override
+    COPY ~%MOD_FOLDER%/resource/bg2areas/wed~ override
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY bh_are_wed_references BEGIN
+	"bh0100" => "BH0100"
+	"bh0101" => "%Nashkel_Garrison%"
+	"bh0102" => "%Nashkel_Store%"
+	"bh0103" => "%bg2_area0319%"
+	"bh0104" => "%Nashkel_House1%"
+	"bh0105" => "%Nashkel_House1%"
+	"bh0106" => "%Nashkel_JosephsHouse%"
+	"bh0107" => "%Nashkel_BelchingDragonTavern%"
+	"bh0108" => "%UlgothsBeard_Storehouse%"
+	"bh0109" => "%Nashkel_ManorHouse_L1%"
+	"bh0110" => "%Nashkel_ManorHouse_L2%"
+	"bh0111" => "%BaldursGateDocks_NoraleesWarehouse%"
+	"bh0112" => "%BaldursGateDocks_BasiliskWarehouse%"
+	"bh0113" => "%BaldursGateDocks_BasiliskWarehouse%"
+	"bh0114" => "%Nashkel_House2%"
+	"bh0115" => "%Nashkel_Inn%"
+	"bh0116" => "%Beregost_House13_L1%"
+	"bh0117" => "%Beregost_MiriannesHouse_L2%"
+	"bh0118" => "%Beregost_MiriannesHouse_L1%"
+	"bh0119" => "%Beregost_MiriannesHouse_L2%"
+	"bh0120" => "%BaldursGateDocks_IronThrone_Cellar%"
+	"bh0121" => "%Nashkel_Garrison%"
+	"bh0122" => "%bg2_area0334%"
+	"bh0123" => "%Beregost_BurningWizard_L2%"
+	"bh0125" => "%CloakwoodDruids_Treehouse_L1%"
+	"bh0126" => "%CloakwoodDruids_Treehouse_L2%"
+	"bh0200" => "BH0200"
+	"bh0201" => "%Nashkel_House2%"
+	"bh0202" => "%Nashkel_House1%"
+	"bh0300" => "BH0300"
+	"bh0301" => "%bg2_area2006%"
+	"bh0302" => "BH0302"
+	"bh0303" => "%Nashkel_ManorHouse_L1%"
+	"bh0305" => "%Nashkel_Garrison%"
+	"bh0306" => "%Nashkel_House1%"
+	"bh0308" => "%Candlekeep_Catacombs_L1Antechamber%"
+	"bh0310" => "%bg2_area0528%"
+	"bh0311" => "%bg2_area0528%"
+	"bh0312" => "%Nashkel_ManorHouse_L2%"
+	"bh0400" => "BH0400"
+	"bh0401" => "BH0401"
+	"bh0402" => "BH0402"
+	"bh0403" => "BH0403"
+	"bh0500" => "BH0500"
+	"bh0501" => "%Nashkel_House2%"
+	"bh0502" => "%Nashkel_House1%"
+	"bh0503" => "%Candlekeep_Infirmary%"
+	"bh0504" => "%NBaldursGate_RamazithsTower_L1%"
+	"bh0505" => "%NWBaldursGate_SilvershieldEstate_L1%"
+	"bh0506" => "%NWBaldursGate_SilvershieldEstate_L2%"
+	"bh0507" => "%NBaldursGate_DucalPalace_Cellar%"
+	"bh0509" => "%NWBaldursGate_SilvershieldEstate_L2%"
+	"bh0510" => "%NBaldursGate_RamazithsTower_L4%"
+	"bh0511" => "%NBaldursGate_RamazithsTower_L6%"
+	"bh0600" => "BH0600"
+	"bh0601" => "%bg2_area0806%"
+	"bh0602" => "%bg2_area0806%"
+	"bh0700" => "BH0700"
+	"bh1000" => "BH1000"
+	"bh1001" => "%bg2_area1301%"
+	"bh1002" => "%bg2_area1302%"
+	"bh1003" => "%bg2_area1303%"
+	"bh1004" => "BH1004"
+	"bh1100" => "BH1100"
+	"bh1101" => "BH1101"
+	"bh1102" => "%HighHedge_House%"
+	"bh1200" => "BH1200"
+	"bh1300" => "BH1300"
+	"bh1301" => "%CloakwoodDruids_PetersCave%"
+	"bh1302" => "%BanditCamp_GnollCave%"
+	"bh1400" => "%Larswood%"
+	"bh2000" => "BH2000"
+	"bh2001" => "BH2001"
+	"bh2002" => "BH2002"
+	"bh2003" => "%bg2_area2002%"
+	"bh2004" => "%bg2_area2002%"
+	"bh2005" => "BH2005"
+	"bh2006" => "BH2006"
+	"bh2007" => "BH2006"
+	"bh2008" => "BH2008"
+	"bh2009" => "%Nashkel_House1%"
+	"bh2010" => "BH2010"
+	"bh2011" => "%bg2_area0334%"
+	"bh2012" => "BH2012"
+	"bh2013" => "%Nashkel_House1%"
+	"bh2014" => "%bg2_area1204%"
+	"bh2015" => "BH2008"
+	"bh2016" => "%bg2_area1103%"
+	"bh2017" => "BH2008"
+	"bh2018" => "BH2018"
+	"bh2019" => "BH2019"
+	"bh2020" => "BH2020"
+	"bh2021" => "BH2021"
+	"bh2022" => "BH2022"
+	"bh2023" => "BH2022"
+	"bh2024" => "%BaldursGateDocks_IronThrone_Cellar%"
+	"bh2025" => "BH2025"
+	"bh2026" => "BH2022"
+	"bh2100" => "BH2100"
+	"bh2101" => "BH2101"
+	"bh2102" => "BH2102"
+	"bh2103" => "BH2103"
+	"bh2104" => "BH2104"
+	"bh2105" => "BH2105"
+	"bh2106" => "BH2106"
+	"bh2107" => "BH2107"
+	"bh2108" => "BH2108"
+	"bh2109" => "BH2109"
+	"bh2110" => "BH2110"
+	"bh2111" => "BH2111"
+	"bh2200" => "BH2200"
+	"bh2201" => "BH2201"
+	"bh2202" => "BH2202"
+	"bh2300" => "%DryadFalls%"
+	"bh2301" => "BH2301"
+END
+
+/////////////////////////////////////////////////////////////////////
+// Writing correct WED reference in .are file (and area scripts)
+/////////////////////////////////////////////////////////////////////
+
+COPY ~%MOD_FOLDER%/are~ ~%workspace%/are~
+
+ACTION_PHP_EACH bh_are_wed_references AS are_file => wed_name BEGIN
+	COPY ~%MOD_FOLDER%/are/%are_file%.are~ ~%workspace%/are~
+        WRITE_ASCIIE 0x8 "%wed_name%" #8
+        WRITE_ASCIIE 0x94 "%are_file%" #8
+    BUT_ONLY
+END
+
+//////////////////////////////////////
+// Changes in existing .are files
+//////////////////////////////////////
+
+COPY_EXISTING ~%Temple%.are~ override
+    WRITE_ASCII 0x94 ~%Temple_BCS%~
+BUT_ONLY
+
+COPY_EXISTING ~%Temple_SongoftheMorning%.are~ override
+    WRITE_ASCII 0x94 ~%Temple_SongoftheMorning_BCS%~
+BUT_ONLY
+
+//////////////////////////////////////
+// Adding text resrefs in .are files
+//////////////////////////////////////
+
+COPY ~%workspace%/are/BH0100.are~ ~%workspace%/are/BH0100.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@365) STR_VAR region_name = Info01 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@365) STR_VAR region_name = Info02 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@366) STR_VAR region_name = Info03 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@366) STR_VAR region_name = Info04 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@367) STR_VAR region_name = Info05 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@99) STR_VAR region_name = Info06 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@368) STR_VAR region_name = Info07 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@103) STR_VAR region_name = Info08 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@90) STR_VAR region_name = Info09 END
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY %rest_interruption_offset% + 0x20 @369
+    LPF fj_are_structure INT_VAR fj_loc_x = 2385 fj_loc_y = 111 fj_note_strref = RESOLVE_STR_REF(@370) STR_VAR fj_structure_type = note END
+
+COPY ~%workspace%/are/BH0200.are~ ~%workspace%/are/BH0200.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@370) STR_VAR region_name = Info01 END
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY %rest_interruption_offset% + 0x20 @369
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 2385 fj_loc_y = 111 fj_note_strref = RESOLVE_STR_REF(@370) STR_VAR fj_structure_type = note END
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 115 fj_loc_y = 2145 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END
+
+COPY ~%workspace%/are/BH0300.are~ ~%workspace%/are/BH0300.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@372) STR_VAR region_name = Info01 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info02 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info03 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info04 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info05 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@99) STR_VAR region_name = Info06 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@373) STR_VAR region_name = Info07 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info08 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@89) STR_VAR region_name = Info09 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@374) STR_VAR region_name = Cave01 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@375) STR_VAR region_name = Cave02 END
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@376) STR_VAR region_name = HangTreeInfo END
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY %rest_interruption_offset% + 0x20 @369
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4902 fj_loc_y = 2166 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 779 fj_loc_y = 129 fj_note_strref = RESOLVE_STR_REF(@377) STR_VAR fj_structure_type = note END
+
+COPY ~%workspace%/are/BH0308.are~ ~%workspace%/are/BH0308.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@378) STR_VAR region_name = AltarInfo END
+
+COPY ~%workspace%/are/BH0400.are~ ~%workspace%/are/BH0400.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@379) STR_VAR region_name = Info01 END //SAY 0x180 @379
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@380) STR_VAR region_name = Info02 END //SAY 0x490 @380
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 499 fj_loc_y = 135 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END
+
+COPY ~%workspace%/are/BH0402.are~ ~%workspace%/are/BH0402.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@381) STR_VAR region_name = Info01 END //SAY 0x2004 @381
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@382) STR_VAR region_name = Info02 END //SAY 0x20c8 @382
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@383) STR_VAR region_name = Info03 END //SAY 0x218c @383
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@384) STR_VAR region_name = Info04 END //SAY 0x2250 @384
+
+COPY ~%workspace%/are/BH0500.are~ ~%workspace%/are/BH0500.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@385) STR_VAR region_name = Info01 END //SAY 0x994 @385
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@385) STR_VAR region_name = Info02 END //SAY 0xa58 @385
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY %rest_interruption_offset% + 0x20 @369 //SAY 0x136c @369
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3621 fj_loc_y = 833 fj_note_strref = RESOLVE_STR_REF(@386) STR_VAR fj_structure_type = note END //SAY 0x1434 @386
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 1188 fj_loc_y = 1884 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x1468 @387
+
+COPY ~%workspace%/are/BH0600.are~ ~%workspace%/are/BH0600.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@388) STR_VAR region_name = Marker1 END //SAY 0x3cc @388
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@389) STR_VAR region_name = NewGrave1 END //SAY 0x490 @389
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@390) STR_VAR region_name = CaveInfo1 END //SAY 0x6dc @390
+
+COPY ~%workspace%/are/BH0700.are~ ~%workspace%/are/BH0700.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@391) STR_VAR region_name = InfoBody1 END //SAY 0xb88 @391
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 633 fj_loc_y = 3097 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x1d2c @387
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 134 fj_loc_y = 458 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x1d60 @387
+
+COPY ~%workspace%/are/BH1000.are~ ~%workspace%/are/BH1000.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@392) STR_VAR region_name = CatapultInfo01 END //SAY 0x1a48 @392
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@392) STR_VAR region_name = CatapultInfo02 END //SAY 0x1bd0 @392
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@392) STR_VAR region_name = CatapultInfo03 END //SAY 0x1c94 @392
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@392) STR_VAR region_name = CatapultInfo04 END //SAY 0x1d58 @392
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@393) STR_VAR region_name = ClearedAreaInfo01 END //SAY 0x1e1c @393
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@393) STR_VAR region_name = ClearedAreaInfo02 END //SAY 0x1ee0 @393
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@394) STR_VAR region_name = FortInfo END //SAY 0x1fa4 @394
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4985 fj_loc_y = 3663 fj_note_strref = RESOLVE_STR_REF(@377) STR_VAR fj_structure_type = note END //SAY 0x4490 @377
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4017 fj_loc_y = 160 fj_note_strref = RESOLVE_STR_REF(@395) STR_VAR fj_structure_type = note END //SAY 0x44c4 @395
+
+COPY ~%workspace%/are/BH1001.are~ ~%workspace%/are/BH1001.are~
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 869 fj_loc_y = 446 fj_note_strref = RESOLVE_STR_REF(@396) STR_VAR fj_structure_type = note END //SAY 0x2b34 @396
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 308 fj_loc_y = 1013 fj_note_strref = RESOLVE_STR_REF(@397) STR_VAR fj_structure_type = note END //SAY 0x2b68 @397
+
+COPY ~%workspace%/are/bh1100.are~ ~%workspace%/are/BH1100.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@370) STR_VAR region_name = Info01 END //SAY 0xb88 @370
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 325 fj_loc_y = 3687 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END //SAY 0xf60 @371
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 127 fj_loc_y = 2486 fj_note_strref = RESOLVE_STR_REF(@398) STR_VAR fj_structure_type = note END //SAY 0xf94 @398
+
+COPY ~%workspace%/are/BH1200.are~ ~%workspace%/are/BH1200.are~
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4971 fj_loc_y = 1498 fj_note_strref = RESOLVE_STR_REF(@370) STR_VAR fj_structure_type = note END //SAY 0x29d4 @370
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3675 fj_loc_y = 3759 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END //SAY 0x2a08 @371
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 90 fj_loc_y = 2778 fj_note_strref = RESOLVE_STR_REF(@377) STR_VAR fj_structure_type = note END //SAY 0x2a3c @377
+
+COPY ~%workspace%/are/BH1300.are~ ~%workspace%/are/BH1300.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@399) STR_VAR region_name = InfoResten END //SAY 0x2004 @399
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3453 fj_loc_y = 136 fj_note_strref = RESOLVE_STR_REF(@395) STR_VAR fj_structure_type = note END //SAY 0x3618 @395
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4968 fj_loc_y = 3056 fj_note_strref = RESOLVE_STR_REF(@398) STR_VAR fj_structure_type = note END //SAY 0x364c @398
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4346 fj_loc_y = 3725 fj_note_strref = RESOLVE_STR_REF(@371) STR_VAR fj_structure_type = note END //SAY 0x3680 @371
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 103 fj_loc_y = 1680 fj_note_strref = RESOLVE_STR_REF(@400) STR_VAR fj_structure_type = note END //SAY 0x36b4 @400
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 89 fj_loc_y = 3759 fj_note_strref = RESOLVE_STR_REF(@400) STR_VAR fj_structure_type = note END //SAY 0x36e8 @400
+
+COPY ~%workspace%/are/BH1400.are~ ~%workspace%/are/BH1400.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@395) STR_VAR region_name = Info01 END //SAY 0x1c10 @395
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 105 fj_loc_y = 1802 fj_note_strref = RESOLVE_STR_REF(@400) STR_VAR fj_structure_type = note END //SAY 0x2a40 @400
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4241 fj_loc_y = 3712 fj_note_strref = RESOLVE_STR_REF(@377) STR_VAR fj_structure_type = note END //SAY 0x2a74 @377
+
+COPY ~%workspace%/are/BH2000.are~ ~%workspace%/are/BH2000.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@401) STR_VAR region_name = StatueInfo1 END //SAY 0x25f0 @401
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@402) STR_VAR region_name = StatueInfo2 END //SAY 0x26b4 @402
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@403) STR_VAR region_name = StatueInfo3 END //SAY 0x2778 @403
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@404) STR_VAR region_name = StatueInfo4 END //SAY 0x283c @404
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@405) STR_VAR region_name = InfoSign1 END //SAY 0x2900 @405
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY %rest_interruption_offset% + 0x20 @406 //SAY 0x6164 @406
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4347 fj_loc_y = 3716 fj_note_strref = RESOLVE_STR_REF(@407) STR_VAR fj_structure_type = note END //SAY 0x622c @407
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3975 fj_loc_y = 98 fj_note_strref = RESOLVE_STR_REF(@408) STR_VAR fj_structure_type = note END //SAY 0x6260 @408
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 1997 fj_loc_y = 87 fj_note_strref = RESOLVE_STR_REF(@409) STR_VAR fj_structure_type = note END //SAY 0x6294 @409
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 688 fj_loc_y = 3738 fj_note_strref = RESOLVE_STR_REF(@410) STR_VAR fj_structure_type = note END //SAY 0x62c8 @410
+
+COPY ~%workspace%/are/BH2001.are~ ~%workspace%/are/BH2001.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@411) STR_VAR region_name = Lookout1 END //SAY 0x574 @411
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@412) STR_VAR region_name = InfoTools END //SAY 0x638 @412
+
+COPY ~%workspace%/are/BH2002.are~ ~%workspace%/are/BH2002.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@413) STR_VAR region_name = Statue01 END //SAY 0x4b0 @413
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@413) STR_VAR region_name = Statue02 END //SAY 0x574 @413
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@414) STR_VAR region_name = Bookshelf END //SAY 0x638 @414
+
+COPY ~%workspace%/are/BH2010.are~ ~%workspace%/are/BH2010.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@415) STR_VAR region_name = "Trigger Point 3" END //SAY 0x528 @415
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@416) STR_VAR region_name = "Trigger Point 4" END //SAY 0x5ec @416
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@417) STR_VAR region_name = "Trigger Point 5" END //SAY 0x6b0 @417
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@418) STR_VAR region_name = "Trigger Point 6" END //SAY 0x774 @418
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@419) STR_VAR region_name = "Trigger Point 7" END //SAY 0x838 @419
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@420) STR_VAR region_name = "Trigger Point 8" END //SAY 0x8fc @420
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@416) STR_VAR region_name = "Trigger Point 9" END //SAY 0x9c0 @416
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@416) STR_VAR region_name = "Trigger Point 10" END //SAY 0xa84 @416
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 11" END //SAY 0xb48 @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 12" END //SAY 0xc0c @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 13" END //SAY 0xcd0 @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 14" END //SAY 0xd94 @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 15" END //SAY 0xe58 @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 16" END //SAY 0xf1c @421
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@421) STR_VAR region_name = "Trigger Point 17" END //SAY 0xfe0 @421
+
+COPY ~%workspace%/are/BH2100.are~ ~%workspace%/are/BH2100.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@422) STR_VAR region_name = StatueInfo1 END //SAY 0x794 @422
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@423) STR_VAR region_name = StatueInfo2 END //SAY 0x858 @423
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY (%rest_interruption_offset% + 0x20) @406 //SAY 0x1420 @406
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 904 fj_loc_y = 3694 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x14e8 @387
+
+COPY ~%workspace%/are/BH2101.are~ ~%workspace%/are/BH2101.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@424) STR_VAR region_name = "Ruined Stairs" END //SAY 0x1848 @424
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY (%rest_interruption_offset% + 0x20) @406 //SAY 0x38dc @406
+
+COPY ~%workspace%/are/BH2102.are~ ~%workspace%/are/BH2102.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@425) STR_VAR region_name = Organ END //SAY 0x1124 @425
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@426) STR_VAR region_name = Tower END //SAY 0x11e8 @426
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@427) STR_VAR region_name = Weapons END //SAY 0x12ac @427
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@428) STR_VAR region_name = "Weapons 2" END //SAY 0x1370 @428
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY (%rest_interruption_offset% + 0x20) @406 //SAY 0x4054 @406
+
+COPY ~%workspace%/are/BH2103.are~ ~%workspace%/are/BH2103.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@429) STR_VAR region_name = Info1 END //SAY 0x574 @429
+    READ_LONG 0xc0 rest_interruption_offset
+    SAY (%rest_interruption_offset% + 0x20) @406 //SAY 0x1c5c @406
+
+COPY ~%workspace%/are/BH2200.are~ ~%workspace%/are/BH2200.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@430) STR_VAR region_name = CaveInfo END //SAY 0x1344 @430
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 4990 fj_loc_y = 2125 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x2424 @387
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3882 fj_loc_y = 637 fj_note_strref = RESOLVE_STR_REF(@431) STR_VAR fj_structure_type = note END //SAY 0x2458 @431
+
+COPY ~%workspace%/are/BH2201.are~ ~%workspace%/are/BH2201.are~
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 2289 fj_loc_y = 1218 fj_note_strref = RESOLVE_STR_REF(@397) STR_VAR fj_structure_type = note END //SAY 0x4064 @397
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 1525 fj_loc_y = 322 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x4098 @387
+
+COPY ~%workspace%/are/BH2202.are~ ~%workspace%/are/BH2202.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@432) STR_VAR region_name = Passage1 END //SAY 0x3434 @432
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3414 fj_loc_y = 2314 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x5644 @387
+
+COPY ~%workspace%/are/BH2300.are~ ~%workspace%/are/BH2300.are~
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@433) STR_VAR region_name = InfoClou END //SAY 0x1ef4 @433
+    LPF ALTER_AREA_REGION INT_VAR info_point = RESOLVE_STR_REF(@434) STR_VAR region_name = InfCloud END //SAY 0x1fb8 @434
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 3414 fj_loc_y = 2314 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x3404 @387
+
+COPY ~%workspace%/are/BH2301.are~ ~%workspace%/are/BH2301.are~
+    LPF fj_are_structure INT_VAR fj_color = 0 fj_loc_x = 1246 fj_loc_y = 1777 fj_note_strref = RESOLVE_STR_REF(@387) STR_VAR fj_structure_type = note END //SAY 0x274c @387
+
+/////////////////////////////////////////
+//Copy .are files in the override folder
+/////////////////////////////////////////
+
+COPY ~%workspace%/are~ override
