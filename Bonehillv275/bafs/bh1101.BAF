@@ -1,9 +1,8 @@
 IF
-  Entered([ANYONE])
-  GlobalLT("BHFoundWagon","GLOBAL",1)
+    Entered([ANYONE])
+    GlobalLT("BHFoundWagon","GLOBAL",1)
 THEN
-  RESPONSE #100
-    DisplayString(Myself,@260)
-    SetGlobal("BHFoundWagon","GLOBAL",1)
+    RESPONSE #100
+        DisplayString(Myself,@260)
+        SetGlobal("BHFoundWagon","GLOBAL",1)
 END
-

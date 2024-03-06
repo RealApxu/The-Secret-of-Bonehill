@@ -1,7 +1,6 @@
 IF
-  Entered([ANYONE])
+    Entered([ANYONE])
 THEN
-  RESPONSE #100
-    DisplayString(Myself,@800)
+    RESPONSE #100
+        DisplayString(Myself,@800)
 END
-

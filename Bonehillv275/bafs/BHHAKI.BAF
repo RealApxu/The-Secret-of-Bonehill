@@ -1,7 +1,6 @@
 IF
-  True()
+    True()
 THEN
-  RESPONSE #100
-    RandomWalk()
+    RESPONSE #100
+        RandomWalk()
 END
-

@@ -1,18 +1,17 @@
 IF
-  Detect([PC])
-  NumTimesTalkedToLT(2)
+    Detect([PC])
+    NumTimesTalkedToLT(2)
 THEN
-  RESPONSE #100
-    StartDialogNoSet(LastSeenBy(Myself))
-    Wait(25)
+    RESPONSE #100
+        StartDialogNoSet(LastSeenBy(Myself))
+        Wait(25)
 END
 
 IF
-  Global("BHTelvarAttack","GLOBAL",1)
+    Global("BHTelvarAttack","GLOBAL",1)
 THEN
-  RESPONSE #100
-    Shout(125)
-    Enemy()
-    SetGlobal("BHTelvarAttack","GLOBAL",2)
+    RESPONSE #100
+        Shout(125)
+        Enemy()
+        SetGlobal("BHTelvarAttack","GLOBAL",2)
 END
-

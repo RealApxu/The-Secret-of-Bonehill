@@ -1,29 +1,28 @@
 IF
-  OR(4)
-    AreaCheck("BH0111")
-    AreaCheck("BH0112")
-    AreaCheck("BH0113")
-    AreaCheck("BH0500")
+    OR(4)
+        AreaCheck("BH0111")
+        AreaCheck("BH0112")
+        AreaCheck("BH0113")
+        AreaCheck("BH0500")
 THEN
-  RESPONSE #100
-    RandomWalk()
+    RESPONSE #100
+        RandomWalk()
 END
 
 IF
-  Heard([EVILCUTOFF],125)
+    Heard([EVILCUTOFF],125)
 THEN
-  RESPONSE #100
-    Enemy()
+    RESPONSE #100
+        Enemy()
 END
 
 IF
-  See([PC])
-  Global("BHHandQuestAccept","GLOBAL",3)
-  OR(2)
-    AreaCheck("BH0109")
-    AreaCheck("BH0504")
+    See([PC])
+    Global("BHHandQuestAccept","GLOBAL",3)
+    OR(2)
+        AreaCheck("BH0109")
+        AreaCheck("BH0504")
 THEN
-  RESPONSE #100
-    Dialog([PC])
+    RESPONSE #100
+        Dialog([PC])
 END
-

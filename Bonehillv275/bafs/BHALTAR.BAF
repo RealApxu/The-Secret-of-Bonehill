@@ -1,22 +1,21 @@
 IF
-  Clicked([PC])
-  OpenState("Altar01",FALSE)
-  Global("Altar_Open","GLOBAL",0)
+    Clicked([PC])
+    OpenState("Altar01",FALSE)
+    Global("Altar_Open","GLOBAL",0)
 THEN
-  RESPONSE #100
-    OpenDoor("Altar01")
-    SetGlobal("Altar_Open","GLOBAL",1)
-    TriggerActivation("Tran0308",TRUE)
+    RESPONSE #100
+        OpenDoor("Altar01")
+        SetGlobal("Altar_Open","GLOBAL",1)
+        TriggerActivation("Tran0308",TRUE)
 END
 
 IF
-  Clicked([PC])
-  OpenState("Altar01",TRUE)
-  Global("Altar_Open","GLOBAL",1)
+    Clicked([PC])
+    OpenState("Altar01",TRUE)
+    Global("Altar_Open","GLOBAL",1)
 THEN
-  RESPONSE #100
-    CloseDoor("Altar01")
-    SetGlobal("Altar_Open","GLOBAL",0)
-    TriggerActivation("Tran0308",FALSE)
+    RESPONSE #100
+        CloseDoor("Altar01")
+        SetGlobal("Altar_Open","GLOBAL",0)
+        TriggerActivation("Tran0308",FALSE)
 END
-

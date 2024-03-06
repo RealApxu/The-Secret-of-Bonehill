@@ -1,8 +1,7 @@
 IF
-  Entered([ANYONE])
+    Entered([ANYONE])
 THEN
-  RESPONSE #100
-    DisplayString(Myself,@100)  // 
-    SetGlobal("BHGuardQuest","GLOBAL",3)
+    RESPONSE #100
+        DisplayString(Myself,@100)
+        SetGlobal("BHGuardQuest","GLOBAL",3)
 END
-

@@ -1,7 +1,7 @@
 IF
-  OnCreation()
+    OnCreation()
 THEN
-  RESPONSE #100
-    NoAction()
-	 Continue()
+    RESPONSE #100
+        NoAction()
+        Continue()
 END

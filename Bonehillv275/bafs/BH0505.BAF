@@ -1,8 +1,7 @@
 IF
-  GlobalGT("BHToldOfDeath","GLOBAL",1)
+    GlobalGT("BHToldOfDeath","GLOBAL",1)
 THEN
-  RESPONSE #100
-    ActionOverride("BHGrelus",DestroySelf())
-    Continue()
+    RESPONSE #100
+        ActionOverride("BHGrelus",DestroySelf())
+        Continue()
 END
-

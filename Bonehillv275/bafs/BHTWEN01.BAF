@@ -1,7 +1,6 @@
 IF
-  Global("BHFabioWench","GLOBAL",1)
+    Global("BHFabioWench","GLOBAL",1)
 THEN
-  RESPONSE #100
-    RandomWalk()
+    RESPONSE #100
+        RandomWalk()
 END
-

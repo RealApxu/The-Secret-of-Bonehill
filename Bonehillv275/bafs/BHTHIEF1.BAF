@@ -1,9 +1,8 @@
 IF
-  Detect([PC])
-  Global("Display","LOCALS",0)
+    Detect([PC])
+    Global("Display","LOCALS",0)
 THEN
-  RESPONSE #100
-    SetGlobal("Display","LOCALS",1)
-    DisplayStringHead(Myself,@1000)
+    RESPONSE #100
+        SetGlobal("Display","LOCALS",1)
+        DisplayStringHead(Myself,@1000)
 END
-

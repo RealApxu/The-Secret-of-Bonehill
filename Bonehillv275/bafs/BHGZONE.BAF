@@ -1,10 +1,9 @@
 IF
-  Entered([0])
-  !StateCheck(Lasttrigger,STATE_INVISIBLE)
-  GlobalLT("BHGuardWarning","BH2101",3)
+    Entered([0])
+    !StateCheck(Lasttrigger,STATE_INVISIBLE)
+    GlobalLT("BHGuardWarning","BH2101",3)
 THEN
-  RESPONSE #100
-    PlaySound("ALARM1")
-    SetGlobal("BHGuardWarning","BH2101",3)
+    RESPONSE #100
+        PlaySound("ALARM1")
+        SetGlobal("BHGuardWarning","BH2101",3)
 END
-

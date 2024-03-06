@@ -1,22 +1,21 @@
 IF
-  StealFailed([ANYONE])
-  !Allegiance(Myself,ENEMY)
+    StealFailed([ANYONE])
+    !Allegiance(Myself,ENEMY)
 THEN
-  RESPONSE #100
-    StartDialogue("stolen",LastTrigger)
-    Enemy()
-    CreateCreature("BHRGUARD",[-1.-1],0)
-    CreateCreature("BHRGUARD",[-1.-1],0)
-    CreateCreature("BHRGUARD",[-1.-1],0)
+    RESPONSE #100
+        StartDialogue("stolen",LastTrigger)
+        Enemy()
+        CreateCreature("BHRGUARD",[-1.-1],0)
+        CreateCreature("BHRGUARD",[-1.-1],0)
+        CreateCreature("BHRGUARD",[-1.-1],0)
 END
 
 IF
-  AreaCheck("BH2008")
-  Allegiance(Myself,ENEMY)
-  Global("BHCalledBackup","BH2008",0)
+    AreaCheck("BH2008")
+    Allegiance(Myself,ENEMY)
+    Global("BHCalledBackup","BH2008",0)
 THEN
-  RESPONSE #100
-    CreateCreature("BHBESHKA",[-1.-1],0)
-    SetGlobal("BHCalledBackup","BH2008",1)
+    RESPONSE #100
+        CreateCreature("BHBESHKA",[-1.-1],0)
+        SetGlobal("BHCalledBackup","BH2008",1)
 END
-

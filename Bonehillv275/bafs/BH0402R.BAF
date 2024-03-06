@@ -1,7 +1,6 @@
 IF
-  Entered([ANYONE])
+    Entered([ANYONE])
 THEN
-  RESPONSE #100
-    SetGlobal("BHGuardRatTrigger","GLOBAL",1)
+    RESPONSE #100
+        SetGlobal("BHGuardRatTrigger","GLOBAL",1)
 END
-

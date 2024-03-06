@@ -1,8 +1,7 @@
 IF
-  Opened([ANYONE])
+    Opened([ANYONE])
 THEN
-  RESPONSE #100
-    DisplayString(LastTrigger,@550)
-    CreateCreature("GHOUL",[-1.-1],0)
+    RESPONSE #100
+        DisplayString(LastTrigger,@550)
+        CreateCreature("GHOUL",[-1.-1],0)
 END
-

@@ -1,33 +1,32 @@
 IF
-  Die()
+    Die()
 THEN
-  RESPONSE #100
-    SetGlobal("BHMayorGivesWaterQuest","GLOBAL",4)
-    Continue()
+    RESPONSE #100
+        SetGlobal("BHMayorGivesWaterQuest","GLOBAL",4)
+        Continue()
 END
 
 IF
-  Range([PC],30)
-  NumTimesTalkedTo(0)
-  See([PC])
-  Allegiance(Myself,NEUTRAL)
+    Range([PC],30)
+    NumTimesTalkedTo(0)
+    See([PC])
+    Allegiance(Myself,NEUTRAL)
 THEN
-  RESPONSE #100
-    StartDialogNoSet([PC])
+    RESPONSE #100
+        StartDialogNoSet([PC])
 END
 
 IF
-  ActuallyInCombat()
-  Allegiance(Myself,NEUTRAL)
-  Global("BHStanding","LOCALS",0)
+    ActuallyInCombat()
+    Allegiance(Myself,NEUTRAL)
+    Global("BHStanding","LOCALS",0)
 THEN
-  RESPONSE #100
-    DialogueInterrupt(FALSE)
-    Polymorph(MAGE_FEMALE_HUMAN)
-    SetGlobal("BHStanding","LOCALS",1)
-    Shout(ALERT)
-    Enemy()
-    MoveToObject(Player1)
-    ActionOverride("BHTELLIS",MoveToObject(Player1))
+    RESPONSE #100
+        DialogueInterrupt(FALSE)
+        Polymorph(MAGE_FEMALE_HUMAN)
+        SetGlobal("BHStanding","LOCALS",1)
+        Shout(ALERT)
+        Enemy()
+        MoveToObject(Player1)
+        ActionOverride("BHTELLIS",MoveToObject(Player1))
 END
-
