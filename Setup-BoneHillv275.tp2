@@ -7,6 +7,20 @@ VERSION ~v2.75c BWP Fix~
 // Isaya: readme at the beginning of installation, if missing in a language, use English
 README ~bonehillv275/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~bonehillv275/language/english/ReadMe-Bonehill.html~
 
+ALWAYS
+
+    ACTION_IF GAME_IS ~bgee~ BEGIN
+        INCLUDE ~Bonehillv275/lib/cpmvars/liam_bgee_vars.tpa~
+    END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
+        INCLUDE ~Bonehillv275/lib/cpmvars/g3_bgt_cpmvars.tpa~
+    END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+        INCLUDE ~Bonehillv275/lib/cpmvars/eet_cpmvars.tpa~
+    END ELSE ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
+        INCLUDE ~Bonehillv275/lib/cpmvars/g3_tutu_cpmvars.tpa~
+    END
+
+END
+
 AUTO_TRA ~bonehillv275/Language/%s/D~
 
 LANGUAGE ~English~
@@ -916,7 +930,7 @@ COPY ~bonehillv275/creatures/BHMARVIN.cre~ ~override~
     SAY NAME1 @276
     SAY NAME2 @276
 
-ACTION_IF !FILE_EXISTS_IN_GAME ~AR6526.ARE~ BEGIN
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
     COPY_EXISTING ~_OGREMA.CRE~ ~override/BHOGREMA.CRE~
         PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
             SAY 0xc8 @278
@@ -930,7 +944,9 @@ ACTION_IF !FILE_EXISTS_IN_GAME ~AR6526.ARE~ BEGIN
             WRITE_ASCII 0x280 ~BHOGREMA~ #8 // Death Variable
         END
     BUT_ONLY
-END ELSE BEGIN
+END 
+
+ACTION_IF GAME_IS ~bgt~ BEGIN
     COPY_EXISTING ~OGREMA.CRE~ ~override/BHOGREMA.CRE~
         PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
             SAY 0xc8 @278
