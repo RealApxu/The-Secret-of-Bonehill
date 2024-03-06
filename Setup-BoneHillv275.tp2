@@ -35,6 +35,7 @@ LANGUAGE ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
 
 BEGIN @0
 
+/*
 MKDIR ~bonehillv275/over.bak~
 COPY_LARGE + ~override~ ~bonehillv275/over.bak~
 
@@ -45,6 +46,7 @@ COPY_LARGE + ~dialog.tlk~ ~bonehillv275/dialog.bh~
 MKDIR ~BH-TIS1~
 MKDIR ~BH-TIS2~
 MKDIR ~BH-REST~
+*/
 
 APPEND ~GTIMES.IDS~ ~600 TWO_HOURS~ UNLESS ~600 TWO_HOURS~
 APPEND ~GTIMES.IDS~ ~600 TEN_TURNS~ UNLESS ~600 TEN_TURNS~
@@ -2010,6 +2012,38 @@ EXTEND_BOTTOM ~bhfabio.bcs~ ~bonehillv275\misc\levelup.baf~
     REPLACE ~444444~ @501
 
 
+//////////////////////////////////
+//   TIS files and audio        //
+//////////////////////////////////
+
+ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ BEGIN
+    COPY ~Bonehillv275/tis/og~ override
+END
+
+LAF HANDLE_AUDIO
+    STR_VAR
+        audio_path = EVAL ~Bonehillv275/audio/sounds~
+        oggdec_path = EVAL ~Bonehillv275/tools/oggdec~
+        sox_path = EVAL ~Bonehillv275/tools/sox~
+        output_path = EVAL ~override~
+END
+
+LAF HANDLE_AUDIO
+    STR_VAR
+        audio_path = EVAL ~Bonehillv275/audio/fabio~
+        oggdec_path = EVAL ~Bonehillv275/tools/oggdec~
+        sox_path = EVAL ~Bonehillv275/tools/sox~
+        output_path = EVAL ~override~
+END
+
+LAF HANDLE_AUDIO
+    STR_VAR
+        audio_path = EVAL ~Bonehillv275/audio/flamesword~
+        oggdec_path = EVAL ~Bonehillv275/tools/oggdec~
+        sox_path = EVAL ~Bonehillv275/tools/sox~
+        output_path = EVAL ~override~
+END
+
 //**************************************************
 //  WORLDMAP
 //**************************************************
@@ -2048,5 +2082,7 @@ END ELSE BEGIN // BGT
     END
 END
 
+/*
 AT_INTERACTIVE_EXIT ~bonehillv275/BHAreas.bat~
 AT_INTERACTIVE_UNINSTALL ~bonehillv275/BHUninstaller.bat~
+*/
