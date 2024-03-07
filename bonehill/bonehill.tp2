@@ -51,19 +51,7 @@ LANGUAGE ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
          ~bonehill/Language/french/setup.tra~
 
 BEGIN @0
-
-/*
-MKDIR ~%MOD_FOLDER%/over.bak~
-COPY_LARGE + ~override~ ~%MOD_FOLDER%/over.bak~
-
-COPY + ~Setup-BoneHillv275.exe~ ~WeiDU.exe~
-COPY + ~chitin.key~ ~%MOD_FOLDER%/chitin.bh~
-COPY_LARGE + ~dialog.tlk~ ~%MOD_FOLDER%/dialog.bh~
-
-MKDIR ~BH-TIS1~
-MKDIR ~BH-TIS2~
-MKDIR ~BH-REST~
-*/
+REQUIRE_PREDICATE GAME_IS ~tutu tutu_totsc bgt~ ~This mod is not compatible with your version of the game~
 
 APPEND ~GTIMES.IDS~ ~600 TWO_HOURS~ UNLESS ~600 TWO_HOURS~
 APPEND ~GTIMES.IDS~ ~600 TEN_TURNS~ UNLESS ~600 TEN_TURNS~
@@ -74,13 +62,26 @@ APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
 //////////////////////
 
 PRINT @1
+
+ACTION_IF !FILE_EXISTS ~MLI3A1.BAM~ BEGIN
+    COPY ~%MOD_FOLDER%/anim/MLI3~ ~override~
+END
+
+ACTION_IF !FILE_EXISTS ~MLIZCA1.BAM~ BEGIN
+    COPY ~%MOD_FOLDER%/anim/MLIZ~ ~override~
+END
+
 COPY ~%MOD_FOLDER%/bams~ ~override~
+COPY ~%MOD_FOLDER%/portrait~ ~override~
+
 
 /////////////////////
 //  Install Items  //
 /////////////////////
 
 PRINT @3
+
+COPY ~%MOD_FOLDER%/eff~ ~override~
 
 ACTION_IF FILE_EXISTS ~override/BOULDER.pro~ BEGIN
     PRINT @4
@@ -281,69 +282,69 @@ COPY ~%MOD_FOLDER%/items/bhzahrj.itm~ ~override~
 
 PRINT @85
 
-COPY ~%MOD_FOLDER%/items/BH2010.STO~ ~override~
+COPY ~%MOD_FOLDER%/sto/BH2010.STO~ ~override~
 
-COPY ~%MOD_FOLDER%/items/bhalmax.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhalmax.sto~ ~override~
     SAY NAME2 @86
 
-COPY ~%MOD_FOLDER%/items/bhalton.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhalton.sto~ ~override~
     SAY NAME2 @87
 
-COPY ~%MOD_FOLDER%/items/BHCLERI1.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHCLERI1.sto~ ~override~
     SAY NAME2 @88
 
-COPY ~%MOD_FOLDER%/items/bhcleric.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhcleric.sto~ ~override~
     SAY NAME2 @89
 
-COPY ~%MOD_FOLDER%/items/bhfalco.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhfalco.sto~ ~override~
     SAY NAME2 @90
 
-COPY ~%MOD_FOLDER%/items/BHGILMI.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHGILMI.sto~ ~override~
     SAY NAME2 @91
 
-COPY ~%MOD_FOLDER%/items/BHGLAMI.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHGLAMI.sto~ ~override~
     SAY NAME2 @92
 
-COPY ~%MOD_FOLDER%/items/BHABRAHA.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHABRAHA.sto~ ~override~
     SAY NAME2 @92
 
-COPY ~%MOD_FOLDER%/items/bhhestal.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhhestal.sto~ ~override~
     SAY NAME2 @93
 
-COPY ~%MOD_FOLDER%/items/BHKRAK.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHKRAK.sto~ ~override~
     SAY NAME2 @94
 
-COPY ~%MOD_FOLDER%/items/bhohlatt.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhohlatt.sto~ ~override~
     SAY NAME2 @95
 
-COPY ~%MOD_FOLDER%/items/bhpellt.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhpellt.sto~ ~override~
     SAY NAME2 @96
 
-COPY ~%MOD_FOLDER%/items/bhpelltr.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhpelltr.sto~ ~override~
     SAY NAME2 @97
 
-COPY ~%MOD_FOLDER%/items/bhperk.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhperk.sto~ ~override~
     SAY NAME2 @98
 
-COPY ~%MOD_FOLDER%/items/bhst0102.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0102.sto~ ~override~
     SAY NAME2 @99
 
-COPY ~%MOD_FOLDER%/items/bhst0103.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0103.sto~ ~override~
     SAY NAME2 @100
 
-COPY ~%MOD_FOLDER%/items/bhst0108.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0108.sto~ ~override~
     SAY NAME2 @101
 
-COPY ~%MOD_FOLDER%/items/bhtelvsb.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhtelvsb.sto~ ~override~
     SAY NAME2 @75
 
-COPY ~%MOD_FOLDER%/items/bhxspell.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhxspell.sto~ ~override~
     SAY NAME2 @102
 
-COPY ~%MOD_FOLDER%/items/bhzahr.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhzahr.sto~ ~override~
     SAY NAME2 @81
 
-COPY ~%MOD_FOLDER%/items/bhzelmar.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhzelmar.sto~ ~override~
     SAY NAME2 @103
 
 
@@ -1354,525 +1355,13 @@ COMPILE ~%MOD_FOLDER%/d~
 
 PRINT @363
 
-//COPY ~%MOD_FOLDER%/areas~ ~override~
-
 INCLUDE ~%MOD_FOLDER%/lib/sobh_areabuild.tph~
 
 COPY ~%MOD_FOLDER%/mos~ ~override~
 
-// Check to see if Tutu or BGT
-/*
-ACTION_IF GAME_IS ~bgt~ BEGIN
-    PRINT @435
-
-    COPY ~%MOD_FOLDER%/BGT/ARE~ ~override~
-
-    COPY_EXISTING ~AR9300.are~ ~override/AR9300.are~
-        WRITE_ASCII 0x94 ~AR9300~
-
-    COMPILE ~%MOD_FOLDER%/BGT/d~
-    COMPILE ~%MOD_FOLDER%/BGT/BCS/BHFABIO.BAF~
-    COMPILE ~%MOD_FOLDER%/BGT/BCS/BHCUTBA2.BAF~
-    COMPILE ~%MOD_FOLDER%/BGT/BCS/BHPELL.BAF~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
-
-    EXTEND_BOTTOM ~AR9302.bcs~ ~%MOD_FOLDER%/BGT/BCS/AR9302.baf~
-    EXTEND_BOTTOM ~AR9300.bcs~ ~%MOD_FOLDER%/BGT/BCS/AR9300.baf~
-    EXTEND_BOTTOM ~AR7223.bcs~ ~%MOD_FOLDER%/BGT/BCS/AR7223.baf~
-    EXTEND_BOTTOM ~AR7800.bcs~ ~%MOD_FOLDER%/BGT/BCS/AR7800.baf~
-    EXTEND_BOTTOM ~AR6526.BCS~ ~%MOD_FOLDER%/BGT/BCS/AR6526.baf~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
-    
-    APPEND ~PDIALOG.2DA~ ~FABIO BHFABIOP BHFABIOJ *** *** *** *** ***~ UNLESS ~FABIO~
-    APPEND ~INTERDIA.2DA~ ~FABIO BFABIO NONE~ UNLESS ~FABIO~
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0100.are~ ~override/BH0100.are~
-        SAY 0x25e4 @365
-        SAY 0x26a8 @365
-        SAY 0x276c @366
-        SAY 0x2830 @366
-        SAY 0x28f4 @367
-        SAY 0x29b8 @99
-        SAY 0x2a7c @368
-        SAY 0x2b40 @103
-        SAY 0x2c04 @90
-        SAY 0x5658 @369
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0200.are~ ~override/BH0200.are~
-        SAY 0x1150 @370
-        SAY 0x1ae8 @369
-        SAY 0x1bb0 @370
-        SAY 0x1be4 @371
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0300.are~ ~override/BH0300.are~
-        SAY 0xb10 @372
-        SAY 0xbd4 @89
-        SAY 0xc98 @89
-        SAY 0xd5c @89
-        SAY 0xe20 @89
-        SAY 0xfa8 @373
-        SAY 0x106c @89
-        SAY 0x1130 @89
-        SAY 0x15c8 @374
-        SAY 0x1814 @375
-        SAY 0x199c @376
-        SAY 0x273c @369
-        SAY 0x2804 @371
-        SAY 0x2838 @377
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0308.are~ ~override/BH0308.are~
-        SAY 0x244 @378
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0400.are~ ~override/BH0400.are~
-        SAY 0x180 @379
-        SAY 0x490 @380
-        SAY 0x8f8 @371
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0402.are~ ~override/BH0402.are~
-        SAY 0x2004 @381
-        SAY 0x20c8 @382
-        SAY 0x218c @383
-        SAY 0x2250 @384
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0500.are~ ~override/BH0500.are~
-        SAY 0x994 @385
-        SAY 0xa58 @385
-        SAY 0x136c @369
-        SAY 0x1434 @386
-        SAY 0x1468 @387
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0600.are~ ~override/BH0600.are~
-        SAY 0x3cc @388
-        SAY 0x490 @389
-        SAY 0x6dc @390
-    
-    COPY ~%MOD_FOLDER%/BGT/BH0700.are~ ~override/BH0700.are~
-        SAY 0xb88 @391
-        SAY 0x1d68 @387
-        SAY 0x1d9c @387
-    
-    COPY ~%MOD_FOLDER%/BGT/BH1000.are~ ~override/BH1000.are~
-        SAY 0x1a48 @392
-        SAY 0x1bd0 @392
-        SAY 0x1c94 @392
-        SAY 0x1d58 @392
-        SAY 0x1e1c @393
-        SAY 0x1ee0 @393
-        SAY 0x1fa4 @394
-        SAY 0x4490 @377
-        SAY 0x44c4 @395
-    
-    COPY ~%MOD_FOLDER%/BGT/bh1001.are~ ~override/BH1001.are~
-        SAY 0x2b68 @397
-    
-    COPY ~%MOD_FOLDER%/BGT/bh1100.are~ ~override/BH1100.are~
-        SAY 0x1b04 @370
-        SAY 0x1bcc @371
-        SAY 0x1c00 @398
-    
-    COPY ~%MOD_FOLDER%/BGT/BH1200.are~ ~override/BH1200.are~
-        SAY 0x2ecc @370
-        SAY 0x2f00 @371
-        SAY 0x2f34 @377
-    
-    COPY ~%MOD_FOLDER%/BGT/BH1300.are~ ~override/BH1300.are~
-        SAY 0x2004 @399
-        SAY 0x3cb8 @395
-        SAY 0x3cec @398
-        SAY 0x3d20 @371
-        SAY 0x3d54 @400
-        SAY 0x3d88 @400
-    
-    COPY ~%MOD_FOLDER%/BGT/BH1400.are~ ~override/BH1400.are~
-        SAY 0x1c10 @395
-        SAY 0x3430 @400
-        SAY 0x3464 @377
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2000.are~ ~override/BH2000.are~
-        SAY 0x25f0 @401
-        SAY 0x26b4 @402
-        SAY 0x2778 @403
-        SAY 0x283c @404
-        SAY 0x2900 @405
-        SAY 0x6164 @406
-        SAY 0x622c @407
-        SAY 0x6260 @408
-        SAY 0x6294 @409
-        SAY 0x62c8 @410
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2001.are~ ~override/BH2001.are~
-        SAY 0x574 @411
-        SAY 0x638 @412
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2002.are~ ~override/BH2002.are~
-        SAY 0x4b0 @413
-        SAY 0x574 @413
-        SAY 0x638 @414
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2010.are~ ~override/BH2010.are~
-        SAY 0x528 @415
-        SAY 0x5ec @416
-        SAY 0x6b0 @417
-        SAY 0x774 @418
-        SAY 0x838 @419
-        SAY 0x8fc @420
-        SAY 0x9c0 @416
-        SAY 0xa84 @416
-        SAY 0xb48 @421
-        SAY 0xc0c @421
-        SAY 0xcd0 @421
-        SAY 0xd94 @421
-        SAY 0xe58 @421
-        SAY 0xf1c @421
-        SAY 0xfe0 @421
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2100.are~ ~override/BH2100.are~
-        SAY 0x794 @422
-        SAY 0x858 @423
-        SAY 0x1420 @406
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2101.are~ ~override/BH2101.are~
-        SAY 0x1848 @424
-        SAY 0x38dc @406
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2102.are~ ~override/BH2102.are~
-        SAY 0x1124 @425
-        SAY 0x11e8 @426
-        SAY 0x12ac @427
-        SAY 0x1370 @428
-        SAY 0x4054 @406
-
-//  Bug fix: Lollorian and Isaya : http://www.shsforums.net/topic/52076-resting-on-bh2103-crashes-game/
-//  READ_LONG 0xc0 "rest_off"
-//  WRITE_SHORT ("%rest_off%" + 0x98) 0
-//  Alternative: Restore guard to tell you not to sleep, as in Tutu
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2103.are~ ~override/BH2103.are~
-        SAY 0x574 @429
-        READ_LONG 0xc0 "rest_off"
-        SAY ("%rest_off%" + 0x20) @406
-        WRITE_ASCII ("%rest_off%" + 0x48) ~BHRGSLEP~
-        WRITE_SHORT ("%rest_off%" + 0x98) 1
-        WRITE_SHORT ("%rest_off%" + 0xA4) 1
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2200.are~ ~override/BH2200.are~
-        SAY 0x1344 @430
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2201.are~ ~override/BH2201.are~
-        SAY 0x4064 @397
-        SAY 0x4098 @387
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2202.are~ ~override/BH2202.are~
-        SAY 0x3434 @432
-        SAY 0x5644 @387
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2300.are~ ~override/BH2300.are~
-        SAY 0x1ef4 @433
-        SAY 0x1fb8 @434
-    
-    COPY ~%MOD_FOLDER%/BGT/BH2301.are~ ~override/BH2301.are~
-        SAY 0x274c @387
-END ELSE BEGIN
-    PRINT @364
-
-    COPY ~%MOD_FOLDER%/Tutu/ARE~ ~override~
-
-    COPY_EXISTING ~FW3402.are~ ~override/FW3402.are~
-        WRITE_ASCII 0x94 ~_AR3402~
-
-    COPY_EXISTING ~FW3400.are~ ~override/FW3400.are~
-        WRITE_ASCII 0x94 ~_AR3400~
-
-    COMPILE ~%MOD_FOLDER%/Tutu/d~
-    COMPILE ~%MOD_FOLDER%/Tutu/BCS/BHFABIO.BAF~
-    COMPILE ~%MOD_FOLDER%/Tutu/BCS/BHCUTBA2.BAF~
-    COMPILE ~%MOD_FOLDER%/Tutu/BCS/BHPELL.BAF~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
-
-    EXTEND_TOP ~_AR3402.bcs~ ~%MOD_FOLDER%/Tutu/BCS/FW3402.baf~
-
-    EXTEND_BOTTOM ~_AR3400.bcs~ ~%MOD_FOLDER%/Tutu/BCS/FW3400.baf~
-    EXTEND_BOTTOM ~_AR0123.bcs~ ~%MOD_FOLDER%/Tutu/BCS/FW0123.baf~
-    EXTEND_BOTTOM ~_AR0800.bcs~ ~%MOD_FOLDER%/Tutu/BCS/FW0800.baf~
-    EXTEND_BOTTOM ~_AR2626.bcs~ ~%MOD_FOLDER%/Tutu/BCS/FW2626.baf~
-
-    APPEND ~PDIALOG.2DA~ ~FABIO BHFABIOP BHFABIOJ~ UNLESS ~FABIO~
-    APPEND ~INTERDIA.2DA~ ~FABIO BFABIO~ UNLESS ~FABIO~
-
-    COPY ~%MOD_FOLDER%/Tutu/BH0100.are~ ~override/BH0100.are~
-        WRITE_ASCII 0x94 ~BH0100~
-        SAY 0x25e4 @365
-        SAY 0x26a8 @365
-        SAY 0x276c @366
-        SAY 0x2830 @366
-        SAY 0x28f4 @367
-        SAY 0x29b8 @99
-        SAY 0x2a7c @368
-        SAY 0x2b40 @103
-        SAY 0x2c04 @90
-        SAY 0x5658 @369 // Was 0x5374
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0200.are~ ~override/BH0200.are~
-        WRITE_ASCII 0x94 ~BH0200~
-        SAY 0x1150 @370
-        SAY 0x1ae8 @369
-        SAY 0x1bb0 @370
-        SAY 0x1be4 @371
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0300.are~ ~override/BH0300.are~
-        WRITE_ASCII 0x94 ~BH0300~
-        SAY 0xb10 @372
-        SAY 0xbd4 @89
-        SAY 0xc98 @89
-        SAY 0xd5c @89
-        SAY 0xe20 @89
-        SAY 0xfa8 @373
-        SAY 0x106c @89
-        SAY 0x1130 @89
-        SAY 0x15c8 @374
-        SAY 0x1814 @375
-        SAY 0x199c @376
-        SAY 0x2668 @369
-        SAY 0x2730 @371
-        SAY 0x2764 @377
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0308.are~ ~override/BH0308.are~
-        SAY 0x244 @378
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0400.are~ ~override/BH0400.are~
-        WRITE_ASCII 0x94 ~BH0400~
-        SAY 0x180 @379
-        SAY 0x490 @380
-        SAY 0x8f8 @371
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0402.are~ ~override/BH0402.are~
-        SAY 0x2004 @381
-        SAY 0x20c8 @382
-        SAY 0x218c @383
-        SAY 0x2250 @384
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0500.are~ ~override/BH0500.are~
-        WRITE_ASCII 0x94 ~BH0500~
-        SAY 0x994 @385
-        SAY 0xa58 @385
-        SAY 0x136c @369
-        SAY 0x1434 @386
-        SAY 0x1468 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0600.are~ ~override/BH0600.are~
-        WRITE_ASCII 0x94 ~BH0600~
-        SAY 0x3cc @388
-        SAY 0x490 @389
-        SAY 0x6dc @390
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH0700.are~ ~override/BH0700.are~
-        WRITE_ASCII 0x94 ~BH0700~
-        SAY 0xb88 @391
-        SAY 0x1d2c @387
-        SAY 0x1d60 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH1000.are~ ~override/BH1000.are~
-        WRITE_ASCII 0x94 ~BH1000~
-        SAY 0x1a48 @392
-        SAY 0x1bd0 @392
-        SAY 0x1c94 @392
-        SAY 0x1d58 @392
-        SAY 0x1e1c @393
-        SAY 0x1ee0 @393
-        SAY 0x1fa4 @394
-        SAY 0x4490 @377
-        SAY 0x44c4 @395
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH1001.are~ ~override/BH1001.are~
-        SAY 0x2b34 @396
-        SAY 0x2b68 @397
-    
-    COPY ~%MOD_FOLDER%/Tutu/bh1100.are~ ~override/BH1100.are~
-        WRITE_ASCII 0x94 ~BH1100~
-        SAY 0xb88 @370
-        SAY 0xf60 @371
-        SAY 0xf94 @398
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH1200.are~ ~override/BH1200.are~
-        WRITE_ASCII 0x94 ~BH1200~
-        SAY 0x29d4 @370
-        SAY 0x2a08 @371
-        SAY 0x2a3c @377
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH1300.are~ ~override/BH1300.are~
-        WRITE_ASCII 0x94 ~BH1300~
-        SAY 0x2004 @399
-        SAY 0x3618 @395
-        SAY 0x364c @398
-        SAY 0x3680 @371
-        SAY 0x36b4 @400
-        SAY 0x36e8 @400
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH1400.are~ ~override/BH1400.are~
-        WRITE_ASCII 0x94 ~BH1400~
-        SAY 0x1c10 @395
-        SAY 0x2a40 @400
-        SAY 0x2a74 @377
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2000.are~ ~override/BH2000.are~
-        WRITE_ASCII 0x94 ~BH2000~
-        SAY 0x25f0 @401
-        SAY 0x26b4 @402
-        SAY 0x2778 @403
-        SAY 0x283c @404
-        SAY 0x2900 @405
-        SAY 0x6164 @406
-        SAY 0x622c @407
-        SAY 0x6260 @408
-        SAY 0x6294 @409
-        SAY 0x62c8 @410
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2001.are~ ~override/BH2001.are~
-        SAY 0x574 @411
-        SAY 0x638 @412
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2002.are~ ~override/BH2002.are~
-        SAY 0x4b0 @413
-        SAY 0x574 @413
-        SAY 0x638 @414
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2010.are~ ~override/BH2010.are~
-        SAY 0x528 @415
-        SAY 0x5ec @416
-        SAY 0x6b0 @417
-        SAY 0x774 @418
-        SAY 0x838 @419
-        SAY 0x8fc @420
-        SAY 0x9c0 @416
-        SAY 0xa84 @416
-        SAY 0xb48 @421
-        SAY 0xc0c @421
-        SAY 0xcd0 @421
-        SAY 0xd94 @421
-        SAY 0xe58 @421
-        SAY 0xf1c @421
-        SAY 0xfe0 @421
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2100.are~ ~override/BH2100.are~
-        WRITE_ASCII 0x94 ~BH2100~
-        SAY 0x794 @422
-        SAY 0x858 @423
-        SAY 0x1420 @406
-        SAY 0x14e8 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2101.are~ ~override/BH2101.are~
-        SAY 0x1848 @424
-        SAY 0x38dc @406
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2102.are~ ~override/BH2102.are~
-        SAY 0x1124 @425
-        SAY 0x11e8 @426
-        SAY 0x12ac @427
-        SAY 0x1370 @428
-        SAY 0x4054 @406
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2103.are~ ~override/BH2103.are~
-        SAY 0x574 @429
-        SAY 0x1c5c @406
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2200.are~ ~override/BH2200.are~
-        WRITE_ASCII 0x94 ~BH2200~
-        SAY 0x1344 @430
-        SAY 0x2424 @387
-        SAY 0x2458 @431
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2201.are~ ~override/BH2201.are~
-        SAY 0x4064 @397
-        SAY 0x4098 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2202.are~ ~override/BH2202.are~
-        SAY 0x3434 @432
-        SAY 0x5644 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2300.are~ ~override/BH2300.are~
-        WRITE_ASCII 0x94 ~BH2300~
-        SAY 0x1ef4 @433
-        SAY 0x1fb8 @434
-        SAY 0x3404 @387
-    
-    COPY ~%MOD_FOLDER%/Tutu/BH2301.are~ ~override/BH2301.are~
-        SAY 0x274c @387
-END
-*/
-/*
-ACTION_IF GAME_IS ~bgt~ BEGIN
-    COPY ~%MOD_FOLDER%/creatures/spawns~ ~BH-REST~
-    COMPILE ~%MOD_FOLDER%/BGT/spawns~
-END ELSE BEGIN
-    COPY ~%MOD_FOLDER%/creatures/spawns~ ~BH-REST~
-    COMPILE ~%MOD_FOLDER%/Tutu/spawns~
-END
-*/
-
-/*
-COPY_EXISTING ~BH1301.ARE~ ~override~
-    READ_LONG 0x54 "actor_off"
-    READ_SHORT 0x58 "actor_num"
-    WHILE ("%actor_num%" > 0) BEGIN
-        SET "actor_num" = ("%actor_num%" - 1)
-        READ_ASCII ("%actor_off%" + 0x80 + ("%actor_num%" * 0x110)) "cre_file"
-        PATCH_IF ("%cre_file%" STRING_COMPARE_CASE "BHOGRE" = 0) BEGIN
-            WRITE_ASCII ("%actor_off%" + ("%actor_num%" * 0x110)) ~Ogre Mage~ #32
-            WRITE_ASCII ("%actor_off%" + 0x80 + ("%actor_num%" * 0x110)) ~BHOGREMA~ #8
-        END
-    END
-BUT_ONLY
-
-COPY_EXISTING ~BH2000.BCS~ ~override~
-    REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2000.BCS~ ~%MOD_FOLDER%/bcs/nBH2000.BCS~
-BUT_ONLY
-
-COPY_EXISTING ~BH2018.BCS~ ~override~
-    REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2018.BCS~ ~%MOD_FOLDER%/bcs/nBH2018.BCS~
-BUT_ONLY
-
-COPY_EXISTING ~BH2100.BCS~ ~override~
-    REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2100.BCS~ ~%MOD_FOLDER%/bcs/nBH2100.BCS~
-BUT_ONLY
-
-COPY_EXISTING ~BH2101.BCS~ ~override~
-    REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2101.BCS~ ~%MOD_FOLDER%/bcs/nBH2101.BCS~
-BUT_ONLY
-
-COPY ~%MOD_FOLDER%/bcs/BH0200.BCS~ ~override~
-
-COMPILE ~%MOD_FOLDER%/bcs/BH0200.BCS~
-EXTEND_TOP ~BH0100.BCS~ ~%MOD_FOLDER%/bcs/BH0200.BCS~
-
-COPY_EXISTING ~BH2100.BCS~ ~override~
-              ~BH2101.BCS~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-        REPLACE_TEXTUALLY ~OnCreation()~ ~~
-    END
-BUT_ONLY
-
-COPY_EXISTING ~BHASCUE.BCS~ ~override~
-    REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBHASCUE.BCS~ ~%MOD_FOLDER%/bcs/nBHASCUE.BCS~
-BUT_ONLY
-
-
-COPY_EXISTING ~BHOGUARD.CRE~ ~override~
-    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x248 ~GCSHOUT~ #8 // Override
-    END
-BUT_ONLY
-*/
-
-//COPY ~%MOD_FOLDER%/bcs/gcshout.bcs~ ~override~
-//COMPILE ~%MOD_FOLDER%/bcs/gcshout.bcs~
-
-//EXTEND_TOP ~BH1300.BCS~ ~%MOD_FOLDER%/bcs/BH1300.baf~
-
-//INCLUDE ~%MOD_FOLDER%/lib/Bonehill_Spawns.tph~
-
 //////////////////////////
 // Adding Random Spawns
 //////////////////////////
-/*
-INCLUDE ~%MOD_FOLDER%/lib/sobh_spawns.tph~
-*/
 
 COPY ~%MOD_FOLDER%/creatures/spawns~ override
 COMPILE EVAL ~%MOD_FOLDER%/bafs/spawns~
@@ -2066,7 +1555,6 @@ BUT_ONLY
 EXTEND_BOTTOM ~bhfabio.bcs~ ~bonehillv275\misc\levelup.baf~
     REPLACE ~444444~ @501
 
-
 //////////////////////////////////
 //   TIS files and audio        //
 //////////////////////////////////
@@ -2136,8 +1624,3 @@ END ELSE BEGIN // BGT
         COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
     END
 END
-
-/*
-AT_INTERACTIVE_EXIT ~%MOD_FOLDER%/BHAreas.bat~
-AT_INTERACTIVE_UNINSTALL ~%MOD_FOLDER%/BHUninstaller.bat~
-*/
