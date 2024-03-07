@@ -376,12 +376,103 @@ COPY ~%workspace%/are/BH0100.are~ ~%workspace%/are/BH0100.are~
 //Patching Music
 /////////////////////////////////////////
 
-/*
-COPY_EXISTING ~SONGLIST.2DA~ override
-    
+ACTION_IF MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~) BEGIN
+    ADD_MUSIC ~cday1~ ~music/cday1.mus~
+    ADD_MUSIC ~cday2~ ~music/cday2.mus~
+    ADD_MUSIC ~cnite~ ~music/cnite.mus~
+    ADD_MUSIC ~chants~ ~music/chants.mus~
+    ADD_MUSIC ~dream~ ~music/dream.mus~
+    ADD_MUSIC ~fday~ ~music/fday.mus~
+    ADD_MUSIC ~fnite~ ~music/fnite.mus~
+    ADD_MUSIC ~pday~ ~music/pday.mus~
+    ADD_MUSIC ~pnite~ ~music/pnite.mus~
+    ADD_MUSIC ~temple~ ~music/temple.mus~
+    ADD_MUSIC ~bgtheme~ ~music/bgtheme.mus~
+    ADD_MUSIC ~tday1~ ~music/tday1.mus~
+    ADD_MUSIC ~tday2~ ~music/tday2.mus~
+    ADD_MUSIC ~tnite~ ~music/tnite.mus~
+    ADD_MUSIC ~dung1~ ~music/dung1.mus~
+    ADD_MUSIC ~dung2~ ~music/dung2.mus~
+    ADD_MUSIC ~dung3~ ~music/dung3.mus~
+    ADD_MUSIC ~bc3~ ~music/bc3.mus~
+    ADD_MUSIC ~bc4~ ~music/bc4.mus~
+    ADD_MUSIC ~bd4~ ~music/bd4.mus~
+    ADD_MUSIC ~bd5~ ~music/bd5.mus~
+    ADD_MUSIC ~bl1~ ~music/bl1.mus~
+    ADD_MUSIC ~bl2~ ~music/bl2.mus~
+    ADD_MUSIC ~bf3~ ~music/bf3.mus~
+    ADD_MUSIC ~bf4~ ~music/bf4.mus~
+    ADD_MUSIC ~bp3~ ~music/bp3.mus~
+    ADD_MUSIC ~bp4~ ~music/bp4.mus~
+    ADD_MUSIC ~bw1~ ~music/bw1.mus~
+    ADD_MUSIC ~fort~ ~music/fort.mus~
+    ADD_MUSIC ~chapter~ ~music/dream.mus~
+    ADD_MUSIC ~tav5~ ~music/tav5.mus~
+    ADD_MUSIC ~tav6~ ~music/tav6.mus~
+    ADD_MUSIC ~tav7~ ~music/tav7.mus~
+    ADD_MUSIC ~tav8~ ~music/tav8.mus~
+    ADD_MUSIC ~bgchants~ ~music/chants.mus~
+    ADD_MUSIC ~bgfort~ ~music/fort.mus~
+    ADD_MUSIC ~bgtemple~ ~music/temple.mus~
+    ADD_MUSIC ~bgdream~ ~music/dream.mus~
 
-COPY ~%workspace%/are/BH0100.are~ ~%workspace%/are/BH0100.are~
-*/
+    //AREA_NAME	DAY_SONG	NIGHT_SONG	BATTLE_SONG
+    <<<<<<<< areapatchlist
+bh0200.are	%cday1%	%cnite%	%bc4% // bonehill
+bh0300.are	%cday2%	%cnite%	%bc4%
+bh0302.are	%chants%	%chants%	-1
+bh0400.are	%cday2%	%cnite%	%bc4%
+bh0402.are	%dung2%	%dung2%	%bp3%
+bh0500.are	%cday1%	%cnite%	%bf3%
+bh0505.are	63	63	%bf3%
+bh0506.are	62	62	%bf3%
+bh0600.are	%cday1%	%cnite%	54
+bh0700.are	%dung3%	%dung3%	50
+bh1000.are	%fort%	%fort%	54
+bh1004.are	%dung2%	%dung2%	%bd4%
+bh1100.are	77	77	%bc4%
+bh1101.are	%dung1%	%dung1%	%bp3%
+bh1200.are	%fday%	%fnite%	49
+bh1300.are	%pday%	%pnite%	51
+bh1302.are	%dung3%	%dung3%	%bp3%
+bh1400.are	%fday%	%fnite%	%bf4%
+bh2000.are	%cday2%	%cnite%	%bf3%
+bh2100.are	%fort%	%fort%	%bf3%
+bh2101.are	%dung2%	%dung2%	%bf3%
+bh2200.are	%fday%	%fnite%	%bf3%
+bh2201.are	%dung3%	%dung3%	57
+bh2202.are	%dung1%	%dung1%	57
+bh2300.are	%fday%	%fnite%	%bf4%
+bh2301.are	%dung2%	%dung2%	52
+    >>>>>>>>
+
+//PRINT ~Number of Songs: %num_songs%~
+    OUTER_SET rows_cnt_bgt=0
+    COPY - ~areapatchlist~ ~areapatchlist~ EVALUATE_BUFFER
+        COUNT_2DA_ROWS 4 "rows_cnt_bgt"
+        FOR( cntg=0; cntg<"%rows_cnt_bgt%"; cntg=cntg+1 ) BEGIN
+            READ_2DA_ENTRY cntg 0 4 "bgt_table_file_name"
+            READ_2DA_ENTRY cntg 1 4 "bgt_day_song"
+            READ_2DA_ENTRY cntg 2 4 "bgt_night_song"
+            READ_2DA_ENTRY cntg 3 4 "bgt_battle_song"
+
+            SET fileExistsInGame = 0
+            INNER_PATCH_FILE "%bgt_table_file_name%" BEGIN //thanx to devSin for this idea - from WeiDU forums
+                PATCH_IF (~%SOURCE_SIZE%~) BEGIN
+                    SET fileExistsInGame = 1
+                END
+            END
+            PATCH_IF fileExistsInGame=1 THEN BEGIN
+                INNER_ACTION BEGIN
+                    COPY_EXISTING "%bgt_table_file_name%" ~override~ //patching the file from the current table entry
+                        READ_LONG 0xbc "bgt_song_offset"
+                        WRITE_LONG ("%bgt_song_offset%") "%bgt_day_song%"
+                        WRITE_LONG ("%bgt_song_offset%")+4 "%bgt_night_song%"
+                        WRITE_LONG ("%bgt_song_offset%")+12 "%bgt_battle_song%"
+                    BUT_ONLY_IF_IT_CHANGES //COPY_EXISTING
+                END //INNER_ACTION
+            END //PATCH_IF fileExistsInGame
+        END //.TBL loop
 
 /////////////////////////////////////////
 //Patching CRE names
