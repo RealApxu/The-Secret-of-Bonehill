@@ -116,7 +116,7 @@ move override\ICBCL039.BAM BH-REST
 move override\ICLCKBS.BAM  BH-REST
 move override\IKEYDUNG.BAM BH-REST
 move override\IMISC4F.bam  BH-REST
-move override\IMOEN2J.dlg  BH-REST 2> Null
+move override\%IMOEN_JOINED%.dlg  BH-REST 2> Null
 move override\INTERDIA.2DA BH-REST
 move override\IOSPREM.BAM  BH-REST
 move override\itemdial.2da BH-REST

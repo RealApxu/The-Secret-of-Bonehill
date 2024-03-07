@@ -1334,6 +1334,12 @@ EXTEND_TOP ~BALDUR.BCS~ ~%MOD_FOLDER%/scripts/BHBALDUR.BAF~ USING ~%MOD_FOLDER%/
 
 COMPILE ~%MOD_FOLDER%/bafs~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
 
+EXTEND_BOTTOM ~AR9302.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR9302.baf~
+EXTEND_BOTTOM ~AR9300.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR9300.baf~
+EXTEND_BOTTOM ~AR7223.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR7223.baf~
+EXTEND_BOTTOM ~AR7800.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR7800.baf~
+EXTEND_BOTTOM ~AR6526.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR6526.baf~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
+
 /////////////////////////
 // Dialogs to compile  //
 /////////////////////////
@@ -1348,11 +1354,14 @@ COMPILE ~%MOD_FOLDER%/d~
 
 PRINT @363
 
-COPY ~%MOD_FOLDER%/areas~ ~override~
+//COPY ~%MOD_FOLDER%/areas~ ~override~
+
+INCLUDE ~%MOD_FOLDER%/lib/sobh_areabuild.tph~
+
 COPY ~%MOD_FOLDER%/mos~ ~override~
 
 // Check to see if Tutu or BGT
-
+/*
 ACTION_IF GAME_IS ~bgt~ BEGIN
     PRINT @435
 
@@ -1561,7 +1570,6 @@ ACTION_IF GAME_IS ~bgt~ BEGIN
     
     COPY ~%MOD_FOLDER%/BGT/BH2301.are~ ~override/BH2301.are~
         SAY 0x274c @387
-
 END ELSE BEGIN
     PRINT @364
 
@@ -1787,7 +1795,8 @@ END ELSE BEGIN
     COPY ~%MOD_FOLDER%/Tutu/BH2301.are~ ~override/BH2301.are~
         SAY 0x274c @387
 END
-
+*/
+/*
 ACTION_IF GAME_IS ~bgt~ BEGIN
     COPY ~%MOD_FOLDER%/creatures/spawns~ ~BH-REST~
     COMPILE ~%MOD_FOLDER%/BGT/spawns~
@@ -1795,6 +1804,7 @@ END ELSE BEGIN
     COPY ~%MOD_FOLDER%/creatures/spawns~ ~BH-REST~
     COMPILE ~%MOD_FOLDER%/Tutu/spawns~
 END
+*/
 
 /*
 COPY_EXISTING ~BH1301.ARE~ ~override~
@@ -1986,6 +1996,16 @@ UNLESS ~BH0100~
 //////////////////////////////////
 //   Other 2DA files to update  //
 //////////////////////////////////
+
+ACTION_IF GAME_IS ~bgt eet~ BEGIN
+    APPEND ~PDIALOG.2DA~ ~FABIO BHFABIOP BHFABIOJ *** *** *** *** ***~ UNLESS ~FABIO~
+    APPEND ~INTERDIA.2DA~ ~FABIO BFABIO NONE~ UNLESS ~FABIO~
+END
+
+ACTION_IF GAME_IS ~bgee tutu tutu_totsc~ BEGIN
+    APPEND ~PDIALOG.2DA~ ~FABIO BHFABIOP BHFABIOJ~ UNLESS ~FABIO~
+    APPEND ~INTERDIA.2DA~ ~FABIO BFABIO~ UNLESS ~FABIO~
+END
 
 APPEND ~NPCLEVEL.2DA~
 ~Fabio BHFabio BHFabio BHFabio BHFabio BHFabi6 BHFabi6 BHFabi8 BHFabi8 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10~

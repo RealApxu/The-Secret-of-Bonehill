@@ -68,12 +68,12 @@ END
 
 IF ~~ THEN BEGIN 11 // from: 10.0
   SAY @17 /* ~You will find me either in my home or at the tower I have in the castle.  Please let me know when you find anything unusual.  When you are ready, I will send you back to the temple.~ #89281 */
-  IF ~!IfValidForPartyDialogue("Imoen2")
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN DO ~EscapeArea()
 ~ EXIT
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN DO ~EscapeArea()
-~ EXTERN ~IMOEN2J~ 120
+~ EXTERN ~%IMOEN_JOINED%~ 120
 END
 
 IF ~GlobalLT("BHHandQuestAccept","GLOBAL",1)
@@ -674,7 +674,7 @@ IF ~~ THEN BEGIN 75 // from: 66.3
   IF ~~ THEN EXIT
 END
 
-IF ~AreaCheck("AR6526")
+IF ~AreaCheck("%Candlekeep_Ch6%")
 Global("BHToldOfDeath","GLOBAL",1)
 ~ THEN BEGIN 76 // from:
   SAY @158 /* ~<CHARNAME>!  Thank Mystra I found you.~ #89417 */
@@ -713,7 +713,7 @@ StartCutScene("BHCUTBAR")
   IF ~~ THEN REPLY @169 /* ~No, I really have to sort this out now.  I can't help you.~ #89421 */ GOTO 79
 END
 
-IF ~AreaCheck("AR6526")
+IF ~AreaCheck("%Candlekeep_Ch6%")
 Global("BHToldOfDeath","GLOBAL",3)
 ~ THEN BEGIN 81 // from:
   SAY @170 /* ~All we know is that he never saw the killer.  No one knows if the rest of the family will be attacked next or if it was just a single assassination attempt.~ #89137 */
