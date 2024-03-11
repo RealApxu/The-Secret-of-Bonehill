@@ -1331,7 +1331,7 @@ COPY ~%MOD_FOLDER%/creatures/BHZELMAR.cre~ ~override~
 PRINT @361
 
 // This one builds the sword's comments.
-EXTEND_TOP ~BALDUR.BCS~ ~%MOD_FOLDER%/scripts/BHBALDUR.BAF~ USING ~%MOD_FOLDER%/Language/%s/bhfsw10.tra~
+EXTEND_TOP ~BALDUR.BCS~ ~%MOD_FOLDER%/bafs_extend/BHBALDUR.BAF~ USING ~%MOD_FOLDER%/Language/%s/bhfsw10.tra~
 
 COMPILE ~%MOD_FOLDER%/bafs~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
 
