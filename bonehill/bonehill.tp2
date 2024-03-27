@@ -67,6 +67,10 @@ ACTION_IF !FILE_EXISTS ~MLI3A1.BAM~ BEGIN
     COPY ~%MOD_FOLDER%/anim/MLI3~ ~override~
 END
 
+APPEND ~ANIMATE.IDS~
+~0xE520 IC_LIZARDCASTER3~
+UNLESS ~0xE520~
+
 ACTION_IF !FILE_EXISTS ~MLIZCA1.BAM~ BEGIN
     COPY ~%MOD_FOLDER%/anim/MLIZ~ ~override~
 END
@@ -1505,12 +1509,9 @@ APPEND ~TOOLTIP.2DA~
 BHFABLUT 12050 12051 -1~
 UNLESS ~BHGHAND~
 
-APPEND ~ANIMATE.IDS~
-~0xE520 IC_LIZARDCASTER3~
-UNLESS ~0xE520~
 
 ACTION_IF !(FILE_EXISTS_IN_GAME ~fw0100.are~) BEGIN
-    COPY ~bonehillv275\misc\j#hp1.spl~ ~override~
+    COPY ~%MOD_FOLDER%/misc/j#hp1.spl~ ~override~
 END
 
 COPY_EXISTING ~j#hp1.spl~ ~override/dw#hp.spl~
@@ -1552,7 +1553,7 @@ COPY_EXISTING ~bhfabio.cre~ ~override~
     END
 BUT_ONLY
 
-EXTEND_BOTTOM ~bhfabio.bcs~ ~bonehillv275\misc\levelup.baf~
+EXTEND_BOTTOM ~bhfabio.bcs~ ~%MOD_FOLDER%/misc\levelup.baf~
     REPLACE ~444444~ @501
 
 //////////////////////////////////
