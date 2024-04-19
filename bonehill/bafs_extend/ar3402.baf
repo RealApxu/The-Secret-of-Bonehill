@@ -1,11 +1,11 @@
 IF
-    Global("BHPelltarSpawn","%Temple_SongoftheMorning%",0)
+    Global("BHPelltarSpawn","MYAREA",0)
     InMyArea(Player1)
     GlobalGT("Chapter","GLOBAL",3)
     GlobalLT("Chapter","GLOBAL",7)
 THEN
     RESPONSE #100
-        SetGlobal("BHPelltarSpawn","%Temple_SongoftheMorning%",1)
+        SetGlobal("BHPelltarSpawn","MYAREA",1)
         CreateCreature("BHPell",[328.367],15) // Pelltar
 END
 

@@ -1373,15 +1373,15 @@ COPY ~%MOD_FOLDER%/creatures/BHZELMAR.cre~ ~override~
 PRINT @361
 
 // This one builds the sword's comments.
-EXTEND_TOP ~BALDUR.BCS~ ~%MOD_FOLDER%/bafs_extend/BHBALDUR.BAF~ USING ~%MOD_FOLDER%/Language/%s/bhfsw10.tra~
+EXTEND_TOP ~BALDUR.BCS~ ~%MOD_FOLDER%/bafs_extend/baldur.baf~ USING ~%MOD_FOLDER%/Language/%s/bhfsw10.tra~
 
 COMPILE ~%MOD_FOLDER%/bafs~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
 
-EXTEND_BOTTOM ~AR9302.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR9302.baf~
-EXTEND_BOTTOM ~AR9300.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR9300.baf~
-EXTEND_BOTTOM ~AR7223.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR7223.baf~
-EXTEND_BOTTOM ~AR7800.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR7800.baf~
-EXTEND_BOTTOM ~AR6526.BCS~ EVAL ~%MOD_FOLDER%/bafs_extend/AR6526.baf~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
+EXTEND_BOTTOM ~%Undercity_BCS%.BCS~ ~%MOD_FOLDER%/bafs_extend/ar0123.baf~
+EXTEND_BOTTOM ~%EBaldursGate_BCS%.BCS~ ~%MOD_FOLDER%/bafs_extend/ar0300.baf~
+EXTEND_BOTTOM ~%Candlekeep_Ch6_BCS%.BCS~ ~%MOD_FOLDER%/bafs_extend/AR2626.baf~ USING ~%MOD_FOLDER%/Language/%s/baf.tra~
+EXTEND_BOTTOM ~%Temple_BCS%.BCS~ ~%MOD_FOLDER%/bafs_extend/ar3400.baf~
+EXTEND_BOTTOM ~%Temple_SongoftheMorning_BCS%.BCS~ ~%MOD_FOLDER%/bafs_extend/ar3402.baf~
 
 /////////////////////////
 // Dialogs to compile  //

@@ -1,5 +1,15 @@
 IF
-   Delay(600)
+    PartyHasItem("bhfsw1")   
+    Global("bhfsw1Found","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("bhfsw1Found","GLOBAL",1)
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
+        Continue()
+END
+    
+IF
+   RealGlobalTimerExpired("bhfsw1TalkDelay","GLOBAL")
    CombatCounter(0)
    OR(6)
         HasItemEquipedReal("bhfsw1",Player1) // ~Sword of Flame +2~
@@ -11,48 +21,68 @@ IF
 THEN
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@1) // ~  Torment! ~ ~[IGN05]~
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@18) // ~  Plenty to burn here. ~ ~[IGN23]~
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@31) // ~  The flames await. ~ [IGN38]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@27) // ~  I wait to walk the paths of flames. ~ [IGN33]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@3) // ~  The flames grow within me. ~ [IGN08]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@24) // ~  No more talk and wonder. ~ [IGN29]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@26) // ~  Great power is here. ~ [IGN31]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@8) // ~  The flames hunger for the blistering of flesh. ~ [IGN13]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@15) // ~  I wait. ~ [IGN20]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@5) // ~  Ah, sweet flames. ~ [IGN10]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@25) // ~  As I remained here, thoughts filled with flames. ~ [IGN30]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@28) // ~  I am yours til death comes for us both. ~ [IGN32]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@7) // ~  Fires shall sweep through the streets. ~ [IGN12]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@13) // ~  I live? ~ [IGN18]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@11) // ~  Yes? ~ [IGN21]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@30) // ~  Ahhh. ~ [IGN36]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@14) // ~  Yes, my master? ~ [IGN19]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@2) // ~  You are all tallow for my flames. ~ [IGN06]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@29) // ~  Pain. ~ [IGN35]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",600)
 END
 
 IF
-    Delay(125)
+    RealGlobalTimerExpired("bhfsw1TalkDelay","GLOBAL")
     !CombatCounter(0)
     OR(6)
         HasItemEquipedReal("bhfsw1",Player1) // ~Sword of Flame +2~
@@ -64,44 +94,65 @@ IF
 THEN
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@34) // ~  Scream. ~ [IGN03]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@2) // ~  You are all tallow for my flames. ~ [IGN06]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@29) // ~  Pain. ~ [IGN35]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@18) // ~  Plenty to burn here. ~ [IGN23]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@16) // ~  Yes. (*laughs*) ~ [IGN16]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@22) // ~  As you wish. ~ [IGN27]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@33) // ~  I will burn you, lend some fire to the flames. ~ [IGN40]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@3) // ~  The flames grow within me. ~ [IGN08]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@1) // ~  Torment! ~ [IGN05]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@21) // ~  Again. ~ [IGN26]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@24) // ~  No more talk and wonder. ~ [IGN29]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@31) // ~  The flames await. ~ [IGN38]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@23) // ~  Yes. ~ [IGN28]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@7) // ~  Fires shall sweep through the streets. ~ [IGN12]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@6) // ~  Ah, sweet flames! ~ [IGN11]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@4) // ~  The skys shall be flames and all life shall be torches. ~ [IGN09]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@9) // ~  Darkness smothers the flames. ~ [IGN14]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@8) // ~  The flames hunger for the blistering of flesh. ~ [IGN13]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@17) // ~  I am yours. ~ [IGN22]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
     RESPONSE #10
         DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+        RealSetGlobalTimer("bhfsw1TalkDelay","GLOBAL",125)
 END
