@@ -1,0 +1,300 @@
+@6  = ~Rocher~
+@7  = ~C'est le type de rochers qu'un géant lance sur un infortuné. Cela fait beaucoup de dégâts, tout en faisant perdre conscience à la victime. Un personnage ayant une force digne d'un géant est lui aussi capable de les lancer... 
+
+Portée : 72 mètres
+Dégâts : 3-18 
+Spécial : jet de sauvegarde contre le souffle à -4, sous peine de tomber inconscient pendant un round, et être étourdi durant le round suivant. 
+Nécessite : 19 en Force~
+@8  = ~Amulette de boules de feu~
+@9  = ~Les amulettes de boules de feu sont des amulettes munies de petites boules qui, une fois jetées, projetteront une boule de feu énorme et brûlante qui fusera jusqu'à la distance souhaitée (36 m au maximum) et explosera brutalement, exactement comme le sort de boule de feu. La boule de feu inflige 6d6 points de dégâts, mais tous les jets de 1 point comptent pour 2. La ou les victimes peuvent effectuer un jet de sauvegarde contre les baguettes pour n'encaisser que la moitié des dégâts. Une fois que toutes les boules ont été utilisées, l'amulette est détruite.
+
+PARAMETRES : 
+
+Capacité : 1
+Effet : projette une Boule de Feu
+Dégâts : 6D6 (jet de sauvegarde contre les baguettes pour réduire de moitié)
+Portée : 27 mètres
+Zone d'effet : 9 mètres de rayon
+
+Inutilisable par :
+ Tueur de magicien~
+@10  = ~Anneau de Barde~
+@11  = ~Bien que l'origine exacte de cet anneau soit inconnue, certains pensent qu'il a été créé il y a deux cents ans environ. 
+
+Il est serti d'une unique pierre d'un type inconnu qui dégage un léger rougeoiement. Bien que l'anneau soit froid au toucher, sa fraîcheur est, étrangement, rassurante.
+
+PARAMETRES : 
+
+Spécial:
+  Mémoriser un sort supplémentaire du 1er niveau
+  Mémoriser un sort supplémentaire du 3ème niveau
+  Mémoriser un sort supplémentaire du 5ème niveau
+
+Poids : 0
+
+Utilisable uniquement par :
+ Bardes~
+@12  = ~Cor~
+@13  = ~Cor de bronze du Valhalla~
+@14  = ~C'est un petit cor. Les cors sont typiquement faits d'os ou de métal et peuvent produire une large gamme de sons.~
+@15  = ~Cor de bronze du Valhalla
+
+Les guerriers les plus valeureux sont accueillis au Valhalla après leur mort, où leur bravoure au combat est récompensée par une éternité de banquets et de service au côté des dieux. L'un des services qu'ils rendent est de prêter main-forte à qui souffle dans un cor du Valhalla. Ce cor permet d'invoquer un guerrier berserk du septième niveau qui se battra pour celui ou celle qui l'a appelé pendant une minute. Le cor peut être utilisé une fois par jour.
+
+Ce cor-ci semble fendu et déformé à force d'usage ou de mésusage.~
+
+@16  = ~Perle Noire~
+@17  = ~C'est la perle noire dérobée que Gelpas vous a accusé d'avoir volée. Elle devrait être rendue à Welcar, le garde près des entrepôts.~
+@18  = ~Bâton~
+@19  = ~Bâton du Dragon Bleu~
+@20  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type d'armes : à deux mains
+Nécessite : 5 en force~
+@21  = ~Ce long bâton de bois noir est orné à son sommet d'un grand cristal bleu en forme de tête de dragon qui dégage de l'électricité. Ces bâtons sont fabriqués pour les membres du Culte du Dragon. Seuls les chevaucheurs de dragons sont autorisés à porter ces bâtons. C'est pourquoi le culte pourrait s'intéresser de très près au fait que vous en possédez un.
+
+Les bâtons de dragon sont porteurs des capacités du dragon ou de la dracoliche avec lequel le chevaucheur faisait équipe.
+
+PARAMETRES :
+
+Dégâts : 1D6 +3
+TAC0 : +3
+Spécial : 
+ Procure un bonus de 50% de résistance à l'électricité
+ Le bâton a 50% de chance de libérer 1D8 points de dégâts électriques si la gemme bleue fait mouche.
+ Lance un éclair de 6D6 points de dégâts, réduits de moitié si le jet de sauvegarde contre les baguettes est réussi. 2 charges par jour.
+ Le bâton n'a qu'une charge de chaîne d'éclairs par jour.
+
+Type de dégâts : contondant
+Poids : 7
+Facteur de vitesse : 2
+Type de compétence : bâton
+Type d'armes : à deux mains
+Nécessite : 5 en force
+Utilisable par :
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
+@22  = ~Cape de l'Assassin~
+@23  = ~Les facultés conférées par cette cape puissamment enchantée démontrent que la protection peut prendre de nombreux aspects – comprenant la dissimulation au regard et l'aide à l'attaque sournoise. 
+
+PARAMETRES :
+
+Lance Hâte Améliorée une fois par jour
+Lance Invisibilité Majeure 3 fois par jour
+
+Classe d'armure : bonus de +2 
+Jets de Sauvegarde : bonus de +2
+Poids : 3~
+
+@24  = ~Masse~
+@25  = ~Masse +2, l'Assistant de l'Assassin~
+@26  = ~Masse +2, l'Assistant de l'Assassin
+Ceci appartenait à Tellish, un clerc/voleur maléfique connu pour être l'un des chefs de l'une des guildes d'assassins les plus puissantes des temps modernes. Elle a le pouvoir d'immobiliser n'importe quel humain, nain, gnome ou petite-personne en le plongeant dans un sommeil profond, bien que les elfes soient fort commodément immunisés. Pour aider l'assassin, l'arme procure une hausse de 50% des compétences en attaque sournoise. Même s'il s'agit techniquement d'un morgenstern, l'arme fonctionne pour un voleur comme n'importe quelle autre masse.
+
+PARAMETRES :
+
+Capacité de combat : tout humain ou demi-humain, à l'exception des elfes, frappé par le Dormeur doit effectuer un jet de sauvegarde contre le poison sans bénéficier de bonus ou tomber endormi pendant 18 secondes.
+Capacité spéciale : hausse de 50% de la compétence d'Attaque sournoise
+TAC0: bonus de +2 
+Dégâts : 2D4 +2
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : masse
+Type d'armes : à une main
+Nécessite : 5 en Force
+Utilisable par :
+ Voleur (monoclassé ou multiclassé)~
+@27  = ~Luth~
+@28  = ~Luth de Fabio~
+@29  = ~Un luth.~
+@30  = ~Fabio prétend qu'il s'agit du célèbre luth utilisé par Pellon Kay. Quoi qu'il en soit, au cours de ses voyages, il en a modifié certaines des aptitudes magiques.
+
+Comment il a obtenu ce luth, c'est un mystère dont Fabio ne parlera pas.
+
+Capacités Spéciales :
+
+Une fois par jour, quand on en joue en ciblant quelqu'un, ce luth lance le sort de Charme Néfaste.
+
+Trois fois par jour, il peut plonger dans la confusion toutes les créatures à portée d'oreille (jet de sauvegarde contre les sorts pour échapper à la confusion). Le barde et les membres du groupe allié ne sont pas affectés.
+
+Utilisable uniquement par :
+ Barde~
+@31  = ~Épée longue~
+@32  = ~Épée de flamme +2~
+@33  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : grande épée
+Type d'armes : à une main
+Nécessite : 6 en force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+@34  = ~Cette lame brûle d'un feu magique, et une explosion dévastatrice est libérée à chaque coup réussi. "Meta Infernum" est gravé sur la garde, bien que cela paraisse un peu effacé et puisse ne pas être d'origine.
+
+Cette épée-ci semble avoir un élémentaire de feu ou quelque chose de similaire emprisonné à l'intérieur. Sa nature maléfique peut prendre le dessus sur les personnalités faibles. Cependant, la créature emprisonnée attire les flammes alentours vers l'épée, ce qui peut procurer une certaine protection au porteur.
+
+PARAMETRES :
+
+TAC0 : bonus de +2 
+Dégâts : 1D8 +2, +3 de dégâts de feu
+Spécial : +50% de résistance au feu
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : grande épée
+Type d'armes : à une main
+Nécessite : 6 en force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+@35  = ~Main de Gloire~
+@36  = ~C'est une main desséchée. Des cierges rouges sont attachés à chacun des doigts, pouce compris.~
+@37  = ~Cet horrible objet est la main gauche tranchée d'un mâle humain, avec un cierge rouge attaché à chacun des doigts, pouce compris. C'était la main d'un voleur, mais à présent, c'est un objet magique puissant.
+
+Capacités spéciales : 
+
+Lance Déblocage
+Lance Immobilisation des Personnes
+
+Utilisable par : 
+ Tous~
+@38  = ~Fragment de parchemin~
+@39  = ~Ce fragment de parchemin a peu de lignes d'écriture encore lisibles. Il est recouvert de cendre, de crasse, et de ce qui ressemble à du sang frais. Voici ce que vous pouvez déchiffrer :
+
+...attendons impatiemment l'arrivée de la Main de Gloire... non... et nous n'accomplissons pas... dans nos griffes...~
+@40  = ~Fragment de note~
+@41  = ~Ce morceau de papier sale et taché présente des marques étranges. En le regardant de près, vous voyez qu'il s'agit de rectangles de formes différentes et qu'ils forment un dessin.~
+@42  = ~Journal~
+@43  = ~La plupart des mots sur ces pages éparpillées ont été effacés par les siècles.
+
+...satanée malédiction ! ...mort-vivant... que faire ? ...un parchemin de restauration...
+
+Seule l'entrée finale est porteuse d'une information sensée :
+
+Je suis à cours de papier et ma chair est presque tout entière pourrie et tombée. Je comprends de ce que disent les autres que celui qui m'a vaincu est mort lui aussi. Sa nature maléfique lui a permis de se changer en spectre, pour continuer ainsi à rendre cet endroit inhabitable grâce à un sacrilège épouvantable.
+
+Ma souffrance prendra-t-elle jamais fin ? Mon âme doit être libérée de mon corps pour rejoindre Amaunator dans sa gloire.
+
+J'ai trouvé quelques parchemins de restauration, peut-être l'un d'entre eux fonctionnera-t-il. Mais il faut que quelqu'un d'autre lance le sort !~
+@44  = ~Clef~
+@45  = ~Une clef d'aspect complexe en fer froid.~
+@46  = ~Message de Martin~
+@47  = ~C'est le message de Martin pour Almax. En le regardant par transparence, vous voyez qu'il s'agit d'une liste de matériel dont Martin a besoin pour aider à finir la construction du bosquet druidique.~
+@48  = ~Heaume~
+@49  = ~Heaume de Protection Mentale~
+@50  = ~Ce type de heaume ouvert sur l'avant, fait de cuir renforcé ou de métal, recouvre la majeure partie de la tête, à l'exception du visage et du cou. Ces heaumes procurent d'habitude une protection pour le nez.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : aucun
+Spécial : protège contre les coups critiques
+Poids : 2
+Non utilisable par :
+ Mage
+ Barde
+ Voleur~
+@51  = ~Comme son nom le suggère, le Heaume de Protection Mentale protège son porteur de toute tentative magique de manipulation émotionnelle. Par précaution, certains groupes de mercenaires bien en vue équipent régulièrement leurs membres de tels heaumes afin de s'assurer qu'ils pourront accomplir la mission confiée sans interférence extérieure.
+
+PARAMETRES :
+
+Protège contre les coups critiques
+Le porteur est immunisé aux sorts mentaux
+Peut lancer Vision Véritable 3 fois par jour
+Poids : 4
+Utilisable par :
+ Personnages d'Alignement Bon
+ Guerrier (y compris multiclassé)
+ Paladin
+ Rôdeur (y compris multiclassé)
+ Clerc~
+@52  = ~Corps de Locinda~
+@53  = ~C'est le corps de Locinda, elle doit être portée au temple de Garrotten pour y être soignée.~
+@54  = ~C'est l'équipement qui manquait dans l'entrepôt. Il y a là deux épées, un écu, plusieurs sacs de farine et de sucre (désormais gâtés par les rats) et un rouleau de soie mauve.~
+@55  = ~Lettre de Qualton~
+@56  = ~C'est une lettre de l'abbé Qualton. Elle indique qu'il veut recruter Tellish afin de tuer le baron et son épouse, Fairwind. Elle dit aussi qu'il veut les voir morts dès que possible.~
+@57  = ~Symbole sacré d'Osprem~
+@58  = ~C'est un symbole sacré de la déesse Osprem. Cette amulette en or représente une baleine. Normalement la baleine a un oeil fait d'un rubis rouge. Il manque à cette amulette le rubis de l’oeil.~
+@59  = ~Livre de sorts de Pelltar~
+@60  = ~C'est le livre de sorts de Pelltar. Tous ses sorts sont rangés à l'intérieur.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@61  = ~Corde~
+@62  = ~C'est la corde de luth trouvée près du corps du Baron Grellus. Elle est de couleur dorée et semble émettre une radiation magique.~
+@63  = ~Rubis~
+@64  = ~Ce petit rubis a été trouvé près du corps du Baron Grellus. Selon des témoins, le Grand Prêtre Harper du temple d'Osprem porte une amulette dotée de cette pierre.~
+@65  = ~Bouton de Cuir Rouge~
+@66  = ~Ce bouton de cuir rouge a été trouvé dans la main du Baron Grellus. Selon les témoins, Abraham, aubergiste de Garrotten, porte une veste dotée de tels boutons.~
+@67  = ~Documents d'Arrness~
+@68  = ~La Dame maire de Garrotten, Arrness, était très consciencieuse dans la notation de tous les petits détails concernant la guilde d'assassins. Les compte-rendus des recrutements de tous les espions et tueurs à son service se trouvent ici. Des registres contenant des informations sur chaque emploi figurent aussi dans ses archives. Pour ce que vous en voyez, la guilde était très efficace pour ce qui était de collecter des informations, espionner et assassiner.
+
+Son journal se trouve aussi ici. Selon lui, elle projette de s'emparer de Restenford en tant que nouvelle Baronne une fois que la famille actuelle aura été supprimée. Tellish a été recruté par quelqu'un pour les assister dans l'exécution de ce plan. Rien ici n'indique qui est cette personne.~
+@69  = ~Journal de Sirius~
+@70  = ~C'est le journal de Sirius.
+
+En le parcourant, vous apprenez que lui et un nécromancien ont été recrutés par les Hauts-Seigneurs elfes des Iles de Lendore. Leur mission était d'apporter le chaos dans les dernières zones dirigées par les humains, afin que les Hauts-Seigneurs puissent en prendre le contrôle. La Main de Gloire a été créée pour faciliter les vols. Il semble aussi que Sirius ait découvert que le nécromancien volait dans leur butin, c'est pourquoi il l'a tué. Il s'est ensuite installé dans le phare pour être plus près de la ville. Vers la fin du journal vous voyez que votre groupe était considéré par lui comme une menace et qu'il envisageait différentes options pour vous faire imputer la responsabilité de tout.~
+@71  = ~Ninja-To +2, +6 contre l'alignement Loyal Bon~
+@72  = ~Cette lame maléfique a été conçue par les Yakuza pour les aider à supprimer les paladins, les dirigeants bons, et autres personnes qui leur barraient le passage.
+
+PARAMETRES :
+
+Capacités spéciales :
+  Tue les Loyaux Bons en cas de coup réussi (pas de jet de sauvegarde)
+
+TAC0 : bonus de +2, +6 contre l'alignement Loyal Bon
+Dégâts : 1D8 +2
+Type de dégâts : tranchant
+Poids : 1 
+Facteur de vitesse : 0
+Type de Compétence : Cimeterre / Wakishashi / Ninja-To
+Type : arme à une main
+Nécessite : 6 en Force
+Inutilisable par :
+ Druide
+ Clerc
+ Mage~
+@73  = ~Journal de Telvar~
+@74  = ~Ce journal contient pour l'essentiel des notes de Telvar sur ses observations astronomiques. Il y aussi quelques remarques sur les potions qu'il était en train de mettre au point. Vers la fin du journal, Telvar précise travailler avec quelque chose ou quelqu'un du nom de "Spectre". Il ne donne pas d'autre détail, à part le fait que "Spectre" contrôle les mort-vivants du château. Il semble bien que Spectre et lui préparaient une attaque prochaine contre Restenford.~
+@75  = ~Livre de sorts de Telvar~
+@76  = ~C'est le livre de sorts de Telvar. Tous ses sorts y sont rangés.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@77  = ~Baguette de Blessure Grave~
+@78  = ~Bien que conçue pour n'être utilisable que par les clercs, cette baguette peut en réalité être maniée par quiconque ne souhaite pas trop s'approcher de sa victime.
+
+Lance Blessure Grave
+
+Utilisable par : 
+ Tous~
+@79  = ~Livre de sorts anonyme~
+@80  = ~Ce livre de sorts contient des douzaines de sorts spécialisés difficiles à se procurer.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@81  = ~Livre de sorts de Zahrdahl~
+@82  = ~C'est le livre de sorts de Zahrdahl. Tous ses sorts sont rangés à l'intérieur.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@83  = ~Carnet de notes de Zahrdahl~
+@84  = ~Ce carnet contient les notes de Zahrdahl concernant les habitants de Restenford. Il semble avoir des informations détaillées sur chacun. Ce carnet fait aussi la liste des problèmes récents de la ville, bandits, gnolls et rats. Il déclare aussi avoir l'intention de visiter la Colline d'Os pour recueillir davantage d'informations sur ce qu'il s'y passe.
+
+La plus grande découverte que vous faites en lisant ceci est que ces informations étaient destinées à être envoyées au Duc de Kroten. Il semble que Zahrdahl n'est pas du tout marchand d'appâts, mais bien un espion envoyé par le duc.
+
+Cette information devrait être rapportée à Pelltar.~
+
+@501 = ~Ce personnage est maintenant du niveau 0. Faites le passer au niveau supérieur pour choisir ses compétences et talents initiaux. (Jusqu'à ce que vous le fassiez, ses points de vie et son équipement pourraient être quelque peu bizarres ; ne vous en faites pas. Une fois que vous l'aurez passé au niveau supérieur, il se pourrait qu'il gagne d'autres niveaux (selon votre propre expérience).)~
+
+@750 = ~Chef des bandits~

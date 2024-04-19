@@ -1,154 +1,154 @@
 //BH0109.baf
-@0  = ~Il semble que les vols aient commencé une semaine après la pendaison d'un célèbre bandit nommé Reynard. Autre fait intéressant, Restenford avait une guilde voleurs autrefois. Le Baron Grellus les a détruits quand il est devenu baron. Elle était basée dans les égouts en-dessous de la partie ouest de la ville. Est-ce là que se cache le voleur ?~
-@1  = ~Après plusieurs heures, vous avez découvert certaines informations intéressantes dans les annales historiques de Restenford. Les vols ont commencé une semaine après la pendaison d'un célèbre bandit nommé Reynard. Autre fait intéressant, Restenford avait une guilde voleurs autrefois. Le Baron Grellus les a détruits quand il est devenu baron. Elle était basée dans les égouts en-dessous de la partie ouest de la ville. Dans un manuel d'objets magiques, vous avez découvert que la Main de Gloire est fabriquée à partir de la main d'un voleur mort. Cependant, le texte n'expliquait pas ce que peut faire cette main.~
+@0  = ~Il semble que les vols aient commencÃ© une semaine aprÃ¨s la pendaison d'un cÃ©lÃ¨bre bandit nommÃ© Reynard. Autre fait intÃ©ressant, Restenford avait une guilde voleurs autrefois. Le Baron Grellus les a dÃ©truits quand il est devenu baron. Elle Ã©tait basÃ©e dans les Ã©gouts en-dessous de la partie ouest de la ville. Est-ce lÃ  que se cache le voleur ?~
+@1  = ~AprÃ¨s plusieurs heures, vous avez dÃ©couvert certaines informations intÃ©ressantes dans les annales historiques de Restenford. Les vols ont commencÃ© une semaine aprÃ¨s la pendaison d'un cÃ©lÃ¨bre bandit nommÃ© Reynard. Autre fait intÃ©ressant, Restenford avait une guilde voleurs autrefois. Le Baron Grellus les a dÃ©truits quand il est devenu baron. Elle Ã©tait basÃ©e dans les Ã©gouts en-dessous de la partie ouest de la ville. Dans un manuel d'objets magiques, vous avez dÃ©couvert que la Main de Gloire est fabriquÃ©e Ã  partir de la main d'un voleur mort. Cependant, le texte n'expliquait pas ce que peut faire cette main.~
 
 //BH0401T.baf
-@50  = ~Vous avez trouvé une trappe sous les gravats. Elle semble très ancienne et inutilisée.~
+@50  = ~Vous avez trouvÃ© une trappe sous les gravats. Elle semble trÃ¨s ancienne et inutilisÃ©e.~
 
 //BH0402T.baf
-@100 = ~Ce doit être de là que viennent les rats. L'odeur est épouvantable. Vous pouvez les entendre un peu plus loin.~
+@100 = ~Ce doit Ãªtre de lÃ  que viennent les rats. L'odeur est Ã©pouvantable. Vous pouvez les entendre un peu plus loin.~
 
 //BH0504.baf
-@150 = ~Il semblerait que les vols aient commencé une semaine après la pendaison d'un bandit notoire du nom de Reynard. Autre fait intéressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a détruite quand il est devenu baron. Elle était basée dans les égouts, sous la partie ouest de la ville. Est-ce que le voleur se cache là-bas ?~
-@151 = ~Après plusieurs heures, vous avez découvert certaines informations intéressantes dans les annales à propos de Restenford. Les vols ont commencé une semaine après la pendaison d'un bandit notoire du nom de Reynard. Autre fait intéressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a détruite quand il est devenu baron. Elle était basée dans les égouts, sous la partie ouest de la ville.~
+@150 = ~Il semblerait que les vols aient commencÃ© une semaine aprÃ¨s la pendaison d'un bandit notoire du nom de Reynard. Autre fait intÃ©ressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a dÃ©truite quand il est devenu baron. Elle Ã©tait basÃ©e dans les Ã©gouts, sous la partie ouest de la ville. Est-ce que le voleur se cache lÃ -bas ?~
+@151 = ~AprÃ¨s plusieurs heures, vous avez dÃ©couvert certaines informations intÃ©ressantes dans les annales Ã  propos de Restenford. Les vols ont commencÃ© une semaine aprÃ¨s la pendaison d'un bandit notoire du nom de Reynard. Autre fait intÃ©ressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a dÃ©truite quand il est devenu baron. Elle Ã©tait basÃ©e dans les Ã©gouts, sous la partie ouest de la ville.~
 
 //BH0700.baf
-@200 = ~Tous ensemble, vous avez déchiffré la note qui est une carte de Restenford.~
+@200 = ~Tous ensemble, vous avez dÃ©chiffrÃ© la note qui est une carte de Restenford.~
 
 //BH1100.baf
-@250 = ~Le chef des bandits est désormais mort.~
+@250 = ~Le chef des bandits est dÃ©sormais mort.~
 
 //BH1101.baf
-@260 = ~Vous savez à présent où les orques planquaient les chariots manquants.~
+@260 = ~Vous savez Ã  prÃ©sent oÃ¹ les orques planquaient les chariots manquants.~
 
 //BH1301.baf
-@300 = ~Ainsi, c'est un Ogre Mage qui contrôle les gnolls. Cela explique les dernières attaques organisées contre Restenford.~
+@300 = ~Ainsi, c'est un Ogre Mage qui contrÃ´le les gnolls. Cela explique les derniÃ¨res attaques organisÃ©es contre Restenford.~
 
 //BHALARM.baf
-@350 = ~Au moment où vous franchissez le porche, une alarme résonne puis s'arrête brusquement.~
+@350 = ~Au moment oÃ¹ vous franchissez le porche, une alarme rÃ©sonne puis s'arrÃªte brusquement.~
 
 //BHALARM2.baf
-@400 = ~Quelqu'un vous a remarqué ! Vous entendez les gardes se faire convoquer !~ ~Quelqu'un vous a remarquée ! Vous entendez les gardes se faire convoquer !~
+@400 = ~Quelqu'un vous a remarquÃ© ! Vous entendez les gardes se faire convoquer !~ ~Quelqu'un vous a remarquÃ©e ! Vous entendez les gardes se faire convoquer !~
 
 //BHALMON.baf
 @450 = ~Voleur ! Comment osez-vous !!~ ~Voleuse ! Comment osez-vous !!~
-@451 = ~Almon a remarqué votre vol. les gardes ont été convoqués.~
+@451 = ~Almon a remarquÃ© votre vol. les gardes ont Ã©tÃ© convoquÃ©s.~
 
 //BHBERSER.baf
 @500 = ~Avale une potion~
 @501 = ~J'ai besoin de soins !~
 
 //BHCTMS.baf
-@550 = ~Piège déclenché !~
+@550 = ~PiÃ¨ge dÃ©clenchÃ© !~
 
 //BHCUTBA1.baf
-@600 = ~Par les dieux, quelle journée ! Les marchands cesseront-ils jamais de se chamailler ?~
-@601 = ~Qu'est-ce que c'est que ça ? Fairwind, est-ce vous, ma chère ?~
+@600 = ~Par les dieux, quelle journÃ©e ! Les marchands cesseront-ils jamais de se chamailler ?~
+@601 = ~Qu'est-ce que c'est que Ã§a ? Fairwind, est-ce vous, ma chÃ¨re ?~
 @602 = ~Ha ha ha ha !~
 
 //BHFAIR.baf
 @650 = ~Voleur ! Comment osez-vous !!~ ~Voleuse ! Comment osez-vous !!~
-@651 = ~Dame Fairwind a remarqué votre vol.~
+@651 = ~Dame Fairwind a remarquÃ© votre vol.~
 
 //BHGRAVE.baf
-@700 = ~On dirait une tombe fraîchement creusée.~
-@701 = ~Vous creusez dans la tombe de Reynard. Après avoir forcé le couvercle du cercueil, vous y découvrez deux corps. L'un est celui d'un mâle humain auquel manque la main gauche, l'autre est un mâle gnome.~ 
-@702 = ~A l'exception de ces deux corps en putréfaction, il n'y a rien de notable dans la tombe.~ 
-@703 = ~Vous êtes trop loin de la tombe pour interagir avec elle.~
+@700 = ~On dirait une tombe fraÃ®chement creusÃ©e.~
+@701 = ~Vous creusez dans la tombe de Reynard. AprÃ¨s avoir forcÃ© le couvercle du cercueil, vous y dÃ©couvrez deux corps. L'un est celui d'un mÃ¢le humain auquel manque la main gauche, l'autre est un mÃ¢le gnome.~ 
+@702 = ~A l'exception de ces deux corps en putrÃ©faction, il n'y a rien de notable dans la tombe.~ 
+@703 = ~Vous Ãªtes trop loin de la tombe pour interagir avec elle.~
 
 //BHHARPER.baf
 @750 = ~Je me demande s'il nous faut plus de neige ?~
-@751 = ~Peut-être devrions-nous faire plus d'offices sous l'eau ?~
+@751 = ~Peut-Ãªtre devrions-nous faire plus d'offices sous l'eau ?~
 @752 = ~Hum, je pensais que ce sort ferait partir les taches.~
-@753 = ~Parfait, ça sent comme la pluie.~
-@754 = ~Quand est le dîner ? J'ai faim d'un bon repas.~
+@753 = ~Parfait, Ã§a sent comme la pluie.~
+@754 = ~Quand est le dÃ®ner ? J'ai faim d'un bon repas.~
 
 //BHINFO01.baf
-@800 = ~Au moment où vous franchissez le porche, une alarme résonne puis s'arrête brusquement.~
+@800 = ~Au moment oÃ¹ vous franchissez le porche, une alarme rÃ©sonne puis s'arrÃªte brusquement.~
 
 //BHPELL.baf
-@850 = ~Zahrdahl ne va pas à l'auberge locale et sa jambe l'empêche de se rendre plus loin, à la taverne. Pourquoi est-il si intéressé par ce que je fais ici ?~
-@851 = ~Un fermier nous a dit qu'il y avait eu des disparitions dans son bétail. Il suppose que ce doivent être les gnolls.~
-@852 = ~Un fermier nous a dit qu'il avait vu quelque chose bouger près de chez lui. Mais il ne sait pas ce que c'était.~
-@853 = ~Un homme prétend qu'il y a des mort-vivants près du vieux poste de garde. Peut-être devrais-je y jeter un coup d'oeil.~
-@854 = ~Nous avons croisé un fermier qui voulait nous raconter une histoire à propos de son oncle. Il semble qu'une fois, son oncle est allé explorer les vieilles ruines, et qu'il a été possédé par quelque esprit maléfique. Ils ont réussi à le libérer en lançant un sort d'Immobilisation sur cet infortuné.~
+@850 = ~Zahrdahl ne va pas Ã  l'auberge locale et sa jambe l'empÃªche de se rendre plus loin, Ã  la taverne. Pourquoi est-il si intÃ©ressÃ© par ce que je fais ici ?~
+@851 = ~Un fermier nous a dit qu'il y avait eu des disparitions dans son bÃ©tail. Il suppose que ce doivent Ãªtre les gnolls.~
+@852 = ~Un fermier nous a dit qu'il avait vu quelque chose bouger prÃ¨s de chez lui. Mais il ne sait pas ce que c'Ã©tait.~
+@853 = ~Un homme prÃ©tend qu'il y a des mort-vivants prÃ¨s du vieux poste de garde. Peut-Ãªtre devrais-je y jeter un coup d'oeil.~
+@854 = ~Nous avons croisÃ© un fermier qui voulait nous raconter une histoire Ã  propos de son oncle. Il semble qu'une fois, son oncle est allÃ© explorer les vieilles ruines, et qu'il a Ã©tÃ© possÃ©dÃ© par quelque esprit malÃ©fique. Ils ont rÃ©ussi Ã  le libÃ©rer en lanÃ§ant un sort d'Immobilisation sur cet infortunÃ©.~
 @855 = ~Il y a des bandits sur certaines des routes autour de Restenford. On se sent chez soi.~
-@856 = ~Le Vol des Entrepôts
+@856 = ~Le Vol des EntrepÃ´ts
 
-Welcar pense qu'un seul voleur est impliqué dans ces vols. Ainsi, une seule personne aurait accompli tout le cambriolage ? Et les meurtres ? Comment ?~
-@857 = ~Le Vol des Entrepôts
+Welcar pense qu'un seul voleur est impliquÃ© dans ces vols. Ainsi, une seule personne aurait accompli tout le cambriolage ? Et les meurtres ? Comment ?~
+@857 = ~Le Vol des EntrepÃ´ts
 
-J'ai rapporté à Welcar toutes les marchandises volées. Peut-être qu'à présent, Gelpas laissera Pelltar nous renvoyer d'où nous sommes venus.~
-@858 = ~Welcar a dit qu'il y a de vieux égouts sous Restenford. Autrefois des voleurs s'y cachaient. Je me demande si le voleur s'en sert à présent.~
+J'ai rapportÃ© Ã  Welcar toutes les marchandises volÃ©es. Peut-Ãªtre qu'Ã  prÃ©sent, Gelpas laissera Pelltar nous renvoyer d'oÃ¹ nous sommes venus.~
+@858 = ~Welcar a dit qu'il y a de vieux Ã©gouts sous Restenford. Autrefois des voleurs s'y cachaient. Je me demande si le voleur s'en sert Ã  prÃ©sent.~
 @859 = ~Attaques de gnolls
 
-J'ai parlé à Yalta de l'ogre-mage qui dirigeait les gnolls. Espérons que ce problème est résolu.~
-@860 = ~Yalta nous a demandé de nettoyer un poste de garde abandonné investi par des rats. Ça semble assez simple. Il m'a suggéré de parler au marchand d'appâts, vu que c'est lui qui vit le plus près du poste de garde.~
+J'ai parlÃ© Ã  Yalta de l'ogre-mage qui dirigeait les gnolls. EspÃ©rons que ce problÃ¨me est rÃ©solu.~
+@860 = ~Yalta nous a demandÃ© de nettoyer un poste de garde abandonnÃ© investi par des rats. Ã‡a semble assez simple. Il m'a suggÃ©rÃ© de parler au marchand d'appÃ¢ts, vu que c'est lui qui vit le plus prÃ¨s du poste de garde.~
 @861 = ~Attaques de gnolls
 
-Yalta dit que les gnolls de Tri-Top ne cessent d'attaquer la ville. Ils semblent plus organisés que par le passé et représentent un réel défi pour les gardes désormais. Il se passe quelque chose là-bas et il veut que je trouve d'où cela vient.~
-@862 = ~Nettoyer le Poste de Garde Abandonné
+Yalta dit que les gnolls de Tri-Top ne cessent d'attaquer la ville. Ils semblent plus organisÃ©s que par le passÃ© et reprÃ©sentent un rÃ©el dÃ©fi pour les gardes dÃ©sormais. Il se passe quelque chose lÃ -bas et il veut que je trouve d'oÃ¹ cela vient.~
+@862 = ~Nettoyer le Poste de Garde AbandonnÃ©
 
-Zahrdahl, le marchand local d'appâts pour la pêche, nous a demandé d'éradiquer des rats. Apparemment, ils doivent avoir un nid dans le poste de garde abandonné, juste au sud de chez lui.~
-@863 = ~Nettoyer le poste de garde abandonné
+Zahrdahl, le marchand local d'appÃ¢ts pour la pÃªche, nous a demandÃ© d'Ã©radiquer des rats. Apparemment, ils doivent avoir un nid dans le poste de garde abandonnÃ©, juste au sud de chez lui.~
+@863 = ~Nettoyer le poste de garde abandonnÃ©
 
-J'ai dit à Zahrdahl que les rats ne l'ennuieraient plus. Bien sûr, avec tous ces appâts autour de sa maison, ils ne mettront pas longtemps à revenir.~
-@864 = ~On dirait que quelqu'un a tué le gardien du phare et fourré son corps dans le cercueil, avec celui du bandit. Je suppose qu'il s'agit de la ou des mêmes personnes. Il est temps d'aller jeter un oeil au phare.~
-@865 = ~Fabio pense que le parchemin fait référence à un objet magique appelé la Main de Gloire. Je me demande ce que c'est, et pourquoi les voleurs pensaient que je l'avais ? Il nous faudra vérifier cela auprès de Pelltar aussitôt que nous pourrons retourner à Restenford.~
-@866 = ~Il semblerait que les vols aient commencé une semaine après la pendaison d'un bandit notoire du nom de Reynard. Autre fait intéressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a détruite quand il est devenu baron. Elle était basée dans les égouts, sous la partie ouest de la ville. Est-ce que le voleur se cache là-bas ?~
+J'ai dit Ã  Zahrdahl que les rats ne l'ennuieraient plus. Bien sÃ»r, avec tous ces appÃ¢ts autour de sa maison, ils ne mettront pas longtemps Ã  revenir.~
+@864 = ~On dirait que quelqu'un a tuÃ© le gardien du phare et fourrÃ© son corps dans le cercueil, avec celui du bandit. Je suppose qu'il s'agit de la ou des mÃªmes personnes. Il est temps d'aller jeter un oeil au phare.~
+@865 = ~Fabio pense que le parchemin fait rÃ©fÃ©rence Ã  un objet magique appelÃ© la Main de Gloire. Je me demande ce que c'est, et pourquoi les voleurs pensaient que je l'avais ? Il nous faudra vÃ©rifier cela auprÃ¨s de Pelltar aussitÃ´t que nous pourrons retourner Ã  Restenford.~
+@866 = ~Il semblerait que les vols aient commencÃ© une semaine aprÃ¨s la pendaison d'un bandit notoire du nom de Reynard. Autre fait intÃ©ressant : Restenford avait autrefois une guilde de voleurs. Le baron Grellus l'a dÃ©truite quand il est devenu baron. Elle Ã©tait basÃ©e dans les Ã©gouts, sous la partie ouest de la ville. Est-ce que le voleur se cache lÃ -bas ?~
 @867 = ~Trouver l'assassin du Baron Grellus.~
-@868 = ~Donc l'idée est que quelqu'un dans la ville de Garrotten était impliqué dans le meurtre du Baron Grellus. J'ai trois suspects : Harper, un grand prêtre, Abraham, un aubergiste, et Balmorrow, un barde propriétaire d'un théâtre. Pourquoi l'une de ces trois personnes voudrait-elle la mort du Baron ? L'un d'entre eux est-il vraiment un assassin recruté pour le tuer ? Si c'est le cas, lequel ? Et qui a recruté le tueur ?~
+@868 = ~Donc l'idÃ©e est que quelqu'un dans la ville de Garrotten Ã©tait impliquÃ© dans le meurtre du Baron Grellus. J'ai trois suspects : Harper, un grand prÃªtre, Abraham, un aubergiste, et Balmorrow, un barde propriÃ©taire d'un thÃ©Ã¢tre. Pourquoi l'une de ces trois personnes voudrait-elle la mort du Baron ? L'un d'entre eux est-il vraiment un assassin recrutÃ© pour le tuer ? Si c'est le cas, lequel ? Et qui a recrutÃ© le tueur ?~
 @869 = ~La Guilde d'Assassins
 
-Trouver la vérité sur la rumeur concernant l'existence d'une guilde d'assassins à Garrotten.~
-@870 = ~L'abbé Qualton n'a pas pu ramener Grellus d'entre les morts. Pour je ne sais quelle raison, j'ai l'impression qu'il n'était pas aussi déçu qu'il le prétendait.~
-@871 = ~La maire de Garrotten est en train de reconstruire un vieux château. Elle semble avoir de l'argent qui ne vient pas des seules taxes sur les villageois. Peut-être était-elle riche avant de venir ici ? Si elle est si riche, pourquoi le duc l'a-t-elle nommée dans cette petite ville ? Et si elle faisait quelque chose dont elle ne veut pas que les gens soient au courant ?~
-@872 = ~On dirait que la maire reproduit mon enquête. Elle a fait arrêter Balmorrow pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici au théâtre ?~
-@873 = ~On dirait que la maire reproduit mon enquête. Elle a fait arrêter Abraham pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici à l'auberge ?~
-@874 = ~D'après Priska, Basmar pourrait projeter de me tuer lors de notre prochaine rencontre. Je devrai être prêt.~
-@875 = ~Le druide Martin m'a demandé d'attaquer le château ! Il pense que ses amis seront accusés à tort et tués pour cela. Il pense aussi que la preuve de l'existence de la guilde se trouve quelque part à l'étage supérieur du château.~
-@876 = ~J'ai trouvé le symbole sacré du Grand Prêtre Harper et dénoncé un espion au temple. Cependant, il s'est échappé. Je vais certainement le revoir.~
-@877 = ~Harper semble être vraiment fou. Soit c'est vrai, soit c'est un très bon acteur. J'ai reçu la permission d'enquêter autour du temple. Je suppose qu'il faut que je parle à ce Lothar.~
-@878 = ~Abraham est innocent ! Le garçon d'écurie, Falpir, a reconnu avoir volé un bouton sur la veste d'Abraham. Oscar avait demandé au garçon de le voler. Je soupçonnais Oscar d'être membre de guilde et à présent j'en ai une preuve supplémentaire. Après la rude leçon que j'ai donnée à Falpir, espérons que le garçon deviendra en grandissant une personne bonne et convenable.~
-@879 = ~Abraham est innocent ! Le garçon d'écurie, Falpir, a reconnu avoir volé un bouton sur la veste d'Abraham. Oscar avait demandé au garçon de le voler. Je soupçonnais Oscar d'être membre de guilde et à présent j'en ai une preuve supplémentaire. Je me devais de dire la vérité à l'enfant sur ce qu'il va advenir d'Abraham. Il ne l'a pas bien pris.~
-@880 = ~Même les roturiers ici sont au courant pour la guilde d'assassins. Ce doit être le secret le plus mal gardé de Toril.~
-@881 = ~Un homme prétend que les Hauts Seigneurs de Lendore ne mettront pas fin aux raids orques ici à Garrotten. Est-ce une bonne ou une mauvaise chose ?~ 
-@882 = ~Un des pêcheurs m'a dit que les orques ont fait un raid sur le village de Garrotten. On dirait qu'ils ont les mêmes problèmes que Restenford.~ 
-@883 = ~Un pêcheur m'a dit que quelque chose d' "écailleux" a attaqué un bateau et tué quelques pêcheurs. L’Équilibre en action ?~ 
-@884 = ~Pourquoi un jardinier aurait-il le symbole sacré du grand prêtre ? Pourquoi aussi verrouille-t-il et piège-t-il ses portes ? Pourquoi y a-t-il deux trous pour espionner dans la chambre d'Harper ? Je crois que j'ai trouvé l'espion du temple. Cependant, je dois trouver Lothar pour le prouver.~
-@885 = ~J'ai parlé à une jeune prêtresse de Xerbo aujourd'hui. Elle a dit que quelque chose dans le lac attaquait les pêcheurs. Peut-être une vengeance du dieu ?~
-@886 = ~On dirait que la maire reproduit mon enquête. Elle a fait arrêter Harper pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici au temple ?~
-@887 = ~Balmorrow est surveillé par une jeune mage nommée Holga. Elle travaille pour Arrness, la maire. La maire est-elle chef de la guilde d'assassins ?~
-@888 = ~Balmorrow a désigné Philmar et Oscar à l'auberge comme membres de la guilde d'assassins. Il va falloir que je fasse attention avec eux dans les parages.~
+Trouver la vÃ©ritÃ© sur la rumeur concernant l'existence d'une guilde d'assassins Ã  Garrotten.~
+@870 = ~L'abbÃ© Qualton n'a pas pu ramener Grellus d'entre les morts. Pour je ne sais quelle raison, j'ai l'impression qu'il n'Ã©tait pas aussi dÃ©Ã§u qu'il le prÃ©tendait.~
+@871 = ~La maire de Garrotten est en train de reconstruire un vieux chÃ¢teau. Elle semble avoir de l'argent qui ne vient pas des seules taxes sur les villageois. Peut-Ãªtre Ã©tait-elle riche avant de venir ici ? Si elle est si riche, pourquoi le duc l'a-t-elle nommÃ©e dans cette petite ville ? Et si elle faisait quelque chose dont elle ne veut pas que les gens soient au courant ?~
+@872 = ~On dirait que la maire reproduit mon enquÃªte. Elle a fait arrÃªter Balmorrow pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici au thÃ©Ã¢tre ?~
+@873 = ~On dirait que la maire reproduit mon enquÃªte. Elle a fait arrÃªter Abraham pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici Ã  l'aubergeÂ ?~
+@874 = ~D'aprÃ¨s Priska, Basmar pourrait projeter de me tuer lors de notre prochaine rencontre. Je devrai Ãªtre prÃªt.~
+@875 = ~Le druide Martin m'a demandÃ© d'attaquer le chÃ¢teau ! Il pense que ses amis seront accusÃ©s Ã  tort et tuÃ©s pour cela. Il pense aussi que la preuve de l'existence de la guilde se trouve quelque part Ã  l'Ã©tage supÃ©rieur du chÃ¢teau.~
+@876 = ~J'ai trouvÃ© le symbole sacrÃ© du Grand PrÃªtre Harper et dÃ©noncÃ© un espion au temple. Cependant, il s'est Ã©chappÃ©. Je vais certainement le revoir.~
+@877 = ~Harper semble Ãªtre vraiment fou. Soit c'est vrai, soit c'est un trÃ¨s bon acteur. J'ai reÃ§u la permission d'enquÃªter autour du temple. Je suppose qu'il faut que je parle Ã  ce Lothar.~
+@878 = ~Abraham est innocent ! Le garÃ§on d'Ã©curie, Falpir, a reconnu avoir volÃ© un bouton sur la veste d'Abraham. Oscar avait demandÃ© au garÃ§on de le voler. Je soupÃ§onnais Oscar d'Ãªtre membre de guilde et Ã  prÃ©sent j'en ai une preuve supplÃ©mentaire. AprÃ¨s la rude leÃ§on que j'ai donnÃ©e Ã  Falpir, espÃ©rons que le garÃ§on deviendra en grandissant une personne bonne et convenable.~
+@879 = ~Abraham est innocent ! Le garÃ§on d'Ã©curie, Falpir, a reconnu avoir volÃ© un bouton sur la veste d'Abraham. Oscar avait demandÃ© au garÃ§on de le voler. Je soupÃ§onnais Oscar d'Ãªtre membre de guilde et Ã  prÃ©sent j'en ai une preuve supplÃ©mentaire. Je me devais de dire la vÃ©ritÃ© Ã  l'enfant sur ce qu'il va advenir d'Abraham. Il ne l'a pas bien pris.~
+@880 = ~MÃªme les roturiers ici sont au courant pour la guilde d'assassins. Ce doit Ãªtre le secret le plus mal gardÃ© de Toril.~
+@881 = ~Un homme prÃ©tend que les Hauts Seigneurs de Lendore ne mettront pas fin aux raids orques ici Ã  Garrotten. Est-ce une bonne ou une mauvaise chose ?~ 
+@882 = ~Un des pÃªcheurs m'a dit que les orques ont fait un raid sur le village de Garrotten. On dirait qu'ils ont les mÃªmes problÃ¨mes que Restenford.~ 
+@883 = ~Un pÃªcheur m'a dit que quelque chose d'Â "Ã©cailleux" a attaquÃ© un bateau et tuÃ© quelques pÃªcheurs. Lâ€™Ã‰quilibre en action ?~ 
+@884 = ~Pourquoi un jardinier aurait-il le symbole sacrÃ© du grand prÃªtre ? Pourquoi aussi verrouille-t-il et piÃ¨ge-t-il ses portes ? Pourquoi y a-t-il deux trous pour espionner dans la chambre d'Harper ? Je crois que j'ai trouvÃ© l'espion du temple. Cependant, je dois trouver Lothar pour le prouver.~
+@885 = ~J'ai parlÃ© Ã  une jeune prÃªtresse de Xerbo aujourd'hui. Elle a dit que quelque chose dans le lac attaquait les pÃªcheurs. Peut-Ãªtre une vengeance du dieu ?~
+@886 = ~On dirait que la maire reproduit mon enquÃªte. Elle a fait arrÃªter Harper pour l'interroger. Je me demande pourquoi ils ne pouvaient pas faire cela ici au temple ?~
+@887 = ~Balmorrow est surveillÃ© par une jeune mage nommÃ©e Holga. Elle travaille pour Arrness, la maire. La maire est-elle chef de la guilde d'assassins ?~
+@888 = ~Balmorrow a dÃ©signÃ© Philmar et Oscar Ã  l'auberge comme membres de la guilde d'assassins. Il va falloir que je fasse attention avec eux dans les parages.~
 @889 = ~Des monstres marins ?
 
-Quelque chose attaque les pêcheurs sur le lac. La maire veut que je découvre ce que c'est, et aussi que je retrouve son éclaireur qui enquêtait lui aussi là-dessus.~
-@890 = ~La maire de Garrotten m'a presque jeté en cellule pour avoir posé des questions sur la guilde d'assassins. Ce doit être un sujet sensible.~
-@891 = ~La maire de Garrotten projette d'enquêter sur le meurtre et a mis un terme à mes recherches. Je me demande si le vrai tueur sera pris.~
-@892 = ~L'aubergiste Abraham pense que la guilde a le soutien de quelqu'un au château. Les gardes ou les conseillers de la maire doivent être impliqués. Peut-être ont-ils seulement peur de la guilde ?~
-@893 = ~Mystère du Monstre Marin
+Quelque chose attaque les pÃªcheurs sur le lac. La maire veut que je dÃ©couvre ce que c'est, et aussi que je retrouve son Ã©claireur qui enquÃªtait lui aussi lÃ -dessus.~
+@890 = ~La maire de Garrotten m'a presque jetÃ© en cellule pour avoir posÃ© des questions sur la guilde d'assassins. Ce doit Ãªtre un sujet sensible.~
+@891 = ~La maire de Garrotten projette d'enquÃªter sur le meurtre et a mis un terme Ã  mes recherches. Je me demande si le vrai tueur sera pris.~
+@892 = ~L'aubergiste Abraham pense que la guilde a le soutien de quelqu'un au chÃ¢teau. Les gardes ou les conseillers de la maire doivent Ãªtre impliquÃ©s. Peut-Ãªtre ont-ils seulement peur de la guilde ?~
+@893 = ~MystÃ¨re du Monstre Marin
 
-Le capitaine Quenex m'a appris que sa flottille de pêche a été attaquée récemment par des créatures étranges venues du lac. Il ne sait pas ce qu'elle sont mais il a déjà perdu plusieurs hommes et les pêcheurs ont peur de s'éloigner trop sur le lac.~ 
-@894 = ~Le capitaine Quenex m'a appris que le "capitaine" Basmar n'a pas de bateau et qu'il n'a jamais vu Basmar pêcher.~ 
-@895 = ~Le capitaine Quenex soutient sans réserve le Grand Prêtre Harper et ne le pense pas impliqué dans la guilde d'assassins. En fait, il a précisé qu'il pensait que si Harper était plus jeune, il se serait assuré qu'une telle chose n'existe pas à Garrotten.~ 
-@896 = ~Mystère du Monstre Marin
+Le capitaine Quenex m'a appris que sa flottille de pÃªche a Ã©tÃ© attaquÃ©e rÃ©cemment par des crÃ©atures Ã©tranges venues du lac. Il ne sait pas ce qu'elle sont mais il a dÃ©jÃ  perdu plusieurs hommes et les pÃªcheurs ont peur de s'Ã©loigner trop sur le lac.~ 
+@894 = ~Le capitaine Quenex m'a appris que le "capitaine" Basmar n'a pas de bateau et qu'il n'a jamais vu Basmar pÃªcher.~ 
+@895 = ~Le capitaine Quenex soutient sans rÃ©serve le Grand PrÃªtre Harper et ne le pense pas impliquÃ© dans la guilde d'assassins. En fait, il a prÃ©cisÃ© qu'il pensait que si Harper Ã©tait plus jeune, il se serait assurÃ© qu'une telle chose n'existe pas Ã  Garrotten.~ 
+@896 = ~MystÃ¨re du Monstre Marin
 
-J'ai rapporté au Capitaine Quenex que j'avais vaincu les hommes lézards et que désormais ses hommes seraient de nouveau en sécurité sur l'eau.~
+J'ai rapportÃ© au Capitaine Quenex que j'avais vaincu les hommes lÃ©zards et que dÃ©sormais ses hommes seraient de nouveau en sÃ©curitÃ© sur l'eau.~
 
 //BHSHOUT2.BAF
-@1102 = ~Pitié !~
-@1103 = ~Trouve quelqu'un d'autre pour faire ton sale boulot, espèce de lâche.~
+@1102 = ~PitiÃ© !~
+@1103 = ~Trouve quelqu'un d'autre pour faire ton sale boulot, espÃ¨ce de lÃ¢che.~
 
 //BHSIRIUS.baf and part of BHSHOUT2, BHTHIEF, BHARNSPL, and BHBRAWL.BAF
 @900 = ~Je suis dans un nuage de poison ! Je dois m'enfuir ! ~
-@901 = ~Lâche, utiliser du poison sur moi !~
-@902 = ~Misérable ! Viens te battre comme un guerrier !~
-@903 = ~Approche et battons-nous à la loyale !~
-@904 = ~Espèce de lâche ! Utiliser une arme de trait pour m'attaquer !~
-@905 = ~Baratineur ! Je suppose que tu es trop faible pour la mêlée...~
+@901 = ~LÃ¢che, utiliser du poison sur moi !~
+@902 = ~MisÃ©rableÂ ! Viens te battre comme un guerrier !~
+@903 = ~Approche et battons-nous Ã  la loyale !~
+@904 = ~EspÃ¨ce de lÃ¢che ! Utiliser une arme de trait pour m'attaquer !~
+@905 = ~Baratineur ! Je suppose que tu es trop faible pour la mÃªlÃ©e...~
 @906 = ~Ici ! Attrapez-le !~
 @907 = ~Je l'ai !~
-@908 = ~Pas d'inquiétude...Je serai là pour vous protéger.~
+@908 = ~Pas d'inquiÃ©tude...Je serai lÃ  pour vous protÃ©ger.~
 @909 = ~Utilise un parchemin~
 @910 = ~Utilise une baguette~
 @911 = ~Assez~
@@ -158,22 +158,22 @@ J'ai rapporté au Capitaine Quenex que j'avais vaincu les hommes lézards et que d
 
 //BHSNOW.baf
 @950 = ~Harper a encore fait tomber la neige !~
-@951 = ~Je vais construire un château fort !~
+@951 = ~Je vais construire un chÃ¢teau fort !~
 @952 = ~Faisons une bataille de boules de neige.~
 @953 = ~Je me demande combien de temps il va neiger cette fois-ci ?~
 
 //BHTHIEF1.baf
-@1000 = ~Les voilà ! Tuez-les ! Pour la guilde, les gars !~
+@1000 = ~Les voilÃ  ! Tuez-les ! Pour la guilde, les gars !~
 
 // BHTHIEF.BAF
 @1200 = ~Hum.... Quelque chose n'est pas normal ici...~
-@1201 = ~Échoue à détecter les illusions~
-@1202 = ~Utilise un anneau d'invisibilité~
+@1201 = ~Ã‰choue Ã  dÃ©tecter les illusions~
+@1202 = ~Utilise un anneau d'invisibilitÃ©~
 
 //BHARNSPL
-@1300 = ~A l'aide ! Gardes, protégez-moi !~
+@1300 = ~A l'aide ! Gardes, protÃ©gez-moi !~
 
 //AR6526.baf
 @6526	= ~La fin du jeu
 
-La vie continue à être un véritable défi. On vous accuse d'avoir assassiné les chefs du Trône de Fer et le Poing Enflammé ne vous lâchera certainement pas d'une semelle pour cette raison. En dépit de cela, vous devez revenir à la Porte de Baldur, l'antre même de vos accusateurs. Vous devez retrouver et démasquer le responsable de la situation périlleuse dans laquelle vous vous trouvez. Vous devez retrouver Sarevok.~
+La vie continue Ã  Ãªtre un vÃ©ritable dÃ©fi. On vous accuse d'avoir assassinÃ© les chefs du TrÃ´ne de Fer et le Poing EnflammÃ© ne vous lÃ¢chera certainement pas d'une semelle pour cette raison. En dÃ©pit de cela, vous devez revenir Ã  la Porte de Baldur, l'antre mÃªme de vos accusateurs. Vous devez retrouver et dÃ©masquer le responsable de la situation pÃ©rilleuse dans laquelle vous vous trouvez. Vous devez retrouver Sarevok.~

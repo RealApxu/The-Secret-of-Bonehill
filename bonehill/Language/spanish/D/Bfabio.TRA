@@ -1,42 +1,42 @@
-@1    = ~Sois el alma de la fiesta, ¿no?~ [FABIONZ]
-@2    = ~¡Idiota, no podéis permitir que Imoen muera!~ [FABIONI]
-@3    = ~¡Vaya, una drow! ¡Y encima está buena!~ [FABIONV]
-@4    = ~¿Sabéis? Me encienden las chicas duras como vos.~ [FABIONSH]
-@5    = ~Oid, <CHARNAME>. Hay una canción sobre algo parecido a esto.~
-@6    = ~¿Y debo suponer que sabéis esa canción?~
-@7    = ~Vale, ¿y qué? Yo no os molesto para deciros tonterías como qué está haciendo ese niño de allí.~
-@8    = ~Sí, en parte. Dejad que lo piense. (se aclara la garganta)
+@1    = ~Sois el alma de la fiesta, Â¿no?~ [FABIONZ]
+@2    = ~Â¡Idiota, no podÃ©is permitir que Imoen muera!~ [FABIONI]
+@3    = ~Â¡Vaya, una drow! Â¡Y encima estÃ¡ buena!~ [FABIONV]
+@4    = ~Â¿SabÃ©is? Me encienden las chicas duras como vos.~ [FABIONSH]
+@5    = ~Oid, <CHARNAME>. Hay una canciÃ³n sobre algo parecido a esto.~
+@6    = ~Â¿Y debo suponer que sabÃ©is esa canciÃ³n?~
+@7    = ~Vale, Â¿y quÃ©? Yo no os molesto para deciros tonterÃ­as como quÃ© estÃ¡ haciendo ese niÃ±o de allÃ­.~
+@8    = ~SÃ­, en parte. Dejad que lo piense. (se aclara la garganta)
 
 dum de dum, no lo entiendo
 el sebo gotea de la mano cortada
 bajo la sombra de una horca 
-cogí (algo, algo),
+cogÃ­ (algo, algo),
 los dedos bailan y me estiro y bostezo
 la Mano de la Gloria.~
-@9    = ~No recuerdo la parte del medio. La canción habla sobre crear un objeto mágico llamado la Mano de la Gloria. Aunque eso es todo lo que recuerdo. A lo mejor deberíamos preguntarle a Pelltar sobre eso.~
-@10    = ~Fabio cree que el escrito se refiere a un objeto mágico llamado la Mano de la Gloria. Me pregunto qué será, y por qué los ladrones pensaron que yo la tenía. Tenemos que consultarle a Pelltar sobre esto tan pronto como regresemos a Restenford.~
-@11   = ~Esos recuadros del mapa están en las mismas posiciones que algunos edificios de este pueblo. Pero eso no es todo. Algunos de ellos tienen marcas al lado, lo cual es muy extraño.~
-@12   = ~¿Un mapa? Si, es posible, ¿no? Hay tres recuadros más grandes que podrían representar el río. Dos de los recuadros están marcados. Hay tres almacenes enormes cerca del río. ¿Y por qué estarán marcados sólo dos de los tres?~
-@13   = ~Bueno, ¿quizás porque dos de los tres almacenes tenían objetos que ya han sido robados?~
-@14   = ~Es una posibilidad. Quizás deberíamos hablar con Welcar para ver si está de acuerdo con vos.~
-@15   = ~¡Hey, chicos! ¿Os marcháis ya de esta preciosa ciudad? Lo siento, pero debo quedarme aquí. Puede que no le guste a la Baronesa, pero a su hija seguro que sí. Sólo me la tengo que seguir trabajando. ¡Después de todo lo que hicimos, seré un héroe para la Baronesa! Quizás algún día os vea en la costa. Adiós.~
-@16   = ~¿Nos dejáis de nuevo? Bueno. Espero que os vaya todo bien.~
+@9    = ~No recuerdo la parte del medio. La canciÃ³n habla sobre crear un objeto mÃ¡gico llamado la Mano de la Gloria. Aunque eso es todo lo que recuerdo. A lo mejor deberÃ­amos preguntarle a Pelltar sobre eso.~
+@10    = ~Fabio cree que el escrito se refiere a un objeto mÃ¡gico llamado la Mano de la Gloria. Me pregunto quÃ© serÃ¡, y por quÃ© los ladrones pensaron que yo la tenÃ­a. Tenemos que consultarle a Pelltar sobre esto tan pronto como regresemos a Restenford.~
+@11   = ~Esos recuadros del mapa estÃ¡n en las mismas posiciones que algunos edificios de este pueblo. Pero eso no es todo. Algunos de ellos tienen marcas al lado, lo cual es muy extraÃ±o.~
+@12   = ~Â¿Un mapa? Si, es posible, Â¿no? Hay tres recuadros mÃ¡s grandes que podrÃ­an representar el rÃ­o. Dos de los recuadros estÃ¡n marcados. Hay tres almacenes enormes cerca del rÃ­o. Â¿Y por quÃ© estarÃ¡n marcados sÃ³lo dos de los tres?~
+@13   = ~Bueno, Â¿quizÃ¡s porque dos de los tres almacenes tenÃ­an objetos que ya han sido robados?~
+@14   = ~Es una posibilidad. QuizÃ¡s deberÃ­amos hablar con Welcar para ver si estÃ¡ de acuerdo con vos.~
+@15   = ~Â¡Hey, chicos! Â¿Os marchÃ¡is ya de esta preciosa ciudad? Lo siento, pero debo quedarme aquÃ­. Puede que no le guste a la Baronesa, pero a su hija seguro que sÃ­. SÃ³lo me la tengo que seguir trabajando. Â¡DespuÃ©s de todo lo que hicimos, serÃ© un hÃ©roe para la Baronesa! QuizÃ¡s algÃºn dÃ­a os vea en la costa. AdiÃ³s.~
+@16   = ~Â¿Nos dejÃ¡is de nuevo? Bueno. Espero que os vaya todo bien.~
 @17   = ~Balmorrow, sois el peor bardo de los Reinos que me he echado a la cara.~
-@18   = ~Aun así sería mucho mejor que veros "actuar", como vos lo llamáis.~
+@18   = ~Aun asÃ­ serÃ­a mucho mejor que veros "actuar", como vos lo llamÃ¡is.~
 @19   = ~Tenemos que hablar. En privado. Os presento a <CHARNAME>, un amigo.~
 ~Tenemos que hablar. En privado. Os presento a <CHARNAME>, una amiga.~
-@20   = ~Saludos, Balmorrow. Menudo teatro que os habéis montado aquí.~
+@20   = ~Saludos, Balmorrow. Menudo teatro que os habÃ©is montado aquÃ­.~
 @21   = ~Saludos.~
-@22   = ~(señala al laúd) Quizás fue él.~
-@23   = ~Oh, ahora sí que es una dama.~
-@24   = ~<CHARNAME>, es imposible que Balmorrow tenga algo que ver con algún tipo de cofradía de asesinos. He viajado con él durante años. Le conozco bien. ¿Qué os parece si echamos un vistazo al castillo en busca de pistas?~
-@25   = ~Eh Willard, aquí deberíais sentiros como en casa.~ [FABIONM1]
-@26   = ~Bubú quiere saber quien es ese "Willard". Aquí no hay nadie más aparte de nosotros.~
-@27   = ~Os estaba llamando Willard a vos. Era el nombre del personaje de una película. Le encantaban las ratas y vivía con miles de ellas.~
-@28   = ~¡Oh! Vale. A Bubú no le gusta que le llamen rata, músico. Pero, uhm, ¿qué es una película?~
-@29   = ~(mira hacia arriba) ¿Por qué yo, Helmo? Una película es como una obra de teatro. Sólo que en vez de verla en directo, se graba y la podéis ver más tarde. ¡Antes de que preguntéis! Pensad en la historia de un libro. La historia está escrita, así que podéis leerla más tarde cuando tengáis tiempo, o si queréis podéis leerla varias veces.~
-@30   = ~¿Y por qué no lo dijisteis antes? A Bubú le encantan los libros, se hace camitas con ellos. A mí sólo me gustan los que tienen dibujos grandes.~
-@31   = ~Por alguna razón sabía que ibais a decir algo así.~
-@32   = ~Oh, y supongo que el señor "sabelotodo" conoce la canción de la que hablan esos garabatos.~
-@33   = ~Sí, ahora me cuadra todo. Esto es un recordatorio. Me apuesto algo a que esos recuadros son los otros lugares a los que fue el ladrón. Deberíamos investigarlo.~
-@34   = ~Sí, ahora me cuadra todo. Esto es una especie de recordatorio. Me apuesto algo a que esos recuadros son los otros lugares a los que fue el ladrón. Deberíamos investigarlo.~
+@22   = ~(seÃ±ala al laÃºd) QuizÃ¡s fue Ã©l.~
+@23   = ~Oh, ahora sÃ­ que es una dama.~
+@24   = ~<CHARNAME>, es imposible que Balmorrow tenga algo que ver con algÃºn tipo de cofradÃ­a de asesinos. He viajado con Ã©l durante aÃ±os. Le conozco bien. Â¿QuÃ© os parece si echamos un vistazo al castillo en busca de pistas?~
+@25   = ~Eh Willard, aquÃ­ deberÃ­ais sentiros como en casa.~ [FABIONM1]
+@26   = ~BubÃº quiere saber quien es ese "Willard". AquÃ­ no hay nadie mÃ¡s aparte de nosotros.~
+@27   = ~Os estaba llamando Willard a vos. Era el nombre del personaje de una pelÃ­cula. Le encantaban las ratas y vivÃ­a con miles de ellas.~
+@28   = ~Â¡Oh! Vale. A BubÃº no le gusta que le llamen rata, mÃºsico. Pero, uhm, Â¿quÃ© es una pelÃ­cula?~
+@29   = ~(mira hacia arriba) Â¿Por quÃ© yo, Helmo? Una pelÃ­cula es como una obra de teatro. SÃ³lo que en vez de verla en directo, se graba y la podÃ©is ver mÃ¡s tarde. Â¡Antes de que preguntÃ©is! Pensad en la historia de un libro. La historia estÃ¡ escrita, asÃ­ que podÃ©is leerla mÃ¡s tarde cuando tengÃ¡is tiempo, o si querÃ©is podÃ©is leerla varias veces.~
+@30   = ~Â¿Y por quÃ© no lo dijisteis antes? A BubÃº le encantan los libros, se hace camitas con ellos. A mÃ­ sÃ³lo me gustan los que tienen dibujos grandes.~
+@31   = ~Por alguna razÃ³n sabÃ­a que ibais a decir algo asÃ­.~
+@32   = ~Oh, y supongo que el seÃ±or "sabelotodo" conoce la canciÃ³n de la que hablan esos garabatos.~
+@33   = ~SÃ­, ahora me cuadra todo. Esto es un recordatorio. Me apuesto algo a que esos recuadros son los otros lugares a los que fue el ladrÃ³n. DeberÃ­amos investigarlo.~
+@34   = ~SÃ­, ahora me cuadra todo. Esto es una especie de recordatorio. Me apuesto algo a que esos recuadros son los otros lugares a los que fue el ladrÃ³n. DeberÃ­amos investigarlo.~

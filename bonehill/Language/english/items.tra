@@ -1,0 +1,290 @@
+@6    = ~Boulder~
+@7    = ~This is the type of rock that a giant hurls at the unfortunate. It can cause great damage, as well as knock the victim unconscious. A character of giant-class strength is able to hurl these as well...  
+
+Range: 80 yards 
+Damage: 3-18 
+Special: Save vs. Breath Weapon at -4, or be knocked unconscious for one round, and stunned for the next round. 
+Requires: 19 Strength~
+@8    = ~Amulet of Fireballs~
+@9    = ~Amulets of fireballs are amulets with small globes that when thrown will cough forth a huge, burning ball of fire that streaks out to the desired range (to a maximum of 120') and bursts in a fiery, violent blast, just like the fireball spell.  The fireball inflicts 6d6 points of damage, but all 1s rolled are counted as 2s.  The victim(s) may make a save vs. wands in order to take only half damage.  Once the globes are all used, the amulet is destroyed.
+
+STATISTICS:
+
+Ability  1:
+Effect:  shoots out a Fireball
+Damage:  6D6 (save vs. wands for half)
+Range:  90 ft
+Area 30 ft radius
+
+Not usable by:
+ Wizardslayer~
+@10   = ~Bard's Ring~
+@11   = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago. 
+
+It is set with a single stone of an unknown type that radiates a slight glow.  Though the ring is cold to the touch, the chill is strangely comforting
+
+STATISTICS:
+
+Special:
+   Memorize 1 Additional 1st Level Spell
+   Memorize 1 Additional 3rd Level Spell
+   Memorize 1 Additional 5th Level Spell
+Weight: 0
+Usable only by:
+   Bards~
+@12   = ~Horn~
+@13   = ~Bronze Horn of Valhalla~
+@14   = ~This is a small horn.  Horns are typically made of bone or metal and can produce a large variety of sounds.~
+@15   = ~Bronze Horn of Valhalla
+
+In the halls of Valhalla rest the most valiant of warriors.  Their service to war during their lives has rewarded them with honored positions in Valhalla.  As part of their service these warriors must offer their service to any who blow a horn of Valhalla.  This horn will summon forth a seventh level berserk warrior who will fight for the summoner for one minute.  The horn may be used once per day.
+
+This particular horn looks dented and bent from use or misuse.~
+@16   = ~Black Pearl~
+@17   = ~This is the missing black pearl that Gelpas accused you of stealing.  It should be returned to Welcar, the guard near the warehouses.~
+@18   = ~QuarterStaff~
+@19   = ~Staff of the Blue Dragon~
+@20   = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
+
+STATISTICS:
+
+Damage:  1D6
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@21   = ~This long black wooden staff has a large blue crystal shaped like a blue dragon's head at its tip that radiates electricity.  These staves are made for members of the Cult of the Dragon.  Only the dragonriders are allowed to carry these staves.  Therefore the cult may become very interested in your possession of this staff.
+
+The dragon staves carry the abilities of the particular dragon or dracolich that the rider was partnered with.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+THAC0:  +3
+Special:
+ Grants 50% resistance to electricity.
+ The staff has a 50% chance of dealing out 1D8 electrical damage if the blue gem strikes.
+ Launch bolt of lightning with 6D6 damage half if save vs. wands.  2 charges per day.
+ The staff has one chain lightning charge per day.
+Damage type:  crushing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength
+Usable By:
+ Mage (Single or Multi-class)~
+@22   = ~Cloak of the Assassin~
+@23   = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and assisting in backstabs. 
+
+STATISTICS:
+   Cast Improved Haste once/day
+   Cast Improved Invisibility 3/day
+
+Armor Class:  +2 bonus
+Saving Throw:  +2 bonus
+Weight:  3~
+@24   = ~Club~
+@25   = ~Club +2, The Assassin's Assistant~
+@26   = ~Club +2, The Assassin's Assistant
+This belonged to Tellish, an evil cleric/thief known as a leader in one of the strongest assassin's guilds in modern time.  It has a chance to incapacitate any human, dwarf, gnome, or halfling by inducing deep slumber, though elves are conveniently immune.  To assist the assassin, the weapon provides a 50% increase in backstab abilities.  Although technically a morning star, for a thief it works like any other club.
+
+STATISTICS:
+
+Combat Ability: Any human or demi-human, excluding elves, hit by the Sleeper must save vs. poison with no bonus or fall asleep for 18 seconds.
+Special Ability: 50% increase in backstab ability
+THACO:  +2 bonus
+Damage:  2D4 +2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Usable By:
+ Thief (Single or Multi-class)~
+@27   = ~Lute~
+@28   = ~Fabio's Lute~
+@29   = ~A musical lute.~
+@30   = ~Fabio claims that this is the famous lute used by Pellon Kay.  However, with all his travels, he has modified some of the magical abilities.
+
+How Fabio obtained this lute is a mystery he won't talk about.
+
+Special Abilities:
+
+Once per day, when played at a target, this lute casts Dire Charm.
+
+3 times a day can cause confusion to all creatures within listening range (save vs. spells to avoid the confusion).  The bard and fellow party members are not affected by the confusion.
+
+Only Usable By:
+  Bard~
+@31   = ~Long Sword~
+@32   = ~Sword of Flame +2~
+@33   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage:  1D8
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@34   = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+This particular sword seems to have a fire elemental or something imprisoned inside.  Its evil nature may overpower weak personalities.  However, the imprisoned creature draws nearby flames into the sword which may provide protection to the owner.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  1D8 +2, +3 fire damage
+Special: Fire Resistance +50%
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@35   = ~Glorious Hand~
+@36   = ~This is a desiccated hand.  There are red candles attached to each finger and thumb.~
+@37   = ~This grisly item is the severed left had of a human male, with a red candle affixed to each of the fingers and the thumb.  It was the hand of a robber, but is now a powerful magic item.
+
+Special Abilities: 
+
+Casts Knock 
+Casts Hold Person 
+
+Usable by: 
+ Anyone~
+@38   = ~Scrap of Paper~
+@39   = ~This scrap of paper has little legible writing left on it.  It is covered with ash, dirt, and it looks like recent blood.  Here is what you can read:
+
+...eagerly await the arrival of the Glorious Hand...w... an we not achieve ... in our clutches ....~
+@40   = ~Note Fragment~
+@41   = ~This dirty, stained, piece of paper has weird markings on it.  Looking at it closely, you see that they look like different shaped boxes and they are in a pattern.~
+@42   = ~Journal~
+@43   = ~Many of the words on these scattered pages have faded over the centuries.
+
+...damn curse!...undead...what to do?...restoration scroll...
+
+Only the final entry has any meaningful information:
+
+I am out of paper and my flesh is almost all but rotted away.  I understand from the others that the one who bested me is also dead.  His evil has allowed him to change into a wraith, thus continuing to condemn this place with unholy sacrilege.
+
+Will my suffering ever end?  I need my soul released from my corpse to join in Amunator's glory.
+
+I have found some restoration scrolls, perhaps one will work.  But someone else has to cast the spell!~
+@44   = ~Key~
+@45   = ~A complex looking key made from cold iron.~
+@46   = ~Martin's Message~
+@47   = ~This is Martin's message for Almax.  Looking through it, you see that it is a list of equipment Martin needs to help finish the druid grove.~
+@48   = ~Helmet~
+@49   = ~Helm of Mind Warding~
+@50   = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck.  These helmets commonly provide protection for the nose.  
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Weight: 2
+Not Usable By:
+ Mage
+ Bard
+ Thief~
+@51   = ~As its name suggests, the Helm of Mind Warding protects its wearer from any magical attempts at emotional manipulation. As a precaution, some high-profile mercenary groups regularly equip their members with such helmets to ensure that they can perform their prescribed duties without external interference.
+
+STATISTICS:
+
+Protects Against Critical Hits
+Wearer is immune to Mind Spells
+Can cast True Sight 3 times per day
+Weight: 4
+Usable by:
+Good Aligned -
+ Fighter (including multiclass)
+ Paladin
+ Ranger (including multicass)
+ Cleric~
+@52   = ~Locinda's Body~
+@53   = ~This is the body of Locinda, she needs to be taken to the temple in Garrotten for healing.~
+@54   = ~This is the missing equipment from the warehouse.  There are 2 swords, a shield, some sacks of flour and sugar (now spoiled by the rats), and a bolt of mauve silk.~
+@55   = ~Letter from Qualton~
+@56   = ~This is a letter from Abbot Qualton.  It states that he wants to hire Tellish to kill the baron and his wife, Fairwind.  It also says that he wants them dead as soon as possible.~
+@57   = ~Holy Symbol of Osprem~
+@58   = ~This is a holy symbol of the goddess Osprem.  The golden amulet has a picture of a whale on it.  Normally the whale has a red ruby eye.  This particular amulet is missing the ruby eye.~
+@59   = ~Pelltar's Spellbook~
+@60   = ~This is Pelltar's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@61   = ~String~
+@62   = ~This is the lute string found near the body of Baron Grellus.  It is gold in color and seems to give off a magical radiance.~
+@63   = ~Ruby Stone~
+@64   = ~This small ruby stone was found near the body of Baron Grellus.  According to witnesses, High Priest Harper of the Osprem temple wears an amulet with these stones.~
+@65   = ~Red Leather Button~
+@66   = ~This red leather button was found in the hand of Baron Grellus.  According to witnessess, Abraham, an innkeeper in Garrotten, wears a vest with these buttons on it.~
+@67   = ~Arrness's Documents~
+@68   = ~The Lord Mayor of Garrotten, Arrness was very detailed in writing down every bit of information about the assassin's guild.  Employment records of every spy and killer in her service are here.  Logs containing information about every job are also in these records.  From what you can tell, the guild was very successful in information gathering, espionage, and assassinations.
+
+She also has her diary here.  According to it, she plans to take over Restenford as the new Baroness once the current family is removed.  Tellish has been hired by someone to assist them in this plan.  Nothing here indicates who that person is.~
+@69   = ~Sirius' Journal~
+@70   = ~This is the journal of Sirius.
+
+Reading through it, you find that he and a necromancer were hired by the elven overlords of Lendore Isles.  Their mission was to bring chaos to the last remaining human-ruled areas so the overlords could take control.  The Glorious Hand was created to help with the thieving.  It also appears that Sirius discovered the necromancer stealing from their hoard, so he killed him.  He then moved into the lighthouse to be closer to town.  Near the end of the journal you see that your party was considered a threat to him and he was planning different options to have you blamed for everything.~
+@71   = ~Ninja-To +2, +6 vs. Lawful Good~
+@72   = ~This evil blade was designed by the Yakuza to help remove paladins, good rulers, and others that got in their way.
+
+STATISTICS:
+
+Special Abilities:
+   Kills Lawful Good on successful hit (no save)
+
+THAC0: +2 bonus, +6 vs. Lawful Good
+Damage:  1D8 +2
+Damage type:  slashing
+Weight: 1 
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakishashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@73   = ~Telvar's Journal~
+@74   = ~This journal mostly contains Telvar's notes about celestial observations.  There are also some notes about potions he was creating.  Near the end of the journal, Telvar mentions working with someone or something called "Wraith".  He gives no details other than the fact that "Wraith" controls the undead in the keep.  It seems that Wraith and he were planning an attack on Restenford soon.~
+@75   = ~Telvar's Spellbook~
+@76   = ~This is Telvar's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@77   = ~Wand of Cause Serious Wounds~
+@78   = ~Although thought to be only usable by clerics.  This wand can actually be used by anyone that doesn't want to get too close to their victim.
+
+Cast Cause Serious Wounds
+
+Usable By:
+ All~
+@79   = ~X Spellbook~
+@80   = ~This spellbook contains dozens of specialty spells that are hard to find.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@81   = ~Zahrdahl's Spellbook~
+@82   = ~This is Zahrdahl's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@83   = ~Zahrdahl's Notebook~
+@84   = ~This notebook contains Zahrdahl's notes about the people of Restenford.  It seems that he has detailed information about everyone.  It also lists the recent problems in town with the bandits, gnolls, and rats.  He also states that he plans to visit Bone Hill to get more information about what is out there.
+
+The greatest discovery you make reading this, is that the information here is to be sent to the Duke of Kroten.  It seems that Zahrdahl is not a bait dealer at all, he is a spy sent here by the duke.
+
+This information should go to Pelltar.~

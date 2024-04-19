@@ -1,0 +1,286 @@
+@6   = ~Felsblock~
+@7   = ~Das ist die Art von Felsbrocken, die ein Riese auf seine Opfer schleudert. Er kann großen Schaden verursachen und das Opfer bewusstlos schlagen. Ein Charakter mit der Stärke der Riesenklasse ist imstande, solche Felsen ebenfalls zu schleudern...  
+
+Reichweite: 70 m 
+Schaden: 3-18 
+Besonderheit: Rettungswurf gegen die Odemwaffe: -4, oder das Opfer wird für eine Runde  bewusstlos geschlagen und ist die folgende Runde betäubt. 
+Mindeststärke: 19~ 
+@8   = ~Feuerkugelamulett~
+@9   = ~Feuerkugelamulette sind Amulette mit kleinen Kugeln, die, wenn sie geworfen werden, einen riesigen, lodernden Feuersball auswerfen, der sich zum gewünschten Umfang von maximal 40 m ausdehnt und in einer gewaltigen Druckwelle genau wie der "Feuerball"-Zauber explodiert. Der Feuerball fügt 6W6 Schaden zu, wobei jede gewürfelte 1 als 2 gezählt wird. Den Opfern steht ein Rettungswurf gegen Zauberstäbe zu, um nur halben Schaden zu nehmen. Sobald die Kugeln verbraucht sind, ist das Amulett zerstört.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Fähigkeit 1:
+Wirkung: schießt einen Feuerball aus
+Schaden: 6W6 (Feuer)
+(Hälfte bei Rettungswurf gegen Zauberstäbe)
+Reichweite: 30 m
+Bereich: 10 m Radius
+
+Kann nicht verwendet werden von:
+ Zaubertötern~ 
+@10  = ~Ring des Barden~
+@11  = ~Obgleich der genaue Ursprung dieses Rings unbekannt ist, glauben viele, dass er vor ungefähr 200 Jahren geschaffen wurde. 
+
+Es ist mit einem einzelnen Stein eines unbekannten Typs besetzt, der ein geringes Glühen ausstrahlt. Obwohl der Ring bei Berührung kalt ist, wirkt die Kälte seltsam beruhigend.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+   1 zusätzlicher Zauber 1. Grades
+   1 zusätzlicher Zauber 3. Grades
+   1 zusätzlicher Zauber 5. Grades
+Gewicht: 0
+Kann nur verwendet werden von:
+   Barden ~
+@12  = ~Horn ~ 
+@13  = ~Bronzehorn der Walhalla ~
+@14  = ~Dies ist ein kleines Horn. Hörner werden üblicherweise aus Knochen oder Metall gemacht und können eine große Vielfalt an Tönen erzeugen. ~ 
+@15  = ~Bronzehorn der Walhalla
+
+In den geheiligten Hallen der Walhalla ruhen die tapfersten aller Krieger. Da sie dem Kriegsgott während ihres Lebens so aufopfernd gedient haben, haben sie es sich verdient, ihr Leben nach dem Tod ehrenvoll in den Hallen der Walhalla zu verbringen. Als Gegenleistung für diese Ehre müssen die Krieger jenen dienen, die in Odins Horn blasen. Odins Horn beschwört einen Berserker der 7. Stufe, der dem Beschwörer eine Minute lang dient. Das Horn kann einmal täglich eingesetzt werden.
+
+Dieses besondere Horn ist durch starken Gebrauch - oder Mißbrauch - verbeult und verbogen. ~
+@16  = ~Schwarze Perle ~
+@17  = ~Dies ist die gestohlene schwarze Perle, wegen der Euch Gelpas des Diebstahls bezichtigte. Sie sollte Welcar, der Wachte in der Nähe der Lagerhäuser, ausgehändigt werden. ~
+@18  = ~Kampfstab ~ 
+@19  = ~Stecken des Blauen Drachen ~
+@20  = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe werden aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Kampfstab
+Waffentyp: Beidhändig
+Mindeststärke: 5 ~ 
+@21  = ~Dieser lange schwarze Stab faßt einen großen, blauen, wie der Kopf eines Drachen gestalteten Kristall an seinem Ende ein, der vor Elektrizität knistert. Diese Stäbe werden für die Mitglieder des Drachenkultes angefertigt. Nur den Drachenreitern wird erlaubt, diese Stäbe zu tragen. Deshalb der Besitz dieses Stabes früher oder später die Aufmerksamkeit des Kultes erregen.
+
+Die Drachenstäbe beherbergen die geistige Essenz des jeweiligen Drachen, mit dem sich der Reiter zusammen tat, oder der Essenz von dessen Leiche.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3
+ETW0: +3
+Besonderheit:
+Elektrizitätsresistenz: +50%
+Chance von 50 %, elektrischen Schaden von 1W8 zu verursachen, wenn der blaue Edelstein ausschlägt. Stösst einen Blitzstrahl mit 6D6 Schaden aus, Hälfte bei Rettungswurf gegen Zauber. 2 Ladungen pro Tag. Der Stab verfügt über eine Kettenblitz-Ladung pro Tag.
+Schadensart: zertrümmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: Beidhändig
+Mindeststärke: 5~ 
+@22  = ~Umhang des Mörders ~
+@23  = ~Die durch diesen stark verzauberten Umhang übertragenen Fähigkeiten belegen exemplarisch, dass Schutzvorrichtungen viele Formen annehmen können - einschließlich vor dem Blick Anderer verbergen und Heimtücke unterstützen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verbesserte Hast (einmal täglich)
+Verbesserte Unsichtbarkeit (dreimal täglich)
+
+Rüstungsklasse-Bonus: -2
+Rettungswürfe-Bonus: +2 Bonus
+Gewicht: 3 ~ 
+@24  = ~Keule ~
+@25  = ~Keule +2, der Helfer des Mörders ~
+@26  = ~Keule +2, der Helfer des Mörders
+Diese Keule gehörte Tellish, dem bösartigen Kleriker/Dieb, bekannt als Führer einer der ruchlosesten Meuchlergilden der Neuzeit. Sie gewährt die Möglichkeit, jeden Menschen, Zwerg, Gnom oder Halbling kampfunfähig zu machen, indem sie tiefen Schlummer hervorruft, wohingegen Elfen für gewöhnlich geschützt sind. Die Waffe verschafft dem gedungenen Mörder einen Bonus von 50 % auf Heimtücke. Obwohl es sich technisch um einen Morgenstern handelt, funktioniert sie für einen Dieb wie jede gemeine Keule.
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Kampffähigkeit: Jeder Mensch oder Halbmensch außer Elfen, die von getroffen werden, müssen einen Rettungswurf gegen Gift bestehen, oder sie fallen 18 Sekunden lang in Tiefschlaf.
+Besonderheit: Zunahme von 50 % auf die  Fähigkeit Heimtücke
+THACO: +2 Bonus
+Schaden: 2D4 +2
+Schadensart: zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 5
+Kann verwendet werden von:
+ Dieben (ein- oder mehrklassig) ~
+@27  = ~Laute ~
+@28  = ~Fabios Laute ~
+@29  = ~Eine melodische Laute. ~
+@30  = ~Fabio behauptet, dass dies die berühmte Laute ist, die Pellon Kay benutzt hat. Jedoch hat er auf seinen Reisen einige der magischen Fähigkeiten verändert.
+
+Wie Fabio diese Laute erwarb ist ein Geheimnis, über das er nicht sprechen will.
+
+Besonderheiten:
+
+Wenn sie gespielt wird, verursacht die Laute einmal täglich bei ihrem Ziel einen "Schreckenszauber".
+
+Kann dreimal täglich alle Wesen in Hörweite verwirren, denen ein Rettungswurf gegen Zauber misslingt. Der Barde und seine Gruppenmitglieder sind gegen die Verwirrung immun.
+
+Kann nur verwendet werden von:
+ Barden ~
+@31  = ~Langschwert ~
+@32  = ~Flammenschwert +2 ~
+@33  = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@34  = ~Die Klinge brennt mit einem magischen Feuer, und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte "Meta Infernum" sind in den Griff geritzt. Die Inschrift ist jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
+
+Dieses besondere Schwert scheint ein Feuerelementar oder ein anderes gefangenes Wesen zu beherbergen. Seine böse Natur ist in der Lage, schwache Persönlichkeiten zu überwältigen. In jedem Fall zieht das eingesperrte Wesen nahebei ausschlagende Flammen ins Schwert, welche dem Eigentümer zusätzlichen Schutz gewähren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2 Bonus
+Schaden: 1W8 +2, +3 Feuerschaden
+Besonderheit: Feuerwiderstand +50 %
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@35  = ~Ruhmreiche Hand~
+@36  = ~Dies ist eine zermergelte Hand. An jedem Finger und am Daumen sind rote Kerzen befestigt. ~
+@37  = ~Dieser grausige Gegenstand ist die abgetrennte linke Hand eines menschlichen Mannes, mit einer an jedem der Finger und dem Daumen angebrachten roten Kerze. Es war die Hand eines Räubers, aber jetzt ist es ein mächtiger magischer Gegenstand.
+
+Besonderheiten: 
+
+spricht den Zauber "Prügeln" 
+spricht den Zauber "Person festhalten" 
+
+Kann von jedem verwendet werden. ~
+@38  = ~Papierschnitzel ~
+@39  = ~Auf diesem Papierschnitzel ist nur wenig leserliche Schrift übrig. Er ist mit Asche und Schmutz bedeckt, darunter wohl auch frisches Blut. Hier steht, was Ihr lesen könnt:
+
+... heiß erwartet die Ankunft der Ruhmvollen Hand ... w ... wir nicht erreichen ... in unseren Fängen .... ~
+@40  = ~Notizfetzen ~
+@41  = ~Dieses schmutzige, besudelte Stück Papier weist unheimliche Markierungen auf. Bei näherer Berachtung seht Ihr, dass sie wie verschieden geformte Kästchen aussehen und in einem Muster angeordnet zu sein scheinen. ~
+@42  = ~Tagebuch ~
+@43  = ~Viele dieser Worte auf diesen verstreuten Seiten sind im Laufe der Jahre verblasst.
+
+... verdammter Fluch!... untoter... was soll ich tun?... Wiedergenesungs-Schriftrolle...
+
+Nur die letzten Einträge warten mit nützlichen Informationen auf:
+
+Ich habe kein Papier mehr, und mein Fleisch ist beinahe völlig verfault. Ich weiss von den anderen, dass derjenige, der mir zur Seite stand, ebenfalls tot ist. Seine Sünden haben ihm erlaubt, sich in eine Geistererscheinung zu verwandeln, um so diesen Platz auf ewig mit seiner unheiligen Präsenz zu entweihen.
+
+Wird mein Leiden jemals enden? Ich brauche meine von meinem Leichnam losgelöste Seele, um in dem Ruhm von Amunator aufzugehen.
+
+Ich habe einige Wiedergenesungs-Schriftrollen gefunden, vielleicht wird eine funktionieren. Aber jemand anderer muss den Zauber aussprechen! ~
+@44  = ~Schlüssel ~
+@45  = ~Ein kompliziert aussehender Schlüssel aus kaltem Eisen. ~
+@46  = ~Martins Nachricht ~
+@47  = ~Dies ist Martins Nachricht für Almax. Während Ihr sie durchseht, stellt Ihr fest, dass es eine Liste der Ausrüstung ist, die Martin benötigt, um zu helfen, den Druidenschrein fertig zu stellen. ~
+@48  = ~Helm ~
+@49  = ~Helm der Gedankenabwehr ~
+@50  = ~Diese Klasse eines gesichtsfreien Helms, gefertigt aus verstärktem Leder oder Metall, bedeckt den grössten Teil des Kopfs, außer dem Gesicht und dem Hals. Diese Helme bieten gewöhnlicherweise vor allem der Nase Schutz. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassenbonus: Keiner
+Besonderheit: Schützt vor kritischen Treffern
+Gewicht: 2
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben ~
+@51  = ~Wie sein Name andeutet, schützt der Helm der Gedankenabwehr seinen Träger vor jeglichen magischen Versuchen gefühlsmäßiger Beeinflussung. Vorsichtshalber statten einige bekannte Söldnertruppen standardmäßig ihre Mitglieder mit solchen Helmen aus, um sicherzustellen, dass sie ihre vorgeschriebenen Aufgaben ohne Einmischung von außen durchführen können.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Träger ist vor Gedankenzaubern geschützt
+Kann den Wahren Blick 3mal pro Tag anwenden
+Gewicht: 4
+Kann verwendet werden von:
+Gut gesinnten
+ Kämpfern (einschließlich mehrklassige)
+ Paladinen
+ Waldläufern (einschließlich mehrklassige)
+ Klerikern~
+@52  = ~Locindas Körper ~
+@53  = ~Dies ist der Körper von Locinda, der in den Tempel von Garrotten zur Heilung gebracht werden muss. ~
+@54  = ~Dies ist die fehlende Ausrüstung aus dem Warenhaus. Es sind zwei Schwerter, ein Schild, einige Säcke Mehl und Zucker (jetzt befallen von Ratten), und einem Ballen malvenfarbiger Seide. ~
+@55  = ~Brief von Qualton ~
+@56  = ~Dies ist ein Brief vom Abt Qualton. Er beschreibt, dass er Tellish anheuern will, um den Baron und seine Frau Fairwind zu töten. Es sagt auch, dass er sie so bald wie möglich tot wissen will. ~
+@57  = ~Heiliges Symbol von Osprem ~
+@58  = ~Dies ist ein heiliges Symbol der Göttin Osprem. Auf dem goldenen Amulett ist das Bild eines Wals zu sehen. Normalerweise hat der Wal ein rotes rubinrotes Auge. Diesem besonderen Amulett fehlt das rubinrote Auge. ~
+@59  = ~Pelltars Zauberbuch ~
+@60  = ~Dies ist Pelltars Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@61  = ~Saite ~
+@62  = ~Dies ist die Lautensaite, die neben dem Körper des Barons Grellus gefunden wurde. Sie ist goldfarben und scheint einen magischen Glanz auszustrahlen. ~
+@63  = ~Rubinstein ~
+@64  = ~Dieser kleine rubinrote Stein wurde neben dem Körper des Barons Grellus gefunden. Gemäß der Zeugen trägt der Hohepriester Harfner vom Tempel des Osprem ein Amulett mit diesen Steinen. ~
+@65  = ~Roter Lederknopf ~
+@66  = ~Dieser rote Lederknopf wurde in der Hand des Barons Grellus gefunden. Gemäß der Zeugen trägt Abraham, ein Gastwirt in Garrotten, eine Weste mit solchen Knöpfen. ~
+@67  = ~Arrness Dokumente ~
+@68  = ~Die Oberbürgermeisterin von Garrotten, Arrness, war sehr ausführlich bei der Aufzeichnung jedes Fitzelchens an Information über die Gilde der Meuchelmörder. Einsatzberichte jedes Spions und Mörders in ihrem Dienst finden sich hier. Protokolle mit Informationen über jeden Auftrag sind ebenso festgehalten. Nach dem, was Ihr berichten könnt, war die Gilde im Sammeln von Informationen, Spionage, und Ermordungen ungemein erfolgreich.
+
+Sie hat auch ihr Tagebuch hier. Gemäß diesem plant sie, Restenfurth als neue Baronin zu übernehmen, sobald die Familie des derzeitigen Herrschers beseitigt ist. Tellish wurde angeheuert, um sie bei diesem Vorhaben zu unterstützen. Nichts zeigt weist jedoch darauf hin, wer diese Person ist. ~
+@69  = ~Sirius Tagebuch~
+@70  = ~Dies ist das Tagebuch von Sirius.
+
+Während Ihr es durchlest, erkennt Ihr, dass er und ein Nekromant der Elfen-Oberherren auf den Lendore-Inseln angestellt wurden. Ihre Mission bestand darin, Verwirrung in den verbliebenen letzten von Menschen verwalteten Gebieten zu stiften, so dass die Oberherren die Kontrolle übernehmen können. Die Ruhmvolle Hand wurde geschaffen, um Diebstähle zu verüben. Es scheint zudem, dass Sirius den Nekromanten entdeckte, als er aus ihrem Vorrat stahl, und ihn dabei tötete. Er zog dann in den Leuchtturm um, um näher an der Stadt zu sein. Am Ende des Tagebuches seht Ihr, dass Eure Gruppe als eine Bedrohung gegen ihn betrachtet wurde und er verschiedene Möglichkeiten plante, Euch für die Verbrechen verantwortlich zu machen. ~
+@71  = ~Ninja +2, +6 gegen Rechtschaffen Gute ~
+@72  = ~Diese finstere Klinge wurde von den Yakuza dafür entworfen, zu helfen, Paladine, gütige Herrscher und alle anderen zu beseitigen, die im Wege stehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheiten:
+   Tötet Rechtschaffen Gute bei erfolgreichem Treffer (kein Rettungswurf)
+
+ETW0: +2 Bonus, +6 gegen Rechtschaffen Gute
+Schaden: 1W8 +2
+Schadensart: aufschlitzen
+Gewicht: 1 
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@73  = ~Telvars Tagebuch ~
+@74  = ~Dieses Tagebuch enthält größtenteils Telvars Notizen über die Beobachtung des Himmels. Es gibt zudem einige Notizen über die Arzneitränke, die er schuf. Am Ende des Tagebuchs erwähnt Telvar, mit jemandem oder etwas "Erscheinung" genannten zusammen zu arbeiten. Er nennt keine Details außer der Tatsache, dass die "Erscheinung" die Untoten in der Burg kontrolliert. Es scheint so, als ob der Apparuit und er in Kürze einen Angriff auf Restenfurth planten. ~
+@75  = ~Telvars Zauberbuch ~
+@76  = ~Dies ist Telvars Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@77  = ~Schwere Wunden verursachender Zauberstab ~
+@78  = ~Obwohl Ihr immer dachtet, dass er nur von Klerikern verwendet werden kann, kann dieser Stab von jedem verwendet werden, der seinem Opfer nicht zu nahe kommen will.
+
+Kann schwere Wunden verursachen
+
+Kann von jedermann verwendet werden. ~
+@79  = ~X Zauberbuch ~
+@80  = ~Dieses Zauberbuch enthält Dutzende von speziellen Zaubern, die schwer zu finden sind.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@81  = ~Zahrdahls Zauberbuch ~
+@82  = ~Dies ist Zahrdahls Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@83  = ~Zahrdahls Notizbuch ~
+@84  = ~Dieses Notizbuch enthält Zahrdahls Notizen über die Leute aus Restenfurth. Es scheint, als ob er über jeden ausführliche Informationen gesammelt hat. Es verzeichnet auch die neuen Probleme in der Stadt mit den Räubern, Gnollen und Ratten. Er stellt zudem fest, dass er plant, die Knochenhügel zu besuchen, um mehr Information darüber zu bekommen, was dort los ist.
+
+Die größte Entdeckung, die Ihr beim Lesen macht, ist die, dass diese Informationen dem Herzog von Kroten gesandt werden sollen. Es scheint so, als ob Zahrdahl überhaupt kein Köderhändler ist, sondern vom Herzog als Spion hierher gesandt wurde.
+
+Diese Informationen sollten an Pelltar gehen. ~

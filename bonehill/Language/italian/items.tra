@@ -1,0 +1,290 @@
+@6    = ~Masso~
+@7    = ~Questo è il tipo di roccia che un gigante lancia allo sfortunato bersaglio. Può provocare molti danni e lasciare la vittima priva di sensi. Anche un personaggio che possiede la forza di un gigante è in grado di lanciare questi massi...  
+
+Raggio d'azione: 73 metri 
+Danno: 3-18 
+Speciale: Tiro salvezza contro Soffio a -4 o perdere i sensi per un round, e al seguente rimarrà stordito. 
+Richiede: 19 alla Forza~
+@8    = ~Amuleto dei Globi di Fuoco~
+@9    = ~Gli Amuleti dei Globi di Fuoco sono amuleti con piccoli globi che quando lanciati scagliano delle enormi e infuocate palle di fuoco che esplodono nel raggio desiderato (al massimo 40 metri circa) e scoppiano in ardenti e violente esplosioni, esattamente come l'incantesimo Palla di Fuoco. La palla di fuoco infligge 6d6 punti di danno, ma tutto l'1 è calcolato come 2. La vittima (o le vittime) possono effettuare un tiro salvezza contro bacchette solo per dimezzare il danno. Una volta utilizzati i globi, l'amuleto si distruggerà.
+
+STATISTICHE:
+
+Abilità  1:
+Effetto: Lancia una Palla di Fuoco
+Danno: 6D6 (tiro salvezza contro bacchette per dimezzare il danno)
+Raggio: 27 metri
+Area d'effetto: 9 metri di raggio
+
+Non utilizzabile da:
+ Ammazzastregoni~
+@10   = ~Anello del Bardo~
+@11   = ~Non si conoscono le esatte origini di questo anello, molti credono che sia stato creato circa 200 anni fa. 
+
+E' composto da un'unica pietra di un materiale sconosciuto che irradia una tenue luce. Benché l'anello sia freddo al tocco, il senso di gelo è stranamente confortevole
+
+STATISTICHE:
+
+Speciale:
+   Memorizza 1 incantesimo addizionale di 1° Livello
+   Memorizza 1 incantesimo addizionale di 3° Livello
+   Memorizza 1 incantesimo addizionale di 5° Livello
+Peso: 0
+Utilizzabile solo da:
+   Bardi~
+@12   = ~Corno~
+@13   = ~Corno di Bronzo del Valhalla~
+@14   = ~Questo è un piccolo corno. I corni sono generalmente fatti di ossa o metallo e possono produrre una grande varietà di suoni.~
+@15   = ~Corno di Bronzo del Valhalla
+
+Nelle stanze del Valhalla riposano i più valorosi guerrieri. I loro servigi in guerra vengono premiati con posizioni d'onore nel Valhalla. Come parte dei loro servizi, i guerrieri devono offrire i loro aiuto a chiunque suoni il corno del Valhalla. Questo corno evocherà un guerriero berserk di settimo livello che combatterà per l'evocatore per un minuto. Il corno può essere usato una volta al giorno.
+
+Questo corno in particolare sembra ammaccato e inclinato per il suo uso o per essere stato usato male.~
+@16   = ~Perla Nera~
+@17   = ~Questa è la Perla Nera scomparsa che Gelpas ti ha accusato di aver rubato. Dovrebbe essere restituita a Welcar, la guardia vicino ai magazzini.~
+@18   = ~Bastone Rinforzato~
+@19   = ~Bastone del Drago Blu~
+@20   = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.  
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di Competenza: Bastone
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@21   = ~Questo lungo bastone di legno nero ha un grande cristallo blu con la forma di una testa di un drago alla sua estremità che irradia elettricità. Questi bastoni sono creati per gli appartenenti al Culto del Drago. Solo ai cavalieri del drago è permesso avere con sé questi bastoni. Perciò il Culto potrebbe essere molto interessato a questo bastone in tuo possesso.
+
+I bastoni del drago portano con sé le abilità del drago o del drago lich a cui è associato il cavaliere.
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THAC0: +3
+Speciale:
+ Conferisce il 50% di resistenza all'elettricità.
+ Il bastone ha il 50% di possibilità di infliggere 1D8 di danno elettrico se la gemma blu viene colpita.
+ Lancia un fulmine saetta con 6D6 di danno. Tiro salvezza contro bacchette per dimezzare il danno. Due cariche al giorno.
+ Il bastone ha una carica di Catena di Fulmini una volta al giorno.
+Tipo di Danno: schiacciamento
+Peso: 7
+Fattore Velocità: 2
+Tipo di Competenza: Bastone Rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza
+Utilizzabile da:
+ Mago (Singolo o Multiclasse)~
+@22   = ~Mantello dell'Assassino~
+@23   = ~Le abilità conferite a questo potentissimo mantello incantato attestano il fatto che la protezione può prendere molte forme - compreso il nascondersi alla vista e l'assistenza nel colpo alle spalle. 
+
+STATISTICHE:
+   Lancia Velocità Potenziata una volta al giorno
+   Lancia Invisibilità Potenziata 3 volte al giorno
+
+Classe Armatura: bonus +2
+Tiro Salvezza: bonus +2
+Peso: 3~
+@24   = ~Clava~
+@25   = ~Clava +2, L'Aiutante dell'Assassino~
+@26   = ~Clava +2, L'Aiutante dell'Assassino 
+Questa clava apparteneva a Tellish, un chierico/ladro malvagio conosciuto come il capo di una delle più forti Gilde degli Assassini degli ultimi tempi. Ha la possibilità di rendere incapace ogni umano, nano, gnomo, o halfling inducendolo in un sonno profondo, sebbene gli elfi ne siano confortevolmente immuni. Per assistere l'assassino, l'arma incrementa del 50% la possibilità di riuscita di un colpo alle spalle. Sebbene tecnicamente sia una morning star, per un ladro lavora come qualsiasi altra clava.
+
+STATISTICHE:
+
+Abilità di combattimento: Qualsiasi umano o semi umano, escluso gli elfi, colpiti da Sonno deve effettuare un tiro salvezza contro veleno senza nessun bonus o cadere addormentato per 18 secondi.
+Abilità Speciale: 50% di incremento nella capacità del colpo alle spalle
+THACO: bonus +2
+Danno: 2D4 +2
+Tipo di Danno: schiacciamento
+Peso: 4
+Fattore Velocità: 3
+Tipo di Competenza: Clava
+Tipo: ad una mano
+Richiede: 5 alla Forza
+Utilizzabile da:
+ Ladro (Singolo o Multiclasse)~
+@27   = ~Lito~
+@28   = ~Il Liuto di Fabio~
+@29   = ~Un liuto musicale.~
+@30   = ~Fabio sostiene che questo sia il famoso liuto usato da Pellon Kay.  Tuttavia, a causa dei suoi viaggi, ha modificato alcune delle abilità magiche.
+
+Come Fabio abbia ottenuto questo liuto è un mistero di cui lui non ne vuole parlare.
+
+Abilità Speciali:
+
+Una volta al giorno, quando suonato verso un bersaglio, questo liuto lancia Charme Estremo.
+
+3 volte al giorno può causare confusione a tutte le creature nel raggio di ascolto (tiro salvezza contro incantesimi per evitare la confusione). Il bardo e il gruppo dei suoi compagni non sono colpiti dalla confusione.
+
+Utilizzabile solo da:
+  Bardo~
+@31   = ~Spada Lunga~
+@32   = ~Spada Fiammeggiante +2~
+@33   = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare. 
+
+STATISTICHE:
+
+Danno:  1D8
+Tipo di Danno: tagliente
+Peso: 4
+Fattore Velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+@34   = ~Questa lama arde di un fuoco magico, e emette una scarica ustionante ogni volta che va a segno. Su ogni lato della lama è scolpita la frase "Meta Infernum', anche se la scritta appare sbiadita e non sembra originale con la spada.
+
+Questa spada in particolare sembra avere un elementale del fuoco o qualcosa di simile imprigionato dentro. La sua natura malvagia potrebbe sopraffare i personaggi con un carattere debole. Tuttavia, la creatura imprigionata attrae a sé le fiamme della spada in modo tale da fornire protezione al proprietario.
+
+STATISTICHE:
+
+THAC0: bonus +2
+Danno: 1D8 +2, +3 di danno da fuoco
+Speciale: Resistenza al Fuoco +50%
+Tipo di Danno: tagliente
+Peso: 4
+Fattore Velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+@35   = ~La Mano della Gloria~
+@36   = ~Questa è una mano essiccata. Ci sono delle candele rosse attaccate ad ogni dito della mano.~
+@37   = ~Questo orribile oggetto è una mano sinistra tagliata da un umano maschio, con una candela rossa su ognuna delle dita. Era la mano di un ladro, ma adesso è un potente oggetto magico.
+
+Abilità Speciali: 
+
+Lancia Scassinare 
+Lancia Bloccapersone 
+
+Utilizzabile da: 
+ Tutti~
+@38   = ~Pezzo di Carta~
+@39   = ~In questo Pezzo di carta c'è scritto qualcosa. E' coperto di cenere, sporco, e sembra macchiato di sangue fresco. Ecco quello che riesci a leggere:
+
+...con impazienza aspetto l'arrivo della Mano della Gloria...n... se non la prendiamo ... nelle nostre grinfie ....~
+@40   = ~Frammento di Nota~
+@41   = ~Questo sporco e macchiato pezzo di carta ha dei misteriosi segni. Guardandolo con più attenzione, vedi che quei segni somigliano più a dei differenti riquadri e sono disegnati in modo diverso.~
+@42   = ~Diario~
+@43   = ~Molte delle parole di queste pagine sono sbiadite nel corso dei secoli.
+
+...maledizione!...Non Morto...cosa fare?...pergamena di ristorazione...
+
+Solo l'annotazione finale ha qualche informazione che ha un senso:
+
+Ho finito la carte e la mia carne è quasi tutta putrefatta. So dagli altri che anche quello che mi ha sconfitto è morto. La sua malvagità gli ha permesso di trasformarsi in un wraith, in questo modo condannerà questo posto con i suoi terribili sacrilegi.
+
+Quando avrà fine la mia sofferenza? Ho bisogno che la mia anima si liberi del corpo per potermi unire alla gloria di Amunator.
+
+Ho trovato alcune pergamene di ristorazione, forse una funzionerà. Ma qualcun altro deve lanciare l'incantesimo!~
+@44   = ~Chiave~
+@45   = ~E' una chiave particolare fatta di ferro freddo.~
+@46   = ~Messaggio di Martin~
+@47   = ~Questo è il messaggio di Martin per Almax. Leggendolo, puoi vedere che è una lista di rifornimenti di cui Martin ha bisogno per finire il boschetto del druido.~
+@48   = ~Elmo~
+@49   = ~Elmo della Protezione Mentale~
+@50   = ~Questa classe di elmi a viso aperto, fatti di cuoio rinforzato o di metallo, copre quasi tutta la testa, eccetto il volto e il collo. Gli elmi di questo tipo in genere proteggono il naso.  
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: Nessuno
+Speciale: Protegge dai Colpi Critici
+Peso: 2
+Non utilizzabile da:
+ Mago
+ Bardo
+ Ladro~
+@51   = ~Come suggerisce il suo nome, l'Elmo della Protezione Mentale protegge colui che lo indossa da eventuali tentativi magici di manipolazione emotiva. Come precauzione, alcuni gruppi mercenari di un certo livello, forniscono questi elmi ai loro membri per garantire che possano svolgere i compiti impartiti senza subire alcuna influenza esterna.
+
+STATISTICHE:
+
+Protegge contro i Colpi Critici
+Colui che lo indossa è immune da Incantesimi Mentali
+Può lanciare Vera Vista 3 volte al giorno
+Peso: 4
+Utilizzabile da:
+Allineamento Buono -
+ Guerriero (incluso i Multiclasse)
+ Paladino
+ Ranger (incluso i Multiclasse)
+ Chierico~
+@52   = ~Corpo di Locinda~
+@53   = ~Questo è il corpo di Locinda, deve essere portata al tempio, a Garrotten, per essere curata.~
+@54   = ~Questi sono gli oggetti scomparsi dal magazzino. Ci sono 2 spade, uno scudo, alcuni sacchi di farina e zucchero (ora danneggiati dai topi), e un rotolo di seta malva.~
+@55   = ~Lettera di Qualton~
+@56   = ~Questa è una lettera dell'Abate Qualton. Dichiara di voler assumere Tellish per uccidere il barone e sua moglie, Fairwind. Dice anche che li vuole morti il più presto possibile.~
+@57   = ~Simbolo Sacro di Osprem~
+@58   = ~Questo è il Simbolo Sacro della dea Osprem. L'amuleto è dorato  e c'é un disegno di una balena. Di solito al disegno della balena vengono applicati dei rubini rossi come occhi. A questo amuleto in particolare è stato perso il rubino che forma l'occhio.~
+@59   = ~Libro degli Incantesimi di Pelltar~
+@60   = ~Questo è il Libro degli Incantesimi di Pelltar. Tutti i suoi incantesimi sono al suo interno.
+
+Questo robusto contenitore è fatto in modo che diverse pergamene possano essere messe al suo interno e tenute al sicuro dal fuoco, dalla pioggia e dall'elettricità -- il genere di problemi che un mago avventuriero si trova spesso ad affrontare.~
+@61   = ~Corda~
+@62   = ~Questa è la corda del Liuto trovata vicino al corpo del Barone Grellus.  Ha un colore dorato e sembra emanare una radiosità magica.~
+@63   = ~Pietra Rubino~
+@64   = ~Questa piccola pietra rubino è stata trovata vicino al corpo del Barone Grellus. Secondo le testimonianze, il Sommo Sacerdote Harper, del tempio di Osprem, indossa un amuleto con quel tipo di pietre.~
+@65   = ~Bottone di Pelle Rosso~
+@66   = ~Questo bottone di pelle rosso è stato trovato nella mano del Barone Grellus. Secondo le testimonianze, Abraham, un locandiere di Garrotten, indossa un vestito con quei bottoni.~
+@67   = ~Documenti di Arrness~
+@68   = ~Il Sindaco di Garrotten, Arrness, era molto dettagliata nello scrivere ogni tipo di informazione riguardante la Gilda degli Assassini. Le attività registrate di ogni spia e gli assassini al suo servizio sono scritti tutti qui. Anche le informazioni che riguardano le registrazioni di tutti gli incarichi di lavoro sono contenuti qui. Da quello che ne puoi dedurre, la Gilda aveva raggiunto un altissimo livello nell'assunzione di informazioni, nello spionaggio, e negli assassinii.
+
+Il Sindaco aveva anche un suo diario qui. In base a quello che c'è scritto, lei progettava di governare Restenford come nuova Baronessa una volta rimossa l'attuale famiglia, prendendone il suo posto. Tellish è stato assunto da qualcuno per aiutarla in questo piano. Ma non c'è nulla che ne indichi la persona che lo ha assunto.~
+@69   = ~Diario di Sirius~
+@70   = ~Questo è il Diario di Sirius.
+
+Leggendolo, scopri che lui ed un negromante erano stati assunti dai Signori degli Elfi delle Isole di Lendore. La loro missione era quella di portare il caos agli ultimi governanti umani rimasti in queste terre cosicché i Signori degli Elfi ne potessero prendere facilmente il controllo. La Mano Gloriosa era stata creata per aiutare nei furti. Sembra anche che Sirius scoprì che il negromante stava rubando dalle sue provvigioni, così lo uccise e si spostò nel faro vicino alla città. Verso la fine del diario leggi che il tuo gruppo era considerato una minaccia per lui e così progettò differenti opzioni per incolparti di tutto.~
+@71   = ~Ninja-To +2, +6 contro i Legali Buoni~
+@72   = ~Questa lama malvagia è stata creata per gli Yakuza, per aiutarli a distruggere i paladini, i governanti buoni, e chiunque prendesse la strada del Legale Buono.
+
+STATISTICHE:
+
+Abilità Speciali:
+   Uccide i legali Buoni con un colpo riuscito (nessun tiro salvezza)
+
+THAC0: bonus +2 bonus, +6 contro i Legali Buoni
+Danno: 1D8 +2
+Tipo di Danno: tagliente
+Peso: 1 
+Fattore Velocità: 0
+Tipo di Competenza: Scimitarra/Wakishashi/Ninja-To
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+@73   = ~Diario di Telvar~
+@74   = ~Questo diario contiene soprattutto annotazioni sulle osservazioni celestiali di Telvar. Ci sono anche alcuni appunti sulle pozioni che ha creato.  Verso la fine del diario Telvar parla della sua collaborazione con qualcosa o qualcuno chiamato "Wraith". Non dà altri dettagli ma si deduce che "Wraith" controlla i Non Morti nel castello. Sembra che lui e Wraith avessero pianificato un imminente attacco a Restenford.~
+@75   = ~Libro degli Incantesimi di Telvar~
+@76   = ~Questo è il Libro degli Incantesimi di Telvar. Tutti i suoi incantesimi sono al suo interno.
+
+Questo robusto contenitore è fatto in modo che diverse pergamene possano essere messe al suo interno e tenute al sicuro dal fuoco, dalla pioggia e dall'elettricità -- il genere di problemi che un mago avventuriero si trova spesso ad affrontare.~
+@77   = ~Bacchetta che Causa Ferite Gravi~
+@78   = ~Benché si pensi che possa essere usata solamente dai chierici, questa bacchetta può essere in realtà usata da chiunque non voglia avvicinarsi troppo alla sua vittima.
+
+Lancia Causa Ferite Gravi 
+
+Utilizzabile da:
+ Tutti~
+@79   = ~Libro degli Incantesimi X~
+@80   = ~Questo libro degli Incantesimi contiene dozzine incantesimi particolarmente difficili da trovare.
+
+Questo robusto contenitore è fatto in modo che diverse pergamene possano essere messe al suo interno e tenute al sicuro dal fuoco, dalla pioggia e dall'elettricità -- il genere di problemi che un mago avventuriero si trova spesso ad affrontare.~
+@81   = ~Libro degli Incantesimi di Zahrdahl~
+@82   = ~Questo è il Libro degli Incantesimi di Zahrdahl. Tutti i suoi incantesimi sono al suo interno.
+
+Questo robusto contenitore è fatto in modo che diverse pergamene possano essere messe al suo interno e tenute al sicuro dal fuoco, dalla pioggia e dall'elettricità -- il genere di problemi che un mago avventuriero si trova spesso ad affrontare.~
+@83   = ~Libro degli appunti di Zahrdahl~
+@84   = ~Questo libro contiene gli appunti di Zahrdahl sulla gente di Restenford. Sembra che ci siano informazioni dettagliate su chiunque. C'è anche un elenco dei recenti problemi in città con i banditi, gli gnoll, e i topi. C'è scritto anche delle sue intenzioni di visitare la Collina Ossea per prendere informazioni di cosa stesse succedendo lì.
+
+Leggendo fai una grande scoperta, che le informazioni che sta prendendo su questo libro sono destinate al Duca di Kroten. Sembra che Zahrdahl, in realtà, non sia un venditore di oggetti per la pesca, ma una spia inviata qui dal Duca.
+
+Queste informazioni dovrebbero essere portate a Pelltar.~

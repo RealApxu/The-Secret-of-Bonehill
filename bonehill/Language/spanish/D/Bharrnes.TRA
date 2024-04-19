@@ -1,62 +1,62 @@
-@1    = ~Así que el señor <CHARNAME> ha venido a visitarme. Qué agradable sorpresa.~
-~Así que la señora <CHARNAME> ha venido a visitarme. Qué agradable sorpresa.~
-@2    = ~¿Visitarla? No me pareció tener mucha elección cuando aparecieron sus secuaces.~
+@1    = ~AsÃ­ que el seÃ±or <CHARNAME> ha venido a visitarme. QuÃ© agradable sorpresa.~
+~AsÃ­ que la seÃ±ora <CHARNAME> ha venido a visitarme. QuÃ© agradable sorpresa.~
+@2    = ~Â¿Visitarla? No me pareciÃ³ tener mucha elecciÃ³n cuando aparecieron sus secuaces.~
 @3    = ~Lady Arrness, gracias por recibirme.~
-@4    = ~¿Qué puedo hacer por vosa merced?~
-@5    = ~Estamos investigando el asesinato del Barón Grellus. Creemos que al menos uno de vuesos ciudadanos estuvo implicado.~
-@6    = ~Somos simples aventureros. Esperábamos poder ayudarla en algo.~
-@7    = ~¿Grellus? Qué malas noticias. Era un hombre maravilloso. Lady Belloviento debe estar sumida en dolor.~
-@8    = ~¿Secuaces? No es precisamente un halago para mi capitán o sus hombres. Os aseguro que sólo intentaban protegeros.~
-@9    = ~¿Protegernos? ¿De qué?~
-@10    = ~De la peligrosa persona que estáis buscando, por supuesto. Estáis investigando el asesinato del Barón Grellus, ¿correcto?~
-@11   = ~Sí. ¿Cómo lo sabéis?~
-@12   = ~Mi buen hombre, los rumores están por todo el pueblo. Si pretendíais llevar a cabo una investigación secreta, lo hicisteis fatal.~
-~Mi buena mujer, los rumores están por todo el pueblo. Si pretendíais llevar a cabo una investigación secreta, lo hicisteis fatal.~
-@13   = ~Hablando de eso, no me gusta que fisgonéis por mi pueblo sin haberme visitado antes para informarme de qué estáis haciendo. Como gobernanta de este pueblo, es mi deber controlar el crimen y mantener el orden. Vuestra investigación no autorizada termina aquí. Mis guardias investigarán el caso por vos. Una vez que se sepa la verdad os haré llamar. ¿Entendido?~
-@14   = ~La alcaldesa de Garrotten planea investigar el asesinato y ha puesto fin a mi investigación. Me pregunto si atraparán al verdadero asesino.~
-@15   = ~Sí señora, entendido.~
-@16   = ~¿Y qué pasa con la cofradía de asesinos?~
-@17   = ~Bien. Deberíais volver a la taberna. Allí habrá un guardia que se pondrá en contacto con vos. Vos estáis fuera del caso.~
-@18   = ~¡Bah! ¡Rumores! Mentiras sobre mí y mi pueblo. Tampoco me gustan ese tipo de comentarios sobre mi pueblo. ¿Y ahora seréis tan amables de volver a la taberna o debo pedirle al capitán que os prepare un calabozo?~
-@19   = ~La alcaldesa de Garrotten casi me mete en un calabozo por preguntarle sobre la cofradía de asesinos. Debe ser un asunto delicado.~
-@20   = ~No será necesario, señora.~
-@21   = ~¿Así que estáis aquí para investigar ese trágico suceso? ¿Debo suponer que estáis aquí bajo la autoridad de Lady Belloviento o su consejero, Pelltar?~
-@22   = ~Sí, señora.~
-@23   = ~Bien. En realidad tampoco me importa si es así o no.~
-@24   = ~¿Qué queréis decir?~
-@25   = ~No me gusta que fisgonéis por mi pueblo. Como gobernanta de este pueblo, es mi deber controlar el crimen y mantener el orden. Vuestra investigación no autorizada termina aquí. Mis guardias investigarán el caso por vos. Una vez que se sepa la verdad os haré llamar. ¿Entendido?~
-@26   = ~¡¿De veras?! Muy bien, tengo una proposición que haceros. Hay historias que dicen que hay algo en el lago que está atemorizando a los pescadores. ¿Habéis oído algo al respecto?~
-@27   = ~Sí, señora. Uno de los clérigos de Xerbo lo mencionó.~
-@28   = ~No, no sabíamos nada.~
-@29   = ~Maravilloso, en ese caso no necesito explicaros los detalles. Sólo añadiré que envié a un explorador a la parte norte del lago para ver cuál era el problema. Aún no ha vuelto y creo que le debe haber sucedido algo. Encontradlo o descubrid qué le pasó.~
-@30   = ~¿Monstruos de Agua?
+@4    = ~Â¿QuÃ© puedo hacer por vosa merced?~
+@5    = ~Estamos investigando el asesinato del BarÃ³n Grellus. Creemos que al menos uno de vuesos ciudadanos estuvo implicado.~
+@6    = ~Somos simples aventureros. EsperÃ¡bamos poder ayudarla en algo.~
+@7    = ~Â¿Grellus? QuÃ© malas noticias. Era un hombre maravilloso. Lady Belloviento debe estar sumida en dolor.~
+@8    = ~Â¿Secuaces? No es precisamente un halago para mi capitÃ¡n o sus hombres. Os aseguro que sÃ³lo intentaban protegeros.~
+@9    = ~Â¿Protegernos? Â¿De quÃ©?~
+@10    = ~De la peligrosa persona que estÃ¡is buscando, por supuesto. EstÃ¡is investigando el asesinato del BarÃ³n Grellus, Â¿correcto?~
+@11   = ~SÃ­. Â¿CÃ³mo lo sabÃ©is?~
+@12   = ~Mi buen hombre, los rumores estÃ¡n por todo el pueblo. Si pretendÃ­ais llevar a cabo una investigaciÃ³n secreta, lo hicisteis fatal.~
+~Mi buena mujer, los rumores estÃ¡n por todo el pueblo. Si pretendÃ­ais llevar a cabo una investigaciÃ³n secreta, lo hicisteis fatal.~
+@13   = ~Hablando de eso, no me gusta que fisgonÃ©is por mi pueblo sin haberme visitado antes para informarme de quÃ© estÃ¡is haciendo. Como gobernanta de este pueblo, es mi deber controlar el crimen y mantener el orden. Vuestra investigaciÃ³n no autorizada termina aquÃ­. Mis guardias investigarÃ¡n el caso por vos. Una vez que se sepa la verdad os harÃ© llamar. Â¿Entendido?~
+@14   = ~La alcaldesa de Garrotten planea investigar el asesinato y ha puesto fin a mi investigaciÃ³n. Me pregunto si atraparÃ¡n al verdadero asesino.~
+@15   = ~SÃ­ seÃ±ora, entendido.~
+@16   = ~Â¿Y quÃ© pasa con la cofradÃ­a de asesinos?~
+@17   = ~Bien. DeberÃ­ais volver a la taberna. AllÃ­ habrÃ¡ un guardia que se pondrÃ¡ en contacto con vos. Vos estÃ¡is fuera del caso.~
+@18   = ~Â¡Bah! Â¡Rumores! Mentiras sobre mÃ­ y mi pueblo. Tampoco me gustan ese tipo de comentarios sobre mi pueblo. Â¿Y ahora serÃ©is tan amables de volver a la taberna o debo pedirle al capitÃ¡n que os prepare un calabozo?~
+@19   = ~La alcaldesa de Garrotten casi me mete en un calabozo por preguntarle sobre la cofradÃ­a de asesinos. Debe ser un asunto delicado.~
+@20   = ~No serÃ¡ necesario, seÃ±ora.~
+@21   = ~Â¿AsÃ­ que estÃ¡is aquÃ­ para investigar ese trÃ¡gico suceso? Â¿Debo suponer que estÃ¡is aquÃ­ bajo la autoridad de Lady Belloviento o su consejero, Pelltar?~
+@22   = ~SÃ­, seÃ±ora.~
+@23   = ~Bien. En realidad tampoco me importa si es asÃ­ o no.~
+@24   = ~Â¿QuÃ© querÃ©is decir?~
+@25   = ~No me gusta que fisgonÃ©is por mi pueblo. Como gobernanta de este pueblo, es mi deber controlar el crimen y mantener el orden. Vuestra investigaciÃ³n no autorizada termina aquÃ­. Mis guardias investigarÃ¡n el caso por vos. Una vez que se sepa la verdad os harÃ© llamar. Â¿Entendido?~
+@26   = ~Â¡Â¿De veras?! Muy bien, tengo una proposiciÃ³n que haceros. Hay historias que dicen que hay algo en el lago que estÃ¡ atemorizando a los pescadores. Â¿HabÃ©is oÃ­do algo al respecto?~
+@27   = ~SÃ­, seÃ±ora. Uno de los clÃ©rigos de Xerbo lo mencionÃ³.~
+@28   = ~No, no sabÃ­amos nada.~
+@29   = ~Maravilloso, en ese caso no necesito explicaros los detalles. SÃ³lo aÃ±adirÃ© que enviÃ© a un explorador a la parte norte del lago para ver cuÃ¡l era el problema. AÃºn no ha vuelto y creo que le debe haber sucedido algo. Encontradlo o descubrid quÃ© le pasÃ³.~
+@30   = ~Â¿Monstruos de Agua?
 
-Algo está atacando a los pescadores del lago. La alcaldesa quiere que descubra qué es y también que encuentre al explorador que envió para investigarlo.~
-@31   = ~Sí, señora.~
-@32   = ~Habla con gente del pueblo para más detalles. Sólo añadiré que envié a un explorador a la parte norte del lago para ver cuál era el problema. Aún no ha vuelto y creo que le debe haber sucedido algo. Encontradlo o descubrid qué le pasó.~
-@33   = ~Bien. Y ahora el motivo real por el que estáis aquí.~
-@34   = ~¿Perdón?~
-@35   = ~Oh, basta de juegos. Pelltar os envió para descubrir quién mató al barón. ¿Por qué otra razón vendrían aventureros a Garrotten pocos días después de su muerte? Sí, se dice que alguien lo asesinó. Por supuesto, la ciudad de Restenford piensa que el asesino es de aquí. Típico de ellos. Nadie tuvo la decencia de contactar conmigo en primer lugar.~
-@36   = ~<CHARNAME>, habeís vuelto. ¿Descubristeis algo sobre el monstruo del lago?~
+Algo estÃ¡ atacando a los pescadores del lago. La alcaldesa quiere que descubra quÃ© es y tambiÃ©n que encuentre al explorador que enviÃ³ para investigarlo.~
+@31   = ~SÃ­, seÃ±ora.~
+@32   = ~Habla con gente del pueblo para mÃ¡s detalles. SÃ³lo aÃ±adirÃ© que enviÃ© a un explorador a la parte norte del lago para ver cuÃ¡l era el problema. AÃºn no ha vuelto y creo que le debe haber sucedido algo. Encontradlo o descubrid quÃ© le pasÃ³.~
+@33   = ~Bien. Y ahora el motivo real por el que estÃ¡is aquÃ­.~
+@34   = ~Â¿PerdÃ³n?~
+@35   = ~Oh, basta de juegos. Pelltar os enviÃ³ para descubrir quiÃ©n matÃ³ al barÃ³n. Â¿Por quÃ© otra razÃ³n vendrÃ­an aventureros a Garrotten pocos dÃ­as despuÃ©s de su muerte? SÃ­, se dice que alguien lo asesinÃ³. Por supuesto, la ciudad de Restenford piensa que el asesino es de aquÃ­. TÃ­pico de ellos. Nadie tuvo la decencia de contactar conmigo en primer lugar.~
+@36   = ~<CHARNAME>, habeÃ­s vuelto. Â¿Descubristeis algo sobre el monstruo del lago?~
 @37   = ~Por ahora nada nuevo.~
-@38   = ~En realidad tenemos que hablar de algo más. Me dijo que arrestó a los tres sospechosos del asesinato del barón, pero me acabo de enterar de que Lady Belloviento ha sido asesinada.~
-@39   = ~¡¿Cómo os atrevéis a robar mis documentos?!~
-@40   = ~Sí, con esto ya tengo todas las pruebas necesarias para que el ejército del duque clausure vuestra cofradía. Suponiendo que Pelltar no os destruya antes. Estáis acabada, Arrness.~
-@41   = ~¡Debéis morir!~
+@38   = ~En realidad tenemos que hablar de algo mÃ¡s. Me dijo que arrestÃ³ a los tres sospechosos del asesinato del barÃ³n, pero me acabo de enterar de que Lady Belloviento ha sido asesinada.~
+@39   = ~Â¡Â¿CÃ³mo os atrevÃ©is a robar mis documentos?!~
+@40   = ~SÃ­, con esto ya tengo todas las pruebas necesarias para que el ejÃ©rcito del duque clausure vuestra cofradÃ­a. Suponiendo que Pelltar no os destruya antes. EstÃ¡is acabada, Arrness.~
+@41   = ~Â¡DebÃ©is morir!~
 @42   = ~Bien, acabemos con esto.~
 @43   = ~Vuestros pescadores estaban siendo atacados por hombres lagarto.~
-@44   = ~¿Hombres lagarto? ¿Aquí? ¿Tan cerca del pueblo?~
+@44   = ~Â¿Hombres lagarto? Â¿AquÃ­? Â¿Tan cerca del pueblo?~
 @45   = ~Estaban usando algunas cuevas del extremo norte del lago. Parece ser que usaban a los pescadores como comida.~
-@46   = ~¿Debo suponer que los habéis eliminado a todos?~
-@47   = ~Así es, señora. Su líder era un rey lagarto enorme, pero ahora también está criando malvas.~
-@48   = ~Gracias. Creo que este pueblo está en deuda con vosotros por salvarnos. Me complace deciros que hemos estado interrogando a numerosos sospechosos. Abraham, el tabernero, ha admitido el asesinato. Parece ser que tiene algunos empleados en la cofradía. Balmorrow y Harper también serán ejecutados por tomar parte en el crimen de Restenford. Deberíais iros de Garrotten y decirle a Pelltar o a Lady Belloviento lo que hemos descubierto. Eso es todo.~
-@49   = ~¿De veras? Qué tragedia. Estoy segura de que Pelltar está destrozado. Oh sí, la niña, Andrella, ahora mismo debe estar pasando por una crisis nerviosa.~
+@46   = ~Â¿Debo suponer que los habÃ©is eliminado a todos?~
+@47   = ~AsÃ­ es, seÃ±ora. Su lÃ­der era un rey lagarto enorme, pero ahora tambiÃ©n estÃ¡ criando malvas.~
+@48   = ~Gracias. Creo que este pueblo estÃ¡ en deuda con vosotros por salvarnos. Me complace deciros que hemos estado interrogando a numerosos sospechosos. Abraham, el tabernero, ha admitido el asesinato. Parece ser que tiene algunos empleados en la cofradÃ­a. Balmorrow y Harper tambiÃ©n serÃ¡n ejecutados por tomar parte en el crimen de Restenford. DeberÃ­ais iros de Garrotten y decirle a Pelltar o a Lady Belloviento lo que hemos descubierto. Eso es todo.~
+@49   = ~Â¿De veras? QuÃ© tragedia. Estoy segura de que Pelltar estÃ¡ destrozado. Oh sÃ­, la niÃ±a, Andrella, ahora mismo debe estar pasando por una crisis nerviosa.~
 @50   = ~Tengo que encontrar a los otros asesinos.~
-@51   = ~¡¿Qué?! ¿Cómo os atrevéis a acusarme de ocultar a asesinos? He hecho la mayor parte del trabajo por vos. Si no los podéis encontrar, ¿qué os hace pensar que están en esta ciudad?~
-@52   = ~Ya basta, me habéis ofendido. Estáis fuera del caso. Espero que dejéis Garrotten de inmediato. De lo contrario, me veré obligada a ayudaros a hacerlo.~
-@53  = ~¡Aguardad un momento, <CHARNAME>!~
-@54  = ~¡¿Ahora qué?!~
-@55  = ~En vez de perder tanto tiempo olgazaneando en mi pueblo sin hacer nada, hay algo que podríais hacer por mi. Asumiendo que estéis interesado, por supuesto...~
-~En vez de perder tanto tiempo olgazaneando en mi pueblo sin hacer nada, hay algo que podríais hacer por mi. Asumiendo que estéis interesada, por supuesto...~
+@51   = ~Â¡Â¿QuÃ©?! Â¿CÃ³mo os atrevÃ©is a acusarme de ocultar a asesinos? He hecho la mayor parte del trabajo por vos. Si no los podÃ©is encontrar, Â¿quÃ© os hace pensar que estÃ¡n en esta ciudad?~
+@52   = ~Ya basta, me habÃ©is ofendido. EstÃ¡is fuera del caso. Espero que dejÃ©is Garrotten de inmediato. De lo contrario, me verÃ© obligada a ayudaros a hacerlo.~
+@53  = ~Â¡Aguardad un momento, <CHARNAME>!~
+@54  = ~Â¡Â¿Ahora quÃ©?!~
+@55  = ~En vez de perder tanto tiempo olgazaneando en mi pueblo sin hacer nada, hay algo que podrÃ­ais hacer por mi. Asumiendo que estÃ©is interesado, por supuesto...~
+~En vez de perder tanto tiempo olgazaneando en mi pueblo sin hacer nada, hay algo que podrÃ­ais hacer por mi. Asumiendo que estÃ©is interesada, por supuesto...~
 @56  = ~Naturalmente.  Cualquier cosa es mejor que abandonarse uno mismo en la posada.~
 ~Naturalmente.  Cualquier cosa es mejor que abandonarse una misma en la posada.~

@@ -1,0 +1,289 @@
+@6    = ~Canto rodado~
+@7    = ~Este es el tipo de roca que lanzan los gigantes contra los desafortunados. Pueden causar un gran daño, además de dejar a la víctima inconsciente. Un personaje con la fuerza de un gigante también podría lanzarlos...
+
+Alcance: 72 metros 
+Daño: 3D6 
+Especial: salvación contra aliento con un penalizador -4 o el oponente caerá al suelo inconsciente durante un turno, y el siguiente estará aturdido. 
+Requiere: Fuerza 19~
+@8    = ~Amuleto de bolas de fuego~
+@9    = ~Los amuletos de bolas de fuego son collares con pequeñas perlas que al ser lanzadas se convierten en una gran bola de fuego que avanza hasta el rango deseado (hasta un máximo de 46 m.) y estalla con una violenta y ardiente explosión, igual que el conjuro de Bola de Fuego. La bola de fuego ocasiona 6D6 puntos de daño, pero todos los 1 se contabilizan como 2. La víctima o víctimas pueden protegerse contra las varitas mágicas para recibir sólo la mitad de los daños. Cuando se han usado todas las perlas, el amuleto se destruirá.
+
+ESTADÍSTICAS:
+
+Efecto: lanza una bola de fuego
+Daño: 6D6 (salvación contra varita para sufrir la mitad del daño)
+Alcance: 30 metros
+Área de efecto: radio de 12 metros
+
+No permitido a:
+ Asesino de magos~
+@10   = ~Anillo del bardo~
+@11   = ~Aunque el origen exacto de este anillo es desconocido, muchos creen que se forjó hace unos 200 años. 
+
+Está compuesto por una única piedra de un material desconocido que irradia una tenue luz. Aunque el anillo es frío al tacto, el escalofrío es extrañamente reconfortante.
+
+ESTADÍSTICAS:
+
+Especial:
+   Memoriza un conjuro adicional de nivel 1
+   Memoriza un conjuro adicional de nivel 3
+   Memoriza un conjuro adicional de nivel 5
+Peso: 0
+Permitido a:
+   Bardos~
+@12   = ~Cuerno~
+@13   = ~Cuerno de bronce de Valhalla~
+@14   = ~Esto es un cuerno pequeño. Los cuernos están fabricados normalmente de hueso o metal y producen una gran variedad de sonidos.~
+@15   = ~Cuerno de bronce de Valhalla
+
+En los Salones de Valhalla descansan los más valientes guerreros. Su valor en los campos de batalla durante su vida les ha garantizado un puesto de honor en este legendario lugar. Como parte de su servicio, estos guerreros deben ofrecer su ayuda a cualquiera que sople el Cuerno de Valhalla. Este cuerno convocará un guerrero bersérker de séptimo nivel que luchará junto al convocador durante un minuto. El cuerno se puede usar una vez al día.
+
+Este cuerno en particular está abollado y torcido por su uso o mal uso.~
+@16   = ~Perla negra~
+@17   = ~Esta es la perla negra desaparecida que Gelpas te acusó de robar. Debe ser devuelta a Welcar, el guardia de los almacenes.~
+@18   = ~Bastón~
+@19   = ~Bastón del Dragón Azul~
+@20   = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+ESTADÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo: 2 manos
+Requiere: Fuerza 5~
+@21   = ~Este largo bastón negro de madera tiene un enorme cristal azul con forma de cabeza de dragón en su extremo que irradia electricidad. Estos bastones están hechos para los miembros del Culto del Dragón. Sólo los jinetes de dragones tienen permitido usar estos bastones. Por lo tanto, es muy probable que al culto le interese arrebatarte este bastón.
+
+Los bastones de dragón poseen las aptitudes del dragón o dracoliche con el que se asocia el jinete.
+
+ESTADÍSTICAS:
+
+Daño: 1D6 + 3
+GAC0: +3
+Especial:
+ 50% a resistencia a la electricidad
+ El bastón tiene una posibilidad del 50% de infligir 1D8 puntos de daño eléctrico si la gema azul golpea.
+ Lanza Rayo Relampagueante de 6D6 puntos de daño (salvación contra varitas para recibir la mitad del daño) dos veces al día.
+ Lanza Relámpago Zigzagueante una vez al día.
+Tipo de daño: contundente
+Peso: 7
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: 2 manos
+Requiere: Fuerza 5
+Permitido a:
+ Mago (normal o multiclase)~
+@22   = ~Capa del Asesino~
+@23   = ~Las habilidades que confiere esta poderosa capa encantada confirman que la protección puede adquirir muchas formas, entre las que se incluyen desaparecer de la vista y escapar. 
+
+ESTADÍSTICAS:
+   Lanza Celeridad mejorada una vez al día
+   Lanza Invisibilidad mejorada tres veces al día
+
+Clase de Armadura: +2
+Tiradas de Salvación: +2
+Peso: 3~
+@24   = ~Clava~
+@25   = ~Clava +2, La Ayudante del Asesino~
+@26   = ~Clava +2, La Ayudante del Asesino
+Esto perteneció a Tellish, un clérigo/ladrón malvado que lideraba una de las cofradías de asesinos más poderosas en la época actual. Tiene la posibilidad de incapacitar a cualquier humano, enano, gnomo o mediano, induciéndoles un profundo sueño al que los elfos son inmunes. Para ayudar al asesino, el arma aporta una mejora del 50% en la habilidad de apuñalar. Aunque técnicamente es un mangual, para un ladrón funciona como cualquier clava.
+
+ESTADÍSTICAS:
+
+Aptitudes de combate: Cualquier humano o semihumano, excluyendo a los elfos, golpeado por la Ayudante debe salvarse contra veneno con un bonificador de +4 o caerá dormido durante 18 segundos.
+Aptitudes especiales: incrementa la habilidad de apuñalar en un 50%
+GAC0: +2
+Daño: 2D4 +2
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 3
+Talento marcial: Clava
+Tipo: 1 mano
+Requiere: Fuerza 5 
+Permitido a:
+ Ladrón (normal o multiclase)~
+@27   = ~Laúd~
+@28   = ~Laúd de Fabio~
+@29   = ~Un laúd musical.~
+@30   = ~Fabio asegura que este es el famoso laúd que usó Pellon Kay. Sin embargo, con todos sus viajes ha modificado algunas de sus aptitudes mágicas.
+
+Cómo consiguió Fabio este laúd es un misterio del que no hablará.
+
+Aptitudes especiales:
+
+Una vez al día, cuando se usa sobre un objetivo, el laúd lanza Hechizo Terrible.
+
+Puede causar confusión 3 veces al día en todas las criaturas dentro del área de escucha (salvación contra conjuro para evitar la confusión). El bardo y sus compañeros no se ven afectados.
+
+Permitido a:
+  Bardo~
+@31   = ~Espada larga~
+@32   = ~Espada +2 de llamas~
+@33   = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para rasgar, no para apuñalar. 
+
+ESTADÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: 1 mano
+Requiere: Fuerza 6 
+No permitida a:
+ Druida
+ Clérigo
+ Mago~
+@34   = ~Esta espada arde con un fuego mágico, liberando un chorro del mismo cada vez que golpea. En su puño está grabado "Meta Infernum", aunque parece algo borroso y podría no ser original de la espada.
+
+Esta espada en particular parece contener un elemental de fuego o algo parecido cautivo en su interior. Su naturaleza malvada podría dominar a las mentes débiles. Sin embargo, la criatura cautiva origina llamas a su alrededor que protegen a su dueño.
+
+ESTADÍSTICAS:
+
+GAC0: +2
+Daño: 1D8 +2, +3 al daño por fuego
+Especial: +50% a resistencia al fuego
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: 1 mano
+Requiere: Fuerza 6 
+No permitida a:
+ Druida
+ Clérigo
+ Mago~
+@35   = ~La Mano de la Gloria~
+@36   = ~Esta es una mano desecada. Hay llamas rojas en cada uno de sus dedos.~
+@37   = ~Este horripilante objeto es la mano izquierda cortada de un humano varón, con una llama roja en cada uno de sus dedos. Era la mano de un bandido, pero ahora es un poderoso objeto mágico.
+
+Aptitudes especiales: 
+
+Lanza Apertura
+Lanza Inmovilizar persona 
+
+Permitida a: 
+ Todos~
+@38   = ~Trozo de Papel~
+@39   = ~En este pedazo de papel aún se puede leer algo. Está cubierto de cenizas, suciedad, y parece ser que sangre reciente. Esto es lo que puedes leer:
+
+...espero con ansia la llegada de la Mano de la Gloria... n... y no podemos conseguir... en nuestras manos....~
+@40   = ~Fragmento de Nota~
+@41   = ~Este sucio y manchado pedazo de papel contiene unas marcas. Si lo examináis de cerca, observáis lo que parecen recuadros con distintas formas y que siguen un patrón determinado.~
+@42   = ~Diario~
+@43   = ~Muchas de las palabras de estas desordenadas páginas se han borrado con el paso de los siglos.
+
+... ¡maldición!... muertos vivientes... ¿qué hacer?... pergamino de restablecimiento...
+
+Sólo la última anotación contiene información útil:
+
+Se me ha acabado el papel y mi carne se ha podrido casi por completo. Por lo que dicen los demás, deduzco que quien me venció también ha muerto. Su maldad le ha permitido convertirse en un incorpóreo, para de esta manera seguir condenando este lugar con sus sacrilegios paganos.
+
+¿Acabará mi sufrimiento algún día? Necesito liberar mi alma de mi cadáver para poder gozar de la gloria de Amaunator.
+
+He encontrado algunos pergaminos de restauración, quizás uno de ellos funcione. ¡Pero necesito que alguien lance el hechizo!~
+@44   = ~Llave~
+@45   = ~Una compleja llave hecha de hierro frío.~
+@46   = ~Mensaje de Martin~
+@47   = ~Este es el mensaje de Martin para Almax. Al examinarlo, véis que es una lista de las cosas que necesita Martin para acabar la arboleda druídica.~
+@48   = ~Casco~
+@49   = ~Casco de protección mental~
+@50   = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz.
+
+ESTADÍSTICAS:
+
+Bonificador de clase de armadura: Ninguno
+Especial: Protege contra golpes críticos
+Peso: 2
+No permitido a:
+ Mago
+ Bardo
+ Ladrón~
+@51   = ~Como su nombre sugiere, el casco de protección mental protege al que lo lleva de cualquier intento mágico de manipulación emocional. Como precaución, algunos grupos de mercenarios de alto nivel equipan regularmente a sus miembros con cascos como éste, de modo que puedan cumplir con sus obligaciones sin interferencia del exterior.
+
+ESTADÍSTICAS:
+
+Protege contra golpes críticos
+El que lo lleva es inmune a los hechizos que afectan a la mente
+Puede lanzar Vista Verdadera tres veces al día
+Peso: 4
+Permitido a:
+Alineamiento Bueno -
+ Guerrero (incluyendo multiclase)
+ Paladín
+ Explorador (incluyendo multiclase)
+ Clérigo~
+@52   = ~Cuerpo de Locinda~
+@53   = ~Es el cuerpo de Locinda, necesita que la llevéis al templo de Garrotten para que la curen.~
+@54   = ~Estos son los objetos que robaron en los almacenes. Hay dos espadas, un escudo, algunos sacos de azúcar que se han echado a perder por las ratas, y un rollo de seda malva.~
+@55   = ~Carta de Qualton~
+@56   = ~Esta es una carta del Abad Qualton. En ella dice que desea contratar a Tellish para que mate al barón y a su esposa, Belloviento. También dice que los quiere muertos tan pronto como sea posible.~
+@57   = ~Símbolo sagrado de Osprem~
+@58   = ~Este es un símbolo sagrado de la diosa Osprem. El amuleto es dorado y tiene el dibujo de una ballena. La ballena suele tener un rubí rojo como ojo. A este amuleto en particular le falta el rubí del ojo.~
+@59   = ~Libro de conjuros de Pelltar~
+@60   = ~Este es el libro de conjuros de Pelltar. Todos sus conjuros están en él.
+
+Este sólido recipiente tiene capacidad para docenas de pergaminos, protegiéndolos contra el fuego, la lluvia o la electricidad, peligros comunes a los que suelen enfrentarse los magos aventureros.~
+@61   = ~Cuerda~
+@62   = ~Esta es la cuerda de un laúd que se encontró cerca del cadáver del Barón Grellus. Es de color dorado y parece irradiar magia.~
+@63   = ~Piedra rubí~
+@64   = ~Esta pequeña piedra rubí se encontró cerca del cadáver del Barón Grellus. Según los testigos, el Sumo Sacerdote Harper del templo de Osprem posee un amuleto con estas mismas piedras.~
+@65   = ~Botón de cuero rojo~
+@66   = ~Este botón de cuero rojo se encontró en la mano del Barón Grellus. Según los testigos, Abraham, un posadero de Garrotten, posee un chaleco con los botones así.~
+@67   = ~Documentos de Arrness~
+@68   = ~La alcaldesa de Garrotten, Arrness, fue muy minuciosa al anotar todos los detalles sobre la cofradía de asesinos. Los registros de trabajos de cada espía y asesino a su servicio están aquí, entre los que también se encuentran todos los encargos recibidos. Por lo que podéis deducir, la cofradía tuvo mucho éxito con la recogida de información, el espionaje, y los asesinatos.
+
+También está su diario. Según él, planea gobernar Restenford como Baronesa cuando la familia actual haya sido eliminada. Tellish ha sido contratado por alguien para que la ayude con su plan. No hay nada que indique quién es esa persona.~
+@69   = ~Diario de Sirius~
+@70   = ~Este es el diario de Sirius.
+
+Al leerlo, descubrís que él y un nigromante fueron contratados por los señores élficos de las Islas Lendore. Su misión era sembrar el caos en las últimas regiones controladas por humanos para que los señores pudieran tomar el control. La Mano de la Gloria fue creada para ayudar en el robo. También parece ser que Sirius descubrió al nigromante robando de sus provisiones, por lo que lo mató. Después se trasladó al faro para estar más cerca de la ciudad. Hacia el final del diario, leéis que consideraba a vuestro grupo una amenaza por lo que planeaba distintas maneras de echaros la culpa de todo.~
+@71   = ~Ninja-To +2, +6 contra Legal Bueno~
+@72   = ~Esta malvada espada fue diseñada por los Yakuza para ayudarles a eliminar paladines, gobernadores benévolos, y otros que se crucen en su camino.
+
+ESTADÍSTICAS:
+
+Aptitudes especiales:
+   Mata a Legal Bueno con un golpe exitoso (sin salvación)
+
+GAC0: +2, +6 contra Legal Bueno
+Daño: 1D8 +2
+Tipo de daño: cortante
+Peso: 1 
+Factor de velocidad: 0
+Talento marcial: Cimitarra /Wakishashi/Ninja-To
+Tipo: 1 mano
+Requiere: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago~
+@73   = ~Diario de Telvar~
+@74   = ~Este diario contiene en su mayor parte anotaciones sobre las observaciones celestiales de Telvar. También hay algunas notas sobre pociones que estaba creando. Hacia el final del diario, Telvar menciona que colaboraba con alguien o algo llamado "Incorpóreo". Aparte de que el "Incorpóreo" controla a los muertos vivientes en el castillo no da más detalles. Parece ser que entre el Incorpóreo y él planeaban atacar Restenford muy pronto.~
+@75   = ~Libro de conjuros de Telvar~
+@76   = ~Este es el libro de conjuros de Telvar. Todos sus conjuros están en él.
+
+Este sólido recipiente tiene capacidad para docenas de pergaminos, protegiéndolos contra el fuego, la lluvia o la electricidad, peligros comunes a los que suelen enfrentarse los magos aventureros.~
+@77   = ~Varita de causar heridas graves~
+@78   = ~Aunque fue ideada para uso exclusivo de los clérigos, en realidad esta varita puede ser usada por cualquiera que no quiere acercarse demasiado a su víctima.
+
+Lanza Causar heridas graves
+
+Permitida a:
+ Todos~
+@79   = ~Libro de conjuros X~
+@80   = ~Este libro de conjuros contiene docenas de pergaminos especializados que son difíciles de encontrar.
+
+Este sólido recipiente tiene capacidad para docenas de pergaminos, protegiéndolos contra el fuego, la lluvia o la electricidad, peligros comunes a los que suelen enfrentarse los magos aventureros.~
+@81   = ~Libro de conjuros de Zahrdahl~
+@82   = ~Este es el libro de conjuros de Zahrdahl. Todos sus conjuros están en él.
+
+Este sólido recipiente tiene capacidad para docenas de pergaminos, protegiéndolos contra el fuego, la lluvia o la electricidad, peligros comunes a los que suelen enfrentarse los magos aventureros.~
+@83   = ~Cuaderno de Zahrdahl~
+@84   = ~Este cuaderno contiene las anotaciones de Zahrdahl sobre los ciudadanos de Restenford. Parece ser que posee información detallada de todo el mundo. También cita los recientes problemas de la ciudad con los bandidos, los gnolls, y las ratas. Además, dice que planea visitar la Colina del Hueso para conseguir más información sobre qué está pasando allí.
+
+El mayor descubrimiento que hacéis al leer esto es que está recaudando información para enviársela al Duque de Kroten. Parece ser que Zahrdahl no es un vendedor de cebos, sino un espía enviado por el duque.
+
+Debéis comunicárselo a Pelltar.~

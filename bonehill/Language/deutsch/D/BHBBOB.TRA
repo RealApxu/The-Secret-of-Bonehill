@@ -1,66 +1,66 @@
-@1  = ~Seid gegrüßt, ich bin Sir BillyBob, Abenteurer, Soldat und Beschützer der Reiche. Ihr müsst <CHARNAME> sein. ~ 
+@1  = ~Seid gegrÃ¼ÃŸt, ich bin Sir BillyBob, Abenteurer, Soldat und BeschÃ¼tzer der Reiche. Ihr mÃ¼sst <CHARNAME> sein. ~ 
 @2  = ~Ja, der bin ich. Woher wusstet Ihr das? ~ ~Ja, die bin ich. Woher wusstet Ihr das? ~
-@3  = ~Nun, außer der Tatsache, dass Ihr offensichtlich die Fremden in der Stadt seid, über die jeder spricht, war ich mit Pelltar zusammen, als er dem Baron riet, Euch anzustellen. ~ 
+@3  = ~Nun, auÃŸer der Tatsache, dass Ihr offensichtlich die Fremden in der Stadt seid, Ã¼ber die jeder spricht, war ich mit Pelltar zusammen, als er dem Baron riet, Euch anzustellen. ~ 
 @4  = ~Ich dachte, dass er nach irgendwelchen Abenteurern suchte, als es sich ergab, dass wir bei dem Tempel vorbeikamen, bei dem er war. Ich begriff nicht, dass ich genau derjenige welche war, den er wollte. ~
-@5  = ~Pelltar wollte eigentlich jemand anderes als Euch anstellen, die Maulers, ich glaube, dass sie so genannt werden. Aber ich habe Euch empfohlen, weil Elminster sagte, dass Ihr die Aufgabe bewältigen könntet. ~ 
+@5  = ~Pelltar wollte eigentlich jemand anderes als Euch anstellen, die Maulers, ich glaube, dass sie so genannt werden. Aber ich habe Euch empfohlen, weil Elminster sagte, dass Ihr die Aufgabe bewÃ¤ltigen kÃ¶nntet. ~ 
 @6  = ~Elminster sagte das? ~
-@7  = ~Ja, er scheint ein ausgeprägtes Interesse an Euch zu haben. Tatsächlich haben das einige von uns. Aber das ist ein anderes Problem, auf das später zu kommen ist. ~
+@7  = ~Ja, er scheint ein ausgeprÃ¤gtes Interesse an Euch zu haben. TatsÃ¤chlich haben das einige von uns. Aber das ist ein anderes Problem, auf das spÃ¤ter zu kommen ist. ~
 @8  = ~Womit kann ich Euch helfen? ~ 
-@9  = ~Könntet Ihr zunächst einmal die toten Orks auf Eurem Feld erklären? ~
-@10 = ~Ah ja, am Tag zuvor versuchte eine andere Gruppe von Orkräubern, meine Farm zu zu plündern. Man sollte annehmen, dass sie es schließlich begreifen, wie aussichtslos es ist, mich bestehlen zu wollen. Wenn die Wölfe sich schon nicht an meine Farm wagen, warum denken die Orks, dass sie es können? ~ 
-@11 = ~Da wir davon sprechen, vielleicht habt Ihr von einigen Räubern hier in der Gegend gehört? ~
-@12 = ~Ja, sie wurden in der Stadt erwähnt. ~
-@13 = ~Nein, das ist erste Mal, dass ich von Räubern höre. ~ 
-@14 = ~Nun, ich hatte zunächst nichts gehört. Aber dann wurde ich auf einem Erkundungsgang von einigen Orks auf dem Kahlen Hügel angegriffen. Ich tötete ihren Anführer. Er war ein Kleriker, und er sah wie ein Halb-Ork aus. ~
-@15 = ~Gut, bin ich froh zu hören, dass Ihr die Probleme hier untersucht. ~ 
-@16 = ~Es gibt mehrere Straßen, die auf dieser Seite aus Restenfurth herausführen. Diejenige, die Ihr genau südlich von uns seht, und diejenige genau nördlich von meiner Farm und dem Apfel-Obstgarten. Diese nördliche Strasse führt zwischen dem Ostrestinfluss und dem Kahlen Hügel entlang. Es ist der perfekte Platz für Räuber, um Reisende oberhalb der Hügel anzugreifen. ~
-@17 = ~Normalerweise patroulliert die Stadtwache und auch ich selber diese Straße, um die Missetäter zu beseitigen und alles für die Händler zu sicheren. Leider brauchen wir wegen der beginnenden Ernte derzeit viele Leute auf den Feldern. Wie Ihr sehen könnt, habt zar die Ernte noch nicht begonnen, aber ich bin mit dem gebärendem Vieh beschäftigt und habe keine Zeit, in den Kahlen Hügel aufzuräumen. ~
-@18 = ~Das ist es natürlich, wo Ihr ins Spiel kommt. Ich brauche Euch, um in den Norden von hier zu gehen und alle Orks, Räuber oder was Ihr sonst findet, was unsere Händler angreift, zu erledigen. Etwas geht dort vor. Wir vermissen einige Wagen, und ich habe einige der Großhändler nicht gesehen, die normalerweise hier um diese Jahreszeit vorbeikommen.~
-@19 = ~Räuber auf dem Kahlen Hügel
+@9  = ~KÃ¶nntet Ihr zunÃ¤chst einmal die toten Orks auf Eurem Feld erklÃ¤ren? ~
+@10 = ~Ah ja, am Tag zuvor versuchte eine andere Gruppe von OrkrÃ¤ubern, meine Farm zu zu plÃ¼ndern. Man sollte annehmen, dass sie es schlieÃŸlich begreifen, wie aussichtslos es ist, mich bestehlen zu wollen. Wenn die WÃ¶lfe sich schon nicht an meine Farm wagen, warum denken die Orks, dass sie es kÃ¶nnen? ~ 
+@11 = ~Da wir davon sprechen, vielleicht habt Ihr von einigen RÃ¤ubern hier in der Gegend gehÃ¶rt? ~
+@12 = ~Ja, sie wurden in der Stadt erwÃ¤hnt. ~
+@13 = ~Nein, das ist erste Mal, dass ich von RÃ¤ubern hÃ¶re. ~ 
+@14 = ~Nun, ich hatte zunÃ¤chst nichts gehÃ¶rt. Aber dann wurde ich auf einem Erkundungsgang von einigen Orks auf dem Kahlen HÃ¼gel angegriffen. Ich tÃ¶tete ihren AnfÃ¼hrer. Er war ein Kleriker, und er sah wie ein Halb-Ork aus. ~
+@15 = ~Gut, bin ich froh zu hÃ¶ren, dass Ihr die Probleme hier untersucht. ~ 
+@16 = ~Es gibt mehrere StraÃŸen, die auf dieser Seite aus Restenfurth herausfÃ¼hren. Diejenige, die Ihr genau sÃ¼dlich von uns seht, und diejenige genau nÃ¶rdlich von meiner Farm und dem Apfel-Obstgarten. Diese nÃ¶rdliche Strasse fÃ¼hrt zwischen dem Ostrestinfluss und dem Kahlen HÃ¼gel entlang. Es ist der perfekte Platz fÃ¼r RÃ¤uber, um Reisende oberhalb der HÃ¼gel anzugreifen. ~
+@17 = ~Normalerweise patroulliert die Stadtwache und auch ich selber diese StraÃŸe, um die MissetÃ¤ter zu beseitigen und alles fÃ¼r die HÃ¤ndler zu sicheren. Leider brauchen wir wegen der beginnenden Ernte derzeit viele Leute auf den Feldern. Wie Ihr sehen kÃ¶nnt, habt zar die Ernte noch nicht begonnen, aber ich bin mit dem gebÃ¤rendem Vieh beschÃ¤ftigt und habe keine Zeit, in den Kahlen HÃ¼gel aufzurÃ¤umen. ~
+@18 = ~Das ist es natÃ¼rlich, wo Ihr ins Spiel kommt. Ich brauche Euch, um in den Norden von hier zu gehen und alle Orks, RÃ¤uber oder was Ihr sonst findet, was unsere HÃ¤ndler angreift, zu erledigen. Etwas geht dort vor. Wir vermissen einige Wagen, und ich habe einige der GroÃŸhÃ¤ndler nicht gesehen, die normalerweise hier um diese Jahreszeit vorbeikommen.~
+@19 = ~RÃ¤uber auf dem Kahlen HÃ¼gel
 
-Sir BillyBob bat mich, die Räuber aufzuhalten, die sich in der Nähe des Kahlen Hügels verbergen. Sie fangen die die Karawanen ab, die aus dem Norden und Osten in die Stadt kommen.~ 
-@20 = ~Sicher, das können wir tun. ~
-@21 = ~Nein, wir müssen uns zuerst um Pelltars Ansinnen kümmern. ~ 
+Sir BillyBob bat mich, die RÃ¤uber aufzuhalten, die sich in der NÃ¤he des Kahlen HÃ¼gels verbergen. Sie fangen die die Karawanen ab, die aus dem Norden und Osten in die Stadt kommen.~ 
+@20 = ~Sicher, das kÃ¶nnen wir tun. ~
+@21 = ~Nein, wir mÃ¼ssen uns zuerst um Pelltars Ansinnen kÃ¼mmern. ~ 
 @22 = ~Dann glaube ich, dass ich warten sollte, bis Ihr die Chance habt, unseren Problemen auf den Grund zu gehen. Sucht mich bitte wieder auf, nachdem Ihr Pelltar geholfen habt. ~ 
-@23 = ~Der Ostrestinfluss fließt unten in der Nähe der Xerbalberge und in der Nähe des Kahlen Hügel, wo er sich mit dem Westrestinfluss vereint, bevor er bei Restenfurth ins Meer mündet. ~
+@23 = ~Der Ostrestinfluss flieÃŸt unten in der NÃ¤he der Xerbalberge und in der NÃ¤he des Kahlen HÃ¼gel, wo er sich mit dem Westrestinfluss vereint, bevor er bei Restenfurth ins Meer mÃ¼ndet. ~
 @24 = ~<CHARNAME>, es ist gut, Euch wiederzusehen. Wie kann ich Euch helfen? ~ 
 @25 = ~Ja, wir fanden die fehlenden Wagen. ~
-@26 = ~Ja, wir gingen zu den Kahlen Hügeln und wurden von Orks angegriffen. Sie stellten sich einem harten Kampf, aber ich denke, dass wir sie alle beseitigt haben. Wir haben auch ihren Anführer erwischt. ~
-@27 = ~Nein. Wir fanden nichts, und wir haben nichts Verächtiges bei den Kahlen Hügeln gesehen. ~
-@28 = ~Ja, wir fanden die fehlenden Wagen, und kämpften mit den Räubern. Ich denke, dass wir sie alle erwischt haben. ~
-@29 = ~Wir sind noch nicht zum Kahlen Hügel gekommen. ~
+@26 = ~Ja, wir gingen zu den Kahlen HÃ¼geln und wurden von Orks angegriffen. Sie stellten sich einem harten Kampf, aber ich denke, dass wir sie alle beseitigt haben. Wir haben auch ihren AnfÃ¼hrer erwischt. ~
+@27 = ~Nein. Wir fanden nichts, und wir haben nichts VerÃ¤chtiges bei den Kahlen HÃ¼geln gesehen. ~
+@28 = ~Ja, wir fanden die fehlenden Wagen, und kÃ¤mpften mit den RÃ¤ubern. Ich denke, dass wir sie alle erwischt haben. ~
+@29 = ~Wir sind noch nicht zum Kahlen HÃ¼gel gekommen. ~
 @30 = ~Wirklich nichts, ich bin nur kurz vorbei gekommen.~
-@31 = ~Was könnt Ihr mir vom Tod des Barons erzählen? ~
-@32 = ~Was war es noch mal, was wir für Euch überprüfen sollten? ~
+@31 = ~Was kÃ¶nnt Ihr mir vom Tod des Barons erzÃ¤hlen? ~
+@32 = ~Was war es noch mal, was wir fÃ¼r Euch Ã¼berprÃ¼fen sollten? ~
 @33 = ~Darf ich Euch eine Frage stellen? ~
 @34 = ~Ausgezeichnete Arbeit. ~
-@35 = ~Räuber auf dem Kahlen Hügel
+@35 = ~RÃ¤uber auf dem Kahlen HÃ¼gel
 
-Ich erzählte Sir BillyBob davon, was ich auf dem Kahlen Hügel herausfand. Er scheint zu denken, dass das Problem mit den Räubern jetzt für die Stadt erledigt ist. Ich hoffe es.~
+Ich erzÃ¤hlte Sir BillyBob davon, was ich auf dem Kahlen HÃ¼gel herausfand. Er scheint zu denken, dass das Problem mit den RÃ¤ubern jetzt fÃ¼r die Stadt erledigt ist. Ich hoffe es.~
 @36 = ~Ich habe eine Frage an Euch. ~
 @37 = ~Danke.~
-@38 = ~Wirklich? Das scheint sonderbar. Nun, vielleicht haben sie sich vor Euch versteckt. Ganz gleich, wenn es hier Orks gibt, dann werde ich sie früher oder später erwischen. ~
+@38 = ~Wirklich? Das scheint sonderbar. Nun, vielleicht haben sie sich vor Euch versteckt. Ganz gleich, wenn es hier Orks gibt, dann werde ich sie frÃ¼her oder spÃ¤ter erwischen. ~
 @39 = ~Nun gut, legt los und fragt.~
-@40 = ~Wie alt seid Ihr wirklich? Jeder in der Stadt scheint zu denken, dass Ihr uralt seid, aber für einen Halbelf, nehme ich an, seid Ihr älter, als Ihr ausschaut. ~
-@41 = ~Warum seid Ihr nicht der Führer von Restenford? ~
-@42 = ~(Er lacht verhalten.) Ich bin nicht so alt wie Elminster, aber ich bin seit einer ganzen Weile auf den Beinen. Länger als die meisten vollblütigen Elfen erhoffen dürfen. Ich bin kein Auserwählter einer Gottheit, aber ich bin beauftragt worden, zu helfen, Macht und Kontrolle von der einen Splittergruppe auf die andere zu verlagern.
+@40 = ~Wie alt seid Ihr wirklich? Jeder in der Stadt scheint zu denken, dass Ihr uralt seid, aber fÃ¼r einen Halbelf, nehme ich an, seid Ihr Ã¤lter, als Ihr ausschaut. ~
+@41 = ~Warum seid Ihr nicht der FÃ¼hrer von Restenford? ~
+@42 = ~(Er lacht verhalten.) Ich bin nicht so alt wie Elminster, aber ich bin seit einer ganzen Weile auf den Beinen. LÃ¤nger als die meisten vollblÃ¼tigen Elfen erhoffen dÃ¼rfen. Ich bin kein AuserwÃ¤hlter einer Gottheit, aber ich bin beauftragt worden, zu helfen, Macht und Kontrolle von der einen Splittergruppe auf die andere zu verlagern.
 
-Übrigens, wer ist jetzt in Kerzenburg verantwortlich? Ich war seit vielen Jahren nicht dort. ~
+Ãœbrigens, wer ist jetzt in Kerzenburg verantwortlich? Ich war seit vielen Jahren nicht dort. ~
 @43 = ~Tethtoril. ~
 @44 = ~Was?! Hmm, ich glaube, dass ich mich an einen Stallburschen mit diesem Namen erinnere. Ich glaube, dass es eine Weile her ist, seitdem ich zuletzt dort war.
 
-So, ich muss mich der Ernte widmen. Ich wünsche Euch viel Glück, <CHARNAME>. ~
-@45 = ~Ich dachte, dort wären mehr von ihnen. Ihr habt die fehlende Karawane desungeachtet nicht trotzdem gefunden? Es ist wahrscheinlich unter diesen Umständen egal. Ich vermute, dass Ihr die Schuldigen zur Strecke gebracht habt. ~
-@46 = ~Ich glaube nicht, dass sie noch mehr Leute belästigen werden. ~
-@47 = ~Nur ein Höflichkeitsbesuch dieses Mal? Nun, überprüft bitte den Kahlen Hügel, wenn Ihr die Gelegenheit habt. ~
-@48 = ~Ah, das wäre Krellus. Er ist mir seit einiger Zeit ein Dorn im Auge. Ausgezeichnete Arbeit, junger <SIRMAAM>. Wenn Ihr die Möglichkeit habt,  überprüft bitte, ob es dort nicht noch mehr Orks gibt. Außerdem interessiere ich mich dafür, was mit einer Karawane passiert ist, die vermisst wird. Ich vermute, dass Krellus etwas damit zu tun hat. ~ ~Ah, das wäre Krellus. Er ist mir seit einiger Zeit ein Dorn im Auge. Ausgezeichnete Arbeit, junge <SIRMAAM>. Wenn Ihr die Möglichkeit habt,  überprüft bitte, ob es dort nicht noch mehr Orks gibt. Außerdem interessiere ich mich dafür, was mit einer Karawane passiert ist, die vermisst wird. Ich vermute, dass Krellus etwas damit zu tun hat. ~
-@49 = ~Sicherlich nichts weiter, als Pelltar Euch bereits erzählt hat. Ich glaube nicht, dass es drei Mörder waren. Ich glaube, dass es nur einen gab und dass den beiden anderen etwas angehängt wird. Dabei ließ diese Person auch etwas zurück. ~
-@50 = ~Oder, alle drei sind unschuldig, und der Mörder hinterließ falsche Beweise gegen alle drei. Ich schlage vor, dass Ihr ein Gespräch mit allen dreien führt und herausfindet, was mit den am Tatort gefundenen Gegenständen geschah. Es gibt eine Geschichte zu jedem dieser Gegenstände. Vielleicht wird eine jener Geschichten Euch zum wahren Mörder führen. ~
-@51 = ~Ich kann Euch auch sagen, obwohl ich kein Priester bin, dass etwas Eigenartiges dafür verantwortlich ist für Qualton Unfähigkeit, den Baron von den Toten zu erwecken. Die Antwort muss ebenfalls in Garrotten zu finden sein. ~
-@52 = ~Also führen alle Wege nach Garrotten? ~
-@53 = ~Genau. Übrigens, außerhalb Garrottens gibt es ein altes Schloss, das ich besaß. Ich verkaufte es vor vielen Jahren einem Abenteurer, der kurz nach dem Kauf starb. Es scheint, dass ein alter Feind ihn schließlich eingeholt hat. Das Schloss verwandelt sich in eine Ruine. Irgendwie werde ich den Eindruck nicht los, dass der gegenwärtige Bürgermeister im Begriff ist, es wiederherzustellen. Ich bin sicher, dass der Umbau die Toten genauso stört wie alle anderen, wer auch immer in den vergangenen hundert Jahren dort ins Schloss eingezogen sein mag. ~
-@54 = ~Und warum erzählt Ihr mir das? ~
-@55 = ~Weil ich vermute, dass ihre Wächter nervös werden. Sie können jeden beliebigen oder alles Fremde angreifen. Seid darum gerade in seiner Umgebung vorsichtig. ~
-@56 = ~Gut, vielen Dank für die Warnung. ~
-@57 = ~Toll, eine großartige Ausrede, um alle Wachen abzuschlachten, danke. ~
-@58 = ~Warum sollte ich das wollen? Manchmal hat man größere Macht, wenn man hinter dem Thron steht statt auf ihm zu sitzen. Aber auch jene Tage sind für mich vorbei. Ich erteile dem Baron nur dann Rat, wenn er darum bittet. Ich bin hier auf meiner Farm glücklicher, als wenn ich in seinem Herrensitz festhängen würde.~
+So, ich muss mich der Ernte widmen. Ich wÃ¼nsche Euch viel GlÃ¼ck, <CHARNAME>. ~
+@45 = ~Ich dachte, dort wÃ¤ren mehr von ihnen. Ihr habt die fehlende Karawane desungeachtet nicht trotzdem gefunden? Es ist wahrscheinlich unter diesen UmstÃ¤nden egal. Ich vermute, dass Ihr die Schuldigen zur Strecke gebracht habt. ~
+@46 = ~Ich glaube nicht, dass sie noch mehr Leute belÃ¤stigen werden. ~
+@47 = ~Nur ein HÃ¶flichkeitsbesuch dieses Mal? Nun, Ã¼berprÃ¼ft bitte den Kahlen HÃ¼gel, wenn Ihr die Gelegenheit habt. ~
+@48 = ~Ah, das wÃ¤re Krellus. Er ist mir seit einiger Zeit ein Dorn im Auge. Ausgezeichnete Arbeit, junger <SIRMAAM>. Wenn Ihr die MÃ¶glichkeit habt,  Ã¼berprÃ¼ft bitte, ob es dort nicht noch mehr Orks gibt. AuÃŸerdem interessiere ich mich dafÃ¼r, was mit einer Karawane passiert ist, die vermisst wird. Ich vermute, dass Krellus etwas damit zu tun hat. ~ ~Ah, das wÃ¤re Krellus. Er ist mir seit einiger Zeit ein Dorn im Auge. Ausgezeichnete Arbeit, junge <SIRMAAM>. Wenn Ihr die MÃ¶glichkeit habt,  Ã¼berprÃ¼ft bitte, ob es dort nicht noch mehr Orks gibt. AuÃŸerdem interessiere ich mich dafÃ¼r, was mit einer Karawane passiert ist, die vermisst wird. Ich vermute, dass Krellus etwas damit zu tun hat. ~
+@49 = ~Sicherlich nichts weiter, als Pelltar Euch bereits erzÃ¤hlt hat. Ich glaube nicht, dass es drei MÃ¶rder waren. Ich glaube, dass es nur einen gab und dass den beiden anderen etwas angehÃ¤ngt wird. Dabei lieÃŸ diese Person auch etwas zurÃ¼ck. ~
+@50 = ~Oder, alle drei sind unschuldig, und der MÃ¶rder hinterlieÃŸ falsche Beweise gegen alle drei. Ich schlage vor, dass Ihr ein GesprÃ¤ch mit allen dreien fÃ¼hrt und herausfindet, was mit den am Tatort gefundenen GegenstÃ¤nden geschah. Es gibt eine Geschichte zu jedem dieser GegenstÃ¤nde. Vielleicht wird eine jener Geschichten Euch zum wahren MÃ¶rder fÃ¼hren. ~
+@51 = ~Ich kann Euch auch sagen, obwohl ich kein Priester bin, dass etwas Eigenartiges dafÃ¼r verantwortlich ist fÃ¼r Qualton UnfÃ¤higkeit, den Baron von den Toten zu erwecken. Die Antwort muss ebenfalls in Garrotten zu finden sein. ~
+@52 = ~Also fÃ¼hren alle Wege nach Garrotten? ~
+@53 = ~Genau. Ãœbrigens, auÃŸerhalb Garrottens gibt es ein altes Schloss, das ich besaÃŸ. Ich verkaufte es vor vielen Jahren einem Abenteurer, der kurz nach dem Kauf starb. Es scheint, dass ein alter Feind ihn schlieÃŸlich eingeholt hat. Das Schloss verwandelt sich in eine Ruine. Irgendwie werde ich den Eindruck nicht los, dass der gegenwÃ¤rtige BÃ¼rgermeister im Begriff ist, es wiederherzustellen. Ich bin sicher, dass der Umbau die Toten genauso stÃ¶rt wie alle anderen, wer auch immer in den vergangenen hundert Jahren dort ins Schloss eingezogen sein mag. ~
+@54 = ~Und warum erzÃ¤hlt Ihr mir das? ~
+@55 = ~Weil ich vermute, dass ihre WÃ¤chter nervÃ¶s werden. Sie kÃ¶nnen jeden beliebigen oder alles Fremde angreifen. Seid darum gerade in seiner Umgebung vorsichtig. ~
+@56 = ~Gut, vielen Dank fÃ¼r die Warnung. ~
+@57 = ~Toll, eine groÃŸartige Ausrede, um alle Wachen abzuschlachten, danke. ~
+@58 = ~Warum sollte ich das wollen? Manchmal hat man grÃ¶ÃŸere Macht, wenn man hinter dem Thron steht statt auf ihm zu sitzen. Aber auch jene Tage sind fÃ¼r mich vorbei. Ich erteile dem Baron nur dann Rat, wenn er darum bittet. Ich bin hier auf meiner Farm glÃ¼cklicher, als wenn ich in seinem Herrensitz festhÃ¤ngen wÃ¼rde.~

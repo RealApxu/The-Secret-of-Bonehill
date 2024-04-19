@@ -1,60 +1,60 @@
-@1  = ~Willkommen, Reisende. Ich bin Almax, der ortsansässige Druide von Restenfurth und Beschützer der Länder. Gibt es etwas, womit ich Euch helfen kann? ~ 
-@2  = ~Ein Druide, wie? Habt Ihr irgendwelche Zauber oder Arzneitränke, die wir kaufen können? ~
+@1  = ~Willkommen, Reisende. Ich bin Almax, der ortsansÃ¤ssige Druide von Restenfurth und BeschÃ¼tzer der LÃ¤nder. Gibt es etwas, womit ich Euch helfen kann? ~ 
+@2  = ~Ein Druide, wie? Habt Ihr irgendwelche Zauber oder ArzneitrÃ¤nke, die wir kaufen kÃ¶nnen? ~
 @3  = ~Nicht gerade jetzt, danke. ~ 
 @4  = ~Nicht gerade jetzt, danke. Ich habe wirklich einige Fragen, wenn ich bitten darf? ~
-@5  = ~Wir fanden Martin. Er gab uns diese Nachricht für Euch. ~ 
-@6  = ~Wir fanden Martin. Er ist ziemlich nervös, aber ansonsten macht er sich gut im Wald. ~
+@5  = ~Wir fanden Martin. Er gab uns diese Nachricht fÃ¼r Euch. ~ 
+@6  = ~Wir fanden Martin. Er ist ziemlich nervÃ¶s, aber ansonsten macht er sich gut im Wald. ~
 @7  = ~Martin griff uns an. Wir verteidigten uns, aber ich muss leider sagen, dass er tot ist. ~
-@8  = ~Ich habe einige Gegenstände, die meine Familie und ich gefertigt haben. Ich kann auch etwas Heilung anbieten, wenn Ihr sie braucht. ~ 
-@9  = ~Natürlich. Fragt nur. ~
-@10 = ~Da Ihr das Gebiet gut kennt, was könnt Ihr mir vom Land um Restenfurth herum erzählen? ~ 
+@8  = ~Ich habe einige GegenstÃ¤nde, die meine Familie und ich gefertigt haben. Ich kann auch etwas Heilung anbieten, wenn Ihr sie braucht. ~ 
+@9  = ~NatÃ¼rlich. Fragt nur. ~
+@10 = ~Da Ihr das Gebiet gut kennt, was kÃ¶nnt Ihr mir vom Land um Restenfurth herum erzÃ¤hlen? ~ 
 @11 = ~Nichts Spezielles im Moment, danke. ~
 @12 = ~Welches Gebiet insbesondere? ~
-@13 = ~Südlich von Restenfurth. ~ 
+@13 = ~SÃ¼dlich von Restenfurth. ~ 
 @14 = ~Westlich Restenfurth. ~
-@15 = ~Nördlich von Restenfurth. ~ 
+@15 = ~NÃ¶rdlich von Restenfurth. ~ 
 @16 = ~Irgend ein weiterer Ort, von dem Ihr denkt, dass wir hingehen sollten? ~
-@17 = ~Tatsächlich denke ich, dass es uns genug Grund gibt, um jetzt nachzuforschen. Danke. ~
-@18 = ~(Er lächelt.) Südlich von uns findet Ihr nur das Meer. Ich nehme an, dass Ihr den Landstrich südwestlich, in der Nähe der alten Wache meint? ~
+@17 = ~TatsÃ¤chlich denke ich, dass es uns genug Grund gibt, um jetzt nachzuforschen. Danke. ~
+@18 = ~(Er lÃ¤chelt.) SÃ¼dlich von uns findet Ihr nur das Meer. Ich nehme an, dass Ihr den Landstrich sÃ¼dwestlich, in der NÃ¤he der alten Wache meint? ~
 @19 = ~Ja, das ist das Gebiet. ~ 
-@20 = ~Da gibt es wirklich nicht viel zu sagen. Die Wache ist vor mehreren Jahren durch ein falsch entfachtes Feuer im Kamin ausgebrannt. Weitere Baracken wurden nahe dem Westtor gebaut. Die alte wurde aber nicht niedergerissen. Ich habe Geschichten über Ratten im Gebiet gehört, aber sie sollten niemanden belästigen. ~
+@20 = ~Da gibt es wirklich nicht viel zu sagen. Die Wache ist vor mehreren Jahren durch ein falsch entfachtes Feuer im Kamin ausgebrannt. Weitere Baracken wurden nahe dem Westtor gebaut. Die alte wurde aber nicht niedergerissen. Ich habe Geschichten Ã¼ber Ratten im Gebiet gehÃ¶rt, aber sie sollten niemanden belÃ¤stigen. ~
 @21 = ~Ich habe noch einige Fragen. ~ 
-@22 = ~Wir haben bereits Nachforschungen bezüglich dieser Sache angestellt. Wir fanden riesige Ratten und einige Untote in einer Höhle unter den Baracken. ~ 
-@23 = ~Wenn Ihr der Straße der Abtei vorbei entlang folgt, wird sie Euch westwärts und dann südwärts nach Garrotten führen. Eine stinkende und scheußliche Stadt, in der es vor Dieben, Huren und anderen Liederlichkeiten wimmelt. ~
-@24 = ~Geradewegs westlich werdet Ihr in den Kelman Wald und dann in den Toten Wald gelangen. Nichts Ungewöhnliches dort. Nordwestlich werdet Ihr zum Kieselsteinhügel und zum Dreispitz kommen. Dieses Gebiet scheint einen großen Bestand an Gnollen zu beherbergen. Normalerweise machen die keine Probleme, aber kürzlich veranlasste sie irgendetwas, Restenfurth zu überfallen. Deshalb bauten wir die Mauer entlang dieses Teils der Stadt. ~ 
-@25 = ~Dreispitz? Ja, wir sind dort gewesen. Scheint, dass ein Oger die Gnolle anführte. Es kann jetzt einen Winter oder zwei dauern, bevor sie die Stadt wieder belästigen. ~
-@26 = ~Die zwei Flüsse, Westlicher Restin und Östlicher Restin, fließen südwärts und verbinden sich gerade unterhalb des Dweomer-Waldes und der Xerbalberge. Er fließt dann südlich ins Meer an jener Stelle, auf der Restenfurth erbaut wurde. Es gibt ein Gebiet, genau nördlich von hier, Kahle Hügel genannt. Wir haben Probleme mit Räubern gehabt, die sich in jenen Hügeln verbargen. Normalerweise nimmt Sir BillyBob einige der jüngeren Soldaten dort auf, um sie zu trainieren, die Räuber zur Strecke zu bringen. ~
+@22 = ~Wir haben bereits Nachforschungen bezÃ¼glich dieser Sache angestellt. Wir fanden riesige Ratten und einige Untote in einer HÃ¶hle unter den Baracken. ~ 
+@23 = ~Wenn Ihr der StraÃŸe der Abtei vorbei entlang folgt, wird sie Euch westwÃ¤rts und dann sÃ¼dwÃ¤rts nach Garrotten fÃ¼hren. Eine stinkende und scheuÃŸliche Stadt, in der es vor Dieben, Huren und anderen Liederlichkeiten wimmelt. ~
+@24 = ~Geradewegs westlich werdet Ihr in den Kelman Wald und dann in den Toten Wald gelangen. Nichts UngewÃ¶hnliches dort. Nordwestlich werdet Ihr zum KieselsteinhÃ¼gel und zum Dreispitz kommen. Dieses Gebiet scheint einen groÃŸen Bestand an Gnollen zu beherbergen. Normalerweise machen die keine Probleme, aber kÃ¼rzlich veranlasste sie irgendetwas, Restenfurth zu Ã¼berfallen. Deshalb bauten wir die Mauer entlang dieses Teils der Stadt. ~ 
+@25 = ~Dreispitz? Ja, wir sind dort gewesen. Scheint, dass ein Oger die Gnolle anfÃ¼hrte. Es kann jetzt einen Winter oder zwei dauern, bevor sie die Stadt wieder belÃ¤stigen. ~
+@26 = ~Die zwei FlÃ¼sse, Westlicher Restin und Ã–stlicher Restin, flieÃŸen sÃ¼dwÃ¤rts und verbinden sich gerade unterhalb des Dweomer-Waldes und der Xerbalberge. Er flieÃŸt dann sÃ¼dlich ins Meer an jener Stelle, auf der Restenfurth erbaut wurde. Es gibt ein Gebiet, genau nÃ¶rdlich von hier, Kahle HÃ¼gel genannt. Wir haben Probleme mit RÃ¤ubern gehabt, die sich in jenen HÃ¼geln verbargen. Normalerweise nimmt Sir BillyBob einige der jÃ¼ngeren Soldaten dort auf, um sie zu trainieren, die RÃ¤uber zur Strecke zu bringen. ~
 @27 = ~Sir BillyBob? ~
-@28 = ~Ja, ein alter Halbelf, der hier in der Nähe lebt. Er ist jetzt pensioniert und arbeitet auf seiner Farm. ~
-@29 = ~Warum nimmt er die jüngeren Soldaten auf die Jagd? Warum nimmt er nicht die Erfahreneren? ~
-@30 = ~Weil dann keiner hier wäre, um den Baron zu schützen! Außerdem spricht er stets Zauber auf die Wächter, um sie vor jedem Schaden zu schützen. Die Soldaten lernen zu kämpfen und zu sehen, ob sie für Kriegstaten wirklich geschaffen sind. Und die Räuber bekommen, was sie verdienen, während die Straßen wieder sicher sind für die Reisenden.
+@28 = ~Ja, ein alter Halbelf, der hier in der NÃ¤he lebt. Er ist jetzt pensioniert und arbeitet auf seiner Farm. ~
+@29 = ~Warum nimmt er die jÃ¼ngeren Soldaten auf die Jagd? Warum nimmt er nicht die Erfahreneren? ~
+@30 = ~Weil dann keiner hier wÃ¤re, um den Baron zu schÃ¼tzen! AuÃŸerdem spricht er stets Zauber auf die WÃ¤chter, um sie vor jedem Schaden zu schÃ¼tzen. Die Soldaten lernen zu kÃ¤mpfen und zu sehen, ob sie fÃ¼r Kriegstaten wirklich geschaffen sind. Und die RÃ¤uber bekommen, was sie verdienen, wÃ¤hrend die StraÃŸen wieder sicher sind fÃ¼r die Reisenden.
 
-Jedoch war er kürzlich mit anderem beschäftigt, und ich habe gehört, dass wir einige Waren vermissen, die inzwischen hätten angekommen sein sollen. Einige meiner Vorräte verdorren ebenfalls. Vielleicht solltet Ihr mit ihm über die Räuber sprechen. ~
-@31 = ~Ja, das könnten wir tun. ~
-@32 = ~Wir kümmern uns bereits um die Räuber. ~
+Jedoch war er kÃ¼rzlich mit anderem beschÃ¤ftigt, und ich habe gehÃ¶rt, dass wir einige Waren vermissen, die inzwischen hÃ¤tten angekommen sein sollen. Einige meiner VorrÃ¤te verdorren ebenfalls. Vielleicht solltet Ihr mit ihm Ã¼ber die RÃ¤uber sprechen. ~
+@31 = ~Ja, das kÃ¶nnten wir tun. ~
+@32 = ~Wir kÃ¼mmern uns bereits um die RÃ¤uber. ~
 @33 = ~Gut. ~
 @34 = ~Wunderbar! ~
-@35 = ~Natürlich, der Ödenwald, genau nördlich vom Dreispitz und dem Knochenhügel, westlich vom Dreispitz. ~
-@36 = ~Ich habe gehört, wie Pelltar den Knochenhügel erwähnte. Was wisst Ihr von diesem Gebiet? ~
-@37 = ~Ödenwald? ~
-@38 = ~Aber Ihr habt uns bereits von jenen Gebieten erzählt, deshalb werden wir sie untersuchen und uns später bei Euch melden. ~
-@39 = ~Ja, da gibt es nicht viel. Könnte ein guter Platz sein, um zwischen den Abenteuern zu verschnaufen. Eine Druidenkonvokation arbeitete daran, dort einen Schrein zu errichten, aber ich weiß nicht, ob sie es noch tun oder nicht. Die Probleme mit dem Gnollen haben jeden Kontakt zu den Druiden unterbunden.
+@35 = ~NatÃ¼rlich, der Ã–denwald, genau nÃ¶rdlich vom Dreispitz und dem KnochenhÃ¼gel, westlich vom Dreispitz. ~
+@36 = ~Ich habe gehÃ¶rt, wie Pelltar den KnochenhÃ¼gel erwÃ¤hnte. Was wisst Ihr von diesem Gebiet? ~
+@37 = ~Ã–denwald? ~
+@38 = ~Aber Ihr habt uns bereits von jenen Gebieten erzÃ¤hlt, deshalb werden wir sie untersuchen und uns spÃ¤ter bei Euch melden. ~
+@39 = ~Ja, da gibt es nicht viel. KÃ¶nnte ein guter Platz sein, um zwischen den Abenteuern zu verschnaufen. Eine Druidenkonvokation arbeitete daran, dort einen Schrein zu errichten, aber ich weiÃŸ nicht, ob sie es noch tun oder nicht. Die Probleme mit dem Gnollen haben jeden Kontakt zu den Druiden unterbunden.
 
-Wirklich, jetzt wo ich daran denke - wenn Ihr dorthin gelangt, überprüft bitte ihre Lage. Ihr solltet Euch mit Martin treffen, er ist ein Waldläufer. Er ist jung und unerfahren, ein bisschen unbesonnen, aber das ist eine gute Ausbildung für ihn. ~
-@40 = ~Martin? Martin... Ja, ich denke, dass das der Name des fremden Kerls war, der uns angriff. Er arbeitete für Euch? Es tut mir leid, aber er muss, so allein dort draußen, durchgedreht sein. ~
-@41 = ~Knochenhügel ist der Name für eine Bergspitze gerade außerhalb des Toten Waldes. Vor langer, langer Zeit war es die Festung, die dieses Gebiet schützte. Viele Kämpfe haben sie im Laufe der Jahre zur Ruine geschleift. Ich bin sicher, dass alle Arten verlorener Seelen durch die Säle dieses Ortes schweifen.
+Wirklich, jetzt wo ich daran denke - wenn Ihr dorthin gelangt, Ã¼berprÃ¼ft bitte ihre Lage. Ihr solltet Euch mit Martin treffen, er ist ein WaldlÃ¤ufer. Er ist jung und unerfahren, ein bisschen unbesonnen, aber das ist eine gute Ausbildung fÃ¼r ihn. ~
+@40 = ~Martin? Martin... Ja, ich denke, dass das der Name des fremden Kerls war, der uns angriff. Er arbeitete fÃ¼r Euch? Es tut mir leid, aber er muss, so allein dort drauÃŸen, durchgedreht sein. ~
+@41 = ~KnochenhÃ¼gel ist der Name fÃ¼r eine Bergspitze gerade auÃŸerhalb des Toten Waldes. Vor langer, langer Zeit war es die Festung, die dieses Gebiet schÃ¼tzte. Viele KÃ¤mpfe haben sie im Laufe der Jahre zur Ruine geschleift. Ich bin sicher, dass alle Arten verlorener Seelen durch die SÃ¤le dieses Ortes schweifen.
 
-Einige Geschichten von Reisenden behaupten, dass die Toten dort umhergehen. Untote stören das Gleichgewicht der Natur. Tut bitte, was Ihr könnt, um sie zu beseitigen. ~
-@42 = ~Erstaunlich! Ich wusste nicht, dass es solch eine Höhle gab. Ihr habt auch die Untoten vernichtet? Wunderbar. ~
-@43 = ~Das ist wunderbar! Vielen Dank dafür, dass Ihr ihn ausfindig gemacht habt. Ich werde den Nachschub zusmamenstellen und Amos schicken, um Euch zu beliefern. Wenn Ihr Martin wiederseht, teilt ihm bitte mit, dass Amos in ein paar Tagen zu ihm kommen sollte. ~
-@44 = ~In Ordnung, wir werden es ihm erzählen. ~
-@45 = ~In Ordnung, aber wir können diesen Weg so bald nicht zurückgehen. ~
-@46 = ~*Seufz.* Das sind ernste Nachrichten. Ich wusste, dass er ein bisschen eingebildet war wegen der Bewachung des Wäldchens, aber ich hätte niemals gedacht, dass er irgendjemanden angreift. Es tut mir leid. Ich werde Amos schicken müssen, um dort nach dem rechten zu sehen. ~
-@47 = ~Gab er Euch irgendetwas? Ich erwartete eine Liste der Lieferungen für ihn. ~
+Einige Geschichten von Reisenden behaupten, dass die Toten dort umhergehen. Untote stÃ¶ren das Gleichgewicht der Natur. Tut bitte, was Ihr kÃ¶nnt, um sie zu beseitigen. ~
+@42 = ~Erstaunlich! Ich wusste nicht, dass es solch eine HÃ¶hle gab. Ihr habt auch die Untoten vernichtet? Wunderbar. ~
+@43 = ~Das ist wunderbar! Vielen Dank dafÃ¼r, dass Ihr ihn ausfindig gemacht habt. Ich werde den Nachschub zusmamenstellen und Amos schicken, um Euch zu beliefern. Wenn Ihr Martin wiederseht, teilt ihm bitte mit, dass Amos in ein paar Tagen zu ihm kommen sollte. ~
+@44 = ~In Ordnung, wir werden es ihm erzÃ¤hlen. ~
+@45 = ~In Ordnung, aber wir kÃ¶nnen diesen Weg so bald nicht zurÃ¼ckgehen. ~
+@46 = ~*Seufz.* Das sind ernste Nachrichten. Ich wusste, dass er ein bisschen eingebildet war wegen der Bewachung des WÃ¤ldchens, aber ich hÃ¤tte niemals gedacht, dass er irgendjemanden angreift. Es tut mir leid. Ich werde Amos schicken mÃ¼ssen, um dort nach dem rechten zu sehen. ~
+@47 = ~Gab er Euch irgendetwas? Ich erwartete eine Liste der Lieferungen fÃ¼r ihn. ~
 @48 = ~Ja, aber wir haben sie verloren. ~
 @49 = ~Liste? Nein. Er war wegen des Problems mit den Gnollen in Sorge. ~
-@50 = ~Oh ja, bitte schön. ~
-@51 = ~Ich denke, dass wir Martin vielleicht verärgert haben. Er entfernte sich in den Wald, ohne uns irgendetwas zu geben.~
-@52 = ~*Seufz.* Sehr gut, ich werde Amos zum Wäldchen schicken, um eine andere Liste von Martin zu bekommen. Vielen Dank auf jeden Fall für Eure Hilfe. ~
-@53 = ~Nun gut, könntet Ihr bitte herausfinden, was die Gnolle veranlasst, uns anzugreifen? Solange sie das fortsetzen, können keine Boten zu Martin durchdringen. Lasst es ihn wissen, sobald das beendet ist. ~
-@54 = ~Klingt wie ein schändlicher Ort. Das ist die Art von Dingen, die anscheinend einen natürlichen Nebeneffekt der Zivilisation darstellen.~
+@50 = ~Oh ja, bitte schÃ¶n. ~
+@51 = ~Ich denke, dass wir Martin vielleicht verÃ¤rgert haben. Er entfernte sich in den Wald, ohne uns irgendetwas zu geben.~
+@52 = ~*Seufz.* Sehr gut, ich werde Amos zum WÃ¤ldchen schicken, um eine andere Liste von Martin zu bekommen. Vielen Dank auf jeden Fall fÃ¼r Eure Hilfe. ~
+@53 = ~Nun gut, kÃ¶nntet Ihr bitte herausfinden, was die Gnolle veranlasst, uns anzugreifen? Solange sie das fortsetzen, kÃ¶nnen keine Boten zu Martin durchdringen. Lasst es ihn wissen, sobald das beendet ist. ~
+@54 = ~Klingt wie ein schÃ¤ndlicher Ort. Das ist die Art von Dingen, die anscheinend einen natÃ¼rlichen Nebeneffekt der Zivilisation darstellen.~
