@@ -1,0 +1,22 @@
+BEGIN BH25SPEL
+
+IF WEIGHT #5 ~AreaCheck("BH0103")~ THEN BEGIN SoBH1
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("BH_MetLazarus","GLOBAL",1)~ REPLY @4 GOTO SoBH2
+  IF ~~ THEN DO ~SetGlobal("BH_MetLazarus","GLOBAL",1)~ REPLY @5 GOTO SoBH3
+END
+
+IF ~~ THEN BEGIN SoBH2
+  SAY @6
+  IF ~~ THEN DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END
+
+IF ~~ THEN BEGIN SoBH3
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO SoBH4
+END
+
+IF ~~ THEN BEGIN SoBH4
+  SAY @6
+  IF ~~ THEN DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END

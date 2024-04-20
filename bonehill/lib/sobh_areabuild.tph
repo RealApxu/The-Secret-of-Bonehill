@@ -165,6 +165,8 @@ END
 // Writing correct WED reference in .are file (and area scripts)
 /////////////////////////////////////////////////////////////////////
 
+COPY ~%MOD_FOLDER%/wed~ override
+
 COPY ~%MOD_FOLDER%/are~ ~%workspace%/are~
 
 ACTION_PHP_EACH bh_are_wed_references AS are_file => wed_name BEGIN
@@ -179,11 +181,11 @@ END
 //////////////////////////////////////
 
 COPY_EXISTING ~%Temple%.are~ override
-    WRITE_ASCII 0x94 ~%Temple_BCS%~
+    WRITE_ASCIIE 0x94 ~%Temple_BCS%~
 BUT_ONLY
 
 COPY_EXISTING ~%Temple_SongoftheMorning%.are~ override
-    WRITE_ASCII 0x94 ~%Temple_SongoftheMorning_BCS%~
+    WRITE_ASCIIE 0x94 ~%Temple_SongoftheMorning_BCS%~
 BUT_ONLY
 
 //////////////////////////////////////
@@ -408,7 +410,7 @@ ACTION_IF (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) || 
     ADD_MUSIC ~fort~ ~music/fort.mus~
 
 //AREA_NAME   DAY_SONG	NIGHT_SONG	BATTLE_SONG
-    <<<<<<<< areapatchlist
+    <<<<<<<< bhareapatchlist
 bh0200	%cday1%	    %cnite%	    %bc4%
 bh0300	%cday2%	    %cnite%	    %bc4%
 bh0302	%chants%	%chants%	-1
@@ -439,7 +441,7 @@ bh2301	%dung2%	    %dung2%	    52
 
 //PRINT ~Number of Songs: %num_songs%~
     OUTER_SET rows_cnt_bgt=0
-    COPY - ~areapatchlist~ ~areapatchlist~ EVALUATE_BUFFER
+    COPY - ~bhareapatchlist~ ~bhareapatchlist~ EVALUATE_BUFFER
         COUNT_2DA_ROWS 4 "rows_cnt_bgt"
         FOR( cntg=0; cntg<"%rows_cnt_bgt%"; cntg=cntg+1 ) BEGIN
             READ_2DA_ENTRY cntg 0 4 "bgt_table_file_name"
@@ -455,12 +457,23 @@ bh2301	%dung2%	    %dung2%	    52
                 BUT_ONLY_IF_IT_CHANGES //COPY_EXISTING
             END //INNER_ACTION
         END //.TBL loop
-
+END
 /////////////////////////////////////////
 //Patching CRE names
 /////////////////////////////////////////
 
-COPY ~%workspace%/are/BH0101.are~ ~%workspace%/are/BH0101.are~
+COPY ~%workspace%/are/bh0106.are~ ~%workspace%/are~
+    LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Female Townsfolk" cre_file = EVAL "%tutu_scriptbg%%tutu_var%ftown3%eet_var%" END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
+    COPY ~%workspace%/are/bh1300.are~ ~%workspace%/are~
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 1" cre_file = "_GNOLL" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 2" cre_file = "_GNOLL" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 3" cre_file = "_GNOLL" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 4" cre_file = "_GNOLL" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 5" cre_file = "_GNOLL" END
+BUT_ONLY
 
 /////////////////////////////////////////
 //Copy .are files in the override folder

@@ -1,0 +1,12 @@
+EXTEND_BOTTOM 25SPELL 0
+ IF ~Global("BH_MetLazarus","GLOBAL",1)~ REPLY @1 GOTO SoBH5
+END
+
+APPEND 25SPELL
+
+IF ~~ THEN BEGIN SoBH5
+  SAY @2
+  IF ~~ THEN DO ~SetGlobal("BH_MetLazarus","GLOBAL",2) SetGlobal("lazarus","GLOBAL",1)~ GOTO 13
+END
+
+END
