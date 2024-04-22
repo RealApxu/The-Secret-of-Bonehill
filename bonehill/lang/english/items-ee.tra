@@ -1,0 +1,791 @@
+
+@7    = ~This is the type of rock that a giant hurls at the unfortunate. It can cause great damage, as well as knock the victim unconscious. A character of giant-class strength is able to hurl these as well...  
+
+Range: 80 yards 
+Damage: 3-18 
+Special: Save vs. Breath Weapon at -4, or be knocked unconscious for one round, and stunned for the next round. 
+Requires: 19 Strength~
+
+@9    = ~Amulets of fireballs are amulets with small globes that when thrown will cough forth a huge, burning ball of fire that streaks out to the desired range (to a maximum of 120') and bursts in a fiery, violent blast, just like the fireball spell.  The fireball inflicts 6d6 points of damage, but all 1s rolled are counted as 2s.  The victim(s) may make a save vs. wands in order to take only half damage.  Once the globes are all used, the amulet is destroyed.
+
+STATISTICS:
+
+Ability  1:
+Effect:  shoots out a Fireball
+Damage:  6D6 (save vs. wands for half)
+Range:  90 ft
+Area 30 ft radius
+
+Not usable by:
+ Wizardslayer~
+
+@11   = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago. 
+
+It is set with a single stone of an unknown type that radiates a slight glow.  Though the ring is cold to the touch, the chill is strangely comforting
+
+STATISTICS:
+
+Special:
+   Memorize 1 Additional 1st Level Spell
+   Memorize 1 Additional 3rd Level Spell
+   Memorize 1 Additional 5th Level Spell
+Weight: 0
+Usable only by:
+   Bards~
+
+@14   = ~This is a small horn.  Horns are typically made of bone or metal and can produce a large variety of sounds.~
+@15   = ~Bronze Horn of Valhalla
+
+In the halls of Valhalla rest the most valiant of warriors.  Their service to war during their lives has rewarded them with honored positions in Valhalla.  As part of their service these warriors must offer their service to any who blow a horn of Valhalla.  This horn will summon forth a seventh level berserk warrior who will fight for the summoner for one minute.  The horn may be used once per day.
+
+This particular horn looks dented and bent from use or misuse.~
+
+@17   = ~This is the missing black pearl that Gelpas accused you of stealing.  It should be returned to Welcar, the guard near the warehouses.~
+
+@21   = ~This long black wooden staff has a large blue crystal shaped like a blue dragon's head at its tip that radiates electricity.  These staves are made for members of the Cult of the Dragon.  Only the dragonriders are allowed to carry these staves.  Therefore the cult may become very interested in your possession of this staff.
+
+The dragon staves carry the abilities of the particular dragon or dracolich that the rider was partnered with.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+THAC0:  +3
+Special:
+ Grants 50% resistance to electricity.
+ The staff has a 50% chance of dealing out 1D8 electrical damage if the blue gem strikes.
+ Launch bolt of lightning with 6D6 damage half if save vs. wands.  2 charges per day.
+ The staff has one chain lightning charge per day.
+Damage type:  crushing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength
+Usable By:
+ Mage (Single or Multi-class)~
+
+@23   = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and assisting in backstabs. 
+
+STATISTICS:
+   Cast Improved Haste once/day
+   Cast Improved Invisibility 3/day
+
+Armor Class:  +2 bonus
+Saving Throw:  +2 bonus
+Weight:  3~
+
+@26   = ~Club +2, The Assassin's Assistant
+This belonged to Tellish, an evil cleric/thief known as a leader in one of the strongest assassin's guilds in modern time.  It has a chance to incapacitate any human, dwarf, gnome, or halfling by inducing deep slumber, though elves are conveniently immune.  To assist the assassin, the weapon provides a 50% increase in backstab abilities.  Although technically a morning star, for a thief it works like any other club.
+
+STATISTICS:
+
+Combat Ability: Any human or demi-human, excluding elves, hit by the Sleeper must save vs. poison with no bonus or fall asleep for 18 seconds.
+Special Ability: 50% increase in backstab ability
+THACO:  +2 bonus
+Damage:  2D4 +2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Usable By:
+ Thief (Single or Multi-class)~
+
+@29   = ~A musical lute.~
+@30   = ~Fabio claims that this is the famous lute used by Pellon Kay.  However, with all his travels, he has modified some of the magical abilities.
+
+How Fabio obtained this lute is a mystery he won't talk about.
+
+Special Abilities:
+
+Once per day, when played at a target, this lute casts Dire Charm.
+
+3 times a day can cause confusion to all creatures within listening range (save vs. spells to avoid the confusion).  The bard and fellow party members are not affected by the confusion.
+
+Only Usable By:
+  Bard~
+
+@34   = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+This particular sword seems to have a fire elemental or something imprisoned inside.  Its evil nature may overpower weak personalities.  However, the imprisoned creature draws nearby flames into the sword which may provide protection to the owner.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  1D8 +2, +3 fire damage
+Special: Fire Resistance +50%
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@36   = ~This is a desiccated hand.  There are red candles attached to each finger and thumb.~
+@37   = ~This grisly item is the severed left had of a human male, with a red candle affixed to each of the fingers and the thumb.  It was the hand of a robber, but is now a powerful magic item.
+
+Special Abilities: 
+
+Casts Knock 
+Casts Hold Person 
+
+Usable by: 
+ Anyone~
+
+@45   = ~A complex looking key made from cold iron.~
+
+@51   = ~As its name suggests, the Helm of Mind Warding protects its wearer from any magical attempts at emotional manipulation. As a precaution, some high-profile mercenary groups regularly equip their members with such helmets to ensure that they can perform their prescribed duties without external interference.
+
+STATISTICS:
+
+Protects Against Critical Hits
+Wearer is immune to Mind Spells
+Can cast True Sight 3 times per day
+Weight: 4
+Usable by:
+Good Aligned -
+ Fighter (including multiclass)
+ Paladin
+ Ranger (including multicass)
+ Cleric~
+@52   = ~Locinda's Body~
+@53   = ~This is the body of Locinda, she needs to be taken to the temple in Garrotten for healing.~
+@54   = ~This is the missing equipment from the warehouse.  There are 2 swords, a shield, some sacks of flour and sugar (now spoiled by the rats), and a bolt of mauve silk.~
+@57   = ~Holy Symbol of Osprem~
+@58   = ~This is a holy symbol of the goddess Osprem.  The golden amulet has a picture of a whale on it.  Normally the whale has a red ruby eye.  This particular amulet is missing the ruby eye.~
+
+@62   = ~This is the lute string found near the body of Baron Grellus.  It is gold in color and seems to give off a magical radiance.~
+
+@64   = ~This small ruby stone was found near the body of Baron Grellus.  According to witnesses, High Priest Harper of the Osprem temple wears an amulet with these stones.~
+
+@66   = ~This red leather button was found in the hand of Baron Grellus.  According to witnessess, Abraham, an innkeeper in Garrotten, wears a vest with these buttons on it.~
+
+@72   = ~This evil blade was designed by the Yakuza to help remove paladins, good rulers, and others that got in their way.
+
+STATISTICS:
+
+Special Abilities:
+   Kills Lawful Good on successful hit (no save)
+
+THAC0: +2 bonus, +6 vs. Lawful Good
+Damage:  1D8 +2
+Damage type:  slashing
+Weight: 1 
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakishashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@78   = ~Although thought to be only usable by clerics.  This wand can actually be used by anyone that doesn't want to get too close to their victim.
+
+Cast Cause Serious Wounds
+
+Usable By:
+ All~
+
+////////////////////
+// Version 3.0
+////////////////////
+
+//BG2 Items descriptions
+
+@1001 = ~Mace of Disruption +1~
+@1002 = ~This heavy mace was created for a very specific purpose: to slay undead. Any such creature hit by it not only feels the sting of the weapon, but also has a chance of being simply blasted from existence. There are legends that speak of a priest so holy a single glancing touch could send a vampire to oblivion, but whether the weapon empowered her or she empowered it is a topic for theologians.
+
+STATISTICS:
+
+Combat abilities: 
+– Undead must save vs. Death at -4 or be utterly destroyed
+
+THAC0: +1 (strikes as a +3 weapon)
+Damage: 1d6+2, 2d6+4 vs. undead
+Damage type: Crushing
+Speed Factor: 6
+Proficiency Type: Mace
+Type: One-handed
+Requires:
+10 Strength
+
+Weight: 8~
+@1003 = ~The Sleeper +2~
+@1004 = ~This belonged to Ssitalc, an uncharacteristically evil elf known as the Slaver of the Sword Coast. Until his sudden death several years ago, Ssitalc commanded a large force of human, dwarven, and gnomish brigands, using the Sleeper to keep them in line. It has a chance to incapacitate any human, dwarf, gnome, or halfling by inducing deep slumber, though elves are conveniently immune.
+
+STATISTICS:
+
+Combat abilities:
+– Any human or demihuman, excluding elves, hit by the Sleeper must save vs. Poison with a +4 bonus or fall asleep for 3 rounds
+
+THAC0: +2
+Damage: 2d4 +2 (crushing)
+Speed Factor: 5
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 9~
+@1005 = ~Blessed Bolt~
+@1006 = ~This is a crossbow bolt that has been permanently enchanted with the spell Bless. The enchantment will remain until it is fired out of a crossbow, at which time the magic will fade. It has been fabled that if a rakshasa is struck with this bolt, it will die instantly.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d8+1 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+@1007 = ~Elminster's Ecologies: Appendix IIIa~
+@1008 = ~Elminster's Ecologies: Appendix IIIa
+
+This timeworn tome is written by the sage Elminster and apparently part of a much larger body of work containing detailed studies of most of the strange creatures from around Faerûn. 
+
+The appendix seems to refer to newly discovered variations on normal breeds of creatures. Of particular interest:
+
+"Dense Puddings—a relative of the slimes and molds, this pudding is relatively normal... except when exposed to electricity or fire. When this occurs, it splits into new puddings and can therefore be very dangerous."
+
+"Fire Trolls—a new form of troll thought to have been created by sorcerous fire giants for use as servants and guards. They are similar to regular trolls in most respects except for their lava-temperature skin and burning touch. Once they are defeated, they can only be permanently killed by cold or acid."
+
+"Fission Slime—an offshoot of the slimes and molds, this particular slime will split into new and independent creatures when hit. It is vulnerable to fire, which will kill it permanently."
+
+"Magic Golems—this rare type of golem is formed from pure magical energy and is completely immune to spellcraft as well as enchanted weapons. To my knowledge, only weapons without enchantments have any effects on this creature."
+
+"Mariliths—while this is apparently a legitimate form of demon, it is one that only an exceptional few have encountered and survived. The marilith is a six-armed demon with a human female front half and the back half of a snake. She is incredibly quick and deadly, and on top of her martial prowess with six swords, she casts spells as well. Fighters should beware: In addition to being immune to normal weapons and minor enchantments, this demon also likes to cast protection from magical weapons... which must be dispelled if a fighter is to have any chance with his armaments."~
+@1009 = ~Boots of Elvenkind~
+@1010 = ~These soft boots make the wearer move as silently as the woodland elves. Thieves love to get their hands on these boots, but the elves are reluctant about exporting them, fearful that they may be used for illegal purposes.
+
+STATISTICS:
+
+Equipped abilities :
+– Move Silently: +30%
+
+Weight: 3~
+@1011 = ~Strong Arm +2~
+@1012 = ~This massive bow was the property of the ranger Bearpaw, who reportedly received it from a strangely benevolent ogre. The reason for the gift was never discussed, but he earned the respect of everyone he met, and likely befriended the creature while patrolling the Cloakwood Forest. Bearpaw could draw back the bow without the slightest effort, but when he died it was bequeathed to his wife and sons, and not a one could draw the string even halfway. They eventually sold it to a merchant heading south.
+
+STATISTICS:
+
+THAC0: +3
+Damage: +3 (missile)
+Speed Factor: 5
+Proficiency Type: Longbow
+Type: Two-handed
+Requires:
+ 19 Strength
+
+Weight: 8~
+@1013 = ~Tuigan Bow +1~
+@1014 = ~The Tuigans are a nomadic people widely dispersed across the steppe regions of Faerûn but bound together by a common bloodline. The bows they make are specially tailored for their mobile warriors, and the process used is carefully guarded, but the result is well known: Any bow of Tuigan origin can be fired faster than is possible with a normal one.
+
+STATISTICS:
+
+Combat abilities:
+– 3 shots per round
+
+THAC0: +1
+Damage: +1 (missile)
+Speed Factor: 5
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+@1015 = ~Bracers of Defense AC 5~
+@1016 = ~Baron Tiri of the North commanded ten of these bracers to be made, one for each of his bodyguards. The Baron thought it amusing when bandits—thinking them easy targets for they wore no armor—would attack him and his men as they made excursions across the land. The Guards of Tiri swiftly dealt with the would-be attackers. Of course, Baron Tiri himself never wore a set of bracers, and it was this unfortunate oversight that led to his death at the hands of an assassin's poison dagger.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: 5
+
+Weight: 2~
+@1017 = ~Bracers of Defense AC 4~
+@1018 = ~Sometimes known as Gauntlets of Chain Mail, these bracers were first worn by Tapid Gornoak. He was still an active warrior at the age of seventy-five, but the weight of his armor was getting harder and harder to bear. A companion, the sorceress Nadalarin, created these bracers for him. She also cast a permanent illusion over him so that his men would think he still wore his heavy chain. Tapid died twenty years later, his hands wrapped around the neck of an orc chief when old age took him.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: 4
+
+Weight: 2~
+@1019 = ~Gloves of Pickpocketing~
+@1020 = ~A few years back, Fong Moo, a famous cutpurse known in both Baldur's Gate and Athkatla, was found dead on the road between the Gate and Beregost. Seems he'd stolen an artifact from a powerful mage and tried escaping, with little success. His possessions went to a nephew, who took up the same trade as his uncle and became especially good at pickpocketing. Whether these gloves were magical before falling into Fong's hands or if they are somehow imbued with the master's essence is not known.
+
+STATISTICS:
+
+Equipped abilities:
+– Pick Pockets: +20%
+
+Weight: 2~
+@1021 = ~Gauntlets of Extraordinary Specialization~
+@1022 = ~These rarest of gauntlets are highly sought after by duelists, warriors, and fighters of all kinds. 
+
+STATISTICS:
+
+Combat abilities:
+– Extra 1/2 attack per round
+
+THAC0: +1
+Damage: +2
+
+Weight: 1~
+@1023 = ~Chain Mail +3~
+@1024 = ~Typical golden chain mail worn by Balthazar's mercenaries.
+
+STATISTICS:
+
+Armor Class: 2 (0 vs. slashing, 4 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 10~
+@1025 = ~Cloak of Elvenkind~
+@1026 = ~This green cloak resembles a normal cloak. Wearing it makes any person able to hide in shadows with astonishing ability. As per the Thief ability though, the moment the wearer attacks or otherwise makes his/her presence known, the wearer must leave the shadows.
+
+STATISTICS:
+
+Equipped abilities:
+– Hide In Shadows: +50%
+
+Weight: 3~
+@1027 = ~Pixie Prick +3~
+@1028 = ~The Pixie Prick almost appears to be a toy, so fine and delicate is the workmanship of the blade and handle. Yet when wielded and the command word "Sleep" intoned, the tiny dagger glows with a blue nimbus. Upon striking an opponent, the Pixie Prick releases a surge of powerful magic, potentially inducing a deep slumber. Legends say that the ancient sprite knight Alfonso de Noble wielded the Pixie Prick, not as a dagger but as a two-handed sword.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Poison or fall asleep for 2 rounds
+
+THAC0: +3
+Damage: 1d4+3 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+@1029 = ~Stiletto of Demarchess +2~
+@1030 = ~Most who take up the trade of murder for hire do so for reasons other than personal pleasure, but not so the Lady Demarche. She took special pleasure in the torture of her targets... which is why she made this dagger. With but one touch of its polished blade, an opponent was rendered immobile, incapable of so much as screaming, yet the victim could watch and feel all that happened to them. While her opponent was thus held, the Lady would slowly bleed them, sometimes taking several hours before allowing her subject to succumb to the final agony of death. The Lady finally fell victim to her own evil; disarmed by a rival and struck by her own stiletto, her fate was soon sealed.
+
+STATISTICS:
+
+Combat abilities: 
+– 20% chance per hit that the target must save vs. Death or be held for 2 rounds
+
+THAC0: +2
+Damage: 1d4+2 (piercing)
+Speed Factor: 0 
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+@1031 = ~Dagger +3~
+@1032 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter. This particular dagger is magical, having special bonuses to its speed, accuracy, and damage. Also, since it is magical, it is capable of striking opponents that are immune to normal weapons, such as vampires, elementals, and mummies.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d4+3 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+@1033 = ~Duskblade +2~
+@1034 = ~Though once a simple halberd, this weapon spent many hundreds of years in a tomb next to the soul phylactery of a powerful lich. The creature was eventually erased from existence, purportedly by another of its kind, but such close proximity to that concentrated evil has imbued this blade with the very essence of night and the chill of darkness, energy that becomes deadly in combat. It is a foul weapon, and a warrior should use it with caution. 
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d10+2, +2 points of cold damage
+Damage type: Piercing
+Speed Factor: 7
+Proficiency Type: Halberd
+Type: Two-handed
+Requires:
+ 13 Strength
+
+Weight: 12~
+@1035 = ~Skin of the Ghoul +4~
+@1036 = ~A clever thief, Damien Oneknife always tried to gain from the assets of his enemies, no matter the circumstances. After an intense battle with several ghouls in which two of his companions perished, Damien decided to even the odds in future encounters. He skinned one of the undead creatures and brought the hide to a halfling armorer talented in enchanting leather. When the suit was finished, it was magically protective against physical attacks and paralysis. Not very epic perhaps, but practical. 
+
+STATISTICS:
+
+Equipped abilities:
+– Save vs. Death: +3
+
+Armor Class: 4 (6 vs. piercing and missile)
+Requires:
+ 3 Strength
+
+Weight: 4~
+@1037 = ~Aeger's Hide +3~
+@1038 = ~This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago, the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold, or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
+
+STATISTICS:
+
+Equipped abilities:
+– Cold Resistance: +15%
+– Fire Resistance: +15%
+– Acid Resistance: +15%
+– Immunity to confusion
+
+Armor Class: 3 (5 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 35~
+@1039 = ~When this bottle is rubbed, an efreeti will appear. The efreeti will attack any enemies of the user, staying for up to one turn.
+
+STATISTICS:
+
+Charge abilities:
+– Summon Efreeti once per day
+  Range: 20 ft.
+  Duration: 1 turn
+
+Weight: 0~
+@1040 = ~Glasses of Identification~
+@1041 = ~Wearing these glasses allows the user to see magical items as they truly are. The proper instructions to activate the object appear like floating words before the wearer of these glasses. The glasses may be used three times per day. The glasses act much like a scroll of Identify, in that to identify an item you right-click on that item. A menu will appear and from here you choose the "Scroll" option. The item will now be identified.
+
+STATISTICS:
+
+Charge abilities:
+– Identify three times per day
+
+Weight: 0~
+@1042 = ~Ring of Air Control~
+@1043 = ~Air elementals make for powerful foes, but with this ring, they can become valuable allies. Dark tales tell of groups of Red Wizards, all with rings of elemental command, descending upon small villages with no warning and destroying every living thing in sight. Although the truth of these rumors is questionable, the fact remains that a ring of this power in the wrong hands is dangerous.
+
+STATISTICS:
+
+Charge abilities:
+– Charm Air Elemental once per day (Save vs. Spell at +2 negates)
+  Range: Touch
+  Duration: 45 seconds
+  Area of Effect: 1 air elemental
+
+– Improved Invisibility once per day
+  Range: Touch
+  Duration: 1 turn
+  Area of Effect: 1 creature
+
+Weight: 0~
+@1044 = ~Ring of Human Influence~
+@1045 = ~For seven years, Count Fisfnilt searched the realms for a suitable bride for his son Ewnin. Unfortunately, all the women that Fisfnilt found were not up to the standards set by Ewnin, an impossibly spoiled man. Desiring an heir and impatient with his son, the Count had the court mage fashion this ring. He gifted the ring to a woman of no small courtly influence and Ewnin was instantly smitten. They wed three weeks later.
+
+STATISTICS:
+
+Equipped abilities:
+– Charisma: 18
+
+Charge abilities:
+– Charm Person once per day (Save vs. Spell at +3 negates)
+  Range: 60 ft.
+  Duration: 100 seconds
+  Area of Effect: 1 creature
+
+Weight: 0~
+@1046 = ~Ring of Gaxx~
+@1047 = ~This ring is relatively unadorned, but the vile magic within radiates intense evil. Indeed, its creator, Kangaxx, was no less evil himself, even before millennia of undeath honed his power. It is said that a cadre of Netherese mages fought and imprisoned the demilich once, but being unable to truly destroy him, they became liches themselves to stand guard over his remains. The construction of the ring may have led to their enmity, as each of the gem's nine facets was supposedly empowered by sacrifice and death.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Magic Resistance: +10%
+– Regenerate 1 Hit Point every 3 seconds
+– Immunity to disease and poison
+
+Charge abilities:
+– Invisibility once per day
+  Duration: 12 hours
+  Area of Effect: The wearer
+
+– Improved Haste three times per day
+  Duration: 10 seconds
+  Area of Effect: The wearer
+
+Weight: 0~
+@1048 = ~Rod~
+@1049 = ~Rod of Reversal~
+@1050 = ~Rods are about three feet long and as thick as your thumb. They are normally found in cases or similar storage places. Rods can be fashioned from metal, wood, ivory, or bone. They can be plain or decorated and carved, tipped, or not. Rods are powered by charges, unless noted otherwise in the description of a particular rod. Each time the rod is used, one or more charge may be expended.
+
+STATISTICS:
+
+Weight: 3~
+@1051 = ~This powerful item allows a warrior to quickly remove the magical defenses of an enemy mage. It is particularly prized by wizard slayers.
+
+STATISTICS:
+
+Charge abilities:
+– Ruby Ray of Reversal
+  Special: Removes one spell protection from the target
+  Area of Effect: 1 creature
+
+Weight: 5~
+@1052 = ~Sling of Seeking +1~
+@1053 = ~Unlike most other slings, the Sling of Seeking does not require ammunition of any kind. When no bullets are equipped, the sling fires magical ammunition in the form of +1 bullets, making it an ideal weapon to use against magically protected foes. It can also fire normal ammunition.
+
+STATISTICS:
+
+Combat abilities:
+– When no bullets are equipped, the sling fires missiles that are treated as +1 for the purposes of determining what enemies they can damage. The missiles receive +2 to hit, including the bonus listed below, and deal a total of 1d4+2 missile damage
+
+THAC0: +2
+Damage: +2 (missile)
+Speed Factor: 4
+Proficiency Type: Sling
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+@1054 = ~Spear of the Unicorn +2~
+@1055 = ~This graceful spear is carved to resemble the elongated horn of the unicorn. Wielders of this spear are immune to charm and hold spells, just as a unicorn might be. Whether the horn is or isn't an actual unicorn horn is the subject of much debate.
+
+STATISTICS:
+
+Equipped abilities: 
+– Immunity to charm and hold
+– Save vs. Death: +3
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 4
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+@1056 = ~Staff of the Magi~
+@1057 = ~This type of staff is thoroughly linked to the image of the spellcasting profession, rare though it is. It is among the most powerful tools that a wizard can possess, the culmination of complex enchantments and endless study. This particular example is good in melee, grants invisibility, and offers protection from charms and evil. It can also cast Spell Trap and Dispel Magic and launch a Fireball-Lightning Bolt combination. The quintessential Mage item.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Invisibility
+– Immunity to charm
+– Protection From Evil
+
+Combat abilities:
+– Dispel Magic at level 30 on each hit
+
+Charge abilities:
+– Fireball-Lightning Bolt three times per day
+  Fireball: 10d6 fire damage to all in a 15-ft. radius (Save vs. Spell for half)
+  Lightning: 10d6 electrical damage to all in its path (Save vs. Spell for half)
+  Range: 150 ft.
+
+– Spell Trap once per day
+  Duration: 8 hours or until 30 spell levels have been trapped
+  Area of Effect: The user
+
+THAC0: +1 (strikes as a +5 weapon)
+Damage: 1d6+1 (crushing)
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+@1058 = ~Frostreaver +3~
+@1059 = ~This was the axe of Illgarth, a frost giant that terrorized northern communities long ago. It is not known where he acquired the weapon, but he took a perverse pleasure in unleashing it upon small folk, particularly halflings. Ice and acid maimed those not killed, and the giant would laugh coldly if he recognized his handiwork from a previous visit. Ultimately a group did manage to kill him, and at the request of his victims, Frostreaver was buried with him. 
+
+STATISTICS:
+
+THAC0: +3 
+Damage: 1d8+3, +1 cold damage, +1 acid damage
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+@1060 = ~Kundane +2~
+@1061 = ~Sword of Quickness: Kundane
+Disfigured as a child, Dramnek Olk was ostracized and ridiculed by his peers. In his loneliness he spent many hours alone on the hills overlooking Trademeet. A nearby wizard, Galloma, discovered the youth and found in him a kindred soul. The two fast became friends; master and apprentice. Galloma died before Dramnek's tutorage could be completed, however, and the youth found himself once more alone in the world. Eventually he made his way to the streets of Athkatla. There he became a cutpurse, augmenting his thieving skills with the little magic he'd learned from Galloma. Eventually he crafted this sword, which enhanced Dramnek's weak physical body. This weapon has no speed factor.
+
+STATISTICS:
+
+Combat abilities:
+– 1 extra attack per round
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+@1062 = ~Arbane's Sword of Agility +2~
+@1063 = ~One of many created in the name of the mage who first discovered how to enchant a blade in this manner, this was the weapon of the outlaw Garno, and many a cleric died at its edge. Garno became disillusioned with the gods when his family was put to the torch by clerics of Loviatar and spent his life seeking revenge. Despite his focused hatred of the devout, it is thought that one of the gods of chaos had a hand in Garno's acquisition of this sword, delighting in the havoc that followed the young man.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to hold and paralysis
+
+Charge abilities:
+– Haste once per day
+  Duration: 2 rounds
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+@1064 = ~Ras, The Dancing Blade +2~
+@1065 = ~Beroalf was a barbarian who traveled from the cold north in search of adventure. He sought treasures and glory, but soon all he wanted were companions to share in the excitement of battle, much like those he had left behind in his faraway village. Unfortunately, his coarse remarks and rudimentary hygiene repelled most travelers he met, until he expressed his thoughts to a sympathetic mage. The mage, for a price, constructed Ras, the dancing blade. Though not quite what Beroalf had in mind, he was thrilled nonetheless and wielded the sword for many years. How they were ultimately separated is not known.
+
+STATISTICS:
+
+Combat abilities:
+– Dancing sword can attack on its own for 4 rounds
+
+THAC0: +2
+Damage: 1d8+2 (slashing)
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+@1066 = ~Ras~
+@1067 = ~Leather Armor +3~
+@1068 = ~This basic armor is made of thick wax or water-hardened leather. It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing. Magical enchantments have improved the protective abilities of this particular suit.
+
+STATISTICS:
+
+Armor Class: 5 (7 vs. piercing and missile)
+Requires:
+ 3 Strength
+
+Weight: 5~
+@1069 = ~This is the standard armor given out to griffon riders and other warriors who use mounted steeds. It is lightweight but offers good protection, especially with the extra magical protections crafted upon it.
+
+STATISTICS:
+
+Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 8~
+@1070 = ~Potion of Superior Healing~
+@1071 = ~When consumed, this potion restores 40 Hit Points to the imbiber. The effect is instantaneous, and the potion is destroyed in the process.
+
+STATISTICS:
+
+Special: Restores 40 Hit Points
+
+Weight: 1~
+@1072 = ~Ring of Lock Picks~
+@1073 = ~Derek Drak, one of the most talented burglars in the Shadow Thieves' guild, wore this ring on many of his scores. The ring enhanced Derek's already impressive lockpicking abilities. In the city of Athkatla, there wasn't a door that could not be unlocked by Derek. To activate the ring, the proper command word must be known, at which point the garnet stone on the ring will polymorph into the shape of a key that closely fits the lock.
+
+STATISTICS:
+
+Equipped abilities:
+– Pick Locks: +25%
+
+Weight: 0~
+@1074 = ~Ring of Danger Sense~
+@1075 = ~Nizzuf's Maze was a grand hedge maze created by the archmage Nizzuf for his amusement. The maze boasted hundreds of magical traps, most of them extremely lethal. Nizzuf posted a reward big enough to buy a kingdom to the man or woman brave enough to enter the maze and reach its core. Thousands tried and died. But one, Oteg Verm, completed the maze, thanks mainly to this ring which let him "see" where the traps were hidden.
+
+STATISTICS:
+
+Equipped abilities:
+– Detect Traps: +25%
+
+Weight: 0~
+@1076 = ~Poisoned Throwing Dagger~
+@1077 = ~The typical throwing dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. Unlike a dagger, this one has a smaller handle and is balanced perfectly. A thin coating of poison has been applied to each poisoned throwing dagger, making it a lethal tool in the hands of trained assassins.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Death or suffer 2 points of poison damage per second for 10 seconds
+
+Damage: 1d4 (missile)
+Speed Factor: 2
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+@1078 = ~Sling +2~
+@1079 = ~Magical slings are the hallmark of stout halfling warriors. Usually their mothers or a talented aunt will create this sling for the halfling lad or lass who is about to embark on their second great adventure. The reason that the sling is given on the second adventure and not the first is that many halflings decide not to pursue the life of an adventurer after getting a taste of it.
+
+STATISTICS:
+
+THAC0: +2
+Damage: +2 (missile)
+Speed Factor: 4
+Proficiency Type: Sling
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+@1080 = ~Heavy Crossbow +2~
+@1081 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. This particular weapon has been enchanted with an aspect of life from the Plane of Air, harnessed by a master sorcerer. The aspect acts as a guiding hand, directing bolts to strike true and for more damage than normal.
+
+STATISTICS:
+
+THAC0: +2
+Damage: +4 (missile)
+Speed Factor: 8
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 12 Strength
+
+Weight: 11~
+@1082 = ~Light Crossbow +2~
+@1083 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. The crossbow fires a quarrel (also called a bolt). This magical crossbow is elegant and light in the hand, with little recoil.
+
+STATISTICS:
+
+THAC0: +2
+Damage: +2 (missile)
+Speed Factor: 3
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 8 Strength
+
+Weight: 5~
+@1084 = ~Keep Key~
+@1085 = ~This is the master key to Nalia's keep. It should open most of the doors in the fortress.
+
+STATISTICS:
+
+Weight: 0~

@@ -349,3 +349,29 @@
 @501  = ~This character is now level 0. Level them up to choose their initial proficiencies and skills. (Until you do this, their hit points and equipment may be a little odd; don't worry about this. Once you level them up, they may gain more levels (depending on your own experience)).~
 
 @750	= ~Hand Bandit Leader~
+
+////////////////////
+//Version 3.0
+////////////////////
+
+//BG2 Creatures names
+@800 = ~Spectator~
+@801 = ~Adventurer~
+@802 = ~Hobgoblin Captain~
+@803 = ~Orc~
+@804 = ~Orc Archer~
+@805 = ~Orc Priest~
+@806 = ~Orc Mage~
+@807 = ~Orog~
+@808 = ~Otyugh~
+
+//BHSTOLEN.D
+@809 = ~Thief!~
+@810 = ~Dirty thief, I'll show you!~
+@811 = ~No one steals from me!~
+
+//BHOGMONK.D
+@812 = ~I am here to strive for greater knowledge, to bask in the great inspiration that is the will of Oghma.~
+@813 = ~We seek to spread knowledge and to curb falsehood and rumor... especially with regards to history.~
+@814 = ~The things that are studied in the Oghmanyte orders are far beyond most people's comprehension. We shall teach them... in time.~
+@815 = ~Praise be to the Lord of Knowledge!~

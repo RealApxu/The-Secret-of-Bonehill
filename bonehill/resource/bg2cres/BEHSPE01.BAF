@@ -1,0 +1,70 @@
+IF
+    StateCheck(Myself,STATE_SLEEPING)
+THEN
+    RESPONSE #100
+        NoAction()
+END
+
+IF
+    !HasBounceEffects(Myself)
+    HPGT(Myself,45)
+    See([GOODCUTOFF])
+THEN
+    RESPONSE #100
+        ApplySpell(Myself,BEHOLDER_SPELL_TURNING)  // SPIN920.SPL (Minor Spell Turning)
+        Continue()
+END
+
+IF
+    !HasBounceEffects(Myself)
+    HPLT(Myself,45)
+    Delay(6)
+    See([GOODCUTOFF])
+THEN
+    RESPONSE #100
+        ApplySpell(Myself,BEHOLDER_SPELL_TURNING)  // SPIN920.SPL (Minor Spell Turning)
+        Continue()
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    See(SecondNearest([PC]))
+    HPGT(Myself,65)
+THEN
+    RESPONSE #100
+        ForceSpell(SecondNearest([PC]),BEHOLDER_FEAR)  // SPIN981.SPL (Fear)
+        Wait(1)
+        Continue()
+END
+
+IF
+    See(NearestEnemyOf(Myself))
+    HPGT(Myself,45)
+THEN
+    RESPONSE #100
+        ForceSpell(NearestEnemyOf(Myself),BEHOLDER_CHARM_PERSON)  // SPIN980.SPL (Charm Person)
+        Wait(4)
+        Continue()
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    See([PC])
+    !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+    HPGT(Myself,35)
+THEN
+    RESPONSE #100
+        ForceSpell([PC],BEHOLDER_PARALYZATION)  // SPIN990.SPL (Paralyze)
+        Continue()
+END
+
+IF
+    See(NearestEnemyOf(Myself))
+    HPGT(Myself,20)
+THEN
+    RESPONSE #100
+        ForceSpell([PC],BEHOLDER_CAUSE_SERIOUS_WOUNDS)  // SPIN986.SPL (Cause Serious Wounds)
+        Wait(3)
+        Continue()
+END
+

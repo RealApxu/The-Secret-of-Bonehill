@@ -45,19 +45,22 @@ ALWAYS
     RET out_path END
 
     OUTER_SPRINT tra_loc "%out_path%"
-    LOAD_TRA "%tra_loc%/%LANGUAGE%/install.tra"
-    LOAD_TRA "%tra_loc%/%LANGUAGE%/items.tra"
-        
+
+    LOAD_TRA "%tra_loc%/english/install.tra"
+    ACTION_IF FILE_EXISTS "%tra_loc%/%LANGUAGE%/install.tra" BEGIN LOAD_TRA "%tra_loc%/%LANGUAGE%/install.tra" END
+
+    LOAD_TRA "%tra_loc%/english/items.tra"
+    ACTION_IF FILE_EXISTS "%tra_loc%/%LANGUAGE%/items.tra" BEGIN LOAD_TRA "%tra_loc%/%LANGUAGE%/items.tra" END
+
     //Load EE-style descriptions for EE games
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
-        ACTION_IF FILE_EXISTS ~%tra_loc%/%LANGUAGE%/items-ee.tra~ BEGIN
-            LOAD_TRA ~%tra_loc%/%LANGUAGE%/items-ee.tra~
-        END
+        ACTION_IF FILE_EXISTS ~%tra_loc%/english/items-ee.tra~ BEGIN LOAD_TRA ~%tra_loc%/english/items-ee.tra~ END
+        ACTION_IF FILE_EXISTS ~%tra_loc%/%LANGUAGE%/items-ee.tra~ BEGIN LOAD_TRA ~%tra_loc%/%LANGUAGE%/items-ee.tra~ END
     END
 
 END
 
-AUTO_TRA ~%tra_loc%/%LANGUAGE%/D~
+AUTO_TRA ~%tra_loc%/%LANGUAGE%~
 
 LANGUAGE ~English~
          ~english~
@@ -165,9 +168,9 @@ COPY ~%MOD_FOLDER%/items/BHBPEARL.ITM~ ~override~
     SAY DESC @17
 
 COPY ~%MOD_FOLDER%/items/BHBUDSTF.itm~ ~override~
-    SAY NAME1 @18
+    SAY NAME1 #6351 //@18
     SAY NAME2 @19
-    SAY UNIDENTIFIED_DESC @20
+    SAY UNIDENTIFIED_DESC #6731 //@20
     SAY DESC @21
 
 COPY ~%MOD_FOLDER%/items/BHCLCK01.itm~ ~override~
@@ -175,7 +178,7 @@ COPY ~%MOD_FOLDER%/items/BHCLCK01.itm~ ~override~
     SAY DESC @23
 
 COPY ~%MOD_FOLDER%/items/bhclub01.itm~ ~override~
-    SAY NAME1 @24
+    SAY NAME1 #6701 //@24
     SAY NAME2 @25
     SAY DESC @26
 
@@ -186,9 +189,9 @@ COPY ~%MOD_FOLDER%/items/bhfablut.itm~ ~override~
     SAY DESC @30
 
 COPY ~%MOD_FOLDER%/items/BHFSW1.ITM~ ~override~
-    SAY NAME1 @31
+    SAY NAME1 #2893 //@31
     SAY NAME2 @32
-    SAY UNIDENTIFIED_DESC @33
+    SAY UNIDENTIFIED_DESC #6742
     SAY DESC @34
 
 COPY ~%MOD_FOLDER%/items/bhghand.itm~ ~override~
@@ -208,8 +211,8 @@ COPY ~%MOD_FOLDER%/items/BHGHNOTE.ITM~ ~override~
     SAY UNIDENTIFIED_DESC @41
 
 COPY ~%MOD_FOLDER%/items/BHGSKELJ.ITM~ ~override~
-    SAY NAME1 @42
-    SAY NAME2 @42
+    SAY NAME1 #15333 //@42
+    SAY NAME2 #15333 //@42
     SAY UNIDENTIFIED_DESC @43
     SAY DESC @43
 
@@ -224,9 +227,9 @@ COPY ~%MOD_FOLDER%/items/BHMESSG.ITM~ ~override~
     SAY UNIDENTIFIED_DESC @47
 
 COPY ~%MOD_FOLDER%/items/BHMHELM.ITM~ ~override~
-    SAY NAME1 @48
+    SAY NAME1 #6346 //@48
     SAY NAME2 @49
-    SAY UNIDENTIFIED_DESC @50
+    SAY UNIDENTIFIED_DESC #6807 //@50
     SAY DESC @51
 
 COPY ~%MOD_FOLDER%/items/BHMISC01.itm~ ~override~
@@ -1399,6 +1402,14 @@ PRINT @362
 
 COMPILE EVAL ~%MOD_FOLDER%/d~
 
+//Bonehill Lazarus Librarus
+COPY ~%MOD_FOLDER%/resource/25spell/bh25spel.cre~ override
+    WRITE_ASCII SCRIPT_OVERRIDE BHSTOLEN #8
+    WRITE_ASCII SCRIPT_CLASS ~~ #8
+    WRITE_ASCII SCRIPT_RACE MAGE6 #8
+    WRITE_ASCII DIALOG bh25spel #8
+BUT_ONLY
+
 //Lazarus Librarus ToB dialogue additions
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
     COMPILE ~%MOD_FOLDER%/resource/25spell/25spell.d~ USING ~%tra_loc%/%LANGUAGE%/bh#25spell.tra~
@@ -1648,6 +1659,11 @@ LAF HANDLE_AUDIO
         oggdec_path = EVAL ~%MOD_FOLDER%/tools/oggdec~
         sox_path = EVAL ~%MOD_FOLDER%/tools/sox~
         output_path = EVAL ~override~
+END
+
+//BG:EE Compatibility
+ACTION_IF GAME_IS ~bgee~ BEGIN
+    INCLUDE ~%MOD_FOLDER%/lib/bgee_compat.tpa~
 END
 
 //**************************************************

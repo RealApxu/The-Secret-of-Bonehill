@@ -29,6 +29,7 @@ END ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~bgee~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2areas/bam~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/bmp~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/tis_ee~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/wed~ override
@@ -36,6 +37,7 @@ END
 
 /*
 ACTION_IF GAME_IS ~bg1 totsc~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2areas/bam~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/bmp~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/mos~ override
     COPY ~%MOD_FOLDER%/resource/bg2areas/tis_og~ override
@@ -170,7 +172,7 @@ COPY ~%MOD_FOLDER%/wed~ override
 COPY ~%MOD_FOLDER%/are~ ~%workspace%/are~
 
 ACTION_PHP_EACH bh_are_wed_references AS are_file => wed_name BEGIN
-	COPY ~%MOD_FOLDER%/are/%are_file%.are~ ~%workspace%/are~
+	COPY ~%workspace%/are/%are_file%.are~ ~%workspace%/are~
         WRITE_ASCIIE 0x8 "%wed_name%" #8
         WRITE_ASCIIE 0x94 "%are_file%" #8
     BUT_ONLY
@@ -464,15 +466,6 @@ END
 
 COPY ~%workspace%/are/bh0106.are~ ~%workspace%/are~
     LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Female Townsfolk" cre_file = EVAL "%tutu_scriptbg%%tutu_var%ftown3%eet_var%" END
-BUT_ONLY
-
-ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
-    COPY ~%workspace%/are/bh1300.are~ ~%workspace%/are~
-        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 1" cre_file = "_GNOLL" END
-        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 2" cre_file = "_GNOLL" END
-        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 3" cre_file = "_GNOLL" END
-        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 4" cre_file = "_GNOLL" END
-        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 5" cre_file = "_GNOLL" END
 BUT_ONLY
 
 /////////////////////////////////////////

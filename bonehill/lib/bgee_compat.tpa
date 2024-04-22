@@ -1,0 +1,1530 @@
+/////////////////////////
+//BG2 Missing Creatures
+/////////////////////////
+
+//Deer
+ACTION_IF !FILE_EXISTS ~DEER01.CRE~ BEGIN
+
+    COPY ~%MOD_FOLDER%/resource/bg2cres/deer01.cre~ ~override/bhdeer.cre~
+        SAY NAME1 #27644
+        SAY NAME2 #27644
+        WRITE_ASCII DEATHVAR bhdeer #8
+
+    COPY_EXISTING ~BH1200.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Deer" cre_file = "BHDEER" END
+
+END
+
+//Beholder (Gas Spore)
+ACTION_IF !FILE_EXISTS ~BEHGAS01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/behgas01.cre~ ~override/bhbehgas.cre~
+        SAY NAME1 #26046
+        SAY NAME2 #26046
+        WRITE_ASCII DEATHVAR bhbehgas #8
+
+    ACTION_IF !FILE_EXISTS ~GSPORE.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/gspore.baf~ END
+
+    COPY_EXISTING ~BH1004.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gas Spore 1" cre_file = "bhbehgas" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gas Spore 2" cre_file = "bhbehgas" END
+END
+
+//Beholder (Spectator)
+ACTION_IF !FILE_EXISTS ~BEHSPE01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/behspe01.cre~ ~override/bhbehspe.cre~
+        SAY NAME1 @800
+        SAY NAME2 @800
+        WRITE_ASCII DEATHVAR bhbehspe #8
+    
+    ACTION_IF !FILE_EXISTS ~BEHSPE01.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/behspe01.baf~ END
+
+    COPY_EXISTING ~BH1004.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Beholder" cre_file = "bhbehspe" END
+    BUT_ONLY
+END
+
+//Dead Body 1
+ACTION_IF !FILE_EXISTS ~DEADB01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/deadb01.cre~ ~override/bhdead01.cre~
+        SAY NAME1 @801
+        SAY NAME2 @801
+        WRITE_ASCII DEATHVAR bhdead01 #8
+        WRITE_ASCII DIALOG ~~ #8
+
+    COPY_EXISTING ~BH1300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Adventurer 1" cre_file = "bhdead01" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Adventurer 2" cre_file = "bhdead01" END
+END
+
+ACTION_IF !FILE_EXISTS ~DEADB03.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/deadb03.cre~ ~override/bhdead03.cre~
+        SAY NAME1 @801
+        SAY NAME2 @801
+        WRITE_ASCII DEATHVAR bhdead03 #8
+        WRITE_ASCII DIALOG ~~ #8
+
+    COPY_EXISTING ~BH1300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Adventurer 3" cre_file = "bhdead03" END
+END
+
+//Stone Golem
+ACTION_IF !FILE_EXISTS ~GOLSTO01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/golsto01.cre~ ~override/bhgolsto.cre~
+        SAY NAME1 #26740
+        SAY NAME2 #26740
+        WRITE_ASCII DEATHVAR bhgolsto #8
+
+    ACTION_IF !FILE_EXISTS ~GOLSTO01.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/golsto01.baf~ END
+
+    ACTION_IF !FILE_EXISTS ~GOLSTO.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/golsto.itm~ override END
+    ACTION_IF !FILE_EXISTS ~GOLSTONE.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/golstone.itm~ override END
+
+    COPY_EXISTING ~BH0507.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Golem" cre_file = "bhgolsto" END
+END
+
+//Hobgoblin Archer
+ACTION_IF !FILE_EXISTS ~HOBARC01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/hobarc01.cre~ ~override/bhhobarc.cre~
+        SAY NAME1 #6648
+        SAY NAME2 #6648
+        WRITE_ASCII DEATHVAR bhhobarc #8
+        WRITE_ASCII SCRIPT_RACE bhhobcap #8
+
+    COMPILE ~%MOD_FOLDER%/resource/bg2cres/bhhobarc.baf~
+END
+
+//Hobgoblin Captain
+ACTION_IF !FILE_EXISTS ~HOBCAP01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/hobcap01.cre~ ~override/bhhobcap.cre~
+        SAY NAME1 @802
+        SAY NAME2 @802
+        WRITE_ASCII DEATHVAR bhhobcap #8
+        WRITE_ASCII SCRIPT_RACE bhhobcap #8
+
+    COMPILE ~%MOD_FOLDER%/resource/bg2cres/bhhobcap.baf~ //HGLEAD01.BCS without the 1st block
+
+    COPY_EXISTING ~BH1000.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Hobgoblin Captain" cre_file = "bhhobcap" END
+
+    COPY_EXISTING ~BH1002.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Hobgoblin Captain 1" cre_file = "bhhobcap" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Hobgoblin Captain 2" cre_file = "bhhobcap" END
+
+    COPY_EXISTING ~BH1003.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Hobgoblin Captain" cre_file = "bhhobcap" END
+END
+
+//Oghma Monk
+ACTION_IF !FILE_EXISTS ~OGHMONK1.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/oghmonk1.cre~ ~override/bhogmonk.cre~
+        SAY NAME1 #9410
+        SAY NAME2 #9410
+        WRITE_ASCII DEATHVAR bhogmonk #8
+        WRITE_ASCII DIALOG bhogmonk #8
+
+    COMPILE ~%MOD_FOLDER%/resource/bg2cres/bhogmonk.d~ //OGHMONK.DLG without BG2 Romance part
+
+    COPY_EXISTING ~BH0103.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Monk" cre_file = "bhogmonk" END
+END
+
+//Orcs (No SoD)
+
+ACTION_IF !FILE_EXISTS ~ORC01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc01.cre~ ~override/bhorc201.cre~
+        SAY NAME1 @803
+        SAY NAME2 @803
+        WRITE_ASCII DEATHVAR bhorc201 #8
+
+    ACTION_IF !FILE_EXISTS ~ORCWAR.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/orcwar.baf~ END
+
+    COPY_EXISTING ~BH2300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 1" cre_file = "bhorc201" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 2" cre_file = "bhorc201" END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 3" cre_file = "bhorc201" END
+END
+
+ACTION_IF !FILE_EXISTS ~ORC02.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc02.cre~ ~override/bhorc202.cre~
+        SAY NAME1 @804
+        SAY NAME2 @804
+        WRITE_ASCII DEATHVAR bhorc202 #8
+
+    ACTION_IF !FILE_EXISTS ~OARCH02.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/oarch02.baf~ END
+
+    COPY_EXISTING ~BH2300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 3" cre_file = "bhorc202" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 4" cre_file = "bhorc202" END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 1" cre_file = "bhorc202" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 2" cre_file = "bhorc202" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Guard" cre_file = "bhorc202" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Archer" cre_file = "bhorc202" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc 4" cre_file = "bhorc202" END
+END
+
+ACTION_IF !FILE_EXISTS ~ORC03.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc03.cre~ ~override/bhorc203.cre~
+        SAY NAME1 @805
+        SAY NAME2 @805
+        WRITE_ASCII SCRIPT_RACE PRIEST4 #8 //PRIEST12
+        WRITE_ASCII DEATHVAR bhorc203 #8
+
+    COPY_EXISTING ~BH2300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 1" cre_file = "bhorc203" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 2" cre_file = "bhorc203" END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 1" cre_file = "bhorc203" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 2" cre_file = "bhorc203" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 3" cre_file = "bhorc203" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Priest 4" cre_file = "bhorc203" END
+END
+
+ACTION_IF !FILE_EXISTS ~ORC04.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc04.cre~ ~override/bhorc204.cre~
+        SAY NAME1 @806
+        SAY NAME2 @806
+        WRITE_ASCII DEATHVAR bhorc204 #8
+        WRITE_ASCII SCRIPT_GENERAL MAGE7 #8 //MAGE10A
+
+    COPY_EXISTING ~BH2300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Mage 1" cre_file = "bhorc204" END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Mage 1" cre_file = "bhorc204" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Mage 2" cre_file = "bhorc204" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orc Mage 3" cre_file = "bhorc204" END
+END
+
+ACTION_IF !FILE_EXISTS ~ORC05.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc05.cre~ ~override/bhorc205.cre~
+        SAY NAME1 @807
+        SAY NAME2 @807
+        WRITE_ASCII DEATHVAR bhorc205 #8
+
+    ACTION_IF !FILE_EXISTS ~ORCWAR.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/orcwar.baf~ END
+
+    COPY_EXISTING ~BH2300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orog 1" cre_file = "bhorc205" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orog 2" cre_file = "bhorc205" END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orog 1" cre_file = "bhorc205" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orog 2" cre_file = "bhorc205" END
+END
+
+ACTION_IF !FILE_EXISTS ~ORC06.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/orc06.cre~ ~override/bhorc206.cre~
+        SAY NAME1 @807
+        SAY NAME2 @807
+        WRITE_ASCII DEATHVAR bhorc206 #8
+
+    ACTION_IF !FILE_EXISTS ~OARCH02.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/oarch02.baf~ END
+
+    COPY_EXISTING ~BH2301.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Orog 3" cre_file = "bhorc206" END
+END
+
+//Otyugh (No SoD)
+ACTION_IF !FILE_EXISTS ~OTYUGH.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/otyugh.cre~ ~override/bhotyugh.cre~
+        SAY NAME1 @808
+        SAY NAME2 @808
+        WRITE_ASCII DEATHVAR bhotyugh #8
+
+    COPY_EXISTING ~BH0700.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Otyugh 1" cre_file = "bhotyugh" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Otyugh 2" cre_file = "bhotyugh" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Otyugh 3" cre_file = "bhotyugh" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Otyugh 4" cre_file = "bhotyugh" END
+
+    ACTION_IF !FILE_EXISTS ~OTYUGH.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/otyugh.itm~ override END
+END
+
+//Shadow
+ACTION_IF !FILE_EXISTS ~SHADOW01.CRE~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2cres/shadow01.cre~ ~override/bhshadow.cre~
+        SAY NAME1 #25764
+        SAY NAME2 #25764
+        WRITE_ASCII DEATHVAR bhshadow #8
+
+    COPY_EXISTING ~BH2107.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Shadow" cre_file = "bhshadow" END
+END
+
+//BG2 WOLF01 -> BG1 WOLF
+ACTION_IF !FILE_EXISTS ~WOLF01.CRE~ BEGIN
+    COPY_EXISTING ~BH1300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Wolf 1" cre_file = "wolf" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Wolf 2" cre_file = "wolf" END
+
+    COPY_EXISTING ~BH1302.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Wolf 1" cre_file = "wolf" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Wolf 2" cre_file = "wolf" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Wolf 3" cre_file = "wolf" END
+END
+
+//BG2 ZOMBIE01 -> BG1 ZOMBIE
+
+ACTION_IF !FILE_EXISTS ~ZOMBIE01.CRE~ BEGIN
+    COPY_EXISTING ~BH1004.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Zombie 1" cre_file = "zombie" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Zombie 2" cre_file = "zombie" END
+END
+
+//BG2 GNOLL01 -> BG1 GNOLL
+ACTION_IF !FILE_EXISTS ~GNOLL01.CRE~ BEGIN
+    COPY_EXISTING ~BH1300.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 1" cre_file = "gnoll" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 2" cre_file = "gnoll" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 3" cre_file = "gnoll" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 4" cre_file = "gnoll" END
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Gnoll 5" cre_file = "gnoll" END
+END
+
+//BG2 GOLFLE -> BG1 GOLEMF
+ACTION_IF !FILE_EXISTS ~GOLFLE.CRE~ BEGIN
+    COPY_EXISTING ~BH1004.ARE~ override
+        LPF ALTER_AREA_ACTOR STR_VAR actor_name = "Guardian" cre_file = "GOLEMF" END
+END
+
+///////////////////////////////////////////////////
+//BG2 Spellcaster Creature Scripts
+//Setting BG1 Caster scritps so SCS can pick them
+///////////////////////////////////////////////////
+ACTION_IF GAME_IS ~bgee~ BEGIN
+    COPY_EXISTING ~BHMARTI1.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //DRUID10A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHBASIL.CRE~ override
+                  ~BHBESS.CRE~ override
+                  ~BHELESS.CRE~ override
+                  ~BHGRECKO.CRE~ override
+                  ~BHHARMIN.CRE~ override
+                  ~BHQUENEX.CRE~ override
+                  ~BHTELLI1.CRE~ override
+                  ~BHTELLIS.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //PRIES10A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHPELL.CRE~ override
+                  ~BHTELV.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS MAGE6 #8 //LYROS
+    BUT_ONLY
+
+    COPY_EXISTING ~BHGLAMI.CRE~ override
+                  ~BHZAHR.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE MAGE6 #8 //LYROS
+    BUT_ONLY
+
+    COPY_EXISTING ~BHARMAX.CRE~ override
+                  ~BHOHLATT.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE MAGE6 #8 //MAGE10A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHBBOB.CRE~ override
+        WRITE_ASCII SCRIPT_DEFAULT MAGE6 #8 //LYROS
+    BUT_ONLY
+
+    COPY_EXISTING ~BHBESHKA.CRE~ override
+                  ~BHHESTAL.CRE~ override
+                  ~BHHOLGA.CRE~ override
+                  ~BHPHYLLI.CRE~ override
+                  ~BHWILLIS.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS MAGE6 #8 //MAGE10A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHTHIEF1.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS MAGE6 #8 //MAGE11
+    BUT_ONLY
+
+    COPY_EXISTING ~BHBALMOR.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS MAGE6 #8 //MAGE12A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHSHARGR.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS MAGE6 #8 //MAGE16A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHLIZSHA.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //PRIES12C
+    BUT_ONLY
+
+    COPY_EXISTING ~BHQUAL.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //PRIES14A
+    BUT_ONLY
+
+    COPY_EXISTING ~BHSHARG3.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //PRIEST12
+    BUT_ONLY
+
+    COPY_EXISTING ~BHHARPER.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS PRIEST4 #8 //PRIET12A
+    BUT_ONLY
+
+    COPY_EXISTING ~BH25SPEL.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS ~~ #8
+        WRITE_ASCII SCRIPT_RACE MAGE6 #8 //CMAGE20
+    BUT_ONLY
+
+    COPY_EXISTING ~BHARTHUR.CRE~ override
+                  ~BHGELLIU.CRE~ override
+                  ~BHMARVIN.CRE~ override
+                  ~BHPRISKA.CRE~ override
+                  ~BHWILBUR.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS THIEF4 #8 //THIEF14T
+    BUT_ONLY
+
+    COPY_EXISTING ~BHTELLI1.CRE~ override
+        WRITE_ASCII SCRIPT_RACE THIEF4 #8 //THIEF14T
+    BUT_ONLY
+END
+
+//BG2 Steal Script
+ACTION_IF !FILE_EXISTS ~STOLEAMN.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2cres/bhstolen.baf~ //STOLEAMN.BCS
+    COMPILE ~%MOD_FOLDER%/resource/bg2cres/bhstolen.d~ //STOLEN.DLG
+
+    COPY_EXISTING ~BHGILMI.CRE~ override
+        WRITE_ASCII SCRIPT_GENERAL bhstolen #8
+    BUT_ONLY
+
+    COPY_EXISTING ~BHST0102.CRE~ override
+        WRITE_ASCII SCRIPT_CLASS bhstolen #8
+    BUT_ONLY
+
+    COPY_EXISTING ~BH25SPEL.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhstolen #8
+    BUT_ONLY
+END
+
+//BHGOLEM.CRE missing bg2 items
+ACTION_IF !FILE_EXISTS ~GOLBRA.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/golbra.itm~ override END
+ACTION_IF !FILE_EXISTS ~GOLBRA01.BCS~ BEGIN COMPILE ~%MOD_FOLDER%/resource/bg2cres/golbra01.baf~ END
+
+//Missing DHELM01 (No SoD)
+ACTION_IF !FILE_EXISTS ~DHELM01.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/dhelm01.itm~ override END
+
+//Fire Giant misses GIANTS01
+ACTION_IF !FILE_EXISTS ~GIANTS01.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/giants01.itm~ override END
+
+//SEEINVIS.ITM
+ACTION_IF !FILE_EXISTS ~SEEINVIS.ITM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2cres/SEEINVIS.itm~ override END
+
+/////////////////////////
+// BG2 Creature Spawns
+/////////////////////////
+DEFINE_PATCH_FUNCTION px_rename_spawn STR_VAR creature_old= "" creature_new = "" BEGIN
+        READ_LONG 0x60 spawn_off
+        READ_LONG 0x64 spawn_num
+        FOR (i = 0; i < "%spawn_num%" ; i += 1) BEGIN
+            FOR (n = 0; n < 10 ; n += 1) BEGIN
+                READ_ASCII ("%spawn_off%" + "%i%" * 0xc8 + 0x24 +"%n%" * 0x8) spawn_cre
+                PATCH_IF ("%spawn_cre%" STR_CMP "" != 0) BEGIN
+                    TO_LOWER spawn_cre
+                    PATCH_IF ("%spawn_cre%" STR_CMP "%creature_old%" = 0) BEGIN
+                        WRITE_ASCIIE ("%spawn_off%" + "%i%" * 0xc8 + 0x24 +"%n%" * 0x8) "%creature_new%" #8
+                        PATCH_PRINT ~Spawn %n% Found: Change %spawn_cre% to %creature_new%~
+                    END
+                END
+            END
+        END
+    END
+
+COPY_EXISTING ~BH0300.ARE~ override
+              ~BH1004.ARE~ override
+              ~BH1200.ARE~ override
+              ~BH1300.ARE~ override
+              ~BH1400.ARE~ override
+              ~BH2200.ARE~ override
+              ~BH2300.ARE~ override
+              ~BH2301.ARE~ override
+    PATCH_IF !FILE_EXISTS ~HOBARC01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "hobarc01" creature_new = "bhhobarc" END END
+    PATCH_IF !FILE_EXISTS ~HOBCAP01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "hobcap01" creature_new = "bhhobcap" END END
+    PATCH_IF !FILE_EXISTS ~GNOLL01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "gnoll01" creature_new = "gnoll" END END
+    PATCH_IF !FILE_EXISTS ~WOLF01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "wolf01" creature_new = "wolf" END END
+    PATCH_IF !FILE_EXISTS ~ZOMBIE01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "zombie01" creature_new = "zombie" END END
+    PATCH_IF !FILE_EXISTS ~ORC01.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc01" creature_new = "bhorc201" END END
+    PATCH_IF !FILE_EXISTS ~ORC02.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc02" creature_new = "bhorc202" END END
+    PATCH_IF !FILE_EXISTS ~ORC03.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc03" creature_new = "bhorc203" END END
+    PATCH_IF !FILE_EXISTS ~ORC04.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc04" creature_new = "bhorc204" END END
+    PATCH_IF !FILE_EXISTS ~ORC05.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc05" creature_new = "bhorc205" END END
+    PATCH_IF !FILE_EXISTS ~ORC06.CRE~ BEGIN LPF px_rename_spawn STR_VAR creature_old= "orc06" creature_new = "bhorc206" END END
+
+////////////////////
+//BG2 Items
+////////////////////
+
+//BLUN12
+ACTION_IF !FILE_EXISTS ~BLUN12.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/blun12.itm~ override
+        SAY NAME1 #6337
+        SAY NAME2 @1001
+        SAY UNIDENTIFIED_DESC #6709
+        SAY IDENTIFIED_DESC @1002
+
+    ACTION_IF !FILE_EXISTS ~CBLUN12.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cblun12.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBLUN12.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iblun12.bam~ override END
+END
+
+//BLUN16
+ACTION_IF !FILE_EXISTS ~BLUN16.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/blun16.itm~ override
+        SAY NAME1 #6853
+        SAY NAME2 @1003
+        SAY UNIDENTIFIED_DESC #6855
+        SAY IDENTIFIED_DESC @1004
+
+    ACTION_IF !FILE_EXISTS ~CBDBLN16.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbdbln16.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBDBLN16.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibdbln16.bam~ override END
+END
+
+//BOLT08
+ACTION_IF !FILE_EXISTS ~BOLT08.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/bolt08.itm~ override
+        SAY NAME1 #6632
+        SAY NAME2 @1005
+        SAY UNIDENTIFIED_DESC #6772
+        SAY IDENTIFIED_DESC @1006
+END
+
+//BOOKEE
+ACTION_IF !FILE_EXISTS ~BOOKEE.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/bookee.itm~ override
+        SAY NAME1 #7151
+        SAY NAME2 @1007
+        SAY UNIDENTIFIED_DESC @1008
+        SAY IDENTIFIED_DESC @1008
+END
+
+//BOOT07
+ACTION_IF !FILE_EXISTS ~BOOT07.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/boot07.itm~ override
+        SAY NAME1 #6339
+        SAY NAME2 @1009
+        SAY UNIDENTIFIED_DESC #6824
+        SAY IDENTIFIED_DESC @1010
+
+    ACTION_IF !FILE_EXISTS ~CBOOT07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cboot07.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBOOT07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iboot07.bam~ override END
+    END
+
+//BOW11
+ACTION_IF !FILE_EXISTS ~BOW11.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/bow11.itm~ override
+        SAY NAME1 #6636
+        SAY NAME2 @1011
+        SAY UNIDENTIFIED_DESC #6858
+        SAY IDENTIFIED_DESC @1012
+
+    ACTION_IF !FILE_EXISTS ~CBOW11.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbow11.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBOW11.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibow11.bam~ override END
+END
+
+//BOW14
+ACTION_IF !FILE_EXISTS ~BOW14.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/bow14.itm~ override
+        SAY NAME1 #6864
+        SAY NAME2 @1013
+        SAY UNIDENTIFIED_DESC #6866
+        SAY IDENTIFIED_DESC @1014
+
+    ACTION_IF !FILE_EXISTS ~CBOW14.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbow14.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBOW14.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibow14.bam~ override END
+END
+//BRAC13
+ACTION_IF !FILE_EXISTS ~BRAC13.ITM~
+    BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/brac13.itm~ override
+        SAY NAME1 #6341
+        SAY NAME2 @1015
+        SAY UNIDENTIFIED_DESC #6791
+        SAY IDENTIFIED_DESC @1016
+
+
+    ACTION_IF !FILE_EXISTS ~CBRAC13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbrac13.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBRAC13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibrac13.bam~ override END
+END
+
+//BRAC14
+ACTION_IF !FILE_EXISTS ~BRAC14.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/brac14.itm~ override
+        SAY NAME1 #6341
+        SAY NAME2 @1017
+        SAY UNIDENTIFIED_DESC #6791
+        SAY IDENTIFIED_DESC @1018
+    
+    ACTION_IF !FILE_EXISTS ~CBRAC14.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbrac14.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBRAC14.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibrac14.bam~ override END
+END
+
+//BRAC17
+ACTION_IF !FILE_EXISTS ~BRAC17.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/brac17.itm~ override
+        SAY NAME1 #6797
+        SAY NAME2 @1019
+        SAY UNIDENTIFIED_DESC #6798
+        SAY IDENTIFIED_DESC @1020
+
+    ACTION_IF !FILE_EXISTS ~CBRAC17.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbrac17.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBRAC17.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibrac17.bam~ override END
+END
+
+//BRAC21
+ACTION_IF !FILE_EXISTS ~BRAC21.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/brac21.itm~ override
+        SAY NAME1 #6797
+        SAY NAME2 @1021
+        SAY UNIDENTIFIED_DESC #6798
+        SAY IDENTIFIED_DESC @1022
+
+    ACTION_IF !FILE_EXISTS ~CBRAC10.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cbrac10.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IBRAC21.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ibrac21.bam~ override END
+END
+
+//CHAN21
+ACTION_IF !FILE_EXISTS ~CHAN21.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/chan21.itm~ override
+        SAY NAME1 #214
+        SAY NAME2 @1023
+        SAY UNIDENTIFIED_DESC #6673
+        SAY IDENTIFIED_DESC @1024
+
+    ACTION_IF !FILE_EXISTS ~CCHAN03.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cchan03.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ICHAN21.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ichan21.bam~ override END
+END
+
+//CLCK23
+ACTION_IF !FILE_EXISTS ~CLCK23.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/clck23.itm~ override
+        SAY NAME1 #4385
+        SAY NAME2 @1025
+        SAY UNIDENTIFIED_DESC #6889
+        SAY IDENTIFIED_DESC @1026
+
+    ACTION_IF !FILE_EXISTS ~CCLCK23.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cclck23.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ICLCK23.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iclck23.bam~ override END
+END
+
+//DAGG13
+ACTION_IF !FILE_EXISTS ~DAGG13.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/dagg13.itm~ override
+        SAY NAME1 #6343
+        SAY NAME2 @1027
+        SAY UNIDENTIFIED_DESC #6720
+        SAY IDENTIFIED_DESC @1028
+
+    ACTION_IF !FILE_EXISTS ~CDAGG13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cdagg13.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IDAGG13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/idagg13.bam~ override END
+END
+
+//DAGG17
+ACTION_IF !FILE_EXISTS ~DAGG17.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/dagg17.itm~ override
+        SAY NAME1 #6343
+        SAY NAME2 @1029
+        SAY UNIDENTIFIED_DESC #6720
+        SAY IDENTIFIED_DESC @1030
+
+    ACTION_IF !FILE_EXISTS ~CDAGG17.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cdagg17.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IDAGG17.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/idagg17.bam~ override END
+END
+
+//DAGG24
+ACTION_IF !FILE_EXISTS ~DAGG24.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/dagg24.itm~ override
+        SAY NAME1 #6343
+        SAY NAME2 @1031
+        SAY UNIDENTIFIED_DESC #6720
+        SAY IDENTIFIED_DESC @1032
+
+    ACTION_IF !FILE_EXISTS ~CDAGG10.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cdagg10.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IDAGG24.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/idagg24.bam~ override END
+END
+
+//HALB08
+ACTION_IF !FILE_EXISTS ~HALB08.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/halb08.itm~ override
+        SAY NAME1 #6344
+        SAY NAME2 @1033
+        SAY UNIDENTIFIED_DESC #6712
+        SAY IDENTIFIED_DESC @1034
+
+    ACTION_IF !FILE_EXISTS ~CHALB08.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/chalb08.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IHALB08.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ihalb08.bam~ override END
+END
+
+//LEAT13
+ACTION_IF !FILE_EXISTS ~LEAT13.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/leat13.itm~ override
+        SAY NAME1 #2890
+        SAY NAME2 @1035
+        SAY UNIDENTIFIED_DESC #20985
+        SAY IDENTIFIED_DESC @1036
+
+    ACTION_IF !FILE_EXISTS ~CLEAT13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cleat13.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ILEAT13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ileat13.bam~ override END
+END
+
+//LEAT20
+ACTION_IF !FILE_EXISTS ~LEAT20.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/leat20.itm~ override
+        SAY NAME1 #22714
+        SAY NAME2 @1037
+        SAY UNIDENTIFIED_DESC #22716
+        SAY IDENTIFIED_DESC @1038
+
+    ACTION_IF !FILE_EXISTS ~CLEAT20.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cleat20.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ILEAT20.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ileat20.bam~ override END
+END
+
+//MISC3C
+ACTION_IF !FILE_EXISTS ~MISC3C.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/misc3c.itm~ override
+        SAY NAME1 #31197
+        SAY NAME2 #31198
+        SAY UNIDENTIFIED_DESC #31199
+        SAY IDENTIFIED_DESC @1039
+
+    ACTION_IF !FILE_EXISTS ~CMISC3C.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cmisc3c.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IMISC3C.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/imisc3c.bam~ override END
+END
+
+//MISC3P
+ACTION_IF !FILE_EXISTS ~MISC3P.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/misc3p.itm~ override
+        SAY NAME1 @1040
+        SAY NAME2 @1040
+        SAY UNIDENTIFIED_DESC @1041
+        SAY IDENTIFIED_DESC @1041
+
+    ACTION_IF !FILE_EXISTS ~CMISC3P.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cmisc3p.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IMISC3P.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/imisc3p.bam~ override END
+END
+
+//RING28
+ACTION_IF !FILE_EXISTS ~RING28.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ring28.itm~ override
+        SAY NAME1 #6348
+        SAY NAME2 @1042
+        SAY UNIDENTIFIED_DESC #17054
+        SAY IDENTIFIED_DESC @1043
+
+    ACTION_IF !FILE_EXISTS ~CRING28.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cring28.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IRING28.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iring28.bam~ override END
+END
+
+//RING30
+ACTION_IF !FILE_EXISTS ~RING30.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ring30.itm~ override
+        SAY NAME1 #6348
+        SAY NAME2 @1044
+        SAY UNIDENTIFIED_DESC #17054
+        SAY IDENTIFIED_DESC @1045
+
+    ACTION_IF !FILE_EXISTS ~CRING30.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cring30.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IRING31.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iring31.bam~ override END
+END
+
+//RING39
+ACTION_IF !FILE_EXISTS ~RING39.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ring39.itm~ override
+        SAY NAME1 #6348
+        SAY NAME2 @1046
+        SAY UNIDENTIFIED_DESC #17054
+        SAY IDENTIFIED_DESC @1047
+
+    ACTION_IF !FILE_EXISTS ~CRING39.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cring39.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IRING39.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iring39.bam~ override END
+END
+
+//RODS06
+ACTION_IF !FILE_EXISTS ~RODS06.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/rods06.itm~ override
+        SAY NAME1 @1048
+        SAY NAME2 @1049
+        SAY UNIDENTIFIED_DESC @1050
+        SAY IDENTIFIED_DESC @1051
+
+    ACTION_IF !FILE_EXISTS ~IRODS06.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/irods06.bam~ override END
+    ACTION_IF !FILE_EXISTS ~PRODS06.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/prods06.bam~ override END
+END
+
+
+//SLNG07
+ACTION_IF !FILE_EXISTS ~SLNG07.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/slng07.itm~ override
+        SAY NAME1 #6733
+        SAY NAME2 @1052
+        SAY UNIDENTIFIED_DESC #6650
+        SAY IDENTIFIED_DESC @1053
+
+    ACTION_IF !FILE_EXISTS ~CSLNG07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cslng07.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISLNG07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/islng07.bam~ override END
+END
+
+//SPER07
+ACTION_IF !FILE_EXISTS ~SPER07.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/sper07.itm~ override
+        SAY NAME1 #6350
+        SAY NAME2 @1054
+        SAY UNIDENTIFIED_DESC #6727
+        SAY IDENTIFIED_DESC @1055
+
+    ACTION_IF !FILE_EXISTS ~CSPER07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/csper07.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISPER07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/isper07.bam~ override END
+END
+
+//STAF11
+ACTION_IF !FILE_EXISTS ~STAF11.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/staf11.itm~ override
+        SAY NAME1 #6351
+        SAY NAME2 @1056
+        SAY UNIDENTIFIED_DESC #6731
+        SAY IDENTIFIED_DESC @1057
+
+    ACTION_IF !FILE_EXISTS ~1CSTAFM.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/1cstafm.bam~ override END
+    ACTION_IF !FILE_EXISTS ~1GSTAFGS.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/1gstafgs.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISTAF11.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/istaf11.bam~ override END
+END
+
+//AX1H13
+ACTION_IF !FILE_EXISTS ~AX1H13.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ax1h13.itm~ override
+        SAY NAME1 #6654
+        SAY NAME2 @1058
+        SAY UNIDENTIFIED_DESC #6656
+        SAY IDENTIFIED_DESC @1059
+
+    ACTION_IF !FILE_EXISTS ~CAX1H13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cax1h13.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IAX1H13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iax1h13.bam~ override END
+END
+
+//SW1H25
+ACTION_IF !FILE_EXISTS ~SW1H25.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/sw1h25.itm~ override
+        SAY NAME1 #6745
+        SAY NAME2 @1060
+        SAY UNIDENTIFIED_DESC #6747
+        SAY IDENTIFIED_DESC @1061
+
+    ACTION_IF !FILE_EXISTS ~CSW1H25.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/csw1h25.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISW1H25.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/isw1h25.bam~ override END
+END
+
+//SW1H27
+ACTION_IF !FILE_EXISTS ~SW1H27.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/sw1h27.itm~ override
+        SAY NAME1 #6745
+        SAY NAME2 @1062
+        SAY UNIDENTIFIED_DESC #6747
+        SAY IDENTIFIED_DESC @1063
+
+    ACTION_IF !FILE_EXISTS ~CSW1H27.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/csw1h27.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISW1H27.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/isw1h27.bam~ override END
+END
+
+//SW1H33
+ACTION_IF !FILE_EXISTS ~SW1H33.ITM~ BEGIN 
+    COPY ~%MOD_FOLDER%/resource/bg2items/sw1h33.itm~ override
+    COPY ~%MOD_FOLDER%/resource/bg2items/sw1h33a.itm~ override
+    COPY ~%MOD_FOLDER%/resource/bg2items/sw1h33c.itm~ override
+        SAY NAME1 #2893
+        SAY NAME2 @1064
+        SAY UNIDENTIFIED_DESC #6742
+        SAY IDENTIFIED_DESC @1065 
+
+    ACTION_IF !FILE_EXISTS ~CSW1H33.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/csw1h33.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISW1H33.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/isw1h33.bam~ override END
+
+    ACTION_IF !FILE_EXISTS ~SWORD02.CRE~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/sword02.cre~ override
+        SAY NAME1 @1066
+        SAY NAME2 @1066
+    END
+END
+
+//CHAN13 (No SoD)
+ACTION_IF !FILE_EXISTS ~CHAN13.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/chan13.itm~ override
+        SAY NAME1 #2890
+        SAY NAME2 @1067
+        SAY UNIDENTIFIED_DESC #20985
+        SAY IDENTIFIED_DESC @1068
+
+    ACTION_IF !FILE_EXISTS ~CCHAN13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cchan13.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ICHAN13.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ichan13.bam~ override END
+END
+
+//LEAT12 (No SoD)
+ACTION_IF !FILE_EXISTS ~LEAT12.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/leat12.itm~ override
+        SAY NAME1 #2890
+        SAY NAME2 @1067
+        SAY UNIDENTIFIED_DESC #20985
+        SAY IDENTIFIED_DESC @1068
+
+    ACTION_IF !FILE_EXISTS ~CLEAT12.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cleat12.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ILEAT12.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ileat12.bam~ override END
+END
+
+//LEAT15 (No SoD)
+ACTION_IF !FILE_EXISTS ~LEAT15.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/leat15.itm~ override
+        SAY NAME1 #6664
+        SAY NAME2 @1067
+        SAY UNIDENTIFIED_DESC #6667
+        SAY IDENTIFIED_DESC @1069
+
+    ACTION_IF !FILE_EXISTS ~CLEAT15.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cleat15.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ILEAT15.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ileat15.bam~ override END
+END
+
+//POTN55 (No SoD)
+ACTION_IF !FILE_EXISTS ~POTN55.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/potn55.itm~ override
+        SAY NAME1 #6976
+        SAY NAME2 @1070
+        SAY UNIDENTIFIED_DESC #16264
+        SAY IDENTIFIED_DESC @1071
+
+    ACTION_IF !FILE_EXISTS ~PPOTN55.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ppotn55.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IPOTN55.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ipotn55.bam~ override END
+END
+
+//RING35 (No SoD)
+ACTION_IF !FILE_EXISTS ~RING35.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ring35.itm~ override
+        SAY NAME1 #6348
+        SAY NAME2 @1072
+        SAY UNIDENTIFIED_DESC #17054
+        SAY IDENTIFIED_DESC @1073
+
+    ACTION_IF !FILE_EXISTS ~CRING35.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cring35.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IRING35.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iring35.bam~ override END
+END
+
+//RING36 (No SoD)
+ACTION_IF !FILE_EXISTS ~RING36.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/ring36.itm~ override
+        SAY NAME1 #6348
+        SAY NAME2 @1074
+        SAY UNIDENTIFIED_DESC #17054
+        SAY IDENTIFIED_DESC @1075
+
+    ACTION_IF !FILE_EXISTS ~CRING36.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cring36.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IRING36.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/iring36.bam~ override END
+END
+
+//DAGG16 (No SoD)
+ACTION_IF !FILE_EXISTS ~DAGG16.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/dagg16.itm~ override
+        SAY NAME1 #6724
+        SAY NAME2 @1076
+        SAY UNIDENTIFIED_DESC @1077
+        SAY IDENTIFIED_DESC @1077
+
+    ACTION_IF !FILE_EXISTS ~CDAGG16.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cdagg16.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IDAGG16.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/idagg16.bam~ override END
+END
+
+//SLNG04 (No SoD)
+ACTION_IF !FILE_EXISTS ~SLNG04.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/slng04.itm~ override
+        SAY NAME1 #6733
+        SAY NAME2 @1078
+        SAY UNIDENTIFIED_DESC #6650
+        SAY IDENTIFIED_DESC @1079
+
+    ACTION_IF !FILE_EXISTS ~CSLNG04.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cslng04.bam~ override END
+    ACTION_IF !FILE_EXISTS ~ISLNG04.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/islng04.bam~ override END
+END
+
+//XBOW07 (No SoD)
+ACTION_IF !FILE_EXISTS ~XBOW07.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/xbow07.itm~ override
+        SAY NAME1 #6873
+        SAY NAME2 @1080
+        SAY UNIDENTIFIED_DESC #18095
+        SAY IDENTIFIED_DESC @1081
+
+    ACTION_IF !FILE_EXISTS ~CXBOW07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cxbow07.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IXBOW07.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ixbow07.bam~ override END
+END
+
+//XBOW09 (No SoD)
+ACTION_IF !FILE_EXISTS ~XBOW09.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/xbow09.itm~ override
+        SAY NAME1 #6881
+        SAY NAME2 @1082
+        SAY UNIDENTIFIED_DESC #6875
+        SAY IDENTIFIED_DESC @1083
+
+    ACTION_IF !FILE_EXISTS ~CXBOW09.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/cxbow09.bam~ override END
+    ACTION_IF !FILE_EXISTS ~IXBOW11.BAM~ BEGIN COPY ~%MOD_FOLDER%/resource/bg2items/ixbow11.bam~ override END
+END
+
+//////////////////////////////////////////////
+// Scrolls and spells
+//////////////////////////////////////////////
+
+//Remove bg2 scrolls from areas
+COPY_EXISTING ~BH0303.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRK7F.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL7F END END
+    PATCH_IF !FILE_EXISTS ~SCRL8A.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL8A END END
+
+COPY_EXISTING ~BH0500.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL8N.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL8N END END
+
+COPY_EXISTING ~BH0511.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL9C.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL9C END END
+
+COPY_EXISTING ~BH1002.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRLAK.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRLAK END END
+
+COPY_EXISTING ~BH1003.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL7E.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL7E END END
+
+COPY_EXISTING ~BH2101.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL8W.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL8W END END
+
+COPY_EXISTING ~BH2102.ARE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL9G.ITM~ BEGIN LPF DELETE_AREA_ITEM STR_VAR item_to_delete = SCRL9G END END
+
+//Remove bg2 scrolls from creatures
+COPY_EXISTING ~BHARMAX.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SCRL8R.ITM~ BEGIN LPF DELETE_CRE_ITEM STR_VAR item_to_delete = SCRL8R END END
+
+//Remove bg2 scrolls from stores
+COPY_EXISTING ~BHPELLT.STO~ override
+              ~BHPELLTR.STO~ override
+    PATCH_IF !FILE_EXISTS ~SCRL6Q.ITM~ BEGIN REMOVE_STORE_ITEM SCRL6Q END
+    PATCH_IF !FILE_EXISTS ~SCRL7F.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7F END
+    PATCH_IF !FILE_EXISTS ~SCRL7U.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7U END
+
+COPY_EXISTING ~BHST0103.STO~ override
+    PATCH_IF !FILE_EXISTS ~SCRL6Q.ITM~ BEGIN REMOVE_STORE_ITEM SCRL6Q END
+    PATCH_IF !FILE_EXISTS ~SCRL7E.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7E END
+    PATCH_IF !FILE_EXISTS ~SCRL7H.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7H END
+    PATCH_IF !FILE_EXISTS ~SCRL7M.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7M END
+    PATCH_IF !FILE_EXISTS ~SCRL7O.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7O END
+    PATCH_IF !FILE_EXISTS ~SCRL7Q.ITM~ BEGIN REMOVE_STORE_ITEM SCRL7Q END
+    PATCH_IF !FILE_EXISTS ~SCRL8P.ITM~ BEGIN REMOVE_STORE_ITEM SCRL8P END
+    PATCH_IF !FILE_EXISTS ~SCRL8V.ITM~ BEGIN REMOVE_STORE_ITEM SCRL8V END
+    PATCH_IF !FILE_EXISTS ~SCRL8W.ITM~ BEGIN REMOVE_STORE_ITEM SCRL8W END
+    PATCH_IF !FILE_EXISTS ~SCRL8Y.ITM~ BEGIN REMOVE_STORE_ITEM SCRL8Y END
+    PATCH_IF !FILE_EXISTS ~SCRL9A.ITM~ BEGIN REMOVE_STORE_ITEM SCRL9A END
+    PATCH_IF !FILE_EXISTS ~SCRLA4.ITM~ BEGIN REMOVE_STORE_ITEM SCRLA4 END
+    PATCH_IF !FILE_EXISTS ~SCRLAK.ITM~ BEGIN REMOVE_STORE_ITEM SCRLAK END
+    PATCH_IF !FILE_EXISTS ~SCRLAQ.ITM~ BEGIN REMOVE_STORE_ITEM SCRLAQ END
+
+//Remove known spells from creatures
+COPY_EXISTING ~BHALMAX.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR114.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR114 END
+    PATCH_IF !FILE_EXISTS ~SPPR115.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR115 END
+    PATCH_IF !FILE_EXISTS ~SPPR116.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR116 END
+    PATCH_IF !FILE_EXISTS ~SPPR117.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR117 END
+    PATCH_IF !FILE_EXISTS ~SPPR121.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR121 END
+    PATCH_IF !FILE_EXISTS ~SPPR122.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR122 END
+    PATCH_IF !FILE_EXISTS ~SPPR123.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR123 END
+    PATCH_IF !FILE_EXISTS ~SPPR124.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR124 END
+    PATCH_IF !FILE_EXISTS ~SPPR215.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR215 END
+    PATCH_IF !FILE_EXISTS ~SPPR216.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR216 END
+    PATCH_IF !FILE_EXISTS ~SPPR320.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR320 END
+    PATCH_IF !FILE_EXISTS ~SPPR325.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR325 END
+    PATCH_IF !FILE_EXISTS ~SPPR326.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR326 END
+    PATCH_IF !FILE_EXISTS ~SPPR327.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR327 END
+    PATCH_IF !FILE_EXISTS ~SPPR330.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR330 END
+    PATCH_IF !FILE_EXISTS ~SPPR331.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR331 END
+    PATCH_IF !FILE_EXISTS ~SPPR418.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR418 END
+    PATCH_IF !FILE_EXISTS ~SPPR419.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR419 END
+    PATCH_IF !FILE_EXISTS ~SPPR420.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR420 END
+    PATCH_IF !FILE_EXISTS ~SPPR421.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR421 END
+    PATCH_IF !FILE_EXISTS ~SPPR424.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR424 END
+    PATCH_IF !FILE_EXISTS ~SPPR425.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR425 END
+    PATCH_IF !FILE_EXISTS ~SPPR426.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR426 END
+    PATCH_IF !FILE_EXISTS ~SPPR427.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR427 END
+    PATCH_IF !FILE_EXISTS ~SPPR429.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR429 END
+    PATCH_IF !FILE_EXISTS ~SPPR430.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR430 END
+
+COPY_EXISTING ~BHALMAX.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHALMON.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHAMOS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR114.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR114 END
+    PATCH_IF !FILE_EXISTS ~SPPR115.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR115 END
+    PATCH_IF !FILE_EXISTS ~SPPR116.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR116 END
+    PATCH_IF !FILE_EXISTS ~SPPR117.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR117 END
+    PATCH_IF !FILE_EXISTS ~SPPR121.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR121 END
+    PATCH_IF !FILE_EXISTS ~SPPR122.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR122 END
+    PATCH_IF !FILE_EXISTS ~SPPR123.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR123 END
+    PATCH_IF !FILE_EXISTS ~SPPR124.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR124 END
+    PATCH_IF !FILE_EXISTS ~SPPR215.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR215 END
+    PATCH_IF !FILE_EXISTS ~SPPR216.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR216 END
+
+COPY_EXISTING ~BHASCUE.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+
+COPY_EXISTING ~BHBASIL.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHBBOB.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPCL900.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL900 END END
+    PATCH_IF !FILE_EXISTS ~SPCL901.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL901 END END
+    PATCH_IF !FILE_EXISTS ~SPCL902.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL902 END END
+    PATCH_IF !FILE_EXISTS ~SPCL903.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL903 END END
+    PATCH_IF !FILE_EXISTS ~SPCL904.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL904 END END
+    PATCH_IF !FILE_EXISTS ~SPCL906.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL906 END END
+    PATCH_IF !FILE_EXISTS ~SPCL907.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL907 END END
+    PATCH_IF !FILE_EXISTS ~SPCL908.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL908 END END
+    PATCH_IF !FILE_EXISTS ~SPCL910.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL910 END END
+    PATCH_IF !FILE_EXISTS ~SPCL911.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL911 END END
+    PATCH_IF !FILE_EXISTS ~SPCL912.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL912 END END
+    PATCH_IF !FILE_EXISTS ~SPCL913.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL913 END END
+    PATCH_IF !FILE_EXISTS ~SPCL915.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL915 END END
+    PATCH_IF !FILE_EXISTS ~SPCL916.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL916 END END
+    PATCH_IF !FILE_EXISTS ~SPCL917.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL917 END END
+    PATCH_IF !FILE_EXISTS ~SPCL918.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL918 END END
+    PATCH_IF !FILE_EXISTS ~SPCL919.SPL~ BEGIN LPF DELETE_EFFECT STR_VAR match_resource = SPCL919 END END
+    PATCH_IF !FILE_EXISTS ~SPCL900.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL900 END
+    PATCH_IF !FILE_EXISTS ~SPCL901.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL901 END
+    PATCH_IF !FILE_EXISTS ~SPCL902.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL902 END
+    PATCH_IF !FILE_EXISTS ~SPCL903.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL903 END
+    PATCH_IF !FILE_EXISTS ~SPCL904.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL904 END
+    PATCH_IF !FILE_EXISTS ~SPCL906.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL906 END
+    PATCH_IF !FILE_EXISTS ~SPCL907.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL907 END
+    PATCH_IF !FILE_EXISTS ~SPCL908.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL908 END
+    PATCH_IF !FILE_EXISTS ~SPCL910.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL910 END
+    PATCH_IF !FILE_EXISTS ~SPCL911.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL911 END
+    PATCH_IF !FILE_EXISTS ~SPCL912.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL912 END
+    PATCH_IF !FILE_EXISTS ~SPCL913.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL913 END
+    PATCH_IF !FILE_EXISTS ~SPCL916.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL916 END
+    PATCH_IF !FILE_EXISTS ~SPCL917.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL917 END
+    PATCH_IF !FILE_EXISTS ~SPCL918.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL918 END
+    PATCH_IF !FILE_EXISTS ~SPCL919.SPL~ BEGIN REMOVE_KNOWN_SPELL SPCL919 END
+    PATCH_IF !FILE_EXISTS ~SPCL900.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL900 END
+    PATCH_IF !FILE_EXISTS ~SPCL901.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL901 END
+    PATCH_IF !FILE_EXISTS ~SPCL902.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL902 END
+    PATCH_IF !FILE_EXISTS ~SPCL903.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL903 END
+    PATCH_IF !FILE_EXISTS ~SPCL904.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL904 END
+    PATCH_IF !FILE_EXISTS ~SPCL906.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL906 END
+    PATCH_IF !FILE_EXISTS ~SPCL907.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL907 END
+    PATCH_IF !FILE_EXISTS ~SPCL908.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL908 END
+    PATCH_IF !FILE_EXISTS ~SPCL910.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL910 END
+    PATCH_IF !FILE_EXISTS ~SPCL911.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL911 END
+    PATCH_IF !FILE_EXISTS ~SPCL912.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL912 END
+    PATCH_IF !FILE_EXISTS ~SPCL913.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL913 END
+    PATCH_IF !FILE_EXISTS ~SPCL916.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL916 END
+    PATCH_IF !FILE_EXISTS ~SPCL917.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL917 END
+    PATCH_IF !FILE_EXISTS ~SPCL918.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL918 END
+    PATCH_IF !FILE_EXISTS ~SPCL919.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPCL919 END
+
+COPY_EXISTING ~BHBESS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHCLERI1.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHCLERI2.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHCLERIC.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHELESS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+//COPY_EXISTING ~BHFABIO.CRE~ override
+//    PATCH_IF !FILE_EXISTS ~SPCL900.SPL~ BEGIN LPF DELETE_CRE_EFFECT STR_VAR match_resource = SPBAX2 END END
+//    PATCH_IF !FILE_EXISTS ~SPMUS1.SPL~ BEGIN REMOVE_KNOWN_SPELL SPMUS1 END
+//    PATCH_IF !FILE_EXISTS ~SPMUS3.SPL~ BEGIN REMOVE_KNOWN_SPELL SPMUS3 END
+
+COPY_EXISTING ~BHFAIR.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR217 END
+
+COPY_EXISTING ~BHELESS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHGLAMI.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPWI127.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI127 END
+    PATCH_IF !FILE_EXISTS ~SPWI127.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI127 END
+
+COPY_EXISTING ~BHGRECKO.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHHARMIN.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHHARPER.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+    PATCH_IF !FILE_EXISTS ~SPPR422.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR422 END
+    PATCH_IF !FILE_EXISTS ~SPPR423.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR423 END
+    PATCH_IF !FILE_EXISTS ~SPPR426.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR426 END
+    PATCH_IF !FILE_EXISTS ~SPPR427.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR427 END
+    PATCH_IF !FILE_EXISTS ~SPPR428.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR428 END
+    PATCH_IF !FILE_EXISTS ~SPPR431.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR431 END
+    PATCH_IF !FILE_EXISTS ~SPPR432.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR432 END
+    PATCH_IF !FILE_EXISTS ~SPPR522.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR522 END
+    PATCH_IF !FILE_EXISTS ~SPPR523.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR523 END
+    PATCH_IF !FILE_EXISTS ~SPPR524.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR524 END
+    PATCH_IF !FILE_EXISTS ~SPPR525.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR525 END
+    PATCH_IF !FILE_EXISTS ~SPPR526.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR526 END
+    PATCH_IF !FILE_EXISTS ~SPPR529.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR529 END
+    PATCH_IF !FILE_EXISTS ~SPPR530.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR530 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR323 END
+
+COPY_EXISTING ~BHHOIRAG.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHKRELUS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR119 END
+
+COPY_EXISTING ~BHMARTI1.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR114.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR114 END
+    PATCH_IF !FILE_EXISTS ~SPPR115.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR115 END
+    PATCH_IF !FILE_EXISTS ~SPPR116.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR116 END
+    PATCH_IF !FILE_EXISTS ~SPPR117.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR117 END
+    PATCH_IF !FILE_EXISTS ~SPPR121.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR121 END
+    PATCH_IF !FILE_EXISTS ~SPPR122.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR122 END
+    PATCH_IF !FILE_EXISTS ~SPPR123.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR123 END
+    PATCH_IF !FILE_EXISTS ~SPPR124.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR124 END
+    PATCH_IF !FILE_EXISTS ~SPPR215.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR215 END
+    PATCH_IF !FILE_EXISTS ~SPPR216.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR216 END
+    PATCH_IF !FILE_EXISTS ~SPPR121.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR121 END
+
+//COPY_EXISTING ~BHPELL.CRE~ override
+//    REMOVE_KNOWN_SPELL ~CBDRGDP1~
+
+COPY_EXISTING ~BHQUAL.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+
+COPY_EXISTING ~BHQUENEX.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHSELMO.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+
+COPY_EXISTING ~BHSHARG3.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR119 END
+
+COPY_EXISTING ~BHSHARGR.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPWI126.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI126 END
+    PATCH_IF !FILE_EXISTS ~SPWI128.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI128 END
+    PATCH_IF !FILE_EXISTS ~SPWI225.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI225 END
+    PATCH_IF !FILE_EXISTS ~SPWI226.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI226 END
+    PATCH_IF !FILE_EXISTS ~SPWI227.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI227 END
+    PATCH_IF !FILE_EXISTS ~SPWI228.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI228 END
+    PATCH_IF !FILE_EXISTS ~SPWI327.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI327 END
+    PATCH_IF !FILE_EXISTS ~SPWI328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI328 END
+    PATCH_IF !FILE_EXISTS ~SPWI329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI329 END
+    PATCH_IF !FILE_EXISTS ~SPWI427.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI427 END
+    PATCH_IF !FILE_EXISTS ~SPWI428.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI428 END
+    PATCH_IF !FILE_EXISTS ~SPWI524.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI524 END
+    PATCH_IF !FILE_EXISTS ~SPWI626.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI626 END
+    PATCH_IF !FILE_EXISTS ~SPWI627.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI627 END
+    PATCH_IF !FILE_EXISTS ~SPWI725.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI725 END
+    PATCH_IF !FILE_EXISTS ~SPWI727.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI727 END
+    PATCH_IF !FILE_EXISTS ~SPWI728.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI728 END
+    PATCH_IF !FILE_EXISTS ~SPWI729.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI729 END
+    PATCH_IF !FILE_EXISTS ~SPWI733.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI733 END
+    PATCH_IF !FILE_EXISTS ~SPWI819.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI819 END
+    PATCH_IF !FILE_EXISTS ~SPWI820.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI820 END
+    PATCH_IF !FILE_EXISTS ~SPWI821.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI821 END
+    PATCH_IF !FILE_EXISTS ~SPWI822.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI822 END
+    PATCH_IF !FILE_EXISTS ~SPWI823.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI823 END
+    PATCH_IF !FILE_EXISTS ~SPWI825.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI825 END
+    PATCH_IF !FILE_EXISTS ~SPWI826.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI826 END
+    PATCH_IF !FILE_EXISTS ~SPWI827.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI827 END
+    PATCH_IF !FILE_EXISTS ~SPWI828.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI828 END
+    PATCH_IF !FILE_EXISTS ~SPWI968.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI968 END
+    PATCH_IF !FILE_EXISTS ~SPWI969.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI969 END
+    PATCH_IF !FILE_EXISTS ~SPWI970.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI970 END
+    PATCH_IF !FILE_EXISTS ~SPWI971.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI971 END
+    PATCH_IF !FILE_EXISTS ~SPWI972.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI972 END
+    PATCH_IF !FILE_EXISTS ~SPWI973.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI973 END
+    PATCH_IF !FILE_EXISTS ~SPWI974.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI974 END
+    PATCH_IF !FILE_EXISTS ~SPWI975.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI975 END
+    PATCH_IF !FILE_EXISTS ~SPWI128.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI128 END
+    PATCH_IF !FILE_EXISTS ~SPWI226.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI226 END
+    PATCH_IF !FILE_EXISTS ~SPWI329.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI329 END
+    PATCH_IF !FILE_EXISTS ~SPWI327.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI327 END
+    PATCH_IF !FILE_EXISTS ~SPWI328.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI328 END
+    PATCH_IF !FILE_EXISTS ~SPWI428.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI428 END
+    PATCH_IF !FILE_EXISTS ~SPWI128.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI128 END
+    PATCH_IF !FILE_EXISTS ~SPWI524.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI524 END
+    PATCH_IF !FILE_EXISTS ~SPWI123.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI123 END
+    PATCH_IF !FILE_EXISTS ~SPWI728.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPWI728 END
+
+//COPY_EXISTING ~BHSHARGR.CRE~ override
+//    REMOVE_KNOWN_SPELL ~SPMI101 SPMI103 SPMI104 SPMI106 SPMI107 SPMI108 SPMI110 SPMI111 SPMI112 SPMI113 SPMI115 SPMI116 SPMI117 SPMI119 SPMI120 SPMI121 SPMI122 SPMI123 SPMI124 SPMI125 SPMI126 SPMI127 SPMI128 SPMI129 SPMI130 SPMI131 SPMI132 SPMI133 SPMI134 SPMI135 SPMI136 SPMI137 SPMI138 SPMI139 SPMI142 SPMI143 SPMINTD SPMINTI SPRB801 SPRB999~
+
+COPY_EXISTING ~BHTELLI1.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR118 END
+
+COPY_EXISTING ~BHTELLIS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+    PATCH_IF !FILE_EXISTS ~SPPR321.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR321 END
+    PATCH_IF !FILE_EXISTS ~SPPR322.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR322 END
+    PATCH_IF !FILE_EXISTS ~SPPR323.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR323 END
+    PATCH_IF !FILE_EXISTS ~SPPR324.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR324 END
+    PATCH_IF !FILE_EXISTS ~SPPR328.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR328 END
+    PATCH_IF !FILE_EXISTS ~SPPR329.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR329 END
+    PATCH_IF !FILE_EXISTS ~SPPR332.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR332 END
+    PATCH_IF !FILE_EXISTS ~SPPR333.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR333 END
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR118 END
+
+COPY_EXISTING ~BHTELV.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPWI228.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI228 END
+
+COPY_EXISTING ~BHTHIEF1.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPWI228.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI228 END
+
+COPY_EXISTING ~BHTOLVAR.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPWI126.SPL~ BEGIN REMOVE_KNOWN_SPELL SPWI126 END
+
+COPY_EXISTING ~BHWILLIS.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR127.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR127 END
+    PATCH_IF !FILE_EXISTS ~SPPR127.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR127 END
+
+COPY_EXISTING ~BHYALTA.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR118.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR118 END
+    PATCH_IF !FILE_EXISTS ~SPPR119.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR119 END
+    PATCH_IF !FILE_EXISTS ~SPPR120.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR120 END
+    PATCH_IF !FILE_EXISTS ~SPPR217.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR217 END
+
+COPY_EXISTING ~BHZAHR.CRE~ override
+    PATCH_IF !FILE_EXISTS ~SPPR117.SPL~ BEGIN REMOVE_KNOWN_SPELL SPPR117 END
+    PATCH_IF !FILE_EXISTS ~SPPR127.SPL~ BEGIN REMOVE_MEMORIZED_SPELL SPPR127 END
+
+////////////////////
+// BG2 Keep Key
+////////////////////
+
+ACTION_IF !FILE_EXISTS ~KEY10.ITM~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2items/bhkey10.itm~ override
+        SAY NAME1 @1084
+        SAY NAME2 @1084
+        SAY UNIDENTIFIED_DESC @1085
+        SAY IDENTIFIED_DESC @1085
+
+    COPY ~%MOD_FOLDER%/resource/bg2items/bhckey10.bam~ override
+    COPY ~%MOD_FOLDER%/resource/bg2items/bhikey10.bam~ override
+
+    COPY_EXISTING ~BH1002.ARE~ override
+        LPF ALTER_AREA_DOOR STR_VAR door_name = DOOR09 door_key = BHKEY10 END
+        LPF ALTER_AREA_DOOR STR_VAR door_name = DOOR10 door_key = BHKEY10 END
+    BUT_ONLY
+
+    COPY_EXISTING ~BH1003.ARE~ override
+        LPF DELETE_AREA_ITEM STR_VAR item_to_delete = KEY10 END
+        LPF ADD_AREA_ITEM STR_VAR container_to_add_to = 8 item_to_add = BHKEY10 END
+        LPF ALTER_AREA_DOOR STR_VAR door_name = Door01 door_key = BHKEY10 END
+        LPF ALTER_AREA_DOOR STR_VAR door_name = Door02 door_key = BHKEY10 END
+        LPF ALTER_AREA_DOOR STR_VAR door_name = Door12 door_key = BHKEY10 END
+    BUT_ONLY
+END
+
+////////////////////
+// BG2 Audio
+////////////////////
+
+ACTION_IF GAME_IS ~bgee~ BEGIN
+    COPY ~%MOD_FOLDER%/resource/bg2audio~ override
+END
+
+/////////////////////////
+// BG2 Missing Scripts
+/////////////////////////
+
+ACTION_IF !FILE_EXISTS ~ILLUSION.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhillusi.baf~
+    COPY_EXISTING ~BHFGIANT.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhillusi #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~INIT1.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhinit1.baf~
+    COPY_EXISTING ~BHBESHKA.CRE~ override
+                  ~BHWATCHR.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhillusi #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~INITRG15.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhinit15.baf~
+    COPY_EXISTING ~BHBESHKA.CRE~ override
+                  ~BHWATCHR.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhinit15 #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~INITRG15.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhinit15.baf~
+    COPY_EXISTING ~BHCLERI2.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhinit15 #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~INITRG25.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhinit25.baf~
+    COPY_EXISTING ~BHHOLGA.CRE~ override
+                  ~BHLIZKNG.CRE~ override
+                  ~BHSANGST.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhinit25 #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~INITRG50.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhinit50.baf~
+    COPY_EXISTING ~BHOLIEUT.CRE~ override
+                  ~BHTELV.CRE~ override
+        WRITE_ASCII SCRIPT_OVERRIDE bhinit25 #8
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~CTMS.BCS~ BEGIN
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhctms.baf~
+    COPY_EXISTING ~BH2109.ARE~ override
+        LPF ALTER_AREA_CONTAINER STR_VAR container_name = "Chest_5" container_script = "bhctms" END
+    BUT_ONLY
+END
+
+ACTION_IF !FILE_EXISTS ~GT027.BCS~ BEGIN //No SoD
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhgt027.baf~
+    COPY_EXISTING ~BH0202.ARE~ override
+        LPF ALTER_AREA_CONTAINER STR_VAR container_name = "Container1" container_script = "bhgt027" END
+END
+
+ACTION_IF !FILE_EXISTS ~GT018.BCS~ BEGIN //No SoD
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhgt018.baf~
+    COPY_EXISTING ~BH0502.ARE~ override
+        LPF ALTER_AREA_CONTAINER STR_VAR container_name = "Container1" container_script = "bhgt018" END
+END
+
+ACTION_IF !FILE_EXISTS ~GT024.BCS~ BEGIN //No SoD
+    COMPILE ~%MOD_FOLDER%/resource/bg2scripts/bhgt024.baf~
+    COPY_EXISTING ~BH1002.ARE~ override
+        LPF ALTER_AREA_CONTAINER STR_VAR container_name = "Container 11" container_script = "bhgt024" END
+END
